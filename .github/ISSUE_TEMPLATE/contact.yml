@@ -1,0 +1,76 @@
+name: Contact / Inquiry
+description: Open a Cor del Món contact thread (correction, partnership, review, takedown).
+title: "[Contact] "
+labels: ["contact"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to reach the project. The conversation is public by default. For private contact, use the email in DISCLAIMER.md.
+
+        Common reasons people open a contact thread:
+        - **Correction**: a fact, name, ministry, number, or claim to fix
+        - **Native-speaker review**: language fixes for Catalan, Japanese, Chilean Spanish, Hindi, isiXhosa, Afrikaans
+        - **Indigenous community review**: Kaurna, Khoekhoegowab, or other Traditional Custodian feedback
+        - **Local-administrative review**: feedback on the permission chain or budget sources for a city
+        - **Removal request**: for any named entity who wants its reference changed or removed
+        - **Partnership inquiry**: for cities, governments, foundations, architects, civic organisations
+        - **Commercial inquiry**: see also COMMERCIAL.md
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of inquiry
+      options:
+        - Correction
+        - Native-speaker review
+        - Indigenous community review
+        - Local-administrative review
+        - Removal request
+        - Partnership inquiry
+        - Commercial inquiry
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: city
+    attributes:
+      label: City (if applicable)
+      options:
+        - Network-wide
+        - Andorra
+        - Yokohama
+        - Adelaide
+        - Valparaíso
+        - Cape Town
+        - Jaipur
+        - Wave-2 candidate (Marrakech, Stone Town Zanzibar, other)
+        - Other / not city-specific
+    validations:
+      required: false
+
+  - type: textarea
+    id: message
+    attributes:
+      label: Your message
+      description: As detailed as you like. The project responds within a reasonable time.
+      placeholder: Hi, I noticed...
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact (optional)
+      description: Email, your name, or organisation, only if you want a private follow-up. Leave blank for a fully public conversation.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I have read the project disclaimer at /DISCLAIMER.md.
+          required: true

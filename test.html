@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cor del Món shared module smoke test</title>
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="_shared/cor-base.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Sora:wght@300;400;600&display=swap" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script type="module" src="_shared/cor-shared-v1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+  <style>
+    body { padding: 30px; max-width: 1100px; margin: 0 auto; }
+    h1, h2, h3 { font-family: var(--font-serif); margin: 30px 0 14px; }
+    h1 { font-size: 36px; color: var(--rose-pale); font-weight: 900; }
+    h2 { font-size: 22px; color: var(--rose); font-weight: 900; border-bottom: 1px solid var(--border-soft); padding-bottom: 8px; }
+    h3 { font-size: 16px; color: var(--text-muted); }
+    .group { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin: 12px 0; }
+    .icon-cell { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 80px; padding: 12px; border: 1px solid var(--border-soft); border-radius: 10px; }
+    .icon-cell .s { font-size: 10px; color: var(--text-faint); letter-spacing: 1px; }
+    pre { background: rgba(255,255,255,0.04); padding: 10px; border-radius: 6px; font-size: 11px; color: var(--text-muted); overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel" data-presets="react">
+    /* Wait for the ES module to assign window.CorShared and load JSON. */
+    function waitForShared(cb) {
+      if (window.CorShared && window.CorShared.ready) {
+        window.CorShared.ready.then(cb);
+      } else {
+        setTimeout(() => waitForShared(cb), 30);
+      }
+    }
+
+    waitForShared((data) => {
+      const C = window.CorShared;
+      const { Heart, BigHeart, FloatingHearts, Viral, Stat, Card, Tag, Icon, Heartbeat,
+              CeremonyTile, NetworkNav, SeismicBlock, NationalStyleBlock,
+              MilestoneRow, MilestoneMatrix } = C;
+
+      const iconNames = ["heart","doublehearts","mountain","mountainPlaza","hearth","hands","leaf","drop","sun","moon","flame","arc","book","lock","key","mic","screen","transit","plaza","residency"];
+
+      function App() {
+        return (
+          <div>
+            <FloatingHearts count={10} />
+
+            <h1>Cor del Món shared module smoke test</h1>
+            <p className="s" style={{ color: "var(--text-muted)", marginBottom: 8 }}>
+              Module version: <strong>{C.VERSION}</strong>. Cities loaded: <strong>{data.CITIES.cities.length}</strong>. Constitution sections: <strong>{data.CONSTITUTION.sections.length}</strong>.
+            </p>
+            <p className="s" style={{ color: "var(--text-faint)", marginBottom: 30, fontSize: 12 }}>
+              If every block below renders without console errors, the shared module is ready for Step C (Andorra migration).
+            </p>
+
+            <h2>1. Heartbeat (sync check)</h2>
+            <p className="s" style={{ color: "var(--text-muted)", marginBottom: 8 }}>
+              Open this page in two browser tabs. The two hearts should pulse in identical phase.
+            </p>
+            <div className="group">
+              <Heartbeat size={32} />
+              <Heartbeat size={48} />
+              <Heartbeat size={64} />
+            </div>
+
+            <h2>2. Hearts (the network's invariant silhouette)</h2>
+            <div className="group">
+              <Heart size={20} />
+              <Heart size={32} color="var(--rose-light)" />
+              <Heart size={48} pulse />
+              <BigHeart size={120} />
+            </div>
+
+            <h2>3. Icon set ({iconNames.length} icons, replacing the emoji)</h2>
+            <div className="group">
+              {iconNames.map(n => (
+                <div key={n} className="icon-cell">
+                  <Icon name={n} size={28} color="var(--rose)" />
+                  <span className="s">{n}</span>
+                </div>
+              ))}
+            </div>
+
+            <h2>4. Viral callout</h2>
+            <Viral>Six cities beat as one</Viral>
+
+            <h2>5. Stats</h2>
+            <div className="group">
+              <Stat n="33m" l="Monument Height (Andorra example)" />
+              <Stat n="300" l="Llars del Cor by 2035" small />
+              <Stat n="60" l="Residents per Year (network total)" small />
+            </div>
+
+            <h2>6. Cards (regular and glow)</h2>
+            <div className="group">
+              <Card>
+                <h3 style={{ marginTop: 0 }}>A regular Card</h3>
+                <p className="s" style={{ color: "var(--text-muted)", fontSize: 13 }}>Used everywhere. Hover for the lift effect.</p>
+              </Card>
+              <Card glow>
+                <h3 style={{ marginTop: 0 }}>A glowing Card</h3>
+                <p className="s" style={{ color: "var(--text-muted)", fontSize: 13 }}>Reserved for the hero monument and other premium beats.</p>
+              </Card>
+            </div>
+
+            <h2>7. Tag variants</h2>
+            <div className="group">
+              <Tag>rose</Tag>
+              <Tag variant="soft">soft</Tag>
+              <Tag variant="ice">ice</Tag>
+              <Tag variant="green">green</Tag>
+              <Tag variant="gold">gold</Tag>
+              <Tag variant="problem">problem</Tag>
+              <Tag variant="fix">fix</Tag>
+            </div>
+
+            <h2>8. NetworkNav (cross-city pill bar, "andorra" highlighted)</h2>
+            <NetworkNav currentCity="andorra" />
+
+            <h2>9. CeremonyTile (active 18:00 city, if any)</h2>
+            <CeremonyTile />
+
+            <h2>10. SeismicBlock</h2>
+            <SeismicBlock spec={{
+              code: "Eurocode 8 (EN 1998), Andorran national annex",
+              designSpec: "Low-seismic Pyrenean zone, agR around 0.04g",
+              peakAccel: "0.04g design / 0.10g MCE",
+              isolation: "Stone-clad RC core with discrete elastomeric bearings at the plinth",
+              notes: "Coordinated with AR+I and the POCRISC framework",
+              designConsequences: "The low seismic demand lets the 88m heart sit on a dramatic stone plinth without visible base isolators, keeping the silhouette clean against the Valira valley wall."
+            }} />
+
+            <h2>11. NationalStyleBlock</h2>
+            <NationalStyleBlock style={{
+              materials: [
+                { name: "Pyrenean granite", sourceRegion: "Llorts and Ordino quarries", role: "Plinth and cladding" },
+                { name: "Larch heartwood", sourceRegion: "La Massana valley", role: "Interior linings and ceremony bench" }
+              ],
+              motifs: [
+                { name: "Quatre barres", origin: "Andorran coat of arms", application: "Subtle relief on the eastern plinth face" }
+              ],
+              buildingTypology: "Stone-clad reinforced concrete core with warm rose glass curtain wall",
+              referenceArchitects: ["Patxi Mangado", "Carme Pinós"]
+            }} />
+
+            <h2>12. MilestoneRow (single roadmap entry)</h2>
+            <Card>
+              <MilestoneRow
+                year={2030}
+                phase="Seed"
+                commitment="El Cor Viu monument operational. Phase 1 of Llars del Cor (400 homes) delivered. Cor FM and Cor Kids TV broadcasting on the Cor Play app."
+                networkContribution="All five network cities have signed Cor Charters and broken ground. First Cor Residency cohort of sixty people. Daily Ceremony broadcasts begin."
+              />
+              <MilestoneRow
+                year={2035}
+                phase="Bloom"
+                commitment="Llars del Cor reaches the full 300 homes (Andorra honest-microstate count). UdA degree enrolment grows toward 1,000+."
+                networkContribution="All six monuments operational. Around 6,000 Hearth-of-the-Heart homes delivered network-wide. First Cor Generation children born."
+              />
+            </Card>
+
+            <h2>13. MilestoneMatrix (rolling-wave: 4-stage columns x N-city rows)</h2>
+            <MilestoneMatrix
+              stageColours={Object.fromEntries((data.CONSTITUTION.rollingWave?.stages || []).map(s => [s.name, s.color]))}
+              cities={data.CITIES.cities.map(c => {
+                const op = (data.CONSTITUTION.rollingWave?.cityOperational || {})[c.slug] || 2040;
+                return {
+                  slug: c.slug,
+                  name: c.name,
+                  milestones: [
+                    { year: op - 5, stage: "Charter",      commitment: "Cor Charter signed. " + c.monumentName + " site secured." },
+                    { year: op - 3, stage: "Break Ground", commitment: "Construction begins on " + c.monumentName + " and the first housing block." },
+                    { year: op,     stage: "Operational",  commitment: c.monumentName + " opens at " + c.monumentHeightM + "m. First 1,000 homes delivered." },
+                    { year: op + 25,stage: "Generation",   commitment: c.monumentName + " reaches its quarter-century. Second-wave expansion added." }
+                  ]
+                };
+              })} />
+
+            <h2>14. Constitution and Cities data (loaded from JSON)</h2>
+            <Card>
+              <h3 style={{ marginTop: 0 }}>Constitution v{data.CONSTITUTION.version} ({data.CONSTITUTION.ratifiedAt})</h3>
+              <p className="s" style={{ fontSize: 12, color: "var(--text-muted)" }}>
+                {data.CONSTITUTION.sections.length} mandatory sections, {data.CONSTITUTION.mechanics.length} network mechanics, {data.CONSTITUTION.rollingWave?.stages?.length || 4} stages on a rolling wave, {data.CONSTITUTION.charterSignatures.length} charter signatures.
+              </p>
+              <pre>{JSON.stringify(data.CONSTITUTION.mechanics.map(m => m.title), null, 2)}</pre>
+            </Card>
+          </div>
+        );
+      }
+
+      C.injectBaseCSS();
+      C.mount(App);
+    });
+  </script>
+</body>
+</html>

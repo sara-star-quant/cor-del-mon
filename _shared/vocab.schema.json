@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sara-star-quant.github.io/cor-del-mon/_shared/vocab.schema.json",
+  "title": "Cor del Món per-city vocabulary",
+  "description": "Schema for /{city}/vocab.js. Every Wave-1 city site validates against this so the six dictionaries diff cleanly side by side.",
+  "type": "object",
+  "required": ["city", "brand", "palette", "typography", "monument", "nationalStyle", "seismic", "sections"],
+  "additionalProperties": true,
+  "properties": {
+    "city": {
+      "type": "object",
+      "required": ["slug", "name", "country", "coords", "locale", "hreflang"],
+      "properties": {
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "$ref": "#/$defs/triple" },
+        "country": {
+          "type": "object",
+          "required": ["code", "name"],
+          "properties": {
+            "code": { "type": "string", "pattern": "^[A-Z]{2}$" },
+            "name": { "type": "string" }
+          }
+        },
+        "coords": {
+          "type": "object",
+          "required": ["lat", "lon", "tz"],
+          "properties": {
+            "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+            "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+            "tz": { "type": "string", "description": "IANA timezone identifier" }
+          }
+        },
+        "locale": { "type": "string" },
+        "hreflang": { "type": "string" }
+      }
+    },
+    "brand": {
+      "type": "object",
+      "description": "Brand vocabulary. The network broadcast (radio, kidsTv) is anchored in Andorra and is therefore optional per city: only the broadcast hub city declares its own station name, other cities contribute weekly slots inside the Andorra-anchored channel.",
+      "required": ["monument", "home", "network", "residency", "tagline"],
+      "additionalProperties": { "$ref": "#/$defs/triple" }
+    },
+    "palette": {
+      "type": "object",
+      "required": ["--rose", "--rose-dark", "--bg", "--text-primary", "--text-muted", "--accent"],
+      "additionalProperties": { "type": "string", "pattern": "^#[0-9a-fA-F]{3,8}$" }
+    },
+    "typography": {
+      "type": "object",
+      "required": ["googleFontsUrl", "serif", "sans"],
+      "properties": {
+        "googleFontsUrl": { "type": "string", "format": "uri" },
+        "serif": { "type": "string" },
+        "sans": { "type": "string" }
+      }
+    },
+    "monument": {
+      "type": "object",
+      "required": ["heightM", "name", "completionYear", "signature"],
+      "properties": {
+        "heightM": { "type": "integer", "minimum": 1 },
+        "name": { "type": "string" },
+        "completionYear": { "type": "integer", "minimum": 2026 },
+        "signature": { "type": "string" }
+      }
+    },
+    "nationalStyle": {
+      "type": "object",
+      "required": ["materials", "motifs", "buildingTypology", "referenceArchitects"],
+      "properties": {
+        "materials": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["name", "sourceRegion", "role"],
+            "properties": {
+              "name": { "type": "string" },
+              "sourceRegion": { "type": "string" },
+              "role": { "type": "string" }
+            }
+          }
+        },
+        "motifs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["name", "origin", "application"],
+            "properties": {
+              "name": { "type": "string" },
+              "origin": { "type": "string" },
+              "application": { "type": "string" }
+            }
+          }
+        },
+        "buildingTypology": { "type": "string" },
+        "referenceArchitects": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "silhouette": { "type": "string" }
+      }
+    },
+    "seismic": {
+      "type": "object",
+      "required": ["designSpec", "code", "designConsequences"],
+      "properties": {
+        "designSpec": { "type": "string" },
+        "peakAccel": { "type": "string" },
+        "isolation": { "type": "string" },
+        "code": { "type": "string" },
+        "notes": { "type": "string" },
+        "designConsequences": { "type": "string" }
+      }
+    },
+    "sections": {
+      "type": "object",
+      "required": ["hero", "monumentSection", "passivhaus", "architecture", "media", "traditions", "youth", "network", "roadmap"],
+      "properties": {
+        "roadmap": {
+          "type": "object",
+          "required": ["milestones"],
+          "properties": {
+            "milestones": {
+              "type": "array",
+              "description": "Exactly four milestones per city, in canonical order: Charter, Break Ground, Operational, Generation. Each at city-specific years (rolling-wave schedule, not synchronized across the network).",
+              "minItems": 4,
+              "maxItems": 4,
+              "items": {
+                "type": "object",
+                "required": ["year", "stage", "commitment", "networkContribution", "status", "lastVerified"],
+                "properties": {
+                  "year": { "type": "integer", "minimum": 2026, "maximum": 2080 },
+                  "stage": { "enum": ["Charter", "Break Ground", "Operational", "Generation"] },
+                  "commitment": { "type": "string" },
+                  "metrics": { "type": "object" },
+                  "networkContribution": { "type": "string" },
+                  "status": { "enum": ["concept", "design", "permitted", "construction", "operational", "at-risk"] },
+                  "lastVerified": { "type": "string", "pattern": "^[0-9]{4}-Q[1-4]$" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "triple": {
+      "type": "object",
+      "required": ["native", "english"],
+      "properties": {
+        "native": { "type": "string" },
+        "roman": { "type": "string" },
+        "english": { "type": "string" },
+        "nativeAlt": { "type": "string", "description": "Optional second indigenous-language form for cities with multiple official languages" }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "version": "1.1.0",
+  "ratifiedAt": "2026-Q2",
+  "amendedAt": "2026-Q2 (rolling-wave revision)",
+  "humanReadable": "/network-constitution.md",
+  "wave1": ["adelaide", "andorra", "capetown", "jaipur", "valparaiso", "yokohama"],
+  "sections": [
+    { "id": "hero", "title": "Hero", "purpose": "Silhouette, native tagline, heartbeat counter" },
+    { "id": "monument", "title": "Monument", "purpose": "Signature heart-architecture landmark with national style and seismic blocks" },
+    { "id": "passivhaus", "title": "Hearth of the Heart", "purpose": "Energy spec for the local family-housing equivalent" },
+    { "id": "architecture", "title": "Architecture", "purpose": "Heart-shaped public buildings catalogue in local materials" },
+    { "id": "media", "title": "Media", "purpose": "Cor FM equivalent and Cor Kids TV equivalent" },
+    { "id": "traditions", "title": "Traditions", "purpose": "Local rituals reimagined inside the love-network frame" },
+    { "id": "youth", "title": "Youth", "purpose": "Schools programme, youth Heart Council, Cor Residency exchange" },
+    { "id": "network", "title": "Network", "purpose": "NetworkNav to other five cities and the landing" },
+    { "id": "roadmap", "title": "Roadmap", "purpose": "Four city-specific milestones (Charter, Break Ground, Operational, Generation) at city-specific years on the rolling-wave schedule" }
+  ],
+  "mechanics": [
+    { "id": "synchronizedHeartbeat", "title": "Synchronized Heartbeat", "spec": "60 BPM, derived client-side from Date.now() % 1000, identical phase across cities" },
+    { "id": "dailyCeremony", "title": "Daily Ceremony", "spec": "Sixty seconds at each operational city's chosen Cor hour (typically aligned with local sunset, declared by each city when it goes Operational). The rotation activates city by city. Andorra alone broadcasts from 2032; Adelaide and Yokohama join in 2035-2036; Valparaíso, Cape Town, and Jaipur join in 2038-2040. Full six-city rotation by 2042. Order: Andorra, Adelaide, Yokohama, Valparaíso, Cape Town, Jaipur, then loop." },
+    { "id": "corResidency", "title": "Cor Residency", "spec": "Each operational city hosts a city-specific number of incoming creative residents per year, sized to its actual cottage capacity. Andorra 5/yr (microstate seed), Yokohama 15/yr (international port, Yamate Heights cottage stock), Adelaide 10/yr (Bowden bluestone), Valparaíso 10/yr (Cerro Alegre/Concepción), Cape Town 10/yr (Bo-Kaap and Woodstock plus Greatmore Studios), Jaipur 10/yr (buffer-adjacent havelis with INTACH partnership). Network ramp: 5/yr from 2032 (Andorra alone), 20/yr from 2035 (Yokohama joins), 30/yr from 2035-2036 (Adelaide joins), 60/yr at full Network phase from 2038 (all six). The 60/yr network target is preserved." },
+    { "id": "annualBiennale", "title": "Annual Cor Biennale", "spec": "Rotating two-month festival of love urbanism, on a year-based cultural calendar independent of monument completion. Rotation: Andorra 2027, Yokohama 2029, Valparaíso 2031, Cape Town 2033, Adelaide 2034 (one year before its monument opens, as a pre-opening cultural countdown), Jaipur 2037, Marrakech 2039 (Wave-2 transitional), then loops." },
+    { "id": "patternLibrary", "title": "Cor Pattern Library", "spec": "Open-source repo of love-urbanism patterns under CC BY-NC 4.0. Each operational city contributes at least three patterns per year. Network total ramps with city operationals: ~10 patterns by 2030, ~40 by 2035, ~80 by 2038, 100 by 2040, 200 by 2045 (with Wave-2 contributions)." },
+    { "id": "wave2Admission", "title": "Wave-2 Admission", "spec": "Opens 2042, after the Network phase begins and the wave-1 six are all operational. Candidate cities apply via four signatures (site, monument, roadmap, hosting). Target: 30+ member cities by 2050. Marrakech enters as a Wave-2 transitional city around 2034 with operational by ~2041 (effectively a Wave-2 first-mover sponsored by the Cape Town African cluster)." }
+  ],
+  "rollingWave": {
+    "stages": [
+      { "name": "Charter",      "color": "#fda4af", "definition": "The Cor Charter is signed with the city government, and an international architecture competition for the monument is awarded. The site is secured." },
+      { "name": "Break Ground", "color": "#f43f5e", "definition": "Construction begins on both the monument and the first Hearths-of-the-Heart housing block. The first Cor Residency cohort arrives in restored or temporary housing." },
+      { "name": "Operational",  "color": "#e11d48", "definition": "The monument opens. The Daily Ceremony broadcasts begin from this city at its declared Cor hour. The first 1,000 Hearts-of-the-Heart units are delivered. The first Cor Generation residents move into the city's network units." },
+      { "name": "Generation",   "color": "#9f1239", "definition": "Twenty-five years after Operational. The first Cor Generation children raised in the network reach adulthood. A second-wave expansion (community pavilion, residency wing, or Pattern-Library archive) is added to the original monument. The city graduates into network elder status, mentoring Wave-2 candidates." }
+    ],
+    "phases": [
+      { "name": "Genesis",    "years": "2027 to 2032", "description": "Andorra builds. Adelaide and Yokohama enter design. Valparaíso and Cape Town enter charter discussions." },
+      { "name": "Activation", "years": "2032 to 2035", "description": "Andorra opens. Adelaide and Yokohama under construction. Cor Residency begins ramping (10 incoming residents to Andorra in 2032)." },
+      { "name": "Spread",     "years": "2035 to 2038", "description": "Adelaide and Yokohama open. Valparaíso, Cape Town, Jaipur under construction. Cor Residency reaches 30 to 40 incoming per year network-wide." },
+      { "name": "Network",    "years": "2038 to 2042", "description": "Valparaíso, Cape Town, Jaipur reach operational. The full wave-1 six is open. Cor Residency reaches the target of 60 per year. Wave-2 admission opens 2042." },
+      { "name": "Lifetime",   "years": "2042 to 2050+", "description": "Wave-2 ramp. Network reaches 30+ member cities by 2050. First city (Andorra) approaches its quarter-century Generation milestone in 2057." }
+    ],
+    "cityOperational": {
+      "andorra":    2032,
+      "adelaide":   2035,
+      "yokohama":   2035,
+      "valparaiso": 2038,
+      "capetown":   2038,
+      "jaipur":     2040
+    }
+  },
+  "statusEnum": ["concept", "design", "permitted", "construction", "operational", "at-risk"],
+  "charterSignatures": [
+    "site",
+    "monument",
+    "roadmap",
+    "hosting"
+  ]
+}

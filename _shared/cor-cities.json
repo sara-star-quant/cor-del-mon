@@ -1,0 +1,208 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-Q2",
+  "cities": [
+    {
+      "slug": "andorra",
+      "name": {
+        "native": "Andorra la Vella",
+        "roman": "Andorra la Vella",
+        "english": "Andorra la Vella"
+      },
+      "country": {
+        "code": "AD",
+        "name": "Andorra"
+      },
+      "coords": {
+        "lat": 42.5063,
+        "lon": 1.5218,
+        "tz": "Europe/Andorra"
+      },
+      "locale": "ca-AD",
+      "hreflang": "ca",
+      "status": "live",
+      "url": "/andorra/",
+      "tagline": {
+        "native": "On l'amor es construeix",
+        "english": "Where love is built"
+      },
+      "monumentName": "El Cor Viu",
+      "monumentHeightM": 33,
+      "rose": "#e11d48"
+    },
+    {
+      "slug": "yokohama",
+      "name": {
+        "native": "横浜",
+        "roman": "Yokohama",
+        "english": "Yokohama"
+      },
+      "country": {
+        "code": "JP",
+        "name": "Japan"
+      },
+      "coords": {
+        "lat": 35.4437,
+        "lon": 139.638,
+        "tz": "Asia/Tokyo"
+      },
+      "locale": "ja-JP",
+      "hreflang": "ja",
+      "status": "live",
+      "url": "/yokohama/",
+      "tagline": {
+        "native": "港町の心",
+        "english": "Heart of the port city"
+      },
+      "monumentName": "Minatokokoro",
+      "monumentHeightM": 120,
+      "rose": "#d63384"
+    },
+    {
+      "slug": "adelaide",
+      "name": {
+        "native": "Adelaide",
+        "roman": "Adelaide",
+        "english": "Adelaide"
+      },
+      "country": {
+        "code": "AU",
+        "name": "Australia"
+      },
+      "coords": {
+        "lat": -34.9285,
+        "lon": 138.6007,
+        "tz": "Australia/Adelaide"
+      },
+      "locale": "en-AU",
+      "hreflang": "en-au",
+      "status": "live",
+      "url": "/adelaide/",
+      "tagline": {
+        "native": "City of festivals, city of love",
+        "english": "City of festivals, city of love"
+      },
+      "monumentName": "Living Heart Adelaide",
+      "monumentHeightM": 65,
+      "rose": "#c2185b"
+    },
+    {
+      "slug": "valparaiso",
+      "name": {
+        "native": "Valparaíso",
+        "roman": "Valparaiso",
+        "english": "Valparaíso"
+      },
+      "country": {
+        "code": "CL",
+        "name": "Chile"
+      },
+      "coords": {
+        "lat": -33.0472,
+        "lon": -71.6127,
+        "tz": "America/Santiago"
+      },
+      "locale": "es-CL",
+      "hreflang": "es",
+      "status": "live",
+      "url": "/valparaiso/",
+      "tagline": {
+        "native": "Donde el corazón sube las laderas",
+        "english": "Where the heart climbs the hills"
+      },
+      "monumentName": "El Faro del Corazón",
+      "monumentHeightM": 47,
+      "rose": "#ec407a"
+    },
+    {
+      "slug": "capetown",
+      "name": {
+        "native": "Cape Town",
+        "roman": "Cape Town",
+        "english": "Cape Town"
+      },
+      "country": {
+        "code": "ZA",
+        "name": "South Africa"
+      },
+      "coords": {
+        "lat": -33.9249,
+        "lon": 18.4241,
+        "tz": "Africa/Johannesburg"
+      },
+      "locale": "en-ZA",
+      "hreflang": "en-za",
+      "status": "live",
+      "url": "/capetown/",
+      "tagline": {
+        "native": "The living heart at the foot of the mountain",
+        "english": "The living heart at the foot of the mountain"
+      },
+      "monumentName": "Living Heart Cape Town",
+      "monumentHeightM": 99,
+      "rose": "#ad1457"
+    },
+    {
+      "slug": "jaipur",
+      "name": {
+        "native": "जयपुर",
+        "roman": "Jaipur",
+        "english": "Jaipur"
+      },
+      "country": {
+        "code": "IN",
+        "name": "India"
+      },
+      "coords": {
+        "lat": 26.9124,
+        "lon": 75.7873,
+        "tz": "Asia/Kolkata"
+      },
+      "locale": "hi-IN",
+      "hreflang": "hi",
+      "status": "live",
+      "url": "/jaipur/",
+      "tagline": {
+        "native": "गुलाबी शहर का हृदय",
+        "english": "Heart of the Pink City"
+      },
+      "monumentName": "Hriday Mahal",
+      "monumentHeightM": 28,
+      "rose": "#e91e63"
+    }
+  ],
+  "ceremonyRotation": [
+    "yokohama",
+    "adelaide",
+    "jaipur",
+    "capetown",
+    "andorra",
+    "valparaiso"
+  ],
+  "biennaleHosts": [
+    {
+      "year": 2027,
+      "city": "andorra"
+    },
+    {
+      "year": 2029,
+      "city": "yokohama"
+    },
+    {
+      "year": 2031,
+      "city": "valparaiso"
+    },
+    {
+      "year": 2033,
+      "city": "capetown"
+    },
+    {
+      "year": 2034,
+      "city": "adelaide"
+    },
+    {
+      "year": 2037,
+      "city": "jaipur"
+    }
+  ]
+}

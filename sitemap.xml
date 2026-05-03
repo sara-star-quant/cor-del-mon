@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/andorra/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://sara-star-quant.github.io/cor-del-mon/andorra/" />
+  </url>
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/yokohama/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sara-star-quant.github.io/cor-del-mon/yokohama/" />
+  </url>
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/adelaide/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-au" href="https://sara-star-quant.github.io/cor-del-mon/adelaide/" />
+  </url>
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/valparaiso/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sara-star-quant.github.io/cor-del-mon/valparaiso/" />
+  </url>
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/capetown/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-za" href="https://sara-star-quant.github.io/cor-del-mon/capetown/" />
+  </url>
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/jaipur/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://sara-star-quant.github.io/cor-del-mon/jaipur/" />
+  </url>
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/network-constitution.md</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/COMMERCIAL.md</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sara-star-quant.github.io/cor-del-mon/DISCLAIMER.md</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

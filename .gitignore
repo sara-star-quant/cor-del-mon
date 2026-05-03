@@ -1,0 +1,31 @@
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+node_modules/
+npm-debug.log*
+.env
+.env.local
+
+# Local preview server temp files
+.serve/
+*.pid
+
+# Editor backups
+*.bak
+*.orig
+
+# Playwright outputs (tests/ subproject)
+tests/test-results/
+tests/playwright-report/
+tests/blob-report/
+tests/.playwright-cache/
+package-lock.json
