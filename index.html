@@ -364,16 +364,16 @@
 
       function Join() {
         const sigs = [
-          { tag: "1. Site",     desc: "A live URL serving a nine-section city page that honours the Visual Identity invariants." },
-          { tag: "2. Monument", desc: "A funded site for the city's heart monument, with a named local architecture practice and a published seismic specification." },
-          { tag: "3. Roadmap",  desc: "Four milestone entries (2030, 2035, 2040, 2050) with current Q-status, in machine-readable form." },
-          { tag: "4. Hosting",  desc: "A Year-1 commitment to receive at least ten Cor Residency exchanges and to broadcast the Daily Ceremony at its declared Cor hour." }
+          { tag: "1. Hologram-only expression (the default)", desc: "The recommended path. The city installs a projection, hologram, and augmented-reality version of its Cor del Món expression inside an existing public building. No new construction, no land take, no seismic or heritage risk, no permits beyond standard public-event approvals. Roughly one to three percent of any built-version cost. Six to eighteen months to opening. Fully reversible at any time." },
+          { tag: "2. Print, broadcast, and online expression", desc: "A book, exhibition catalogue, documentary, open-access website, or network of public talks honouring the design idea, with no physical installation. The lightest commitment of all." },
+          { tag: "3. Built version (only if a city chooses it)", desc: "A built monument is described in each city's page only as a design-research scenario. It is not the recommended path and would only ever proceed under the city's own statutory review, on the city's own timeline, with licensed local professionals, with the city as the commissioning authority. The proposal does not commission, fund, or coordinate any built version." },
+          { tag: "4. Hosting (any of the above)", desc: "If a city chooses to honour the idea, it sets its own Cor hour and its own civic-calendar fit. The proposal exists only to make the design idea more legible and shareable." }
         ];
         return (
           <section id="join" className="m3-section" style={{ paddingBottom: 80, textAlign: "center" }}>
             <p className="m3-label-small">Join</p>
-            <h2 className="m3-display-small" style={{ maxWidth: 720, margin: "12px auto 18px" }}>Apply to be a Wave-2 city</h2>
-            <p className="m3-body-large" style={{ maxWidth: 620, margin: "0 auto 36px" }}>Wave-1 closes once the six founding cities are operational. From 2035, candidate cities sign the Cor Charter by transmitting four signatures.</p>
+            <h2 className="m3-display-small" style={{ maxWidth: 720, margin: "12px auto 18px" }}>Honour the idea, in whichever weight fits</h2>
+            <p className="m3-body-large" style={{ maxWidth: 720, margin: "0 auto 36px" }}>Cor del Món is offered as a creative-research design idea, freely available to any city that wishes to honour it. There is no application form, no fee, no consultancy contract, no commercial offer. The lightest expression below is the recommended default for any city.</p>
             <div className="bento" style={{ maxWidth: 880, margin: "0 auto 36px", textAlign: "left" }}>
               {sigs.map((s, i) => (
                 <div key={i} className="m3-card-outlined">
@@ -384,9 +384,9 @@
             </div>
             <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
               <a className="m3-button m3-button-filled" href="https://github.com/sara-star-quant/cor-del-mon/issues/new?template=contact.yml" target="_blank" rel="noopener">Open a contact thread</a>
-              <a className="m3-button m3-button-outlined" href="COMMERCIAL.md">Read COMMERCIAL.md</a>
+              <a className="m3-button m3-button-outlined" href="DISCLAIMER.md">Read the full disclaimer</a>
             </div>
-            <p className="m3-body-small" style={{ marginTop: 18, opacity: 0.7, maxWidth: 600, marginLeft: "auto", marginRight: "auto" }}>The contact thread is a structured form on GitHub Issues (correction, native-speaker review, Indigenous community review, local-administrative review, removal request, partnership inquiry, commercial inquiry). Public by default. For private contact, see the email in <a href="DISCLAIMER.md" style={{ color: "var(--md-sys-color-primary)" }}>DISCLAIMER.md</a>.</p>
+            <p className="m3-body-small" style={{ marginTop: 18, opacity: 0.7, maxWidth: 720, marginLeft: "auto", marginRight: "auto" }}>The contact thread is a structured form on GitHub Issues (correction, native-speaker review, community review, local-administrative review, removal request). Public by default. No commercial inquiries, no investment inquiries, no consultancy inquiries. No funds have been raised, applied for, awarded, committed, or accepted for this proposal.</p>
           </section>
         );
       }
@@ -397,9 +397,9 @@
             <div style={{ color: "var(--md-sys-color-primary)" }}><Heartbeat size={28} /></div>
             <p className="m3-label-small" style={{ marginTop: 14 }}>Cor del Món · v1.0 · Q2 2026</p>
             <p style={{ fontFamily: "var(--font-serif)", fontStyle: "italic", fontSize: 22, color: "var(--md-sys-color-primary)", marginTop: 18 }}>Six cities beat as one.</p>
-            <p className="m3-body-small" style={{ marginTop: 18 }}>© 2026 sara-star-quant. Code under PolyForm Noncommercial 1.0.0, content under CC BY-NC 4.0. See <a href="COMMERCIAL.md" style={{ color: "var(--md-sys-color-primary)" }}>COMMERCIAL.md</a> for licensing and consultancy.</p>
+            <p className="m3-body-small" style={{ marginTop: 18 }}>© 2026 sara-star-quant. Code under PolyForm Noncommercial 1.0.0, content under CC BY-NC 4.0.</p>
             <p className="m3-body-small" style={{ marginTop: 14, maxWidth: 760, marginLeft: "auto", marginRight: "auto", lineHeight: 1.65, opacity: 0.85 }}>
-              <strong>Disclaimer.</strong> Cor del Món is a conceptual design proposal and creative-research project. Nothing on this site is professional advice (legal, financial, architectural, urban-planning, immigration, heritage, medical, or any other kind). All numbers are illustrative and will differ materially upon any formal review. Named authorities, ministries, corporations, foundations, architects, and individuals are referenced descriptively for context only; no partnership, endorsement, or affiliation is claimed or implied. No solicitation of investment is made. Where the proposal conflicts with existing law, regulation, or community will, the existing law, regulation, or community will prevails. <a href="DISCLAIMER.md" style={{ color: "var(--md-sys-color-primary)" }}>Read the full disclaimer at /DISCLAIMER.md</a>.
+              <strong>Disclaimer.</strong> Cor del Món is a conceptual design proposal and creative-research project to make a love-themed civic and architectural idea more popular and more legible worldwide. Nothing on this site is professional advice of any kind (legal, financial, architectural, urban-planning, immigration, heritage, medical, or otherwise). All numbers, costs, heights, housing counts, and milestones are illustrative only and will differ materially upon any formal review. Named authorities, ministries, places, architects, and individuals are referenced descriptively for context only; no partnership, endorsement, affiliation, contract, or relationship is claimed or implied. <strong>No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited. No commercial consultancy is offered. No fee is charged for any city to honour the idea.</strong> The recommended way for any city to participate is the hologram-only expression (projection, hologram, and augmented-reality installation inside an existing public building, fully reversible, no new construction); the built monuments described in each city page are design-research scenarios only. Where the proposal touches Indigenous, heritage, or community matters, it defers entirely to whichever statutory authorities and community organisations are recognised under local law and custom at the time of any real engagement; no specific organisation is named as a partner. Where the proposal conflicts with existing law, regulation, or community will, the existing law, regulation, or community will prevails. <a href="DISCLAIMER.md" style={{ color: "var(--md-sys-color-primary)" }}>Read the full disclaimer at /DISCLAIMER.md</a>.
             </p>
           </footer>
         );

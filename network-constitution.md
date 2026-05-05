@@ -154,7 +154,7 @@ The first version of this Constitution (v1.0, Q2 2026) was authored by the Andor
 
 This Constitution is part of the project's content and is licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. You may quote, cite, adapt, and redistribute it for any non-commercial purpose with attribution to *Cor del Món / sara-star-quant / cor-del-mon*.
 
-For commercial or consultancy use, see `COMMERCIAL.md` in the repository root.
+Commercial use is not granted. The project does not offer commercial licensing, paid consultancy, design services, partnership for fee, or any other paid arrangement. No funds have been raised, applied for, awarded, committed, or accepted.
 
 ---
 

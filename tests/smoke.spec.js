@@ -8,7 +8,6 @@ const NETWORK_ASSETS = [
   { path: '',                                 mime: /text\/html/, minBytes: 15_000 },
   { path: 'test.html',                        mime: /text\/html/, minBytes: 5_000 },
   { path: 'network-constitution.md',          mime: /(text|markdown)/, minBytes: 5_000 },
-  { path: 'COMMERCIAL.md',                    mime: /(text|markdown)/, minBytes: 1_000 },
   { path: 'LICENSE',                          mime: /(text|octet-stream|plain)/, minBytes: 1_000 },
   { path: 'LICENSE-content.md',               mime: /(text|markdown)/, minBytes: 1_000 },
   { path: 'README.md',                        mime: /(text|markdown)/, minBytes: 2_000 },
@@ -114,7 +113,8 @@ test('smoke: landing page presents the Cor del Món network, not a city page', a
   for (const city of ['Andorra', 'Yokohama', 'Adelaide', 'Valparaíso', 'Cape Town', 'Jaipur']) {
     expect(html, `landing should mention ${city}`).toContain(city);
   }
-  expect(html).toContain('COMMERCIAL.md');
+  expect(html).toContain('DISCLAIMER.md');
+  expect(html).not.toContain('COMMERCIAL.md');
   // M3 redesign markers: utility classes present in the static HTML
   expect(html).toContain('m3-display-large');
   expect(html).toContain('m3-top-app-bar');
@@ -140,13 +140,18 @@ for (const city of LIVE_CITIES) {
   });
 }
 
-test('smoke: README and Constitution use the new email and have no em-dashes', async ({ request }) => {
-  for (const path of ['README.md', 'COMMERCIAL.md', 'network-constitution.md']) {
+test('smoke: README, Disclaimer, and Constitution use the new email and have no em-dashes', async ({ request }) => {
+  for (const path of ['README.md', 'DISCLAIMER.md', 'network-constitution.md']) {
     const resp = await request.get(path);
     const text = await resp.text();
     expect(text, `${path} should not contain old email`).not.toContain('game4');
     expect(text, `${path} should have no em-dashes (U+2014)`).not.toMatch(/\u2014/);
   }
+});
+
+test('smoke: site no longer ships COMMERCIAL.md', async ({ request }) => {
+  const resp = await request.get('COMMERCIAL.md');
+  expect(resp.status(), 'COMMERCIAL.md should not be served').toBe(404);
 });
 
 // Schema-shape and shared-module-usage checks, parameterized per live city.

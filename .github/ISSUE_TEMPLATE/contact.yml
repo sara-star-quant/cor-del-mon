@@ -11,11 +11,11 @@ body:
         Common reasons people open a contact thread:
         - **Correction**: a fact, name, ministry, number, or claim to fix
         - **Native-speaker review**: language fixes for Catalan, Japanese, Chilean Spanish, Hindi, isiXhosa, Afrikaans
-        - **Indigenous community review**: Kaurna, Khoekhoegowab, or other Traditional Custodian feedback
-        - **Local-administrative review**: feedback on the permission chain or budget sources for a city
-        - **Removal request**: for any named entity who wants its reference changed or removed
-        - **Partnership inquiry**: for cities, governments, foundations, architects, civic organisations
-        - **Commercial inquiry**: see also COMMERCIAL.md
+        - **Indigenous community review**: Traditional Custodian feedback in any of the relevant communities
+        - **Local-administrative review**: feedback on the permission chain or funding-source categories for a city
+        - **Removal request**: for any named place, body, or individual whose reference should be changed or removed
+
+        Note: the project does not accept commercial inquiries, investment inquiries, paid-consultancy inquiries, or partnership-for-fee inquiries. No funds have been raised, applied for, awarded, committed, or accepted.
 
   - type: dropdown
     id: kind
@@ -27,8 +27,6 @@ body:
         - Indigenous community review
         - Local-administrative review
         - Removal request
-        - Partnership inquiry
-        - Commercial inquiry
         - Other
     validations:
       required: true

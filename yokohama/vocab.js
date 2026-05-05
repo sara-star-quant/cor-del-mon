@@ -251,24 +251,24 @@ const vocab = {
     intro: "What a 120m monument on Pier 8 of MM21 actually has to negotiate with.",
     category: "Cultural facility on a Minato Mirai 21 reclaimed-land parcel with an associated public-housing scheme. Standard Yokohama City urban-development category, fitting inside the existing MM21 District master plan. No new permission package required.",
     permissionChain: [
-      "Yokohama City Hall, Building Bureau (建築局, Kenchiku-kyoku), issues the kenchiku kakunin (建築確認, building confirmation). Yokohama Cultural and Tourism Bureau (文化観光局, Bunka-kanko-kyoku) prepares the cultural-anchor agreement; the Mayor of Yokohama signs.",
-      "Minatomirai 21 Suishin Kyogi-kai (MM21 Promotion Council; the multi-stakeholder body of Yokohama City, Yokohama Minatomirai 21 Co., and major MM21 land-holders) reviews siting and integration with the master plan.",
-      "Yokohama City Port and Harbor Bureau (港湾局, Kowan-kyoku), as the Pier 8 / Shinko-futo land-holder, signs the Pier 8 long-term cultural-anchor leasehold. Mitsubishi Estate is a major MM21 land-holder elsewhere (Landmark Tower district) but not the Pier 8 lessor.",
-      "Kanagawa Prefecture, Land and Infrastructure Bureau (県土整備局), Housing Division approves the family-priority overlay on the Yokohama Municipal Housing Corporation scheme.",
-      "Building Performance Evaluation Organization (Sei-no Hyoka Kikan, certified under the Building Standard Law) conducts the statutory seismic-isolation peer review for the LRB-bearing system. The Architectural Institute of Japan (AIJ) provides expert input but is a learned society, not a regulatory body.",
-      "The architect-of-record (jugyo-shi-jimusho) registered with Kanagawa Prefecture handles the foreign-led design submission.",
-      "Foreign Exchange and Foreign Trade Act (FEFTA) prior-notification or post-notification, administered by the Ministry of Finance plus the Agency for Cultural Affairs as the relevant ministry of jurisdiction, for foreign-source funding above the threshold."
+      "Statutory building-confirmation (kenchiku kakunin) and cultural-anchor approval through the relevant Yokohama City bureaus under the Building Standard Law of Japan.",
+      "Statutory siting and master-plan integration review through the relevant Minato Mirai 21 governance body, under the existing MM21 District master plan. The proposal does not name a specific private leaseholder in advance of any real engagement.",
+      "Statutory long-term cultural-anchor leasehold negotiation with the relevant Yokohama City land-holding bureau for the proposed waterfront parcel.",
+      "Statutory family-priority housing overlay approval through the relevant Kanagawa Prefecture housing authority on the existing public-housing programme.",
+      "Statutory seismic-isolation peer review by a Building Performance Evaluation Organization certified under the Building Standard Law.",
+      "Architect-of-record registered in the relevant Japanese jurisdiction handling any foreign-led design submission.",
+      "Foreign Exchange and Foreign Trade Act (FEFTA) prior-notification or post-notification through the relevant Japanese ministries for any foreign-source funding above threshold, if a built version were ever formally pursued."
     ],
     budgetSources: [
-      "Yokohama City Cultural Promotion Bureau (Yokohama-shi Bunka Kanko Kyoku) annual cultural-infrastructure line.",
-      "Kanagawa Prefecture Family Housing Subsidy (existing programme; Cor adds a family-priority overlay).",
-      "Mitsubishi Estate development cooperation (in-kind site lease).",
-      "Cor del Món network partner-share contribution.",
-      "Japanese cultural foundations (Asahi Group Foundation, Toyota Foundation cultural arm, Mori Memorial Foundation).",
-      "Agency for Cultural Affairs (Bunka-cho) cultural-infrastructure capital line for international cultural partnerships."
+      "Funding-source categories that could in principle apply to a hypothetical built version, listed without naming any specific entity, programme, or private counterparty.",
+      "National or prefectural cultural-infrastructure capital lines, where they exist and apply, subject to each ministry's own priorities and statutory procedures.",
+      "National or prefectural family-housing subsidies as an overlay on existing programmes, not as a parallel programme.",
+      "Private cultural philanthropy active in Japan, subject to each foundation's own application processes.",
+      "In-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under Japanese public-property law.",
+      "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited. No commercial consultancy is offered."
     ],
     items: [
-      { area: "Land",                  detail: "MM21 Pier 8 is a leasehold negotiation with Yokohama City and Mitsubishi Estate (the major MM21 leaseholder). Not a freehold purchase. The MM21 supertall-ready zoning permits 120m without special legislation, but the lease term and commercial structure take 24 to 36 months to settle from Charter year." },
+      { area: "Land",                  detail: "Any MM21 waterfront parcel is a leasehold negotiation with the relevant Yokohama City land-holding bureau and the current private leaseholder under the MM21 master plan; the proposal does not name a specific counterparty in advance of any real engagement. Not a freehold purchase. The MM21 supertall-ready zoning permits the proposed 120m envelope without special legislation, but the lease term and commercial structure would take an estimated 24 to 36 months to settle from Charter year if a built version were ever formally pursued." },
       { area: "Building permits",      detail: "Standard Japanese architecture-approval cycle is 24 to 36 months. Foreign-led design works through a Japanese architect-of-record (jugyo-shi). AIJ (Architectural Institute of Japan) review of base-isolation design (LRB bearings, fluid-viscous dampers) is rigorous; Sagami Trough subduction context is unforgiving on shortcuts." },
       { area: "Residency",             detail: "Kokoro Yado (Cor Residency intake at 15 per year) uses Japan's existing Highly Skilled Professional and Cultural Activities visa categories. No new visa proposed. Yamate Heights cottage stock supports the higher capacity than other network cities." },
       { area: "Funding compliance",    detail: "Project finance through a Japanese cultural-foundation framework (Public Interest Incorporated Foundation, koueki zaidan houjin). Yokohama City participation through existing sister-city budget allocations. No foreign-state funding; all sources disclosed under Japanese anti-money-laundering rules." },
@@ -279,14 +279,14 @@ const vocab = {
   costs: {
     title: "Approximate costs (2026 USD)",
     monumentTotal: "USD 200 to 350 million",
-    intro: "Order-of-magnitude estimates anchored against comparable Japanese large-scale cultural buildings (Mode Gakuen Cocoon Tower at 204m cost roughly USD 300M in 2008 yen; Yokohama Landmark Tower at 296m was over USD 1B in 1990s yen). Real budgets after the international design competition and AIJ review.",
+    intro: "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited and no commercial consultancy is offered. The figures below are illustrative order-of-magnitude estimates anchored against publicly comparable Japanese large-scale cultural buildings (Mode Gakuen Cocoon Tower at 204m was reported at roughly USD 300M in 2008 yen; Yokohama Landmark Tower at 296m was over USD 1B in 1990s yen), and exist solely to ground the design narrative. Real budgets, if a built version were ever formally pursued, would be set after an international design competition and statutory peer review by licensed professionals in the relevant jurisdiction.",
     stages: [
       { phase: "Charter (2028)",        range: "USD 5 to 10M",   scope: "International design competition + Japanese architect-of-record agreement + MM21 lease negotiation + Pier 8 site studies" },
       { phase: "Break Ground (2030-31)", range: "USD 60 to 100M", scope: "Base-isolated steel frame foundation, LRB bearing installation, andesite plinth, sister-pier marine works" },
       { phase: "Construction (2031-35)", range: "USD 110 to 190M", scope: "CLT timber pavilion stack, magenta-rose tinted glass curtain wall, patinated copper roof shells, interior fitout" },
       { phase: "Operational (2036)",     range: "USD 25 to 50M",   scope: "Yokohama Hour broadcast studio, ceremony fitout, opening programme, Yokohama Triennale partnership integration" }
     ],
-    fundingNote: "Project-finance structure: Japanese cultural-foundation framework as the receiving entity. Funding mix expected: Yokohama City + Kanagawa Prefecture (15-25%), Japanese family-office/corporate cultural arm (25-40%), Cor del Món network partner share (30-50%), Mitsubishi Estate land contribution-in-kind. Single-sovereign foreign funding excluded."
+    fundingNote: "Funding categories that could in principle apply to a hypothetical built version, listed without naming any specific entity, programme, or private counterparty: national or prefectural cultural-infrastructure capital lines, national or prefectural family-housing subsidies as an overlay (not a parallel programme), private cultural philanthropy active in Japan, and in-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under Japanese public-property law. No funds have been raised, applied for, awarded, committed, or accepted. No commercial consultancy is offered."
   },
   impact: {
     title: "Impact and benefit",
@@ -299,12 +299,13 @@ const vocab = {
     ]
   },
   alternatives: {
-    title: "If the primary site is blocked",
-    intro: "Yokohama is the right city; if MM21 Pier 8 negotiation fails, fall-back sites within Yokohama keep the narrative intact.",
+    title: "Lighter expressions of the same idea",
+    intro: "The proposal is offered as a creative-research design idea, not as a fundraising plan or a built commitment. The lightest expression below is the recommended default for any city that wishes to honour the idea without a built monument.",
     items: [
-      { fallback: "Sakuragicho district (within Yokohama)",  reason: "Adjacent to MM21 but with lighter Mitsubishi Estate leasehold pressure. Same bayfront context, same prefectural authorities." },
-      { fallback: "Bashamichi heritage corridor (within Yokohama)", reason: "Heritage tram-line context, Western-quarter aesthetic. Lower-rise build (60-80m) but stronger heritage continuity." },
-      { fallback: "Kobe (different city, port-city analog)", reason: "Only if Yokohama is fully blocked. Kobe shares the open-port heritage (since 1868), has Hanshin earthquake recovery context, and avoids Tokyo-axis pressure entirely. This is a last-resort fall-back, not a preferred path." }
+      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Yokohama Cor del Món experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building. No new construction, no land take, no seismic or heritage risk, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and cultural calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build." },
+      { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." },
+      { fallback: "Sakuragicho district (within Yokohama)",  reason: "Alternative siting within the same bayfront context, if a built version were ever formally pursued. Listed for completeness as a design-research note." },
+      { fallback: "Bashamichi heritage corridor (within Yokohama)", reason: "Heritage tram-line context, Western-quarter aesthetic. Lower-rise build (60-80m) but stronger heritage continuity. Listed for completeness as a design-research note." }
     ]
   }
 };

@@ -40,7 +40,8 @@ A human-readable summary is at:
 
 ## Commercial use
 
-If you want to use any of this content for commercial purposes (including but not limited
-to: a city, government, or developer implementing Cor del Món; a publisher producing a
-book or film; a brand running a campaign), please see `COMMERCIAL.md` in the repository
-root. Commercial licensing and design consultancy are available.
+Commercial use of this content is not granted under CC BY-NC 4.0. The project does not
+offer commercial licensing, paid consultancy, design services, partnership for fee, or
+any other paid arrangement. No funds have been raised, applied for, awarded, committed,
+or accepted for this proposal. The work is offered as a creative-research design idea
+under the non-commercial terms of CC BY-NC 4.0 only.
