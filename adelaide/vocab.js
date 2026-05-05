@@ -243,24 +243,24 @@ const vocab = {
     intro: "What a 65m monument adjacent to Tarndanyangga and an 800-home programme on Kaurna Country actually has to negotiate with.",
     category: "Adelaide CBD cultural facility plus state-housing-trust family-priority overlay. Standard SA Government urban-development category. No new permission package required.",
     permissionChain: [
-      "City of Adelaide, Council development application. The Lord Mayor signs the cultural-anchor MoU.",
-      "State Planning Commission of South Australia development assessment. The Minister for Planning is the responsible authority.",
-      "Renewal SA, housing-programme partner. The CEO of Renewal SA signs the Hearts of Home allocation overlay.",
-      "Department for Aboriginal Affairs and Reconciliation, plus Kaurna Yerta Aboriginal Corporation, consultation under the SA Aboriginal Heritage Act 1988.",
-      "Department for Trade and Investment (Investment SA) for foreign-investment review where the FIRB threshold applies.",
-      "Office for the Arts in the Department of Infrastructure (federal) for cultural-infrastructure recognition."
+      "Statutory development application through the relevant Adelaide local government authority.",
+      "Statutory development assessment through the relevant South Australian state planning authority.",
+      "Statutory housing-programme overlay approval through the relevant South Australian state housing agency on the existing public-housing pipeline.",
+      "Statutory Aboriginal Heritage consultation under the SA Aboriginal Heritage Act 1988 with whichever Traditional Custodian organisation the statute identifies as the recognised body at the time of any real engagement. The proposal does not name a specific organisation in advance and will defer entirely to the statutory body and to Traditional Custodian leadership if a built version were ever formally pursued.",
+      "Statutory foreign-investment review where the Foreign Investment Review Board threshold applies, through the relevant state and federal authorities.",
+      "Statutory cultural-infrastructure recognition through the relevant Australian federal cultural authority."
     ],
     budgetSources: [
-      "Arts South Australia, cultural-infrastructure capital programme.",
-      "Renewal SA family-housing capital (Hearts of Home as overlay on the existing build pipeline).",
-      "Department for Trade and Investment, investment-attraction line.",
-      "Australian federal Office for the Arts, cultural-infrastructure share.",
-      "Cor del Món network partner-share contribution.",
-      "South Australian philanthropy (Hawker Fund, James and Diana Ramsay Foundation, Adelaide Festival Foundation)."
+      "Funding-source categories that could in principle apply to a hypothetical built version, listed without naming any specific entity or programme.",
+      "State or federal cultural-infrastructure capital lines, where they exist and apply, subject to each authority's own priorities and statutory procedures.",
+      "State affordable and family-housing capital lines as an overlay on existing programmes, not as a parallel programme.",
+      "Private cultural philanthropy active in South Australia, subject to each foundation's own application processes.",
+      "In-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under South Australian public-property law.",
+      "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited. No commercial consultancy is offered."
     ],
     items: [
       { area: "Park Lands Act (2005)",       detail: "The Park Lands ring is Crown land protected by the Adelaide Park Lands Act 2005. Any structure on Park Lands needs special legislative approval. The Living Heart Adelaide therefore sits at the *northern edge* of Tarndanyangga (Victoria Square), on the immediately adjacent CBD parcel inside the ring rather than on the Park Lands themselves. Park Lands access remains intact." },
-      { area: "Kaurna heritage",             detail: "SA Aboriginal Heritage Act 1988 consultation with the Kaurna Yerta Aboriginal Corporation is required from Charter year. Naming, mural language (the PIRRALTHI mural specifically), and ceremony design require Kaurna leadership, not just consultation. The proposal acknowledges this is a Kaurna miyurna decision in their own forum." },
+      { area: "Aboriginal heritage",         detail: "SA Aboriginal Heritage Act 1988 consultation with whichever Traditional Custodian organisation the statute identifies as the recognised body would be required from Charter year if a built version were ever formally pursued. Naming, mural language, and ceremony design would require Traditional Custodian leadership, not just consultation. The proposal does not name any specific organisation in advance and acknowledges that any real engagement would defer entirely to the statutory body and to Traditional Custodian decisions made in their own forum." },
       { area: "Building permits",            detail: "Adelaide CBD height limits permit 65m (the Adelaide Oval lights are 65m, the existing tallest reference). City of Adelaide Development Plan + State Planning Commission approvals required. AS 1170.4 seismic detailing for the Adelaide intra-plate zone." },
       { area: "Migration pathway",           detail: "Cor Residency intake (10 per year) fits within South Australia's existing Designated Area Migration Agreement (DAMA). Cor del Món contributes a small dedicated allocation, not a new pathway. Federal Department of Home Affairs negotiation required from Charter year to confirm the DAMA share." },
       { area: "Heritage screening",          detail: "Inner-suburb infill sites (Norwood, Goodwood, Prospect for the 250-unit Phase 3) pre-screened against the SA Heritage Places Database. No demolition of state-heritage-listed properties." },
@@ -270,14 +270,14 @@ const vocab = {
   costs: {
     title: "Approximate costs (2026 USD)",
     monumentTotal: "USD 80 to 120 million",
-    intro: "Order-of-magnitude estimates anchored against comparable Adelaide civic-cultural builds (Adelaide Festival Centre redevelopment was AUD 180 million, Adelaide Oval redevelopment was AUD 535 million for context). Real budgets after design competition.",
+    intro: "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited and no commercial consultancy is offered. The figures below are illustrative order-of-magnitude estimates anchored against publicly comparable Adelaide civic-cultural builds (Adelaide Festival Centre redevelopment was reported at AUD 180 million; Adelaide Oval redevelopment was reported at AUD 535 million), and exist solely to ground the design narrative. Real budgets, if a built version were ever formally pursued, would be set after an international design competition and statutory review by licensed professionals in the relevant jurisdiction.",
     stages: [
-      { phase: "Charter (2028)",         range: "USD 2 to 4M",   scope: "International design competition + Kaurna Yerta consultation + Park Lands Act variation pathway + State Planning Commission approval cycle" },
+      { phase: "Charter (2028)",         range: "USD 2 to 4M",   scope: "International design competition + statutory Aboriginal Heritage consultation + Park Lands Act variation pathway + state planning approval cycle" },
       { phase: "Break Ground (2029-30)", range: "USD 20 to 30M", scope: "Bluestone plinth foundation, rammed-earth core formwork, AS 1170.4 seismic detailing, Tarndanyangga site preparation" },
       { phase: "Construction (2030-34)", range: "USD 45 to 70M", scope: "Rammed-earth core, corrugated-steel verandah cladding, festival-ribbon banner system, interior fitout" },
       { phase: "Operational (2035)",     range: "USD 12 to 20M", scope: "Adelaide Hour broadcast studio, ceremony floor fitout, opening programme inside the Adelaide Festival" }
     ],
-    fundingNote: "Funding mix expected: SA Government (25-35%), Australian federal cultural-infrastructure share (15-25%), Cor del Món network partner share (30-50%), philanthropic family-office/corporate-foundation (10-20%). FIRB review applies to any foreign-source share over the threshold."
+    fundingNote: "Funding categories that could in principle apply to a hypothetical built version, listed without naming any specific entity or programme: state or federal cultural-infrastructure capital lines, state affordable and family-housing capital lines as an overlay (not a parallel programme), private cultural philanthropy active in South Australia, and in-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under South Australian public-property law. No funds have been raised, applied for, awarded, committed, or accepted. No commercial consultancy is offered."
   },
   impact: {
     title: "Impact and benefit",
@@ -290,12 +290,13 @@ const vocab = {
     ]
   },
   alternatives: {
-    title: "If the primary site is blocked",
-    intro: "If Park Lands Act variation for the Tarndanyangga edge cannot be secured, three fall-back paths.",
+    title: "Lighter expressions of the same idea",
+    intro: "The proposal is offered as a creative-research design idea, not as a fundraising plan or a built commitment. The lightest expression below is the recommended default for any city that wishes to honour the idea without a built monument.",
     items: [
-      { fallback: "Hindley Street north edge (within Adelaide CBD)", reason: "Outside the Park Lands ring, inside the CBD grid. Same Festival City context, no Park Lands Act variation needed. Trade-off: less symbolic site than the Light's-grid intersection." },
-      { fallback: "Mount Barker (Adelaide Hills, within Adelaide commute)", reason: "Existing Adelaide Hills growth zone, real housing pressure, much lighter heritage and Park Lands constraint. Demographic alignment with the Cor mission. Trade-off: smaller civic footprint." },
-      { fallback: "Whyalla (regional South Australia, ~4.5 hours north)", reason: "Steel-city heritage, real demographic crisis (population decline, brain drain to Adelaide and Melbourne), much lighter permitting and Indigenous-heritage scrutiny than Tarndanyangga. Trade-off: loses the Festival City brand entirely; reads as a different project." }
+      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Adelaide Cor del Món experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building. No new construction, no land take, no Park Lands Act variation, no Aboriginal-heritage built-form impact, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and festival calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build." },
+      { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." },
+      { fallback: "Hindley Street north edge (within Adelaide CBD)", reason: "Alternative siting outside the Park Lands ring, listed for completeness as a design-research note if a built version were ever formally pursued." },
+      { fallback: "Mount Barker (Adelaide Hills, within Adelaide commute)", reason: "Adelaide Hills growth zone with lighter heritage and Park Lands constraint. Listed for completeness as a design-research note." }
     ]
   }
 };

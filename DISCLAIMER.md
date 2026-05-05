@@ -24,7 +24,7 @@ Anyone considering action on any topic touched by this proposal must consult qua
 
 ## 2. Numbers are illustrative
 
-Every number in this proposal — population, fertility, housing counts, monument heights, square metres, costs, residency intakes, milestone years, percentages, foundation budgets, ministry allocations, energy savings, water-positive figures, soundtrack release dates, anniversaries, project timelines — is an order-of-magnitude estimate offered for narrative and creative-research purposes. Numbers will differ materially upon any formal feasibility study, government review, professional engineering analysis, or public consultation.
+Every number in this proposal (population, fertility, housing counts, monument heights, square metres, costs, residency intakes, milestone years, percentages, foundation budgets, ministry allocations, energy savings, water-positive figures, soundtrack release dates, anniversaries, project timelines) is an order-of-magnitude estimate offered for narrative and creative-research purposes. Numbers will differ materially upon any formal feasibility study, government review, professional engineering analysis, or public consultation.
 
 The website's authors make no representation that any number is current, complete, accurate, or appropriate for any decision. Numbers may have been superseded by official statistics, government plans, or local conditions between authoring and reading.
 
@@ -129,16 +129,16 @@ This limitation applies even if a contributor has been advised of the possibilit
 
 ## 14. Jurisdiction and governing law
 
-The site is hosted on GitHub Pages and authored by sara-star-quant. The `LICENSE`, `LICENSE-content.md`, and `COMMERCIAL.md` files govern code, content, and commercial-licensing inquiries respectively. Any dispute relating to the site's licences is subject to the venue and law specified in those licences. Disputes relating to claimed factual errors or rights of named third parties should first be raised at **cor-del-mon [at] protonmail [dot] com** for prompt remedy before any other action.
+The site is hosted on GitHub Pages and authored by sara-star-quant. The `LICENSE` and `LICENSE-content.md` files govern code and content respectively, both on non-commercial terms only. The project does not offer commercial licensing, paid consultancy, design services, partnership for fee, or any other paid arrangement. No funds have been raised, applied for, awarded, committed, or accepted. Any dispute relating to the site's licences is subject to the venue and law specified in those licences. Disputes relating to claimed factual errors or rights of named third parties should first be raised at **cor-del-mon [at] protonmail [dot] com** for prompt remedy before any other action.
 
 ## 15. Contact and corrections
 
 Two contact paths are available:
 
 - **Public conversation (preferred for most inquiries)**: open a structured contact thread at [github.com/sara-star-quant/cor-del-mon/issues/new?template=contact.yml](https://github.com/sara-star-quant/cor-del-mon/issues/new?template=contact.yml). Use this for corrections, native-speaker reviews, Indigenous community feedback, local-administrative reviews, partnership inquiries, and removal requests. The conversation is public by default, which suits most non-private cases.
-- **Private email**: **cor-del-mon [at] protonmail [dot] com** for cases that need to stay private (sensitive correction, confidential takedown, commercial inquiry that should not be public, individual privacy concern).
+- **Private email**: **cor-del-mon [at] protonmail [dot] com** for cases that need to stay private (sensitive correction, confidential takedown, individual privacy concern).
 
-The project commits to responding within a reasonable time and to applying confirmed corrections promptly. For commercial licensing and design consultancy, see also `COMMERCIAL.md`.
+The project commits to responding within a reasonable time and to applying confirmed corrections promptly. The project does not offer commercial licensing, paid consultancy, design services, or any other paid arrangement; no commercial inquiries are accepted on either contact channel.
 
 ---
 

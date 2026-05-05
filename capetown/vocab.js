@@ -251,25 +251,25 @@ const vocab = {
     intro: "What a 99m monument at the V&A and a 1,500-home water-positive programme actually have to negotiate with, given Cape Town's binding contradictions.",
     category: "V&A cultural anchor plus Breaking New Ground (BNG) housing scheme overlay. Existing City of Cape Town urban-development category. No new permission package required.",
     permissionChain: [
-      "V&A Waterfront (Pty) Ltd signs the long-term cultural-anchor lease (Growthpoint Properties and the Public Investment Corporation as joint owners).",
-      "City of Cape Town Department of Spatial Planning and Environment, development approval. The Mayor of Cape Town signs the cultural-anchor MoU.",
-      "Western Cape Provincial Government, Department of Infrastructure (which carries the Housing portfolio in the post-2024 reshuffle), BNG family-priority overlay approval. The MEC for Infrastructure is the responsible authority. The Department of Local Government, Environmental Affairs and Development Planning is a separate MEC and reviews the spatial-planning side.",
-      "South African Heritage Resources Agency (SAHRA) plus Heritage Western Cape (HWC) for Bo-Kaap and Woodstock heritage approvals.",
-      "Bo-Kaap Civic and Ratepayers Association community sign-off on heritage-precinct work.",
-      "Department of Sport, Arts and Culture (national) cultural-infrastructure recognition.",
-      "South African Reserve Bank approval for foreign-source funding above threshold; FATF and PRECCA compliance."
+      "Long-term cultural-anchor lease negotiation with the relevant private landholder of any waterfront parcel under standard South African commercial-property law. The proposal does not name a specific counterparty in advance of any real engagement.",
+      "Statutory development approval through the relevant City of Cape Town spatial-planning authority.",
+      "Statutory housing-overlay approval through the relevant Western Cape Provincial Government authority on the existing public-housing programme.",
+      "Statutory heritage approvals through the South African Heritage Resources Agency and the relevant Western Cape heritage authority.",
+      "Statutory and community heritage-precinct consultation with whichever community body is recognised under South African heritage law and local custom at the time of any real engagement. The proposal does not name a specific community organisation in advance.",
+      "Statutory cultural-infrastructure recognition through the relevant national cultural authority.",
+      "South African Reserve Bank approval for foreign-source funding above threshold, plus FATF and PRECCA compliance, if a built version were ever formally pursued."
     ],
     budgetSources: [
-      "Western Cape Provincial Government, Housing capital line (BNG existing programme).",
-      "City of Cape Town BNG annual capital allocation.",
-      "National Department of Sport, Arts and Culture, cultural-infrastructure line.",
-      "V&A Waterfront in-kind lease contribution.",
-      "Cor del Món network partner-share.",
-      "South African philanthropy (Oppenheimer Memorial Trust, Patrice Motsepe Foundation, Mary Slack Investments, Discovery Foundation)."
+      "Funding-source categories that could in principle apply to a hypothetical built version, listed without naming any specific entity, programme, or private counterparty.",
+      "National, provincial, or municipal cultural-infrastructure capital lines, where they exist and apply, subject to each authority's own priorities and statutory procedures.",
+      "Provincial or municipal affordable-housing capital lines as an overlay on existing programmes, not as a parallel programme.",
+      "Private cultural philanthropy active in South Africa, subject to each foundation's own application processes.",
+      "In-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under South African public-property law.",
+      "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited. No commercial consultancy is offered."
     ],
     items: [
-      { area: "V&A site",              detail: "V&A Waterfront is privately owned by V&A Waterfront (Pty) Ltd, jointly held by Growthpoint Properties and the Public Investment Corporation (PIC). Living Heart Cape Town site lease negotiated commercially with V&A management on terms similar to V&A's existing cultural-anchor partnerships (Zeitz MOCAA precedent). Not a sovereign concession." },
-      { area: "Heritage approvals",    detail: "Bo-Kaap and Woodstock cottage restoration coordinated with the South African Heritage Resources Agency (SAHRA) and Heritage Western Cape (HWC). Bo-Kaap is a designated heritage area; restoration must align with the Bo-Kaap Civic and Ratepayers Association's existing community guidelines." },
+      { area: "Waterfront site",       detail: "Any waterfront cultural-anchor placement is privately held; in a hypothetical built version it would be a commercial leasehold negotiation with the relevant private owner under standard South African commercial-property law. The proposal does not name a specific counterparty in advance of any real engagement and is not a sovereign concession." },
+      { area: "Heritage approvals",    detail: "Any heritage-precinct cottage restoration would be coordinated with the South African Heritage Resources Agency and the relevant Western Cape heritage authority. Where a precinct is designated as a heritage area, restoration would align with whichever community guidelines are recognised under South African heritage law and local custom at the time of any real engagement. The proposal does not name a specific community organisation in advance." },
       { area: "Housing approvals",     detail: "1,500 hempcrete units allocated through City of Cape Town's existing Breaking New Ground (BNG) programme. Western Cape Department of Local Government and Housing approval required from Charter year. Sized at about 1.7% of BNG's annual output, so additive rather than competitive." },
       { area: "Day Zero context",      detail: "14% of households live in informal settlements with 4% of municipal water. Building a 99m cultural monument in this context is politically fraught unless the project visibly serves the housing-water gap. The water-positive Hearts of Home typology and the Khayelitsha-first phasing are the proposal's answer to this; framing the monument as a cultural anchor for township-CBD reconnection rather than a luxury build is essential and non-negotiable." },
       { area: "Funding compliance",    detail: "All foreign-source funding compliant with the Financial Action Task Force (FATF) and Prevention and Combating of Corrupt Activities Act (PRECCA) standards. Full source disclosure from Charter signature. South African Reserve Bank approval for any sovereign-state funding (excluded by the network's policy in any case)." },
@@ -279,14 +279,14 @@ const vocab = {
   costs: {
     title: "Approximate costs (2026 USD)",
     monumentTotal: "USD 120 to 180 million",
-    intro: "Order-of-magnitude estimates anchored against comparable Cape Town builds (Zeitz MOCAA at the V&A cost roughly USD 38M in 2017; the Norval Foundation cost about USD 50M in 2018; both lower-rise than 99m). Real budgets after international design competition.",
+    intro: "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited and no commercial consultancy is offered. The figures below are illustrative order-of-magnitude estimates anchored against publicly comparable Cape Town builds (Zeitz MOCAA was reported at roughly USD 38M in 2017; the Norval Foundation was reported at about USD 50M in 2018; both are lower-rise than the 99m envelope discussed in this proposal), and exist solely to ground the design narrative. Real budgets, if a built version were ever formally pursued, would be set after an international design competition and statutory review by licensed professionals in the relevant jurisdiction.",
     stages: [
-      { phase: "Charter (2031)",          range: "USD 4 to 7M",    scope: "International design competition + V&A site lease negotiation + SAHRA + HWC approvals + Western Cape Provincial Government negotiation" },
+      { phase: "Charter (2031)",          range: "USD 4 to 7M",    scope: "International design competition + private-landholder cultural-anchor lease negotiation + statutory heritage and provincial approvals" },
       { phase: "Break Ground (2032-33)",  range: "USD 25 to 40M",  scope: "RC core foundation, ductile seismic detailing for SANS 10160-4, water-positive systems infrastructure, Karoo sandstone supply contract" },
       { phase: "Construction (2033-38)",  range: "USD 75 to 110M", scope: "Karoo sandstone facade, Cape pine timber pavilions, water-positive systems (rainwater + greywater), Cape Doctor wind diagrams in ventilation, V&A site work" },
       { phase: "Operational (2038-39)",   range: "USD 16 to 23M",  scope: "Cape Town Hour multilingual broadcast studio, ceremony hall fitout, Cape Town International Jazz Festival partnership integration" }
     ],
-    fundingNote: "Funding mix expected: Western Cape Provincial Government (15-20%), V&A Waterfront contribution-in-kind (site lease) (15-25%), Cor del Món network partner share (30-45%), South African philanthropy (Oppenheimer, Mary Slack, Patrice Motsepe Foundation) (15-25%), small bilateral cultural partnerships (5-10%). PRECCA review applies."
+    fundingNote: "Funding categories that could in principle apply to a hypothetical built version, listed without naming any specific entity, programme, or private counterparty: national, provincial, or municipal cultural-infrastructure capital lines, provincial or municipal affordable-housing capital lines as an overlay (not a parallel programme), private cultural philanthropy active in South Africa, and in-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under South African public-property law. No funds have been raised, applied for, awarded, committed, or accepted. No commercial consultancy is offered."
   },
   impact: {
     title: "Impact and benefit",
@@ -299,12 +299,13 @@ const vocab = {
     ]
   },
   alternatives: {
-    title: "If the primary site is blocked",
-    intro: "If V&A lease negotiation fails, or if the politics of a luxury cultural build alongside informal-settlement reality cannot be reconciled, there are paths.",
+    title: "Lighter expressions of the same idea",
+    intro: "The proposal is offered as a creative-research design idea, not as a fundraising plan or a built commitment. The lightest expression below is the recommended default for any city that wishes to honour the idea without a built monument.",
     items: [
-      { fallback: "Woodstock or Salt River (within Cape Town)", reason: "Existing artist-precinct and post-industrial corridor. Lighter commercial pressure than V&A, closer to the township-CBD reconnection conversation. Trade-off: less symbolic harbour-and-Mountain framing." },
-      { fallback: "Stellenbosch (within Western Cape, 50 km east)", reason: "University town, lighter politics around housing inequality, established cultural-philanthropy ecosystem. Wine-region context shifts the brand. Trade-off: removes the Mountain and the Day Zero framing." },
-      { fallback: "Hermanus (Western Cape coast, whale-watching)", reason: "Smaller scale, much lighter approval surface. Right context for a 50-60m monument rather than 99m. Trade-off: Cape Town is the African anchor of the network; moving to Hermanus loses the African-cluster framing entirely." }
+      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Cape Town Cor del Món experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building. No new construction, no land take, no seismic or heritage risk, no built-form impact on any waterfront, township, or heritage precinct, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and cultural calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build, and a particularly good fit in a city where any large new build raises legitimate questions about housing-and-water priorities." },
+      { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." },
+      { fallback: "Woodstock or Salt River (within Cape Town)", reason: "Alternative siting in an existing artist-precinct corridor, listed for completeness as a design-research note if a built version were ever formally pursued." },
+      { fallback: "Stellenbosch (within Western Cape, 50 km east)", reason: "Alternative siting in a lighter regulatory and political context, listed for completeness as a design-research note." }
     ]
   }
 };

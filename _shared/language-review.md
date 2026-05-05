@@ -93,9 +93,9 @@ Three mural texts need community-level review before any real-world implementati
   in Japanese, more poetic than literal "network". A native review may
   prefer `心の輪` (ring of hearts) or just the katakana loanword
   `ハートネットワーク`. Kept the poetic form.
-- `心宿 (Kokoro Yado)` for "Heart Residency" — coined compound, defensible
+- `心宿 (Kokoro Yado)` for "Heart Residency": coined compound, defensible
   brand name. Native review may prefer `ハートレジデンシー` katakana.
-- `港心 (Minatokokoro)` for the monument — coined brand name, defensible.
+- `港心 (Minatokokoro)` for the monument: coined brand name, defensible.
 
 ### Still needs native-speaker review
 - All hero-section copy fluency.
@@ -141,7 +141,7 @@ Three mural texts need community-level review before any real-world implementati
   warm conversational voice.
 - `de la primera ola` instead of `wave-1`. May read formal; Chilean
   reviewer can decide.
-- `vivienda incremental en la tradición ELEMENTAL` — kept the all-caps
+- `vivienda incremental en la tradición ELEMENTAL`: kept the all-caps
   `ELEMENTAL` as Aravena's office uses it that way in their own copy.
 
 ### Still needs native-speaker review
@@ -220,12 +220,12 @@ Three mural texts need community-level review before any real-world implementati
   alveolar-click `!`. No change.
 
 ### Defensible choices kept
-- `Bo-Kaap bredie` — bredie (slow-cooked stew) is a Cape Malay term,
+- `Bo-Kaap bredie`: bredie (slow-cooked stew) is a Cape Malay term,
   correct usage.
-- `Tweede Nuwe Jaar` (Cape Minstrels parade, 2 January) — Afrikaans,
+- `Tweede Nuwe Jaar` (Cape Minstrels parade, 2 January): Afrikaans,
   correct usage.
 - Khoekhoen and San as the traditional custodians of the Cape Town
-  area — historically accurate.
+  area: historically accurate.
 
 ### Still needs native-speaker review
 - The actual content does not contain extended isiXhosa or Khoekhoegowab
@@ -249,15 +249,15 @@ Three mural texts need community-level review before any real-world implementati
   natural Catalan.
 
 ### Defensible choices kept
-- `Xarxa del Cor` for "Heart Network" — `xarxa` is the natural Catalan
+- `Xarxa del Cor` for "Heart Network": `xarxa` is the natural Catalan
   word for network (compare Japanese `心の網` and Hindi `हृदय जाल`
   which use the more literal "net" calque).
-- `Cor FM`, `Cor Kids TV` — English-Catalan brand mix, defensible as
+- `Cor FM`, `Cor Kids TV`: English-Catalan brand mix, defensible as
   international brand names.
 
 ### Still needs native-speaker review
-- The `Cor` brand prefix (`El Cor Viu`, `Llars del Cor`, `Cor FM`, etc.)
-  — `cor` in Catalan literally means "heart". A native Catalan-speaker
+- The `Cor` brand prefix (`El Cor Viu`, `Llars del Cor`, `Cor FM`, etc.):
+  `cor` in Catalan literally means "heart". A native Catalan-speaker
   should confirm this reads as natural Catalan branding rather than as
   awkward English-Catalan code-switching.
 

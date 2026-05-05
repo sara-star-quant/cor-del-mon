@@ -39,8 +39,9 @@ start are:
   the nine mandatory sections every city honours, the synchronized heartbeat,
   the Cor Residency and Biennale mechanics, the four milestone years, and
   how a new city signs the Cor Charter to join.
-- **[`COMMERCIAL.md`](COMMERCIAL.md)**, for cities, governments, developers, publishers, and
-  foundations who want to take this work into a real built or commercial setting.
+- **[`DISCLAIMER.md`](DISCLAIMER.md)**, the full disclaimer covering professional
+  advice, named entities, illustrative numbers, and the no-funds, no-investment,
+  no-consultancy posture of the project.
 
 ## How it is built
 
@@ -113,9 +114,11 @@ Two licenses, by intent:
   You may quote, cite, adapt, and redistribute the writing with attribution,
   for any non-commercial purpose.
 
-For commercial use of either, **see [`COMMERCIAL.md`](COMMERCIAL.md)**. Commercial licensing and
-design consultancy are available, and a short email to **cor-del-mon [at] protonmail [dot] com**
-is enough to start a conversation.
+Commercial use is not granted by either licence. The project does not offer commercial
+licensing, paid consultancy, design services, partnership for fee, or any other paid
+arrangement. No funds have been raised, applied for, awarded, committed, or accepted.
+For corrections, native-speaker review, community review, or removal requests, open a
+public contact thread on GitHub Issues or use the email in [`DISCLAIMER.md`](DISCLAIMER.md).
 
 ## Contributing
 

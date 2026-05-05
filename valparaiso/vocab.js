@@ -247,24 +247,24 @@ const vocab = {
     intro: "Lo que un faro de 47m en Muelle Prat realmente debe negociar, y las autoridades reales que tienen el trabajo en sus manos.",
     category: "Restauración patrimonial dentro del Plan Maestro UNESCO + ancla cultural en Muelle Prat + DS-1 vivienda incremental. Categoría existente del urbanismo chileno. No requiere paquete de permiso nuevo.",
     permissionChain: [
-      "Empresa Portuaria Valparaíso (EPV) firma el arriendo de largo plazo del sitio Muelle Prat. El Gerente General de EPV firma el MoU.",
-      "DIRECTEMAR (Autoridad Marítima) aprueba uso de borde costero.",
-      "Consejo de Monumentos Nacionales (CMN) revisa intervenciones en el buffer UNESCO; el Secretario Ejecutivo del CMN firma.",
-      "Municipalidad de Valparaíso (Plan Regulador Comunal). El Alcalde firma el MoU cultural.",
-      "Gobierno Regional de Valparaíso. El Gobernador Regional aprueba la asignación capital regional.",
-      "MINVU (Ministerio de Vivienda y Urbanismo) más MINCAP (Ministerio de las Culturas, las Artes y el Patrimonio) a nivel nacional.",
-      "Servicio Nacional de Migraciones, cupo de Visa Subject to Contract para residentes Cor."
+      "Arriendo de largo plazo del sitio portuario con la autoridad portuaria estatal correspondiente, en su carácter estatutario, sin nombrar contrapartes específicas en esta etapa.",
+      "Aprobación de uso de borde costero por la autoridad marítima estatutaria correspondiente.",
+      "Revisión patrimonial estatutaria por la autoridad nacional de monumentos correspondiente para cualquier intervención en el buffer UNESCO.",
+      "Aprobación municipal estatutaria conforme al Plan Regulador Comunal vigente.",
+      "Aprobación regional estatutaria por el Gobierno Regional correspondiente para cualquier asignación de capital regional.",
+      "Coordinación estatutaria con los ministerios chilenos de vivienda y de cultura cuando aplique.",
+      "Cupo de visa cultural a través del Servicio Nacional de Migraciones, dentro de las categorías existentes, si una versión construida se llegara a perseguir formalmente."
     ],
     budgetSources: [
-      "MINVU DS-1 (programa existente de subsidio para vivienda incremental, mismo programa que financia los proyectos ELEMENTAL).",
-      "MINCAP, infraestructura cultural (Programa de Infraestructura Cultural Pública).",
-      "Gobierno Regional de Valparaíso, aporte capital regional (Fondo Nacional de Desarrollo Regional).",
-      "Empresa Portuaria Valparaíso, aporte en especie del sitio Muelle Prat.",
-      "Cor del Món red, aporte de capital partner.",
-      "Filantropía chilena y latinoamericana: Fundación Mar Adentro, Fundación Cultural de Providencia, Centex (Centro de Extensión Cultural de Valparaíso), iniciativas culturales del grupo Quiñenco-Luksic. (Fundación Andes ya no existe; se disolvió en 2008 distribuyendo su capital.)"
+      "Categorías de fuentes de financiamiento que en principio podrían aplicar a una hipotética versión construida, listadas sin nombrar entidad ni programa específico.",
+      "Líneas nacionales o regionales de capital de infraestructura cultural, donde existan y apliquen, sujetas a las prioridades y procedimientos estatutarios de cada autoridad.",
+      "Líneas nacionales o regionales de subsidio para vivienda asequible o incremental como capa adicional sobre programas existentes, no como programa paralelo.",
+      "Filantropía cultural privada activa en Chile, sujeta a los procesos de postulación de cada fundación.",
+      "Aportes en especie de propietarios públicos cuando un arriendo cultural de largo plazo sea factible bajo la normativa chilena de propiedad pública.",
+      "No se han recaudado, solicitado, adjudicado, comprometido ni aceptado fondos para esta propuesta. No se solicita inversión. No se ofrece consultoría comercial."
     ],
     items: [
-      { area: "Puerto",                detail: "Muelle Prat es propiedad de la Empresa Portuaria Valparaíso (EPV). El uso del sitio requiere arriendo de largo plazo con EPV más aprobación de la Autoridad Marítima (DIRECTEMAR). La negociación con EPV se inicia en el año del Charter; el faro no compite con el comercio del puerto, lo enmarca." },
+      { area: "Puerto",                detail: "Cualquier sitio en el borde portuario es de propiedad estatal y requiere arriendo de largo plazo con la autoridad portuaria estatutaria correspondiente, más aprobación de la autoridad marítima estatutaria. La propuesta no nombra una contraparte específica en esta etapa; las negociaciones, en caso de perseguirse formalmente una versión construida, se iniciarían en el año del Charter dentro del marco normativo chileno." },
       { area: "UNESCO",                detail: "Las 200 casas patrimoniales restauradas en Cerro Alegre, Cerro Concepción y el Plan requieren aprobación del Consejo de Monumentos Nacionales (CMN). Cor del Món no opera en paralelo al Plan Maestro de Recuperación Patrimonial de la Municipalidad sino dentro de él, sumando una capa de prioridad joven-familia sobre las cuotas existentes." },
       { area: "Sísmica",               detail: "NCh433 más NCh2745 para zona de subducción del Pacífico, revisada por la Cámara Chilena de la Construcción. La aislación basal del faro no es opcional, es obligatoria. Los terremotos de 1906 (M8.2) y 2017 (M6.9) son las referencias locales." },
       { area: "Residencia",            detail: "La Residencia del Corazón (10 entrantes por año) opera dentro del marco existente Subject to Contract / Definitive Permanent Residency de Chile, no como nueva categoría de visa. Servicio Nacional de Migraciones gestiona el cupo dedicado." },
@@ -275,14 +275,14 @@ const vocab = {
   costs: {
     title: "Costos aproximados (2026 USD)",
     monumentTotal: "USD 40 a 70 millones",
-    intro: "Estimaciones de orden de magnitud, ancladas a edificios cívicos chilenos comparables (Centro Cultural Gabriela Mistral remodelado costó USD 25M en 2010; Parque Cultural Valparaíso ex-Cárcel costó USD 18M en 2011). Presupuestos reales después del concurso internacional.",
+    intro: "No se han recaudado, solicitado, adjudicado, comprometido ni aceptado fondos para esta propuesta. No se solicita inversión y no se ofrece consultoría comercial. Las cifras siguientes son estimaciones de orden de magnitud meramente ilustrativas, ancladas a obras cívicas chilenas públicamente comparables (el Centro Cultural Gabriela Mistral remodelado fue reportado en alrededor de USD 25M en 2010; el Parque Cultural Valparaíso ex-Cárcel en alrededor de USD 18M en 2011), y existen solo para dar contexto narrativo al diseño. Los presupuestos reales, en caso de perseguirse formalmente una versión construida, se establecerían tras concurso internacional y revisión estatutaria por profesionales licenciados en la jurisdicción correspondiente.",
     stages: [
       { phase: "Charter (2030)",          range: "USD 2 a 4M",   scope: "Concurso internacional de diseño + acuerdo de arriendo con EPV + estudios de sitio Muelle Prat + aprobación CMN para impacto en buffer UNESCO" },
       { phase: "Break Ground (2031-32)",  range: "USD 8 a 14M",  scope: "Aislación basal NCh2745, marco de acero, plinto de mármol Pelequén, obras marítimas en Muelle Prat" },
       { phase: "Construction (2032-37)",  range: "USD 22 a 40M", scope: "Fachada de hierro galvanizado pintado, pabellones de madera laminada, mirador del octavo piso, sistema de circulación switchback" },
       { phase: "Operational (2038)",      range: "USD 6 a 10M",  scope: "Estudio de la Hora de Valparaíso, fitout de ceremonia, programa de inauguración con el Festival de Viña del Mar" }
     ],
-    fundingNote: "Mezcla de financiamiento esperada: Gobierno Regional de Valparaíso más MINCAP (Ministerio de las Culturas, las Artes y el Patrimonio) (20-30%), participación red Cor del Món (35-50%), filantropía latinoamericana (Fundación Andes, Luksic Cultural) (15-25%), aporte en especie EPV (sitio). Sin financiamiento de un solo soberano extranjero."
+    fundingNote: "Categorías de financiamiento que en principio podrían aplicar a una hipotética versión construida, sin nombrar entidades específicas: líneas nacionales o regionales de capital de infraestructura cultural, líneas de vivienda asequible o incremental como capa adicional (no programa paralelo), filantropía cultural privada activa en Chile, y aportes en especie de propietarios públicos cuando un arriendo cultural de largo plazo sea factible. No se han recaudado, solicitado, adjudicado, comprometido ni aceptado fondos. No se ofrece consultoría comercial."
   },
   impact: {
     title: "Impacto y beneficio",
@@ -295,12 +295,13 @@ const vocab = {
     ]
   },
   alternatives: {
-    title: "Si el sitio principal no resulta",
-    intro: "Si el arriendo con EPV en Muelle Prat falla, hay caminos alternativos en la región.",
+    title: "Expresiones más livianas de la misma idea",
+    intro: "La propuesta se ofrece como una idea de diseño y de investigación creativa, no como un plan de recaudación ni como un compromiso construido. La expresión más liviana, indicada abajo, es la opción por defecto recomendada para cualquier ciudad que quiera honrar la idea sin un monumento construido.",
     items: [
-      { fallback: "Cerro Concepción (dentro de Valparaíso, buffer UNESCO)", reason: "Mismo contexto cultural, escala más íntima, sin negociación con la autoridad portuaria. Compromiso: la altura tendría que bajar a 30-35m por restricciones del buffer UNESCO." },
-      { fallback: "Viña del Mar (ciudad hermana, costa)",                   reason: "Sin carga UNESCO, contexto de balneario más turístico, más espacio buildable. Compromiso: Viña no es Valparaíso. La narrativa de Neruda y la nueva canción se diluye." },
-      { fallback: "Concepción (sur de Chile, ciudad universitaria)",        reason: "Solo si todo lo anterior falla. Concepción tiene historia industrial, contexto sísmico aún más fuerte (zona de la falla 1960), y un escenario universitario joven. Pero pierde la conexión con el imaginario porteño." }
+      { fallback: "Expresión solo holográfica (la opción por defecto recomendada)", reason: "La experiencia Cor del Món para Valparaíso entregada como proyección, holograma e instalación de realidad aumentada dentro de un edificio público existente. Sin obra nueva, sin uso de suelo, sin riesgo sísmico ni patrimonial, sin permisos más allá de las autorizaciones estándar para eventos públicos. Aproximadamente entre uno y tres por ciento del costo de la versión construida. De seis a dieciocho meses desde el acuerdo hasta la inauguración. Totalmente reversible. El gobierno local mantiene flexibilidad completa para sincronizar la instalación con su propio calendario cívico y cultural y para reubicarla o retirarla en cualquier momento. Es la ruta más segura y rápida para cualquier ciudad que quiera participar sin comprometerse a una construcción permanente." },
+      { fallback: "Expresión impresa, audiovisual y en línea", reason: "La idea de diseño publicada como libro, catálogo de exposición, documental, sitio web de acceso abierto y red de charlas públicas, sin instalación física en la ciudad. Costo aún menor, sin compromiso del gobierno local de ningún tipo." },
+      { fallback: "Cerro Concepción (dentro de Valparaíso, buffer UNESCO)", reason: "Sitio alternativo dentro del mismo contexto cultural; listado solo como nota de investigación de diseño en caso de perseguirse formalmente una versión construida." },
+      { fallback: "Viña del Mar (ciudad hermana, costa)", reason: "Sitio alternativo costero sin carga UNESCO; listado solo como nota de investigación de diseño." }
     ]
   }
 };

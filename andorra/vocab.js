@@ -247,10 +247,12 @@ const vocab = {
       "Unitat d'Intel·ligència Financera (UIFAND), foreign-source funding registration."
     ],
     budgetSources: [
-      "Ministeri de Cultura cultural-infrastructure line (annual capital budget).",
-      "Ministeri d'Ordenament Territorial existing affordable-housing programme (Llars del Cor as an overlay, not a new line item).",
-      "Cor del Món network partner-share contribution (around 50% of monument cost).",
-      "EU and EIB cultural-infrastructure facilities are not currently open to Andorra (Andorra has a customs union with the EU and is in active Association-Agreement negotiations as of 2026); listed only as a future option once the Association Agreement enters into force."
+      "Funding-source categories that could in principle apply to a hypothetical built version, listed without naming any specific entity or programme.",
+      "National cultural-infrastructure capital lines, where they exist and apply, subject to each ministry's own priorities and statutory procedures.",
+      "National affordable-housing capital lines as an overlay on existing programmes, not as a parallel programme.",
+      "Private cultural philanthropy active in the relevant country, subject to each foundation's own application processes.",
+      "In-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under local public-property law.",
+      "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited. No commercial consultancy is offered."
     ],
     items: [
       { area: "Building permits",   detail: "El Cor Viu at 33m is the new tallest building in Andorra by about three metres. Govern d'Andorra building approval and the Comú d'Andorra la Vella urban-plan amendment are both required from Charter year. The 33m height is deliberately sized to need standard review rather than special legislation." },
@@ -263,14 +265,14 @@ const vocab = {
   costs: {
     title: "Approximate costs (2026 USD)",
     monumentTotal: "USD 10 to 15 million",
-    intro: "Order-of-magnitude estimates. Real budgets will come after the international design competition and detailed engineering.",
+    intro: "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited and no commercial consultancy is offered. The figures below are illustrative order-of-magnitude estimates anchored against publicly comparable civic builds, and exist solely to ground the design narrative. Real budgets, if a built version were ever formally pursued, would be set after an international design competition and detailed engineering by licensed professionals in the relevant jurisdiction.",
     stages: [
       { phase: "Charter (2027)",          range: "USD 0.5 to 1.0M",  scope: "Design competition prize + jury + initial site studies + Govern approvals" },
       { phase: "Break Ground (2028)",     range: "USD 2 to 3M",      scope: "Foundation, Pyrenean granite plinth, RC core to grade" },
       { phase: "Construction (2029-2031)", range: "USD 6 to 9M",     scope: "Stone-clad RC core, rose-tinted glass curtain wall, larch interior, eternal flame, mirador" },
       { phase: "Operational (2032)",      range: "USD 1.5 to 2.0M",  scope: "Fitout, broadcast studio, opening programme" }
     ],
-    fundingNote: "Andorra contribution from Govern d'Andorra cultural budget plus partner-network share. No external sovereign funding sought."
+    fundingNote: "Funding categories that could in principle apply to a hypothetical built version, listed without naming any specific entity: national cultural-infrastructure capital lines, national affordable-housing capital lines as an overlay (not a parallel programme), private cultural philanthropy active in the relevant country, and in-kind contributions from public landholders where a long-term cultural-anchor lease is feasible. No funds have been raised, applied for, awarded, committed, or accepted. No commercial consultancy is offered."
   },
   impact: {
     title: "Impact and benefit",
@@ -279,6 +281,14 @@ const vocab = {
       { metric: "5 Cor Residency intake per year",      note: "Five incoming creative residents annually from 2032, housed in retrofitted Andorra la Vella and Escaldes apartments. Punching above weight as the network's seed." },
       { metric: "Network broadcast hub",                note: "Cor FM and Cor Kids TV stream from El Cor Viu studios. Each operational network city contributes a weekly hour. Andorra anchors the broadcast in perpetuity." },
       { metric: "33m monument as the seed silhouette",  note: "Modest by global standards; substantial for Andorra (new tallest by ~3m). The seed should not dwarf the country it grows from." }
+    ]
+  },
+  alternatives: {
+    title: "Lighter expressions of the same idea",
+    intro: "The proposal is offered as a creative-research design idea, not as a fundraising plan or a built commitment. The lightest expression below is the recommended default for any city that wishes to honour the idea without a built monument.",
+    items: [
+      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Cor del Món city experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building. No new construction, no land take, no seismic or heritage risk, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and cultural calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build." },
+      { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." }
     ]
   }
 };
