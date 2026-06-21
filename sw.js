@@ -4,7 +4,7 @@
 //
 // Bump CACHE_VERSION when you ship a content change you want users to see
 // immediately on next reload.
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const CACHE = `cor-del-mon-${CACHE_VERSION}`;
 
 // Compute the deploy base from the SW's own location so this works at both
