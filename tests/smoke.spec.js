@@ -47,11 +47,11 @@ test('smoke: cor-cities.json has six Wave-1 cities with the expected slugs', asy
   expect(data.biennaleHosts).toHaveLength(6);
 });
 
-test('smoke: cor-constitution.json has nine sections, six mechanics, and a rolling-wave object', async ({ request }) => {
+test('smoke: cor-constitution.json has nine sections, eight mechanics, and a rolling-wave object', async ({ request }) => {
   const resp = await request.get('_shared/cor-constitution.json');
   const data = await resp.json();
   expect(data.sections).toHaveLength(9);
-  expect(data.mechanics).toHaveLength(6);
+  expect(data.mechanics).toHaveLength(8);
   expect(data.rollingWave, 'rollingWave object present').toBeDefined();
   expect(data.rollingWave.stages.map(s => s.name)).toEqual(['Charter', 'Break Ground', 'Operational', 'Generation']);
   expect(data.rollingWave.phases.map(p => p.name)).toEqual(['Genesis', 'Activation', 'Spread', 'Network', 'Lifetime']);

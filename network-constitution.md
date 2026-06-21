@@ -46,7 +46,7 @@ Every city site, including the Cor del Món landing, contains exactly nine secti
 
 A city site that omits any of the nine sections, or reorders them, is not part of Cor del Món for that quarter. Restoring the section restores membership immediately. There is no penalty beyond the obvious one: the network's coherence depends on this.
 
-## The Six Mechanics (what makes it a network rather than a coincidence)
+## The Network Mechanics (what makes it a network rather than a coincidence)
 
 These are the active threads that connect the cities once they are built.
 
@@ -62,9 +62,13 @@ These are the active threads that connect the cities once they are built.
 
 6. **Wave-2 Admission.** **Opens 2042**, after the Network phase begins and the wave-1 six are all operational. The network needs operating mass before it can mentor Wave-2 cities. Admission requires a Cor Charter signing, a funded monument site, and a Year-1 Residency hosting commitment. Target: thirty-plus member cities by 2050. Marrakech enters as a **Wave-2 transitional city around 2034** with operational by ~2041 (effectively a Wave-2 first-mover sponsored by the Cape Town African cluster).
 
+7. **Shared Heart-Core.** Every monument is the same **12-metre living heart**, the shared heart-core made the whole building, differing only in each city's materials and skin. By night it blooms into a far larger **heart of light** that beats in sync across all six cities at 60 BPM, dimmed from homes and protected views, weightless and fully reversible. The literal expression of unity, and almost free.
+
+8. **The Cor Year.** A year-round calendar relay on top of the daily and biennale rhythms. Each city anchors one window of the year with a love-and-life theme rooted in its own real festival, and the baton passes city to city: **Valparaíso (January, Año Nuevo en el Mar), Adelaide (March, festival season), Andorra (April, Sant Jordi roses), Jaipur (August, Teej), Cape Town (September, Heritage), Yokohama (October, jazz and the harbour)**, then loops.
+
 ## The Rolling Wave Schedule
 
-Each city's Roadmap section contains exactly four milestone entries (Charter, Break Ground, Operational, Generation) at **city-specific years**. Cor del Món is a rolling wave, not a synchronized handover. Each monument is also sized to its own city (Andorra 33m, Yokohama 120m, Adelaide 65m, Valparaíso 47m, Cape Town 99m, Jaipur 28m), and takes four to seven years from charter signature to ribbon-cutting; six in parallel by 2035 is not feasible. The schedule below honours the regulatory and construction reality of each city.
+Each city's Roadmap section contains exactly four milestone entries (Charter, Break Ground, Operational, Generation) at **city-specific years**. Cor del Món is a rolling wave, not a synchronized handover. Every city builds the same 12m heart, the shared heart-core made the whole monument, in its own materials and crowned at night by a heart of light that beats with all six; each takes four to seven years from charter signature to ribbon-cutting, and six in parallel by 2035 is not feasible. The schedule below honours the regulatory and construction reality of each city.
 
 The four stages, identical across every city:
 
@@ -102,9 +106,9 @@ The network rolling-wave at a glance:
 
 The African footprint of Cor del Món is a **cluster**, not a single city. Cape Town anchors as the Wave-1 city. Marrakech enters as a Wave-2 transitional city sponsored by Cape Town. Stone Town Zanzibar enters as a full Wave-2 candidate when the network is ready. The cluster gives the network meaningful African scale across three regional registers (Atlantic Cape, Mediterranean-Atlas, Swahili Coast).
 
-All timing in this section is **subject to further research** with each city's local government, architectural community, and civic stakeholders. Q2 2026 numbers below are the baseline.
+All timing in this section is **subject to further research** with each city's local government, architectural community, and civic stakeholders. Q3 2026 numbers below are the baseline.
 
-| Candidate | Status | Q2 2026 numbers | Why this fits Cor del Món | Operational target |
+| Candidate | Status | Q3 2026 numbers | Why this fits Cor del Món | Operational target |
 |---|---|---|---|---|
 | **Cape Town, South Africa** | Wave-1 anchor (live) | 5.06M Greater Cape Town (2025); SA national TFR 2.21; Day Zero water crisis 2015 to 2020 (broke 2020 with 95% dam levels); 14% of households in informal settlements use 4% of water | Karoo sandstone + Cape pine + hempcrete water-positive design; Table Mountain anchor; V&A Waterfront site; strong sister-city muscle; contemporary architecture lineage (Jo Noero, Heinrich Wolff, KMH, Sumayya Vally) | **2039** (rolling-wave Operational) |
 | *Marrakech, Morocco* | *Wave-2 transitional, sponsored by Cape Town* | *1.10M (2026), +1.71% YoY; Marrakech Biennale active (2025 edition Nov 6 to Dec 7); Morocco at Venice Biennale 2025 with "Materiae Palimpsest" by El Ghilali + Belyasmine on earth architecture; 2023 Al Haouz earthquake (M6.8) is real seismic context* | *Riad typology (intimate courtyard around water and garden) is the most direct architectural match for Cor del Món anywhere in Africa; Red City colour anchor pairs with Jaipur's Pink City; Berber + Arab + Andalusian three-layer heritage; Gueliz / Hivernage districts accommodate modern construction* | ***2040 to 2041*** *(target, subject to further research)* |
@@ -144,11 +148,11 @@ A city that signs all four becomes a full member at the next Cor Biennale.
 
 Any city in good standing may propose an amendment to this Constitution by opening a pull request against `network-constitution.md` in the central repository.
 
-Amendments to the Nine Sections, the Six Mechanics, or the Four Milestones require unanimous agreement from all current member cities, expressed as approving reviews on the pull request.
+Amendments to the Nine Sections, the Network Mechanics, or the Four Milestones require unanimous agreement from all current member cities, expressed as approving reviews on the pull request.
 
 Amendments to the Visual Identity, to the Cor Charter signature requirements, or to this Amendments section itself require a two-thirds majority of current member cities.
 
-The first version of this Constitution (v1.0, Q2 2026) was authored by the Andorra seed team. Subsequent versions are versioned in the file's frontmatter once the second city ratifies.
+The first version of this Constitution (v1.0, Q3 2026) was authored by the Andorra seed team. Subsequent versions are versioned in the file's frontmatter once the second city ratifies.
 
 ## License
 
@@ -158,4 +162,4 @@ Commercial use is not granted. The project does not offer commercial licensing, 
 
 ---
 
-*Cor del Món, six cities beat as one. Q2 2026, v1.0.*
+*Cor del Món, six cities beat as one. Q3 2026, v1.0.*

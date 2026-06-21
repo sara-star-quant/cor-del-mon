@@ -1,4 +1,4 @@
-# Language Review (LLM Pass, Q2 2026)
+# Language Review (LLM Pass, Q3 2026)
 
 **This is not a native-speaker review.** This document captures a careful
 language-model pass over every non-English string on the Cor del Món sites.
