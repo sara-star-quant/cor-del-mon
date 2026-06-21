@@ -1,4 +1,4 @@
-// Cape Town · Living Heart Cape Town vocabulary, v1.0 (Q2 2026).
+// Cape Town · Living Heart Cape Town vocabulary, v1.0 (Q3 2026).
 // Validates against /_shared/vocab.schema.json.
 // Loaded as an ES module by /capetown/index.html and exposed on window.CapeTownVocab
 // for the Babel-standalone App script that cannot use ES import.
@@ -11,7 +11,7 @@
 // Cape Town anchors the African cluster of Cor del Món as the Wave-1 city. Marrakech
 // joins as a Wave-2 transitional city sponsored by Cape Town (around 2034-2041), and
 // Stone Town Zanzibar joins as a full Wave-2 candidate (post-2042). See the Africa
-// Cluster section of /network-constitution.md for the cluster's Q2 2026 numbers and
+// Cluster section of /network-constitution.md for the cluster's Q3 2026 numbers and
 // timing-uncertain markers.
 
 const vocab = {
@@ -46,14 +46,15 @@ const vocab = {
     sans:  "'Work Sans', system-ui, -apple-system, sans-serif"
   },
   monument: {
-    heightM: 99,
+    heightM: 12,
     name: "Living Heart Cape Town",
     completionYear: 2039,
-    signature: "A 99 metre Living Heart at the V&A Waterfront, with Table Mountain rising behind it and the Atlantic at its plinth. Table Mountain is 1086 metres above sea level; the Living Heart stops at 99 on purpose, just under one hundred, so the Mountain stays the only thing in the city above 100. Karoo sandstone facade in warm pink-ochre tones, Cape pine timber pavilions inside, water-positive design that recycles greywater into a public reflective pool. The heart that sits at the foot of the mountain and never tries to compete with it."
+    signature: "A 12 metre Living Heart at the V&A Waterfront, with Table Mountain rising behind it and the Atlantic at its plinth, the same 12 metre heart every Cor city builds. At this height the south-easterly Cape Doctor wind that governs tall structures here is a non-issue, and the build is cheap and quick. Table Mountain sandstone facade, the Cape's own heritage building stone, glowing honey-grey by day and rose at sunset, on a Cape granite plinth that has held this coast for centuries and shrugs off the salt. Cape pine timber inside, marine-grade stainless fixings, water-positive design that recycles greywater into a public reflective pool. By night, during accepted hours, the little stone heart blooms into a far larger heart of light at the foot of the mountain that beats in time with all six cities, weightless and fully reversible, dimmed away from Table Mountain's protected view corridors. The heart that sits at the foot of the mountain and never competes with it, identical at its core to its five sisters around one flame."
   },
   nationalStyle: {
     materials: [
-      { name: "Karoo sandstone",      sourceRegion: "Karoo basin quarries (Western and Northern Cape)",         role: "Facade panels in warm pink-ochre, the colour of Cape Town at sunset against Table Mountain" },
+      { name: "Table Mountain sandstone", sourceRegion: "Table Mountain Group sandstone, the Cape Peninsula's own heritage building stone", role: "Facade panels in warm honey-grey, the stone of the Cape's old civic buildings, glowing rose at sunset against the mountain" },
+      { name: "Cape granite",         sourceRegion: "Peninsula granite at the mountain's foot (Sea Point, Boulders)", role: "Plinth and splash-zone base, the salt-proof stone that has held the Cape coast for centuries" },
       { name: "Cape pine timber",     sourceRegion: "Tokai and Newlands plantation forests, Cape Peninsula",    role: "Interior pavilion structure, ceremony floor planking, mass-timber columns above the plinth" },
       { name: "Hempcrete",            sourceRegion: "Western Cape hemp plantations (post-2018 legalisation)",    role: "Hearts of Home wall infill, low-carbon thermal mass for the Mediterranean climate" },
       { name: "Patinated copper",     sourceRegion: "Northern Cape copper belt (Springbok)",                     role: "Roof shells of the entry pavilion, weathering to verdigris green-rose" },
@@ -66,17 +67,17 @@ const vocab = {
       { name: "Veld horizon line",         origin: "Karoo and Western Cape veld",                                   application: "Floor-plate logic of the building, with horizontal banding referencing the Karoo veld" },
       { name: "Cape Doctor wind diagrams", origin: "The south-easterly Cape Doctor that scrubs the city in summer", application: "Internal ventilation design, bay-front cross-ventilation tuned to the prevailing wind" }
     ],
-    buildingTypology: "Karoo sandstone facade on a reinforced concrete core, with Cape pine timber pavilions above the plinth, water-positive systems, and a Table Mountain silhouette echoed in the roofline",
+    buildingTypology: "Table Mountain sandstone facade on a reinforced concrete core, with Cape pine timber pavilions above the plinth, water-positive systems, and a Table Mountain silhouette echoed in the roofline",
     referenceArchitects: ["Jo Noero", "Heinrich Wolff", "KMH Architects (Kotze Marais Holscher)", "Sumayya Vally (Counterspace, 2021 Serpentine Pavilion)"],
-    silhouette: "A heart of warm Karoo sandstone with a flat-topped pavilion crown that echoes Table Mountain, lit at evening with patinated copper roof shells catching the Cape Doctor wind"
+    silhouette: "A heart of warm Table Mountain sandstone with a flat-topped pavilion crown that echoes Table Mountain, lit at evening with patinated copper roof shells catching the Cape Doctor wind"
   },
   seismic: {
     code: "SANS 10160-4:2017 (Basis of structural design and actions for buildings, Part 4: Seismic actions and general requirements for buildings) and SANS 10100-1 for reinforced concrete",
     designSpec: "Cape Town sits in a low-to-moderate intra-plate seismic zone. The 1969 Ceres earthquake (M6.3, around 120km from Cape Town) is the local reference. Hazard factor (Z) for Cape Town is around 0.10 to 0.15g.",
     peakAccel: "0.15g design / 0.25g MCE",
-    isolation: "No base isolation needed at this seismicity level. The Karoo sandstone facade panels are mounted on a ductile reinforced-concrete core with internal vertical steel and post-tensioning. Cape pine timber pavilions above the plinth use moment-resisting CLT joints designed for the modest seismic demand.",
+    isolation: "No base isolation needed at this seismicity level. The Table Mountain sandstone facade panels are mounted on a ductile reinforced-concrete core with internal vertical steel and post-tensioning. Cape pine timber pavilions above the plinth use moment-resisting CLT joints designed for the modest seismic demand.",
     notes: "Cape Town is South Africa's most active intra-plate seismic city, but still well below the demand levels of Pacific or Mediterranean cities. SANS 10160-4 governs. The building's main structural challenge is the Cape Doctor wind (south-easterly, gusts to 90 km/h) rather than seismic forces.",
-    designConsequences: "Without the cost burden of base isolation, the budget shifts to the water-positive systems (a real necessity in post-Day-Zero Cape Town) and to the Karoo sandstone facade quality. The building reads as Cape vernacular at every scale, from the flat-topped roofline to the warm-pink stone."
+    designConsequences: "Without the cost burden of base isolation, the budget shifts to the water-positive systems (a real necessity in post-Day-Zero Cape Town) and to the Table Mountain sandstone facade quality. The building reads as Cape vernacular at every scale, from the flat-topped roofline to the warm-pink stone."
   },
   sections: {
     hero: {
@@ -86,7 +87,7 @@ const vocab = {
       lead: "Greater Cape Town, around 5.06 million people on the traditional lands of the Khoekhoen and San. Table Mountain rises behind. The Atlantic stretches west. The Indian Ocean meets the Atlantic at Cape Point, two hours south. South Africa's national fertility is 2.21 (2025); Cape Town's housing inequality is real (14% of households in informal settlements use only 4% of municipal water). The 2015 to 2020 Day Zero water crisis is a scar that shapes every new building's design brief. Cor del Món asks Cape Town to do what it already knows how to do: build with the water it has, the wind it has, the mountain it has, and the people it has.",
       viral: "A city that almost ran out of water. A city that did not. A city that knows what real urban love looks like.",
       stats: [
-        { n: "99m",      l: "Living Heart Monument" },
+        { n: "12m",      l: "Living Heart (the shared heart, +heartbeat of light)" },
         { n: "10",       l: "Heart-shaped Cor landmarks" },
         { n: "1,500",    l: "Hearts of Home by 2040" },
         { n: "1 hr/wk",  l: "Cape Town Hour on Cor FM" },
@@ -96,7 +97,7 @@ const vocab = {
     monumentSection: {
       label: "Living Heart Cape Town",
       title: "The Heart at the V&A Waterfront",
-      lead: "A 99 metre Living Heart at the V&A Waterfront. Table Mountain is 1086 m; the Heart stops at 99 so the Mountain stays the city's only triple-digit landmark. Karoo sandstone facade in warm pink-ochre tones, Cape pine timber pavilions inside, water-positive design that recycles greywater into a public reflective pool.",
+      lead: "A 12 metre Living Heart at the V&A Waterfront, the same heart every Cor city builds. At this height the Cape Doctor wind is a non-issue. Table Mountain sandstone facade glowing honey-grey by day and rose at sunset, Cape granite plinth against the salt, Cape pine timber inside, water-positive design that recycles greywater into a public reflective pool. By night it blooms into a far larger heart of light at the foot of the mountain, beating with all six cities, dimmed from the protected view corridors.",
       viral: "Other cities build with concrete. Cape Town builds with sandstone, timber, and the conviction that water is precious."
     },
     passivhaus: {
@@ -109,7 +110,7 @@ const vocab = {
         { icon: "drop",   title: "Water-positive design",            desc: "Rainwater harvesting from every roof, greywater recycling for toilets and laundry, native fynbos landscape that needs no irrigation. Each block produces more water than it consumes in an average rainfall year." },
         { icon: "leaf",   title: "Hempcrete bay-courtyard blocks",   desc: "Hemp-lime insulation in the south-facing walls (Western Cape grown, post-2018 legalisation). Each block of 12 units around a heart-shaped courtyard with a fynbos garden and a single milkwood tree." },
         { icon: "hearth", title: "Family-first, intergenerational",  desc: "Every unit: 3+ bedrooms, soundproofed nurseries, an alcove for an elder family member, sliding panels reconfiguring the floor plan as the family grows. Designed for a multi-generational South African household." },
-        { icon: "key",    title: "Subsidised for young families",    desc: "Eligible Cape Town residents under 35 with two-plus years of residency: up to 30% subsidy on Hearts of Home units, scaled by number of children. Income-tested. Coordinated with the City of Cape Town's existing Breaking New Ground (BNG) housing programme. Proposed Q2 2026." },
+        { icon: "key",    title: "Subsidised for young families",    desc: "Eligible Cape Town residents under 35 with two-plus years of residency: up to 30% subsidy on Hearts of Home units, scaled by number of children. Income-tested. Coordinated with the City of Cape Town's existing Breaking New Ground (BNG) housing programme. Proposed Q3 2026." },
         { icon: "sun",    title: "Net-zero, Cape-Doctor cooled",     desc: "Solar shingles on every unit, geothermal warmth from the Cape Flats aquifer, evaporative comfort through the Cape Doctor wind during summer. Bills minimal year round, water-positive in normal rainfall years." },
         { icon: "arc",    title: "Timeline: Q1 2033 start",          desc: "Phase 1 (2033-2036): 700 units in Khayelitsha (formal infill upgrade alongside existing community). Phase 2 (2036-2038): 500 in Mitchells Plain (revitalisation of apartheid-era stock). Phase 3 (2038-2040): 300 in Belhar (transit-oriented infill). Total 1,500. All builds reviewed under SANS 10160-4 for Cape intra-plate seismic conditions." }
       ],
@@ -123,10 +124,10 @@ const vocab = {
     architecture: {
       label: "Architecture of love",
       title: "Buildings That Face the Mountain",
-      lead: "Heart-shaped buildings in Karoo sandstone and Cape pine. Existing concrete walls along Long Street and Bree wrapped in laser-cut six-petal protea panels, lit at dusk during the Cape Cor Festival each March.",
+      lead: "Heart-shaped buildings in Table Mountain sandstone and Cape pine. Existing concrete walls along Long Street and Bree wrapped in laser-cut six-petal protea panels, lit at dusk during the Cape Cor Festival each March.",
       viral: "Other cities have a skyline. Cape Town has a horizon line that includes a mountain.",
       murals: [
-        { text: "BLY",                sub: "Stay (Afrikaans). A two-storey letter cut from Karoo sandstone on a south-facing Bo-Kaap wall, picked up by the Cape Doctor wind at dusk.",          gradient: "linear-gradient(135deg,#ad1457,#640d3a)" },
+        { text: "BLY",                sub: "Stay (Afrikaans). A two-storey letter cut from Table Mountain sandstone on a south-facing Bo-Kaap wall, picked up by the Cape Doctor wind at dusk.",          gradient: "linear-gradient(135deg,#ad1457,#640d3a)" },
         { text: "SALA KAHLE",         sub: "Stay well (isiXhosa farewell-as-greeting; LLM-suggested phrasing pending native review). Hands woven in patinated copper between two buildings on Greenmarket Square, lit gold from the V&A side.", gradient: "linear-gradient(135deg,#d63384,#ad1457)" },
         { text: "UNDER THE MOUNTAIN", sub: "English. Six words across an apartment block facing Table Mountain in Woodstock. Visible from the cable car. The mountain stays the city's only triple-digit landmark.", gradient: "linear-gradient(135deg,#f48fb1,#d63384)" }
       ]
@@ -135,14 +136,19 @@ const vocab = {
       label: "Cape Town on the air",
       title: "Cape Town Hour on the network broadcast",
       lead: "Cape Town does not run a separate station. The Cor del Món network broadcast is anchored in Andorra (Cor FM, Cor Play). Cape Town contributes the Cape Town Hour: a weekly two-hour multilingual strand from 2038 onward, in English, Afrikaans, and isiXhosa, recorded inside Living Heart Cape Town and rebroadcast worldwide via Cor Play. Cape Talk, Heart 104.9, SABC Radio Western Cape, and Bush Radio stay where they are; the Cape Town Hour brings the Cape's three-language conversation to the rest of the network.",
-      viral: "Cape Town has been speaking three languages over breakfast since 1652. The Cape Town Hour is not a new voice. It is the existing one, on the network's frequency.",
+      viral: "Cape Town has been speaking three languages over breakfast for centuries. The Cape Town Hour is not a new voice. It is the existing one, on the network's frequency.",
+      outlets: [
+        { icon: "mic", title: "Cape Town Hour · with Bush Radio", desc: "A weekly multilingual hour made with Bush Radio, one of Africa's oldest community stations, and its long tradition of teaching young people to make their own radio. Cape jazz, kwaito, isiXhosa and Afrikaans love songs, carried worldwide on Cor Play.", tags: ["Weekly", "Community radio", "Three languages"] },
+        { icon: "screen", title: "Kindness strand · with SABC and Takalani Sesame", desc: "A children's kindness strand co-produced through SABC Education in the spirit of Takalani Sesame, South Africa's own Sesame Street, with the District Six Museum's education team. Puppet stories about coming home across a once-divided city.", tags: ["SABC Education", "Takalani", "Children"], tagVariant: "soft" }
+      ],
       soundtrackTitle: "The Sound of the Cape",
-      soundtrackIntro: "What it sounds like to drive over Kloof Nek at sunset with Table Mountain at your back and the Atlantic ahead. A short set: township jazz, Cape choral, kwaito, amapiano. Click any track to open a YouTube search.",
+      soundtrackIntro: "What it sounds like to drive over Kloof Nek at sunset with Table Mountain at your back and the Atlantic ahead. Five songs of home, return, and reconciliation, from Cape jazz to kwaito-house. Click any track to open a YouTube search.",
       soundtrack: [
-        { track: "Stimela",                      artist: "Hugh Masekela",       released: 1974, note: "Bra Hugh sang the coal-train song until he died in Johannesburg in 2018, but he learned it in the Western Cape. The horn that taught the world how to mourn." },
-        { track: "Pata Pata",                    artist: "Miriam Makeba",       released: 1967, note: "Mama Africa wrote it in Sophiatown, but Cape Town adopted it. The first South African song to top a Billboard chart, and still the one street vendors hum at the V&A." },
-        { track: "Asimbonanga",                  artist: "Johnny Clegg & Savuka", released: 1987, note: "Written in Cape Town for Mandela while he was still on Robben Island. The chorus is the city's clearest love letter to the man who came back." },
-        { track: "Ndihamba Nawe",                artist: "Mafikizolo",          released: 2002, note: "Kwaito-house from the Mzansi golden era. The Cape's wedding-DJ default for two decades. The chorus translates roughly as 'I will go with you.'" }
+        { track: "Mannenberg",                   artist: "Abdullah Ibrahim",    released: 1974, note: "The Cape jazz anthem, named for a Cape Flats township, an unofficial hymn of resilience and identity through the apartheid years. If the Cape has one piece of music that is wholly its own, this is it." },
+        { track: "Pata Pata",                    artist: "Miriam Makeba",       released: 1967, note: "Mama Africa's joyful Xhosa dance song, the first South African record to reach the Billboard charts, and still the one street vendors hum at the V&A. Pure delight, no apology." },
+        { track: "Asimbonanga",                  artist: "Johnny Clegg & Savuka", released: 1987, note: "Written for Mandela while he was still on Robben Island, in sight of the Cape coast. English and Zulu woven together: the city's clearest love letter to the man who came back." },
+        { track: "Stimela",                      artist: "Hugh Masekela",       released: 1974, note: "The coal-train song, about the migrant workers carried far from the people they love. Not romance but the deeper thing under it: the ache for home. The horn that taught the world how to mourn." },
+        { track: "Ndihamba Nawe",                artist: "Mafikizolo",          released: 2002, note: "Kwaito-house from the Mzansi golden era, the Cape's wedding-DJ default for two decades. The chorus means, roughly, 'I will go with you.' The plainest love line there is." }
       ]
     },
     traditions: {
@@ -168,7 +174,7 @@ const vocab = {
           ["Whale Cor at Hermanus",     "The Hermanus whale-watching season (June to November) gets a Cor weekend in September, with extra ferries from the V&A and a southern-right calving briefing from MCM scientists."]
         ]},
         { monogram: "R", title: "Rituals (Table Mountain time)", items: [
-          ["Ceremonies at Living Heart Cape Town", "Wedding and renewal ceremonies in the Karoo-sandstone ceremony hall, looking out at Table Mountain. Subsidised for Western Cape residents, premium for international couples."],
+          ["Ceremonies at Living Heart Cape Town", "Wedding and renewal ceremonies in the Table Mountain sandstone ceremony hall, looking out at Table Mountain. Subsidised for Western Cape residents, premium for international couples."],
           ["Sunday Sea Point Promenade",            "The Sunday family-walk tradition along the Sea Point Promenade gains a Cor segment: rose-painted benches every kilometre, reserved for handed-down conversations on the first Sunday of each month."],
           ["Cape Heart Residency",                  "Ten incoming residents per year housed in restored Bo-Kaap and Woodstock cottages. Two from each of the other five Wave-1 cities. Twelve months, V&A studio access, partnership with the Greatmore Studios artist programme."],
           ["Mountain conversations",                "An oral-tradition contribution rather than a book. Once a year on Heritage Day (24 September), a different Capetonian gives an unrecorded talk on the south slope of Table Mountain about a person they have loved well. No archive, no publication, no anthology. The mountain is the archive."]
@@ -186,7 +192,8 @@ const vocab = {
         { icon: "book",      tag: "Education",     title: "UCT Cape Heritage Studio (one MArch)",           desc: "UCT's School of Architecture, Planning and Geomatics runs a single annual MArch studio on water-positive design, Cape Malay heritage, and Township-CBD reconnection. Twenty seats per year including five funded for network-city students. Stellenbosch and UWC architecture co-teach the Mediterranean-arid module. One studio, well-taught, beats new faculties." },
         { icon: "doublehearts", tag: "Childcare",  title: "Hempcrete bay-courtyard nurseries",              desc: "Free childcare from 12 months at the ground floor of every Hearts of Home block. Built into the housing typology so the walk to drop-off is two minutes. Coordinated with the Western Cape Department of Social Development and the existing ECD subsidy framework." },
         { icon: "leaf",      tag: "Health",         title: "Mowbray Maternity postnatal support",           desc: "Mowbray Maternity Hospital and Groote Schuur expand postnatal mental-health counselling for new parents and couples through the existing Western Cape provincial health services. Telehealth across Khayelitsha, Mitchells Plain, and Belhar where transport to central Cape Town is the binding constraint." },
-        { icon: "transit",   tag: "Movement",       title: "Heart MyCiTi loop",                              desc: "Rose-liveried MyCiTi BRT loop connecting Living Heart Cape Town at the V&A, the Hearts of Home blocks (Khayelitsha, Mitchells Plain, Belhar), and the Sea Point Promenade. Subsidised through the existing City Mobility levy. Builds on the existing MyCiTi network, not new infrastructure." }
+        { icon: "transit",   tag: "Movement",       title: "Heart MyCiTi loop",                              desc: "Rose-liveried MyCiTi BRT loop connecting Living Heart Cape Town at the V&A, the Hearts of Home blocks (Khayelitsha, Mitchells Plain, Belhar), and the Sea Point Promenade. Subsidised through the existing City Mobility levy. Builds on the existing MyCiTi network, not new infrastructure." },
+        { icon: "leaf",      tag: "Animals",        title: "Penguins and the coast",                         desc: "The African penguin was listed critically endangered in 2024, with the Boulders Beach colony at Simon's Town among its last strongholds. Cor backs SANCCOB's seabird rescue and the Cape of Good Hope SPCA, with Hearts of Home school groups joining beach-clean and fish-count days. A city that saved itself from Day Zero can help save the little birds that share its coast." }
       ],
       stats: [
         { n: "10",      l: "Cape Heart Residency intake/yr" },
@@ -214,25 +221,25 @@ const vocab = {
           metrics: { charterSigned: true, competitionAwarded: true, siteSecured: "V&A Waterfront" },
           networkContribution: "Cape Town becomes Cor del Món's African anchor and the formal sponsor of the Marrakech Wave-2 transitional admission. The African cluster of three (Cape Town live; Marrakech transitional; Stone Town Zanzibar full Wave-2) is documented in the Constitution.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2033,
           stage: "Break Ground",
-          commitment: "Construction begins on Living Heart Cape Town and on the first 400 Hearts of Home hempcrete units in Khayelitsha. Cor Visa pilot opens with the first 100-couple cohort (proposed Q2 2026). Cape Town hosts the Cor Biennale 2033 inside the V&A festival schedule. Marrakech Wave-2 admission process opens this year, sponsored by Cape Town.",
+          commitment: "Construction begins on Living Heart Cape Town and on the first 400 Hearts of Home hempcrete units in Khayelitsha. Cor Visa pilot opens with the first 100-couple cohort (proposed Q3 2026). Cape Town hosts the Cor Biennale 2033 inside the V&A festival schedule. Marrakech Wave-2 admission process opens this year, sponsored by Cape Town.",
           metrics: { homesUnderConstruction: 400, corVisaCouples: 100, biennaleHosted: true, marrakechAdmitted: "Wave-2 process opens" },
           networkContribution: "Cape Town publishes the first ten Cape-authored Cor Patterns (water-positive urbanism, hempcrete bay-courtyard housing, Day-Zero-resilient design). Andorra Daily Ceremony broadcasts have been running for one year; Cape Town is now part of the four-city construction wave alongside Adelaide, Yokohama, Valparaíso.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2039,
           stage: "Operational",
-          commitment: "Living Heart Cape Town opens at the V&A Waterfront. Daily Ceremony begins broadcasting at the city's declared Cor hour from the Karoo-sandstone ceremony hall. The first 1,200 of 1,500 Hearts of Home units delivered across Khayelitsha (Phase 1 complete, 700 done), Mitchells Plain (Phase 2 underway, 500 in build), Belhar (Phase 3 starting, 300 to come). Cape Town's TFR recovering toward 2.0. The first Cor Generation residents move into the network units.",
-          metrics: { homes: 1000, monumentHeightM: 99, fertilityRate: 1.95, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterCapeTown: 5500000 },
+          commitment: "Living Heart Cape Town opens at the V&A Waterfront. Daily Ceremony begins broadcasting at the city's declared Cor hour from the Table Mountain sandstone ceremony hall. The first 1,200 of 1,500 Hearts of Home units delivered across Khayelitsha (Phase 1 complete, 700 done), Mitchells Plain (Phase 2 underway, 500 in build), Belhar (Phase 3 starting, 300 to come). Cape Town's TFR recovering toward 2.0. The first Cor Generation residents move into the network units.",
+          metrics: { homes: 1000, monumentHeightM: 12, fertilityRate: 1.95, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterCapeTown: 5500000 },
           networkContribution: "Cape Town joins Andorra, Adelaide, Yokohama, Valparaíso (and Jaipur 2038 to 2040) in the Daily Ceremony rotation. The full wave-1 six-city ceremony is now active. The network's six operational cities host the target 60 Cor Residents per year. Cape Town-authored patterns reach 30 contributions to the Cor Pattern Library, leading on water-positive design.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2064,
@@ -241,52 +248,52 @@ const vocab = {
           metrics: { networkAgeYears: 25, totalHomes: 2200, generationAdults: 1500, dayZeroResilience: "permanent" },
           networkContribution: "Cape Town graduates into network elder status alongside Valparaíso and Jaipur (all 2063-2065). Cape Town mentors Wave-2 African candidate cities: Marrakech (operational 2040-2041 under Cape Town's transitional sponsorship), Stone Town Zanzibar (Wave-2 candidate post-2042), Dakar, and Lagos. The Mountain Anthology (Letters to the Mountain bound annually) becomes a recognised volume of contemporary South African writing.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         }
       ]
     }
   },
   feasibility: {
     title: "Honest constraints",
-    intro: "What a 99m monument at the V&A and a 1,500-home water-positive programme actually have to negotiate with, given Cape Town's binding contradictions.",
+    intro: "What a 12m monument at the V&A and a 1,500-home water-positive programme actually have to negotiate with, given Cape Town's binding contradictions.",
     category: "V&A cultural anchor plus Breaking New Ground (BNG) housing scheme overlay. Existing City of Cape Town urban-development category. No new permission package required.",
     permissionChain: [
-      "Long-term cultural-anchor lease negotiation with the relevant private landholder of any waterfront parcel under standard South African commercial-property law. The proposal does not name a specific counterparty in advance of any real engagement.",
-      "Statutory development approval through the relevant City of Cape Town spatial-planning authority.",
-      "Statutory housing-overlay approval through the relevant Western Cape Provincial Government authority on the existing public-housing programme.",
-      "Statutory heritage approvals through the South African Heritage Resources Agency and the relevant Western Cape heritage authority.",
-      "Statutory and community heritage-precinct consultation with whichever community body is recognised under South African heritage law and local custom at the time of any real engagement. The proposal does not name a specific community organisation in advance.",
-      "Statutory cultural-infrastructure recognition through the relevant national cultural authority.",
-      "South African Reserve Bank approval for foreign-source funding above threshold, plus FATF and PRECCA compliance, if a built version were ever formally pursued."
+      "V&A Waterfront (Pty) Ltd signs the long-term cultural-anchor lease (Growthpoint Properties and the Public Investment Corporation as joint owners).",
+      "City of Cape Town Department of Spatial Planning and Environment, development approval. The Mayor of Cape Town signs the cultural-anchor MoU.",
+      "Western Cape Provincial Government, Department of Infrastructure (which carries the Housing portfolio in the post-2024 reshuffle), BNG family-priority overlay approval. The MEC for Infrastructure is the responsible authority. The Department of Local Government, Environmental Affairs and Development Planning is a separate MEC and reviews the spatial-planning side.",
+      "South African Heritage Resources Agency (SAHRA) plus Heritage Western Cape (HWC) for Bo-Kaap and Woodstock heritage approvals.",
+      "Bo-Kaap Civic and Ratepayers Association community sign-off on heritage-precinct work.",
+      "Department of Sport, Arts and Culture (national) cultural-infrastructure recognition.",
+      "South African Reserve Bank approval for foreign-source funding above threshold; FATF and PRECCA compliance."
     ],
     budgetSources: [
-      "Funding-source categories that could in principle apply to a hypothetical built version, listed without naming any specific entity, programme, or private counterparty.",
-      "National, provincial, or municipal cultural-infrastructure capital lines, where they exist and apply, subject to each authority's own priorities and statutory procedures.",
-      "Provincial or municipal affordable-housing capital lines as an overlay on existing programmes, not as a parallel programme.",
-      "Private cultural philanthropy active in South Africa, subject to each foundation's own application processes.",
-      "In-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under South African public-property law.",
-      "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited. No commercial consultancy is offered."
+      "Western Cape Provincial Government, Housing capital line (BNG existing programme).",
+      "City of Cape Town BNG annual capital allocation.",
+      "National Department of Sport, Arts and Culture, cultural-infrastructure line.",
+      "V&A Waterfront in-kind lease contribution.",
+      "Cor del Món network partner-share.",
+      "South African philanthropy (Oppenheimer Memorial Trust, Patrice Motsepe Foundation, Mary Slack Investments, Discovery Foundation)."
     ],
     items: [
-      { area: "Waterfront site",       detail: "Any waterfront cultural-anchor placement is privately held; in a hypothetical built version it would be a commercial leasehold negotiation with the relevant private owner under standard South African commercial-property law. The proposal does not name a specific counterparty in advance of any real engagement and is not a sovereign concession." },
-      { area: "Heritage approvals",    detail: "Any heritage-precinct cottage restoration would be coordinated with the South African Heritage Resources Agency and the relevant Western Cape heritage authority. Where a precinct is designated as a heritage area, restoration would align with whichever community guidelines are recognised under South African heritage law and local custom at the time of any real engagement. The proposal does not name a specific community organisation in advance." },
+      { area: "V&A site",              detail: "V&A Waterfront is privately owned by V&A Waterfront (Pty) Ltd, jointly held by Growthpoint Properties and the Public Investment Corporation (PIC). Living Heart Cape Town site lease negotiated commercially with V&A management on terms similar to V&A's existing cultural-anchor partnerships (Zeitz MOCAA precedent). Not a sovereign concession." },
+      { area: "Heritage approvals",    detail: "Bo-Kaap and Woodstock cottage restoration coordinated with the South African Heritage Resources Agency (SAHRA) and Heritage Western Cape (HWC). Bo-Kaap is a designated heritage area; restoration must align with the Bo-Kaap Civic and Ratepayers Association's existing community guidelines." },
       { area: "Housing approvals",     detail: "1,500 hempcrete units allocated through City of Cape Town's existing Breaking New Ground (BNG) programme. Western Cape Department of Local Government and Housing approval required from Charter year. Sized at about 1.7% of BNG's annual output, so additive rather than competitive." },
-      { area: "Day Zero context",      detail: "14% of households live in informal settlements with 4% of municipal water. Building a 99m cultural monument in this context is politically fraught unless the project visibly serves the housing-water gap. The water-positive Hearts of Home typology and the Khayelitsha-first phasing are the proposal's answer to this; framing the monument as a cultural anchor for township-CBD reconnection rather than a luxury build is essential and non-negotiable." },
+      { area: "Day Zero context",      detail: "14% of households live in informal settlements with 4% of municipal water. Building even a small 12m cultural monument in this context is sensitive unless it visibly serves the housing-water gap. The water-positive Hearts of Home typology and the Khayelitsha-first phasing are the proposal's answer to this; framing the monument as a cultural anchor for township-CBD reconnection rather than a luxury build is essential and non-negotiable." },
       { area: "Funding compliance",    detail: "All foreign-source funding compliant with the Financial Action Task Force (FATF) and Prevention and Combating of Corrupt Activities Act (PRECCA) standards. Full source disclosure from Charter signature. South African Reserve Bank approval for any sovereign-state funding (excluded by the network's policy in any case)." },
       { area: "Safety and access",     detail: "V&A is among the safest CBD-adjacent destinations in Cape Town. Khayelitsha and Mitchells Plain Hearts of Home phasing must be designed with the existing community-safety frameworks (CPF, neighbourhood watch, City Safety Plan), not parachuted on top. Cor del Món contributes typology and family priority; community safety is the City's work." }
     ]
   },
   costs: {
     title: "Approximate costs (2026 USD)",
-    monumentTotal: "USD 120 to 180 million",
-    intro: "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited and no commercial consultancy is offered. The figures below are illustrative order-of-magnitude estimates anchored against publicly comparable Cape Town builds (Zeitz MOCAA was reported at roughly USD 38M in 2017; the Norval Foundation was reported at about USD 50M in 2018; both are lower-rise than the 99m envelope discussed in this proposal), and exist solely to ground the design narrative. Real budgets, if a built version were ever formally pursued, would be set after an international design competition and statutory review by licensed professionals in the relevant jurisdiction.",
+    monumentTotal: "USD 5 to 10 million",
+    intro: "Order-of-magnitude estimates anchored against comparable Cape Town builds (Zeitz MOCAA at the V&A cost roughly USD 38M in 2017; the Norval Foundation cost about USD 50M in 2018). At 60m on a concrete core, without base isolation and with the wind-driven structure kept low, this stays modest. Real budgets after the international design competition.",
     stages: [
-      { phase: "Charter (2031)",          range: "USD 4 to 7M",    scope: "International design competition + private-landholder cultural-anchor lease negotiation + statutory heritage and provincial approvals" },
-      { phase: "Break Ground (2032-33)",  range: "USD 25 to 40M",  scope: "RC core foundation, ductile seismic detailing for SANS 10160-4, water-positive systems infrastructure, Karoo sandstone supply contract" },
-      { phase: "Construction (2033-38)",  range: "USD 75 to 110M", scope: "Karoo sandstone facade, Cape pine timber pavilions, water-positive systems (rainwater + greywater), Cape Doctor wind diagrams in ventilation, V&A site work" },
-      { phase: "Operational (2038-39)",   range: "USD 16 to 23M",  scope: "Cape Town Hour multilingual broadcast studio, ceremony hall fitout, Cape Town International Jazz Festival partnership integration" }
+      { phase: "Charter (2031)",          range: "USD 0.4 to 0.8M",    scope: "International design competition + V&A site lease negotiation + SAHRA + HWC approvals + Western Cape Provincial Government negotiation" },
+      { phase: "Break Ground (2032-33)",  range: "USD 0.8 to 2M",  scope: "RC core foundation, ductile seismic detailing for SANS 10160-4, water-positive systems infrastructure, Table Mountain sandstone and Cape granite supply contracts" },
+      { phase: "Construction (2033-38)",  range: "USD 2.5 to 5M",  scope: "Table Mountain sandstone facade, Cape granite plinth, Cape pine timber pavilions, water-positive systems (rainwater + greywater), Cape Doctor wind diagrams in ventilation, V&A site work" },
+      { phase: "Operational (2038-39)",   range: "USD 1.3 to 2.2M",  scope: "Cape Town Hour multilingual broadcast studio, ceremony hall fitout, Cape Town International Jazz Festival partnership integration" }
     ],
-    fundingNote: "Funding categories that could in principle apply to a hypothetical built version, listed without naming any specific entity, programme, or private counterparty: national, provincial, or municipal cultural-infrastructure capital lines, provincial or municipal affordable-housing capital lines as an overlay (not a parallel programme), private cultural philanthropy active in South Africa, and in-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under South African public-property law. No funds have been raised, applied for, awarded, committed, or accepted. No commercial consultancy is offered."
+    fundingNote: "Funding mix expected for the monument: Cor del Món network partner share (35-50%), South African arts philanthropy (illustrative: Oppenheimer, Mary Slack, Motsepe foundations) (25-35%), V&A Waterfront in-kind via a discounted cultural-anchor lease (Zeitz MOCAA precedent) (15-25%), national Department of Sport, Arts and Culture (5-15%), small bilateral cultural partnerships (5-10%). Provincial and city public funds go to the Hearts of Home housing track, not the monument: post-Day-Zero Cape Town has to put homes and water first. All foreign-source funding under FATF and PRECCA review."
   },
   impact: {
     title: "Impact and benefit",
@@ -294,18 +301,16 @@ const vocab = {
       { metric: "1,500 hempcrete water-positive family homes by 2040", note: "About 1.7% of BNG's annual ~10,000-unit output over nine years. The novelty is the water-positive hempcrete typology, not the count. 700 Khayelitsha + 500 Mitchells Plain + 300 Belhar; only city in the network that goes UP from the original 1,200." },
       { metric: "Day Zero resilience as continental reference",        note: "Cape Town is the only major city in the network that has lived through a near-water-zero crisis (2015-2020). The water-positive typology demonstrated at scale here becomes a continental-African export, especially relevant to other dry African coastal cities." },
       { metric: "10 Cape Heart Residency intake per year",             note: "Bo-Kaap heritage-quarter terraces and Woodstock artist-precinct row houses. Greatmore Studios partnership for studio space. Twelve-month stay, V&A access." },
-      { metric: "Cape Town Hour multilingual broadcast",                note: "English, Afrikaans, isiXhosa each in rotation. From the Karoo-sandstone ceremony hall studio. Cape Talk, Heart 104.9, SABC Radio Western Cape, Bush Radio stay where they are; the Cor contribution is the network slot." },
-      { metric: "99m monument under Table Mountain (1086m)",            note: "Just under triple-digit-metre on purpose. Mountain stays the city's only triple-digit landmark. Visible from across the bay; sits at the foot of the only thing above it." }
+      { metric: "Cape Town Hour multilingual broadcast",                note: "English, Afrikaans, isiXhosa each in rotation. From the Table Mountain sandstone ceremony hall studio. Cape Talk, Heart 104.9, SABC Radio Western Cape, Bush Radio stay where they are; the Cor contribution is the network slot." },
+      { metric: "12m heart + night heart of light, under Table Mountain (1086m)", note: "The same 12m heart every Cor city builds; at this height the Cape Doctor wind is a non-issue and the Mountain's sightlines are untouched. The night-time heart of light beats with all six cities and is dimmed from protected view corridors. Tiny, cheap, salt-durable." }
     ]
   },
   alternatives: {
     title: "Lighter expressions of the same idea",
     intro: "The proposal is offered as a creative-research design idea, not as a fundraising plan or a built commitment. The lightest expression below is the recommended default for any city that wishes to honour the idea without a built monument.",
     items: [
-      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Cape Town Cor del Món experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building. No new construction, no land take, no seismic or heritage risk, no built-form impact on any waterfront, township, or heritage precinct, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and cultural calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build, and a particularly good fit in a city where any large new build raises legitimate questions about housing-and-water priorities." },
-      { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." },
-      { fallback: "Woodstock or Salt River (within Cape Town)", reason: "Alternative siting in an existing artist-precinct corridor, listed for completeness as a design-research note if a built version were ever formally pursued." },
-      { fallback: "Stellenbosch (within Western Cape, 50 km east)", reason: "Alternative siting in a lighter regulatory and political context, listed for completeness as a design-research note." }
+      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Cor del Mon city experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building, the same night-time heart of light without the 12 metre building beneath it. No new construction, no land take, no seismic or heritage risk, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and cultural calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build." },
+      { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." }
     ]
   }
 };

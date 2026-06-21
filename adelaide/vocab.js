@@ -1,4 +1,4 @@
-// Adelaide · Living Heart Adelaide vocabulary, v1.0 (Q2 2026).
+// Adelaide · Living Heart Adelaide vocabulary, v1.0 (Q3 2026).
 // Validates against /_shared/vocab.schema.json.
 // Loaded as an ES module by /adelaide/index.html and exposed on window.AdelaideVocab
 // for the Babel-standalone App script that cannot use ES import.
@@ -40,10 +40,10 @@ const vocab = {
     sans:  "'Inter', system-ui, -apple-system, sans-serif"
   },
   monument: {
-    heightM: 65,
+    heightM: 12,
     name: "Living Heart Adelaide",
     completionYear: 2030,
-    signature: "A 65 metre Living Heart sited at the northern edge of Tarndanyangga (Victoria Square), where the planned grid meets the Park Lands. The Adelaide Oval lights are 65 metres; the Living Heart is exactly that height, on purpose, to keep the city's existing tall thing as a measuring stick. Rammed earth core in deep ochre tones, corrugated steel verandahs wrapping the four cardinal faces with deep shadow lines, bluestone plinth tied into the existing Adelaide Hills bedrock. The monument that the Festival City decided to build for itself, sized to its skyline rather than to a global trophy."
+    signature: "A 12 metre Living Heart at the northern edge of Tarndanyangga (Victoria Square), where the planned grid meets the Park Lands, the same 12 metre heart every Cor city builds. Rammed earth core in deep ochre, corrugated steel verandahs reading as horizontal shadow bands, a Macclesfield bluestone plinth tied into the Adelaide Hills bedrock, the materials Adelaide's heritage civic buildings are already made of and chosen to stand a hundred years in a hot dry climate. By night, during accepted hours, the little earth heart blooms into a far larger heart of light over the Park Lands that beats in time with all six cities, weightless and fully reversible, dimmed toward homes and Kaurna places. Small, identical to its five sisters, unmistakably Adelaide in its skin, around a single flame."
   },
   nationalStyle: {
     materials: [
@@ -78,7 +78,7 @@ const vocab = {
       lead: "Greater Adelaide, around 1.49 million people on Kaurna Country. The City of Festivals: Adelaide Festival of Arts since 1960, Fringe since 1960, WOMADelaide since 1992, the Cabaret Festival, the Writers' Week. A grid laid by Light in 1837 and protected by a ring of Park Lands. A city that built its identity around culture and bears the lowest fertility rate in Australia in its CBD. Cor del Món asks Adelaide to do for love what it has already done for festivals.",
       viral: "If a city can teach the world how to throw a Fringe, it can teach the world how to throw a wedding",
       stats: [
-        { n: "65m",      l: "Living Heart Monument" },
+        { n: "12m",      l: "Living Heart (the shared heart, +heartbeat of light)" },
         { n: "10",       l: "Heart-shaped Cor landmarks" },
         { n: "800",      l: "Hearts of Home by 2035" },
         { n: "1 hr/wk",  l: "Adelaide Hour on Cor FM" },
@@ -88,7 +88,7 @@ const vocab = {
     monumentSection: {
       label: "Living Heart Adelaide",
       title: "The Heart at Tarndanyangga",
-      lead: "A 65 metre Living Heart at Victoria Square, where Light's grid meets the Park Lands. Adelaide Oval lights are 65 metres; the Heart sits at the same line so the city does not get a new tallest thing in the wrong way. Rammed earth core in deep ochre, corrugated steel verandahs reading as horizontal shadow bands, bluestone plinth tying the building to the Adelaide Hills bedrock.",
+      lead: "A 12 metre Living Heart at Victoria Square, where Light's grid meets the Park Lands, the same heart every Cor city builds. Rammed earth core in deep ochre, corrugated steel verandahs reading as horizontal shadow bands, bluestone plinth tying the building to the Adelaide Hills bedrock. By night it blooms into a far larger heart of light over the Park Lands, beating in time with all six cities and weighing nothing.",
       viral: "Adelaide already had a Festival Centre. Now it has a Festival Heart."
     },
     passivhaus: {
@@ -128,13 +128,18 @@ const vocab = {
       title: "Adelaide Hour on the network broadcast",
       lead: "Adelaide does not run a separate station. The Cor del Món network broadcast is anchored in Andorra (Cor FM, Cor Play). Adelaide contributes the Adelaide Hour: a weekly two-hour English-language strand from 2035 onward, recorded inside Living Heart Adelaide and rebroadcast worldwide via Cor Play. Existing Adelaide voices stay where they are: 5RTI on community FM, Three D Radio on the alternative band, ABC Adelaide on the public broadcaster, FIVEaa on talk. The Adelaide Hour fronts the festival calendar to the world.",
       viral: "Adelaide does not need another station. The Festival City already broadcasts. We just gave the network its Sunday night.",
+      outlets: [
+        { icon: "mic", title: "Adelaide Hour · with Radio Adelaide", desc: "A weekly hour made with the community stations the city actually listens to, Radio Adelaide and Three D Radio, recorded inside Living Heart Adelaide and carried worldwide on Cor Play. Local songwriters, festival sessions, listener dedications.", tags: ["Weekly", "Community radio", "Local first"] },
+        { icon: "screen", title: "Kindness strand · with the SA Film Corp + ABC Kids", desc: "A children's kindness strand developed with the South Australian Film Corporation and an Adelaide studio, pitched to ABC Children's the way Australian kids' content is genuinely commissioned, and tied to the DreamBIG Children's Festival and Carclew's young artists.", tags: ["With SAFC", "ABC Kids", "Children"], tagVariant: "soft" }
+      ],
       soundtrackTitle: "The Sound of Adelaide",
-      soundtrackIntro: "What it sounds like to drive home through the Park Lands at dusk in February, before the Festival starts but after the Fringe has begun. A short set, all Adelaide-rooted artists. Click any track to open a YouTube search.",
+      soundtrackIntro: "What it sounds like to drive home through the Park Lands at dusk in February, before the Festival starts but after the Fringe has begun. Five songs, every artist genuinely Adelaide-born or Adelaide-formed. Click any track to open a YouTube search.",
       soundtrack: [
-        { track: "Better Be Home Soon",     artist: "Crowded House",      released: 1988, note: "Neil Finn wrote much of his early Australian work in Adelaide. The opening line is the city itself: warm, dry, missing someone." },
-        { track: "Don't Get Above Your Brave", artist: "Sia",             released: 2014, note: "Sia Furler grew up in Adelaide, in the Adelaide Hills, and never quite left it sonically. The Hills are in every chord." },
-        { track: "The Less I Know the Better", artist: "Tame Impala",     released: 2015, note: "Kevin Parker's Adelaide-Perth axis. Rolling Stone called this an Australian summer in 196 BPM." },
-        { track: "Don't Dream It's Over",   artist: "Crowded House",      released: 1986, note: "Recorded between Sydney, Melbourne, and Adelaide. The closest thing to a city anthem the Festival City has." }
+        { track: "How to Make Gravy",        artist: "Paul Kelly",        released: 1996, note: "Born in Adelaide. The definitive Australian song of family, absence, and a man trying to get home for Christmas. A whole country writes the date in its calendar because of this song." },
+        { track: "Flame Trees",              artist: "Cold Chisel",       released: 1984, note: "The band formed in Adelaide. The canonical Australian song about coming back to your home town and the ache of everyone you loved still being there. Sung at every closing time in the country." },
+        { track: "To Her Door",              artist: "Paul Kelly",        released: 1987, note: "A couple trying again, a taxi ride toward reconciliation. Kelly at his plainest and most hopeful. The other side of leaving is coming back." },
+        { track: "The Nosebleed Section",    artist: "Hilltop Hoods",     released: 2003, note: "Adelaide hip-hop, the hometown anthem. About the crowd, the belonging, the city that raised them. Still the sound of an Adelaide festival field at night." },
+        { track: "Never Give Up",            artist: "Sia",               released: 2016, note: "Sia Furler grew up in the Adelaide Hills and never quite left it sonically. A resilience anthem from the city's biggest global voice: hold on, stay, come through." }
       ]
     },
     traditions: {
@@ -160,7 +165,7 @@ const vocab = {
           ["Cor Days",                "A new fifth festival each November: four weekends of slow love programming, picnics, and dance under the jacarandas in flower across North Adelaide."]
         ]},
         { monogram: "R", title: "Rituals (the human scale)", items: [
-          ["Ceremonies at Living Heart Adelaide", "Wedding and renewal ceremonies on the rammed-earth ceremony floor at the building's mirador level (about 50 m up, within the 65 m Adelaide Oval lights line). Subsidised for SA residents, premium for international couples."],
+          ["Ceremonies at Living Heart Adelaide", "Wedding and renewal ceremonies on the rammed-earth ceremony floor on the upper level of the 12 m heart, the heart of light beating above for the hour. Subsidised for SA residents, premium for international couples."],
           ["Park Lands Sunday picnic",            "A Sunday tradition on the Park Lands ring (Adelaide is the only Australian capital with a continuous Park Lands ring). Heart-stamped picnic kits available at the Botanic Gardens visitor centre."],
           ["Adelaide Heart Residency",            "Ten incoming residents per year. Housed in restored bluestone cottages in Bowden and Norwood, inside the city's existing heritage-cottage stock."],
           ["Verandah Letters",                    "An Adelaide ritual rather than another book: handwritten letters tied to verandah posts of Hearts of Home blocks during November Cor Days. Read aloud once a year by a different reader; not bound, not archived. The verandah is the archive."]
@@ -178,7 +183,8 @@ const vocab = {
         { icon: "book",      tag: "Education",     title: "UniSA Verandah Studio (one MArch studio)",  desc: "UniSA's Louis Laybourne Smith School and the University of Adelaide's School of Architecture co-run a single annual MArch studio focused on Mediterranean-climate verandah blocks, festival-grade public space, and Park Lands edges. Twenty seats per year, including five funded for network-city students. One studio, taught well, is more useful than a new faculty." },
         { icon: "doublehearts", tag: "Childcare",  title: "Verandah-block nurseries",                  desc: "Free childcare from 12 months at the ground floor of every Hearts of Home block. Built into the housing typology so the walk to drop-off is two minutes, not twenty. Coordinated with the SA Department for Education's existing capacity expansion programme." },
         { icon: "leaf",      tag: "Health",         title: "WCHN postnatal support",                   desc: "Women's and Children's Health Network expands postnatal mental-health counselling for new parents and couples, funded through Medicare and the existing Better Access programme. Telehealth coverage extended to outer growth zones (Munno Para West, Mount Barker)." },
-        { icon: "transit",   tag: "Movement",       title: "Heart Tram extension",                     desc: "Rose-liveried tram extension on the existing AdelaideMetro tram network: Living Heart Adelaide at Victoria Square through to Bowden via the Hindmarsh corridor. Free for under-25s on weekends. E-bike sharing along the Torrens linear park, expanding the BIKESA fleet." }
+        { icon: "transit",   tag: "Movement",       title: "Heart Tram extension",                     desc: "Rose-liveried tram extension on the existing AdelaideMetro tram network: Living Heart Adelaide at Victoria Square through to Bowden via the Hindmarsh corridor. Free for under-25s on weekends. E-bike sharing along the Torrens linear park, expanding the BIKESA fleet." },
+        { icon: "leaf",      tag: "Animals",        title: "Wildlife and companions",                  desc: "A festival city should be kind to more than people. Cor backs RSPCA South Australia's rehoming and education work, koala and native-wildlife recovery in the Adelaide Hills with Cleland, and Guide Dogs SA/NT, with Hearts of Home families fostering pups in training and schoolchildren meeting the working dogs that give someone else their independence." }
       ],
       stats: [
         { n: "10",     l: "Heart Residency intake/yr" },
@@ -206,62 +212,62 @@ const vocab = {
           metrics: { charterSigned: true, competitionAwarded: true, siteSecured: "Tarndanyangga" },
           networkContribution: "Adelaide becomes Cor del Món's first Pacific anchor and joins Andorra (live since 2027) and Yokohama (also chartering 2028) as the wave-1 trio. Adelaide hosts the Cor Biennale 2034 strand inside Adelaide Festival, one year ahead of its monument opening as a pre-opening cultural countdown.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2030,
           stage: "Break Ground",
-          commitment: "Construction begins on Living Heart Adelaide and on the first 400 Hearts of Home verandah-block units in Munno Para West. Cor Visa pilot opens with the first 100-couple cohort (proposed Q2 2026). Adelaide's rammed-earth thermal core is poured this year; AS 1170.4 seismic detailing complete.",
+          commitment: "Construction begins on Living Heart Adelaide and on the first 400 Hearts of Home verandah-block units in Munno Para West. Cor Visa pilot opens with the first 100-couple cohort (proposed Q3 2026). Adelaide's rammed-earth thermal core is poured this year; AS 1170.4 seismic detailing complete.",
           metrics: { homesUnderConstruction: 400, corVisaCouples: 100, rammedEarthCorePoured: true },
           networkContribution: "Adelaide publishes the first ten Adelaide-authored Cor Patterns (verandah-block housing, deep-eaved Mediterranean passive cooling, Park Lands grid as a love-urbanism template). Andorra Daily Ceremony broadcasts have been running for two years; Yokohama is also under construction.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2035,
           stage: "Operational",
           commitment: "Living Heart Adelaide opens at Tarndanyangga. The Daily Ceremony begins broadcasting at 18:00 ACDT from the rammed-earth ceremony floor. All 800 Hearts of Home units delivered across Munno Para West (300), Mount Barker (250), and inner-suburb infill at Norwood, Goodwood, and Prospect (250). Greater Adelaide population sustained at around 1.6M. Adelaide CBD TFR recovering from 0.60 toward 1.0. The first Cor Generation residents move into the network units.",
-          metrics: { homes: 1000, monumentHeightM: 65, fertilityRate: 1.0, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterAdelaide: 1600000 },
+          metrics: { homes: 1000, monumentHeightM: 12, fertilityRate: 1.0, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterAdelaide: 1600000 },
           networkContribution: "Adelaide joins Andorra and Yokohama in the Daily Ceremony rotation. The network's three operational cities now host 30 Cor Residents per year between them. Adelaide-authored patterns reach 30 contributions to the Cor Pattern Library. University of Adelaide Cor Programme reaches 1,000 international graduate students.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2060,
           stage: "Generation",
-          commitment: "Living Heart Adelaide celebrates twenty-five years operational. The first Cor Generation residents who arrived in 2035 (then in their 20s, now in their 50s) have raised families inside the verandah-block stock. A second-wave Hearts of Home expansion adds 400 units across Bowden, Brompton, and the Mile End infill corridor, bringing the Cor total to 1,200. The Park Lands' Cor Forest at West and South Tce reaches maturity (65,000 native trees, planted over the quarter century, scaled from the 65 m monument height). The Festival City has rewritten its identity to include Family City alongside it.",
+          commitment: "Living Heart Adelaide celebrates twenty-five years operational. The first Cor Generation residents who arrived in 2035 (then in their 20s, now in their 50s) have raised families inside the verandah-block stock. A second-wave Hearts of Home expansion adds 400 units across Bowden, Brompton, and the Mile End infill corridor, bringing the Cor total to 1,200. The Park Lands' Cor Forest at West and South Tce reaches maturity (tens of thousands of native trees planted over the quarter century, a thousand for every metre of the monument). The Festival City has rewritten its identity to include Family City alongside it.",
           metrics: { networkAgeYears: 25, totalHomes: 1200, generationAdults: 800, treesMature: 65000, populationStabilised: true },
           networkContribution: "Adelaide graduates into network elder status alongside Andorra (2057) and Yokohama (2060-2061). Adelaide mentors Wave-2 Pacific candidate cities (likely Auckland, Wellington, Hobart, Christchurch). The Adelaide Cor Charter becomes a template for South Pacific climate-adapted love urbanism.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         }
       ]
     }
   },
   feasibility: {
     title: "Honest constraints",
-    intro: "What a 65m monument adjacent to Tarndanyangga and an 800-home programme on Kaurna Country actually has to negotiate with.",
+    intro: "What a 12m monument adjacent to Tarndanyangga and an 800-home programme on Kaurna Country actually has to negotiate with.",
     category: "Adelaide CBD cultural facility plus state-housing-trust family-priority overlay. Standard SA Government urban-development category. No new permission package required.",
     permissionChain: [
-      "Statutory development application through the relevant Adelaide local government authority.",
-      "Statutory development assessment through the relevant South Australian state planning authority.",
-      "Statutory housing-programme overlay approval through the relevant South Australian state housing agency on the existing public-housing pipeline.",
-      "Statutory Aboriginal Heritage consultation under the SA Aboriginal Heritage Act 1988 with whichever Traditional Custodian organisation the statute identifies as the recognised body at the time of any real engagement. The proposal does not name a specific organisation in advance and will defer entirely to the statutory body and to Traditional Custodian leadership if a built version were ever formally pursued.",
-      "Statutory foreign-investment review where the Foreign Investment Review Board threshold applies, through the relevant state and federal authorities.",
-      "Statutory cultural-infrastructure recognition through the relevant Australian federal cultural authority."
+      "City of Adelaide, Council development application. The Lord Mayor signs the cultural-anchor MoU.",
+      "State Planning Commission of South Australia development assessment. The Minister for Planning is the responsible authority.",
+      "Renewal SA, housing-programme partner. The CEO of Renewal SA signs the Hearts of Home allocation overlay.",
+      "Department for Aboriginal Affairs and Reconciliation, plus Kaurna Yerta Aboriginal Corporation, consultation under the SA Aboriginal Heritage Act 1988.",
+      "Department for Trade and Investment (Investment SA) for foreign-investment review where the FIRB threshold applies.",
+      "Office for the Arts in the Department of Infrastructure (federal) for cultural-infrastructure recognition."
     ],
     budgetSources: [
-      "Funding-source categories that could in principle apply to a hypothetical built version, listed without naming any specific entity or programme.",
-      "State or federal cultural-infrastructure capital lines, where they exist and apply, subject to each authority's own priorities and statutory procedures.",
-      "State affordable and family-housing capital lines as an overlay on existing programmes, not as a parallel programme.",
-      "Private cultural philanthropy active in South Australia, subject to each foundation's own application processes.",
-      "In-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under South Australian public-property law.",
-      "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited. No commercial consultancy is offered."
+      "Arts South Australia, cultural-infrastructure capital programme.",
+      "Renewal SA family-housing capital (Hearts of Home as overlay on the existing build pipeline).",
+      "Department for Trade and Investment, investment-attraction line.",
+      "Australian federal Office for the Arts, cultural-infrastructure share.",
+      "Cor del Món network partner-share contribution.",
+      "South Australian philanthropy (Hawker Fund, James and Diana Ramsay Foundation, Adelaide Festival Foundation)."
     ],
     items: [
       { area: "Park Lands Act (2005)",       detail: "The Park Lands ring is Crown land protected by the Adelaide Park Lands Act 2005. Any structure on Park Lands needs special legislative approval. The Living Heart Adelaide therefore sits at the *northern edge* of Tarndanyangga (Victoria Square), on the immediately adjacent CBD parcel inside the ring rather than on the Park Lands themselves. Park Lands access remains intact." },
-      { area: "Aboriginal heritage",         detail: "SA Aboriginal Heritage Act 1988 consultation with whichever Traditional Custodian organisation the statute identifies as the recognised body would be required from Charter year if a built version were ever formally pursued. Naming, mural language, and ceremony design would require Traditional Custodian leadership, not just consultation. The proposal does not name any specific organisation in advance and acknowledges that any real engagement would defer entirely to the statutory body and to Traditional Custodian decisions made in their own forum." },
-      { area: "Building permits",            detail: "Adelaide CBD height limits permit 65m (the Adelaide Oval lights are 65m, the existing tallest reference). City of Adelaide Development Plan + State Planning Commission approvals required. AS 1170.4 seismic detailing for the Adelaide intra-plate zone." },
+      { area: "Kaurna heritage",             detail: "SA Aboriginal Heritage Act 1988 consultation with the Kaurna Yerta Aboriginal Corporation is required from Charter year. Naming, mural language (the PIRRALTHI mural specifically), and ceremony design require Kaurna leadership, not just consultation. The proposal acknowledges this is a Kaurna miyurna decision in their own forum." },
+      { area: "Building permits",            detail: "At 12m the heart is a small civic building far below any height trigger; City of Adelaide Development Plan + State Planning Commission approvals follow the standard track. The night-time heart of light is an evening projection under standard event-lighting permits, dimmed toward homes and Kaurna places. AS 1170.4 seismic detailing for the Adelaide intra-plate zone is straightforward at this scale." },
       { area: "Migration pathway",           detail: "Cor Residency intake (10 per year) fits within South Australia's existing Designated Area Migration Agreement (DAMA). Cor del Món contributes a small dedicated allocation, not a new pathway. Federal Department of Home Affairs negotiation required from Charter year to confirm the DAMA share." },
       { area: "Heritage screening",          detail: "Inner-suburb infill sites (Norwood, Goodwood, Prospect for the 250-unit Phase 3) pre-screened against the SA Heritage Places Database. No demolition of state-heritage-listed properties." },
       { area: "Funding compliance",          detail: "SA Government participation through Renewal SA + Department for Trade and Investment. Federal participation through the Building Better Regions Fund or successor. No foreign-state funding; partner-network share treated as foreign cultural-philanthropy under FIRB scrutiny if over the threshold." }
@@ -269,15 +275,15 @@ const vocab = {
   },
   costs: {
     title: "Approximate costs (2026 USD)",
-    monumentTotal: "USD 80 to 120 million",
-    intro: "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited and no commercial consultancy is offered. The figures below are illustrative order-of-magnitude estimates anchored against publicly comparable Adelaide civic-cultural builds (Adelaide Festival Centre redevelopment was reported at AUD 180 million; Adelaide Oval redevelopment was reported at AUD 535 million), and exist solely to ground the design narrative. Real budgets, if a built version were ever formally pursued, would be set after an international design competition and statutory review by licensed professionals in the relevant jurisdiction.",
+    monumentTotal: "USD 4 to 8 million",
+    intro: "Order-of-magnitude estimates anchored against comparable Adelaide civic-cultural builds (Adelaide Festival Centre redevelopment was AUD 180 million, Adelaide Oval redevelopment was AUD 535 million for context). Real budgets after design competition.",
     stages: [
-      { phase: "Charter (2028)",         range: "USD 2 to 4M",   scope: "International design competition + statutory Aboriginal Heritage consultation + Park Lands Act variation pathway + state planning approval cycle" },
-      { phase: "Break Ground (2029-30)", range: "USD 20 to 30M", scope: "Bluestone plinth foundation, rammed-earth core formwork, AS 1170.4 seismic detailing, Tarndanyangga site preparation" },
-      { phase: "Construction (2030-34)", range: "USD 45 to 70M", scope: "Rammed-earth core, corrugated-steel verandah cladding, festival-ribbon banner system, interior fitout" },
-      { phase: "Operational (2035)",     range: "USD 12 to 20M", scope: "Adelaide Hour broadcast studio, ceremony floor fitout, opening programme inside the Adelaide Festival" }
+      { phase: "Charter (2028)",         range: "USD 0.3 to 0.7M",   scope: "International design competition + Kaurna Yerta consultation + Park Lands Act variation pathway + State Planning Commission approval cycle" },
+      { phase: "Break Ground (2029-30)", range: "USD 0.7 to 1.5M", scope: "Bluestone plinth foundation, rammed-earth core formwork, AS 1170.4 seismic detailing, Tarndanyangga site preparation" },
+      { phase: "Construction (2030-34)", range: "USD 2 to 4M", scope: "Rammed-earth core, corrugated-steel verandah cladding, festival-ribbon banner system, interior fitout" },
+      { phase: "Operational (2035)",     range: "USD 1 to 1.8M", scope: "Adelaide Hour broadcast studio, ceremony floor fitout, opening programme inside the Adelaide Festival" }
     ],
-    fundingNote: "Funding categories that could in principle apply to a hypothetical built version, listed without naming any specific entity or programme: state or federal cultural-infrastructure capital lines, state affordable and family-housing capital lines as an overlay (not a parallel programme), private cultural philanthropy active in South Australia, and in-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under South Australian public-property law. No funds have been raised, applied for, awarded, committed, or accepted. No commercial consultancy is offered."
+    fundingNote: "Funding for the monument leans private: Cor del Món network partner share (35-50%), South Australian arts philanthropy (20-30%), a federal cultural-infrastructure share (15-25%), and only a modest enabling share from the SA Government (10-20%). Public housing money goes to Renewal SA and the Hearts of Home family homes, not the monument. FIRB review applies to any foreign-source share over the threshold."
   },
   impact: {
     title: "Impact and benefit",
@@ -293,10 +299,8 @@ const vocab = {
     title: "Lighter expressions of the same idea",
     intro: "The proposal is offered as a creative-research design idea, not as a fundraising plan or a built commitment. The lightest expression below is the recommended default for any city that wishes to honour the idea without a built monument.",
     items: [
-      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Adelaide Cor del Món experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building. No new construction, no land take, no Park Lands Act variation, no Aboriginal-heritage built-form impact, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and festival calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build." },
-      { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." },
-      { fallback: "Hindley Street north edge (within Adelaide CBD)", reason: "Alternative siting outside the Park Lands ring, listed for completeness as a design-research note if a built version were ever formally pursued." },
-      { fallback: "Mount Barker (Adelaide Hills, within Adelaide commute)", reason: "Adelaide Hills growth zone with lighter heritage and Park Lands constraint. Listed for completeness as a design-research note." }
+      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Cor del Mon city experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building, the same night-time heart of light without the 12 metre building beneath it. No new construction, no land take, no seismic or heritage risk, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and cultural calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build." },
+      { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." }
     ]
   }
 };

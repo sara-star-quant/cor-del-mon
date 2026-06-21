@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-Q2",
+  "lastUpdated": "2026-Q3",
   "cities": [
     {
       "slug": "andorra",
@@ -21,13 +21,14 @@
       "locale": "ca-AD",
       "hreflang": "ca",
       "status": "live",
+      "lifecycle": "concept",
       "url": "/andorra/",
       "tagline": {
         "native": "On l'amor es construeix",
         "english": "Where love is built"
       },
       "monumentName": "El Cor Viu",
-      "monumentHeightM": 33,
+      "monumentHeightM": 12,
       "rose": "#e11d48"
     },
     {
@@ -49,13 +50,14 @@
       "locale": "ja-JP",
       "hreflang": "ja",
       "status": "live",
+      "lifecycle": "concept",
       "url": "/yokohama/",
       "tagline": {
         "native": "港町の心",
         "english": "Heart of the port city"
       },
       "monumentName": "Minatokokoro",
-      "monumentHeightM": 120,
+      "monumentHeightM": 12,
       "rose": "#d63384"
     },
     {
@@ -77,13 +79,14 @@
       "locale": "en-AU",
       "hreflang": "en-au",
       "status": "live",
+      "lifecycle": "concept",
       "url": "/adelaide/",
       "tagline": {
         "native": "City of festivals, city of love",
         "english": "City of festivals, city of love"
       },
       "monumentName": "Living Heart Adelaide",
-      "monumentHeightM": 65,
+      "monumentHeightM": 12,
       "rose": "#c2185b"
     },
     {
@@ -105,13 +108,14 @@
       "locale": "es-CL",
       "hreflang": "es",
       "status": "live",
+      "lifecycle": "concept",
       "url": "/valparaiso/",
       "tagline": {
         "native": "Donde el corazón sube las laderas",
         "english": "Where the heart climbs the hills"
       },
       "monumentName": "El Faro del Corazón",
-      "monumentHeightM": 47,
+      "monumentHeightM": 12,
       "rose": "#ec407a"
     },
     {
@@ -133,13 +137,14 @@
       "locale": "en-ZA",
       "hreflang": "en-za",
       "status": "live",
+      "lifecycle": "concept",
       "url": "/capetown/",
       "tagline": {
         "native": "The living heart at the foot of the mountain",
         "english": "The living heart at the foot of the mountain"
       },
       "monumentName": "Living Heart Cape Town",
-      "monumentHeightM": 99,
+      "monumentHeightM": 12,
       "rose": "#ad1457"
     },
     {
@@ -161,13 +166,14 @@
       "locale": "hi-IN",
       "hreflang": "hi",
       "status": "live",
+      "lifecycle": "concept",
       "url": "/jaipur/",
       "tagline": {
         "native": "गुलाबी शहर का हृदय",
         "english": "Heart of the Pink City"
       },
       "monumentName": "Hriday Mahal",
-      "monumentHeightM": 28,
+      "monumentHeightM": 12,
       "rose": "#e91e63"
     }
   ],
@@ -178,6 +184,14 @@
     "capetown",
     "andorra",
     "valparaiso"
+  ],
+  "corYear": [
+    { "month": "January",   "city": "valparaiso", "festival": "Año Nuevo en el Mar", "theme": "New beginnings over the Pacific" },
+    { "month": "March",     "city": "adelaide",   "festival": "Festival season",     "theme": "A whole city celebrating creativity and life" },
+    { "month": "April",     "city": "andorra",    "festival": "Sant Jordi",          "theme": "A rose and a book for the one you love" },
+    { "month": "August",    "city": "jaipur",     "festival": "Teej",                "theme": "Monsoon love, couples and family" },
+    { "month": "September", "city": "capetown",   "festival": "Heritage",            "theme": "Belonging and reconciliation across the city" },
+    { "month": "October",   "city": "yokohama",   "festival": "Jazz Promenade",      "theme": "Welcoming the newcomer to the port" }
   ],
   "biennaleHosts": [
     {

@@ -1,4 +1,4 @@
-// Andorra · El Cor Viu vocabulary, v1.0 (Q2 2026).
+// Andorra · El Cor Viu vocabulary, v1.0 (Q3 2026).
 // Validates against /_shared/vocab.schema.json.
 // Loaded as an ES module by /andorra/index.html and exposed on window.AndorraVocab
 // for the Babel-standalone App script that cannot use ES import.
@@ -37,10 +37,10 @@ const vocab = {
     sans:  "'Sora', system-ui, -apple-system, sans-serif"
   },
   monument: {
-    heightM: 33,
+    heightM: 12,
     name: "El Cor Viu",
     completionYear: 2032,
-    signature: "A 33 metre living heart rising from the Valira valley floor. Andorra is a microstate; the tallest existing building in the country is around 30 metres. El Cor Viu is the new tallest, by three metres, on purpose: the seed should not dwarf the country it grows from. Warm rose-tinted glass skin that blushes deeper as night falls. Eternal flame at the ground-floor chowk, ceremony space at the eighth floor (28 m), the Constitution archive across two undercroft floors. The building the world falls in love with, exactly as tall as Andorra can carry."
+    signature: "A 12 metre living heart on the Valira valley floor, the same height as every Cor monument: the shared heart-core made the whole building, so a couple stands in the identical 12 metre heart whether in Andorra or Jaipur. Warm Pyrenean granite and rose-tinted glass that blushes deeper as night falls. Eternal flame at the ground-floor chowk, ceremony space on the upper floor, the Constitution archive in the undercroft. By night, during accepted hours, the little stone heart blooms into a far larger heart of light that beats in perfect time with all six cities at 60 BPM, the network's one heartbeat made visible over the valley, grand but weightless, fully reversible, dimmed away from homes and protected views. Small enough for a microstate to build and love, identical to its five sisters, unmistakably Andorran in its skin."
   },
   nationalStyle: {
     materials: [
@@ -62,8 +62,8 @@ const vocab = {
     designSpec: "Low-seismic Pyrenean zone, agR around 0.04g, soil category C",
     peakAccel: "0.04g design / 0.10g MCE",
     isolation: "Stone-clad RC core with discrete elastomeric bearings at the plinth, no visible isolators above ground",
-    notes: "Coordinated with AR+I and the POCRISC framework. Andorra's seismic record shows roughly an M4 every 5-10 years; the 33 metre height is well within the comfortable range for the zone.",
-    designConsequences: "The low seismic demand lets the 33 metre heart sit on a dramatic granite plinth without visible base isolators, keeping the silhouette clean against the Valira valley wall. The added structural cost over a non-seismic design is modest, around 5 to 8 percent."
+    notes: "Coordinated with AR+I and the POCRISC framework. Andorra's seismic record shows roughly an M4 every 5-10 years; a 12 metre stone heart is trivially within the comfortable range for the zone.",
+    designConsequences: "At 12 metres on a granite plinth, the seismic demand is negligible and no base isolation is needed anywhere in the network; the uniform low height is part of why every Cor monument is cheap, safe, and quick to build. The hologram crown adds no structural load at all."
   },
   sections: {
     hero: {
@@ -73,7 +73,7 @@ const vocab = {
       lead: "A country that wove love into every stone, every meal shared by candlelight, every slow dance under mountain stars, every voice on the airwaves, every child born into a home that was waiting for them.",
       viral: "The country where buildings have heartbeats and radio stations have pulses",
       stats: [
-        { n: "33m",      l: "El Cor Viu (the seed monument)" },
+        { n: "12m",      l: "El Cor Viu (the shared heart, +hologram)" },
         { n: "10",       l: "Heart-shaped Cor landmarks" },
         { n: "300",      l: "Llars del Cor by 2035" },
         { n: "24/7",     l: "Cor FM + Cor Kids TV (network broadcast)" },
@@ -83,7 +83,7 @@ const vocab = {
     monumentSection: {
       label: "El Cor Viu",
       title: "El Cor Viu",
-      lead: "The Living Heart. 33 metres of desire, rising from the Valira valley. Not a statue to look at. A building to enter, to feel, to fall in love inside.",
+      lead: "The Living Heart. 12 metres of desire on the Valira valley floor, the same heart every Cor city builds. Not a statue to look at. A building to enter, to feel, to fall in love inside, that blooms at night into a far larger heart of light beating in time with all six cities and weighing nothing.",
       viral: "360 degrees of vision, creation, and light. Where the world's boldest minds come to shape what love builds next."
     },
     passivhaus: {
@@ -121,14 +121,20 @@ const vocab = {
     media: {
       label: "Nou Ecosistema Mediàtic",
       title: "Cor FM + Cor Kids TV (the network broadcast)",
-      lead: "Andorra is the network broadcast hub. Cor FM and Cor Kids TV stream from the El Cor Viu studios in Andorra la Vella and run on the Cor Play app from 2027 onward. Each of the other Wave-1 cities contributes a weekly slot in its own language as it goes operational: a Yokohama hour, an Adelaide hour, a Valparaíso hour, a Cape Town hour, a Jaipur hour. Andorra hosts; the network speaks. ATV, RNA, and Club Piolet stay in place; Cor FM is additive, not replacing.",
-      viral: "If you control the soundtrack, you control the heartbeat.",
+      lead: "Andorra is the network's broadcast hub, and it works with the country's own public broadcaster rather than around it. RTVA already runs Andorra Televisió and Ràdio Nacional d'Andorra; the children's strand Club Piolet keeps its name and its team, and the Cor kindness segments are co-produced inside it under an RTVA editorial agreement. Cor FM is a streaming love-radio layer that adds to that, never replaces it: Catalan first, then a weekly hour from each Wave-1 city in its own language as it comes online. Andorra hosts; the network speaks.",
+      viral: "A country that shares its airwaves instead of guarding them.",
+      outlets: [
+        { icon: "mic", title: "Cor FM · streaming love radio", desc: "A 24/7 streaming layer, Catalan first and then the network's other languages: Andorran ballads, international romance, live poetry, a late-night Nit Sensual hour. Broadcast from a glass studio in Encamp, additive to Ràdio Nacional d'Andorra, never over it.", tags: ["24/7 stream", "Global", "Catalan first"] },
+        { icon: "screen", title: "Club Piolet · with RTVA", desc: "The Cor kindness segments are co-produced inside RTVA's own children's strand, Club Piolet, which keeps its name and its team. Original Andorran characters about kindness and empathy, set in real Valira valleys, under an RTVA editorial agreement.", tags: ["With RTVA", "Catalan", "Co-produced"], tagVariant: "soft" }
+      ],
       soundtrackTitle: "El So del Cor Viu · The Sound of El Cor Viu",
-      soundtrackIntro: "Three Catalan tracks across fifty years. The 1975 foundation, the 2008 tender modern, the 2023 viral young. What plays in a Valira-valley apartment when someone is making dinner for the people they love. Click any track to open a YouTube search.",
+      soundtrackIntro: "Five Catalan songs across half a century, the kind sung in kitchens and on car radios all the way up the Valira. A father to his child, the long road home, a love nobody is ashamed of, the small year-marks a couple keeps, and the young who carry it on. This is what plays in a valley apartment when someone is cooking for the people they love. Click any track to open a YouTube search.",
       soundtrack: [
-        { track: "Viatge a Itaca",      artist: "Lluís Llach",        released: 1975, note: "The Catalan musical pilgrimage. Built on Cavafy's Ithaca poem about the journey home being the point, recorded under the late Franco regime as a quiet act of cultural defiance. The opening of every Catalan singer's record collection. The seed's seed." },
-        { track: "Aniversari",          artist: "Manel",              released: 2008, note: "Catalan indie at its most tender. About the small year-marks a couple keeps for itself. Manel from Barcelona; the band a generation of Pyrenean teenagers grew up to. Slow, warm, unembarrassed about love." },
-        { track: "Coti x Coti",         artist: "The Tyets",          released: 2023, note: "Catalan rap-pop from the Vallès, viral across TikTok and the Pyrenean youth scene. Proof that Catalan music is current, not heritage. The Tyets' hit anthem about going at your own pace, side by side." }
+        { track: "Pare",                artist: "Joan Manuel Serrat", released: 1973, note: "A son speaking to his father about the land they share and what one generation owes the next. Serrat is the voice Catalan homes were raised on. Family before anything: the right place to begin." },
+        { track: "Viatge a Ítaca",      artist: "Lluís Llach",        released: 1975, note: "The Catalan pilgrimage song, built on Cavafy's Ithaca: the road home is the point, not the arrival. Recorded in the last of the Franco years as a quiet act of belonging. The opening track of nearly every Catalan record collection." },
+        { track: "Boig per tu",         artist: "Sau",                released: 1990, note: "The Catalan love standard, sung back word for word by thousands at every concert. Crazy about you, plainly, with no embarrassment. A song a whole country carries by heart." },
+        { track: "Aniversari",          artist: "Manel",              released: 2008, note: "Catalan indie at its most tender, about the small private anniversaries a couple keeps only for itself. The band a generation of Pyrenean teenagers grew into. Slow, warm, unguarded." },
+        { track: "Coti x Coti",         artist: "The Tyets",          released: 2023, note: "Catalan rumba-pop from the Vallès, everywhere on the Pyrenean youth scene. Proof that Catalan is a living language, not a heritage exhibit. An anthem about going at your own pace, side by side." }
       ]
     },
     traditions: {
@@ -167,7 +173,7 @@ const vocab = {
       lead: "Resident population around 88,941 (Departament d'Estadística, 2025). Government actively managing growth via the Omnibus Law and Law 2/2026 with the 2025 quota at 800 permits. The foundations of this transformation depend on welcoming young energy, making it easy for them to stay, and giving them every reason to build their families here.",
       viral: "A country built for love needs people ready to live it",
       cards: [
-        { icon: "residency", tag: "Immigration", title: "Cor Visa (Love Visa)",      desc: "Dedicated allocation within the existing 800-permit annual quota (expandable to ~1,040). 100 couples per year (about 200 people) committed to 2+ years of residency. Subsidised Llars del Cor housing access, free Catalan courses. Proposed Q2 2026." },
+        { icon: "residency", tag: "Immigration", title: "Cor Visa (Love Visa)",      desc: "Dedicated allocation within the existing 800-permit annual quota (expandable to ~1,040). 100 couples per year (about 200 people) committed to 2+ years of residency. Subsidised Llars del Cor housing access, free Catalan courses. Proposed Q3 2026." },
         { icon: "screen",    tag: "Remote work", title: "Digital Pathway Enhancement", desc: "Streamline the digital entrepreneur pathway within active residency. Co-working hubs, mentorship, advocate for a clearer 3-year permanent residency path." },
         { icon: "book",      tag: "Education",   title: "UdA Cor Expansion",          desc: "UdA opened 2024-25 with 682 degree students plus 1,200+ in continuing education. New faculties in romantic tourism design, wellness architecture, creative arts. Goal: grow degree enrolment toward 1,000+." },
         { icon: "flame",     tag: "Economy",     title: "Startup Cor Incubator",      desc: "Co-working in Andorra la Vella, €25K seed grants for the first 10 startups per year, building on Andorra's 10% corporate tax. Focus: wedding tech, romance travel, family wellness, creative content." },
@@ -175,7 +181,8 @@ const vocab = {
         { icon: "hearth",    tag: "Housing",     title: "Housing Access Support",     desc: "Build on the rent freeze (active through 2027) and the Omnibus Law's recovery of around 1,500 rental units. Young-family rental priority within recovered stock, plus first-home buyer support." },
         { icon: "mic",       tag: "Culture",     title: "Free Catalan for All",       desc: "Expand existing free Catalan courses into immersive cultural integration: cooking classes, mountain excursions, community volunteering, all in Catalan." },
         { icon: "leaf",      tag: "Wellbeing",   title: "Family Mental Health",       desc: "Expand CASS to include free counselling for new parents, couples, and families. Postnatal wellbeing support and child development guidance at primary care centres." },
-        { icon: "transit",   tag: "Transport",   title: "Green Transport Network",    desc: "Electric shuttle loops along CG-1 / CG-2, EV charging at Cor landmarks, e-bike sharing with battery swap for steep gradients." }
+        { icon: "transit",   tag: "Transport",   title: "Green Transport Network",    desc: "Electric shuttle loops along CG-1 / CG-2, EV charging at Cor landmarks, e-bike sharing with battery swap for steep gradients." },
+        { icon: "leaf",      tag: "Animals",     title: "Cor i Ramat",                desc: "A country this small keeps its animals close. Summer transhumance still walks herds up to the high pastures, and the Gos d'Atura Català, the Catalan mountain sheepdog, works beside the shepherds. Cor backs gosSOS, the Andorran association that has run the country's official dog shelter (the Centre de Protecció Caní) since 2020, and partners with Caretory (\"Care. Home. Family.\"), the welfare-first certified-shelter initiative launching in Andorra for cats and dogs as the country reforms its animal-welfare law, before it spreads across Europe. Foster-family days, shelter dog-walks and cat-cafe afternoons, school visits to the estives, so no animal here is left without a home and every child grows up learning to care for one." }
       ],
       stats: [
         { n: "100",   l: "Cor Visa Couples/Yr (proposed)" },
@@ -203,25 +210,25 @@ const vocab = {
           metrics: { charterSigned: true, competitionAwarded: true, biennaleHosted: true },
           networkContribution: "Andorra establishes the visual identity, the nine-section template, and the Cor del Món Constitution. The Andorran Cor Biennale becomes the network's first annual gathering and the model for every subsequent host city.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2028,
           stage: "Break Ground",
-          commitment: "Construction begins on El Cor Viu and on the first 400-unit Llars del Cor block in Andorra la Vella. The Cor Visa pilot opens with the first 100-couple cohort (proposed Q2 2026). Adelaide and Yokohama sign their own Cor Charters this year, anchoring the wave-1 trio.",
+          commitment: "Construction begins on El Cor Viu and on the first 400-unit Llars del Cor block in Andorra la Vella. The Cor Visa pilot opens with the first 100-couple cohort (proposed Q3 2026). Adelaide and Yokohama sign their own Cor Charters this year, anchoring the wave-1 trio.",
           metrics: { homesUnderConstruction: 400, corVisaCouples: 100 },
           networkContribution: "Andorra publishes the first ten Cor Pattern Library entries (heart-shaped intersection, Llars del Cor block typology, ceremony-pavilion plan). Adelaide and Yokohama design competitions begin in parallel.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2032,
           stage: "Operational",
-          commitment: "El Cor Viu opens. The Daily Ceremony begins broadcasting at the local sunset hour (around 18:00 CET in winter, 21:00 in midsummer) from the eighth-floor mirador (28 m, the building's ceremony level inside the 33 m envelope). The first 200 Llars del Cor units (mostly retrofits in Andorra la Vella and Escaldes) delivered. Cor FM and Cor Kids TV have been broadcasting on the Cor Play app for two years. The first Cor Generation residents (network families across all wave-1 cities) move into Andorran Llars units.",
-          metrics: { homes: 200, monumentHeightM: 33, residentsIncoming: 10 },
+          commitment: "El Cor Viu opens. The Daily Ceremony begins broadcasting at the local sunset hour (around 18:00 CET in winter, 21:00 in midsummer) from the upper floor of the 12 m heart, the larger heart of light blooming above it and beating with the network for the hour. The first 200 Llars del Cor units (mostly retrofits in Andorra la Vella and Escaldes) delivered. Cor FM and Cor Kids TV have been broadcasting on the Cor Play app for two years. The first Cor Generation residents (network families across all wave-1 cities) move into Andorran Llars units.",
+          metrics: { homes: 200, monumentHeightM: 12, residentsIncoming: 10 },
           networkContribution: "Andorra alone holds the Daily Ceremony from 2032 onward. Cor Residency activates with 10 incoming residents per year (two from each of Adelaide, Yokohama, Valparaíso, Cape Town, Jaipur). Adelaide and Yokohama monuments under construction.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2057,
@@ -230,7 +237,7 @@ const vocab = {
           metrics: { networkAgeYears: 25, totalHomes: 500, generationAdults: 350 },
           networkContribution: "Andorra graduates into network elder status. Andorran mentors begin advising Wave-2 candidate cities (admitted from 2042 onward) through the Cor Mentorship Programme. By this point the network is over 30 member cities and Andorra is the eldest of them all.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         }
       ]
     }
@@ -247,15 +254,13 @@ const vocab = {
       "Unitat d'Intel·ligència Financera (UIFAND), foreign-source funding registration."
     ],
     budgetSources: [
-      "Funding-source categories that could in principle apply to a hypothetical built version, listed without naming any specific entity or programme.",
-      "National cultural-infrastructure capital lines, where they exist and apply, subject to each ministry's own priorities and statutory procedures.",
-      "National affordable-housing capital lines as an overlay on existing programmes, not as a parallel programme.",
-      "Private cultural philanthropy active in the relevant country, subject to each foundation's own application processes.",
-      "In-kind contributions from public landholders where a long-term cultural-anchor lease is feasible under local public-property law.",
-      "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited. No commercial consultancy is offered."
+      "Ministeri de Cultura cultural-infrastructure line (annual capital budget).",
+      "Ministeri d'Ordenament Territorial existing affordable-housing programme (Llars del Cor as an overlay, not a new line item).",
+      "Cor del Món network partner-share contribution (around 50% of monument cost).",
+      "EU and EIB cultural-infrastructure facilities are not currently open to Andorra (Andorra has a customs union with the EU and is in active Association-Agreement negotiations as of 2026); listed only as a future option once the Association Agreement enters into force."
     ],
     items: [
-      { area: "Building permits",   detail: "El Cor Viu at 33m is the new tallest building in Andorra by about three metres. Govern d'Andorra building approval and the Comú d'Andorra la Vella urban-plan amendment are both required from Charter year. The 33m height is deliberately sized to need standard review rather than special legislation." },
+      { area: "Building permits",   detail: "El Cor Viu at 12m is a small civic building, far below any height that would trigger special review; Govern d'Andorra building approval and the Comú d'Andorra la Vella urban-plan amendment follow the standard track. The night-time heart of light is an evening projection under standard event-lighting permits, not a structure, switched off or dimmed toward homes and protected views." },
       { area: "Land",                detail: "Buildable valley floor is genuinely scarce in Andorra (468 km², 92% steep mountain). The El Cor Viu site near the Riu Valira ribera is one of the few flat valley-floor parcels still available. Llars del Cor uses retrofit and infill on plots already in use, no green-field development." },
       { area: "Residency",           detail: "Cor Residency intake operates within Andorra's existing Treballador Cultural (Cultural Worker) seasonal-permit category, not as a new visa class. CASS (Caixa Andorrana de Seguretat Social) contributions for residents follow standard rules. The seed cohort is small (5 per year), realistic against Andorra's residency capacity." },
       { area: "Sovereignty",         detail: "Catalan content is reviewed by Andorra-specific cultural advisors, not imported from the Generalitat de Catalunya. Andorra is its own jurisdiction with the Co-Princes (Bishop of Urgell and President of France) as ceremonial heads of state. The proposal respects this." },
@@ -264,15 +269,15 @@ const vocab = {
   },
   costs: {
     title: "Approximate costs (2026 USD)",
-    monumentTotal: "USD 10 to 15 million",
-    intro: "No funds have been raised, applied for, awarded, committed, or accepted for this proposal. No investment is solicited and no commercial consultancy is offered. The figures below are illustrative order-of-magnitude estimates anchored against publicly comparable civic builds, and exist solely to ground the design narrative. Real budgets, if a built version were ever formally pursued, would be set after an international design competition and detailed engineering by licensed professionals in the relevant jurisdiction.",
+    monumentTotal: "USD 4 to 8 million",
+    intro: "Order-of-magnitude estimates. Real budgets will come after the international design competition and detailed engineering.",
     stages: [
-      { phase: "Charter (2027)",          range: "USD 0.5 to 1.0M",  scope: "Design competition prize + jury + initial site studies + Govern approvals" },
-      { phase: "Break Ground (2028)",     range: "USD 2 to 3M",      scope: "Foundation, Pyrenean granite plinth, RC core to grade" },
-      { phase: "Construction (2029-2031)", range: "USD 6 to 9M",     scope: "Stone-clad RC core, rose-tinted glass curtain wall, larch interior, eternal flame, mirador" },
-      { phase: "Operational (2032)",      range: "USD 1.5 to 2.0M",  scope: "Fitout, broadcast studio, opening programme" }
+      { phase: "Charter (2027)",          range: "USD 0.3 to 0.7M",  scope: "Design competition prize + jury + initial site studies + Govern approvals" },
+      { phase: "Break Ground (2028)",     range: "USD 0.7 to 1.5M",      scope: "Foundation, Pyrenean granite plinth, RC core to grade" },
+      { phase: "Construction (2029-2031)", range: "USD 1.5 to 3.5M",     scope: "Stone-clad RC core, rose-tinted glass curtain wall, larch interior, eternal flame, mirador" },
+      { phase: "Operational (2032)",      range: "USD 1 to 2.3M",  scope: "Fitout, broadcast studio, opening programme" }
     ],
-    fundingNote: "Funding categories that could in principle apply to a hypothetical built version, listed without naming any specific entity: national cultural-infrastructure capital lines, national affordable-housing capital lines as an overlay (not a parallel programme), private cultural philanthropy active in the relevant country, and in-kind contributions from public landholders where a long-term cultural-anchor lease is feasible. No funds have been raised, applied for, awarded, committed, or accepted. No commercial consultancy is offered."
+    fundingNote: "A small seed, mostly partner-funded. The monument leans on the Cor del Món network share and the Govern d'Andorra cultural-infrastructure line; the country's housing money stays where it belongs, in the existing affordable-housing programme for Andorran families. It asks little of the public purse and gives the public benefit back as homes. No external sovereign funding sought."
   },
   impact: {
     title: "Impact and benefit",
@@ -280,14 +285,14 @@ const vocab = {
       { metric: "300 family-typology homes by 2035",   note: "Half the size of Govern's existing 600-by-2027 affordable-housing target. The Cor contribution is the typology (3+ bedrooms, intergenerational alcove, courtyard) not the count." },
       { metric: "5 Cor Residency intake per year",      note: "Five incoming creative residents annually from 2032, housed in retrofitted Andorra la Vella and Escaldes apartments. Punching above weight as the network's seed." },
       { metric: "Network broadcast hub",                note: "Cor FM and Cor Kids TV stream from El Cor Viu studios. Each operational network city contributes a weekly hour. Andorra anchors the broadcast in perpetuity." },
-      { metric: "33m monument as the seed silhouette",  note: "Modest by global standards; substantial for Andorra (new tallest by ~3m). The seed should not dwarf the country it grows from." }
+      { metric: "12m monument, identical to every Cor heart",  note: "Every Cor city builds the same 12 metre heart; only the skin and the night-time heart of light differ. Tiny footprint, tiny cost, nothing that towers over the valley. Unity made literal." }
     ]
   },
   alternatives: {
     title: "Lighter expressions of the same idea",
     intro: "The proposal is offered as a creative-research design idea, not as a fundraising plan or a built commitment. The lightest expression below is the recommended default for any city that wishes to honour the idea without a built monument.",
     items: [
-      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Cor del Món city experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building. No new construction, no land take, no seismic or heritage risk, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and cultural calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build." },
+      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Cor del Mon city experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building, the same night-time heart of light without the 12 metre building beneath it. No new construction, no land take, no seismic or heritage risk, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and cultural calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build." },
       { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." }
     ]
   }
