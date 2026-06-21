@@ -19,10 +19,7 @@ its own skyline, materials, languages, and binding constraints.
 
 ## The current state
 
-All six wave-1 cities are live. Each city's monument is sized to its own skyline:
-**Andorra 33m**, **Yokohama 120m**, **Adelaide 65m**, **Valparaíso 47m**, **Cape Town 99m**,
-**Jaipur 28m**. The rolling-wave schedule has Andorra opening 2032, Adelaide and Yokohama
-2035-2036, and Valparaíso, Cape Town, and Jaipur reaching Operational by 2038-2040.
+All six wave-1 city pages are concept-ready. Every city builds the same **12 metre heart**, the shared heart-core made the whole monument, in its own materials and culture, lit at night by a far larger **heart of light** that beats in sync across all six. The rolling-wave schedule has Andorra opening 2032, Adelaide and Yokohama 2035-2036, and Valparaíso, Cape Town, and Jaipur reaching Operational by 2038-2040.
 
 The network broadcast (Cor FM and Cor Kids TV) runs from a single hub anchored in
 Andorra, with each operational city contributing a weekly hour in its own language.

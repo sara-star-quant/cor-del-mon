@@ -40,4 +40,4 @@ So that nothing here reads as a constraint where a freedom was meant.
 
 This document is part of the project content and is licensed under CC BY-NC 4.0 (see `LICENSE-content.md`).
 
-The current version is **1.0 (Q2 2026)**. Amendments follow the same process as the Constitution: pull request against the central repository, unanimous approval from current member cities for any of the seven invariants, two-thirds majority for everything else.
+The current version is **1.0 (Q3 2026)**. Amendments follow the same process as the Constitution: pull request against the central repository, unanimous approval from current member cities for any of the seven invariants, two-thirds majority for everything else.
