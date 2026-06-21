@@ -15,7 +15,7 @@ export const LIVE_CITIES = [
     nameEn: 'Yokohama',
     nameNative: '横浜',
     vocabGlobal: 'YokohamaVocab',
-    requiredVocabTerms: ['Minatokokoro', 'Kokoro no Ie', 'Yokohama Hour', 'weathering steel', 'Hakone'],
+    requiredVocabTerms: ['Minatokokoro', 'Kokoro no Ie', 'Yokohama Hour', 'titanium', 'Hakone'],
   },
   {
     slug: 'adelaide',
@@ -36,7 +36,7 @@ export const LIVE_CITIES = [
     nameEn: 'Cape Town',
     nameNative: 'Cape Town',
     vocabGlobal: 'CapeTownVocab',
-    requiredVocabTerms: ['Living Heart Cape Town', 'Hearts of Home', 'Karoo sandstone', 'Table Mountain', 'Day Zero'],
+    requiredVocabTerms: ['Living Heart Cape Town', 'Hearts of Home', 'Cape granite', 'Table Mountain', 'Day Zero'],
   },
   {
     slug: 'jaipur',

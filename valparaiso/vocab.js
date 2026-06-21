@@ -1,4 +1,4 @@
-// Valparaíso · El Faro del Corazón vocabulary, v1.0 (Q2 2026).
+// Valparaíso · El Faro del Corazón vocabulary, v1.0 (Q3 2026).
 // Validates against /_shared/vocab.schema.json.
 // Loaded as an ES module by /valparaiso/index.html and exposed on window.ValparaisoVocab
 // for the Babel-standalone App script that cannot use ES import.
@@ -42,10 +42,10 @@ const vocab = {
     sans:  "'Inter', system-ui, -apple-system, sans-serif"
   },
   monument: {
-    heightM: 47,
+    heightM: 12,
     name: "El Faro del Corazón",
     completionYear: 2030,
-    signature: "Un Faro del Corazón de 47 metros en el borde de Muelle Prat, entre el casco UNESCO sobre los cerros y el puerto de trabajo. La altura es una decisión deliberada: 47 metros es la cota a la que el ascensor histórico Concepción deja al pasajero al cruzar al cerro. El monumento mide lo mismo que el primer cerro lo hace. Hierro galvanizado pintado en la paleta rosa-óxido de las casas de cerro, sobre un marco de acero con aislación basal para la zona de subducción del Pacífico. Un corazón visible desde cada cerro, cada ascensor, cada balcón sobre la bahía, sin sobrepasar nunca al cerro mismo."
+    signature: "Un Faro del Corazón de 12 metros en el borde de Muelle Prat, en el plan llano, el mismo corazón de 12 metros que construye cada ciudad Cor. A esta altura nunca toca la silueta patrimonial de los cerros que tiene detrás, y por pequeño es barato y rápido de levantar. Hierro galvanizado pintado en la paleta rosa-óxido de las casas de cerro, con fijaciones de acero inoxidable marino (316) contra el aire salino, sobre un marco con aislación basal para la zona de subducción del Pacífico. De noche, en horas acordadas, el pequeño faro florece en un corazón de luz mucho mayor sobre el agua que late al unísono con las seis ciudades, ingrávido y completamente reversible, atenuado lejos de los cerros y las vistas protegidas. Un corazón al borde del agua, idéntico en su núcleo a sus cinco hermanas, alrededor de una sola llama."
   },
   nationalStyle: {
     materials: [
@@ -82,7 +82,7 @@ const vocab = {
       lead: "The Pearl of the Pacific, perched on 42 cerros above a working port. Pablo Neruda lived here in La Sebastiana on Cerro Florida. UNESCO World Heritage since 2003. Greater Valparaíso is around 1.02 million people, the commune itself is 285,000. 16.6% of residents are over 65, the highest aging share of any Chilean major city. Andorra writes love in mountain stone. Valparaíso writes love in funiculars and painted iron.",
       viral: "A city where the hills tell you which colour you are loved in",
       stats: [
-        { n: "88m",      l: "El Faro del Corazón monumento" },
+        { n: "12m",      l: "El Faro del Corazón (corazón compartido, +latido de luz)" },
         { n: "10",       l: "Cor Landmarks (en forma de corazón)" },
         { n: "600+200", l: "Hogares incrementales + casas restauradas (2038)" },
         { n: "1 hr/sem", l: "Hora de Valparaíso en Cor FM" },
@@ -92,7 +92,7 @@ const vocab = {
     monumentSection: {
       label: "El Faro del Corazón",
       title: "El Faro del Corazón",
-      lead: "El Faro del Corazón. 47 metros de hierro pintado sobre Muelle Prat, exactamente la altura a la que el ascensor Concepción deposita al pasajero en su cerro. El monumento iguala al primer cerro, no lo sobrepasa. Pabellones de madera laminada sobre marco de acero con aislación basal. Un corazón visible desde cada cerro, ascensor, y balcón de la bahía.",
+      lead: "El Faro del Corazón. 12 metros de hierro pintado en el borde de Muelle Prat, el mismo corazón que construye cada ciudad Cor. A esta altura no toca la silueta patrimonial de los cerros. Marco de acero con aislación basal. De noche florece en un corazón de luz mucho mayor sobre el agua que late con las seis ciudades, ingrávido y reversible.",
       viral: "Not the tallest building in the harbour. The one the cerros agreed to face."
     },
     passivhaus: {
@@ -130,15 +130,20 @@ const vocab = {
     media: {
       label: "Valpo en el aire",
       title: "Hora de Valparaíso en la transmisión de la red",
-      lead: "Valparaíso no monta una emisora aparte. La transmisión de Cor del Món está anclada en Andorra (Cor FM, app Cor Play). Valparaíso aporta la Hora de Valparaíso: una franja semanal de dos horas en español, grabada desde un pequeño estudio dentro de El Faro del Corazón a partir del 2038, transmitida al mundo vía Cor Play. Las emisoras existentes se quedan donde están: Radio Festival, Radio Valparaíso, TVN Regional. La Hora pone Valpo frente a la red, no encima de las emisoras locales.",
-      viral: "Valpo no necesitaba otra emisora. Necesitaba una hora a la que la red presta atención.",
+      lead: "Valparaíso no monta una emisora aparte. La transmisión de Cor del Món está anclada en Andorra (Cor FM, app Cor Play); Valparaíso aporta la Hora de Valparaíso, una franja semanal en español grabada dentro de El Faro del Corazón y transmitida al mundo vía Cor Play desde 2038. En la ciudad trabaja con las casas que ya cuentan a Valpo: una franja infantil de cariño coproducida con UCV TV, el canal cultural y educativo más antiguo de Chile, nacido en la PUCV de Valparaíso, con financiamiento del Fondo CNTV, y una compañía de radio con Radio Valentín Letelier y las radios de los cerros. TVN, UCV TV y las radios locales se quedan donde están. La Hora es un regalo a la red, nunca una emisora por encima de Valpo.",
+      viral: "Valpo no necesitaba otra emisora. Necesitaba una hora que la ciudad le prestara.",
+      outlets: [
+        { icon: "mic", title: "La Hora de Valparaíso · con Radio Valentín Letelier", desc: "Una hora semanal en la red, hecha con la radio universitaria de la PUCV, Radio Valentín Letelier, y las radios de los cerros. Vals porteño, nueva canción, cartas leídas al aire, transmitida al mundo por Cor Play.", tags: ["Semanal", "Español", "Radio porteña"] },
+        { icon: "screen", title: "Franja infantil · con UCV TV y el Fondo CNTV", desc: "Una franja de cariño para niños coproducida con UCV TV, el canal cultural y educativo más antiguo de Chile, nacido en la PUCV de Valparaíso, con financiamiento del Fondo CNTV. En el espíritu de 31 minutos: emoción, empatía y humor.", tags: ["Con UCV TV", "Fondo CNTV", "Infantil"], tagVariant: "soft" }
+      ],
       soundtrackTitle: "El Sonido de Valparaíso",
-      soundtrackIntro: "Lo que suena al subir un cerro en febrero a las 19:00 mientras El Faro empieza a encenderse. Un breve set de raíz porteña y de la nueva canción chilena. Haz clic en cualquier pista para abrir una búsqueda en YouTube.",
+      soundtrackIntro: "Lo que suena al subir un cerro en febrero a las 19:00 mientras El Faro empieza a encenderse. Cinco canciones de raíz porteña y de la nueva canción chilena, con sus autores corregidos. Haz clic en cualquier pista para abrir una búsqueda en YouTube.",
       soundtrack: [
-        { track: "Gracias a la Vida",       artist: "Violeta Parra",       released: 1966, note: "Compuesta en Chile el último año de su vida. Ningún Cor del Món toma en serio el amor sin esta canción de fondo." },
-        { track: "El Pueblo Unido Jamás Será Vencido", artist: "Inti-Illimani", released: 1973, note: "Compuesta a 60 km de Valpo. La melodía que Cerro Alegre canta cuando se queda sin palabras." },
-        { track: "Yo Vengo a Ofrecer Mi Corazón", artist: "Mercedes Sosa", released: 1985, note: "La voz argentina que adoptó Sudamérica. Ofrecer el corazón es la única traducción posible de Cor del Món." },
-        { track: "La Joya del Pacífico",    artist: "Jorge Farías",        released: 1941, note: "El vals porteño tradicional sobre Valparaíso. Lo que tocan los músicos del trolebús en las noches de verano." }
+        { track: "Gracias a la Vida",       artist: "Violeta Parra",       released: 1966, note: "De su último álbum, el año antes de morir. El himno chileno de gratitud por la vida y el amor. Ningún Cor del Món toma en serio el amor sin esta canción de fondo." },
+        { track: "Valparaíso",              artist: "Osvaldo Rodríguez",   released: 1966, note: "La carta de amor más porteña que existe, escrita por un hijo de la ciudad. 'Tu pañuelo es de duelo...' Lo que Valpo canta sobre sí mismo cuando se queda sin palabras." },
+        { track: "La Joya del Pacífico",    artist: "Víctor Acosta · Lucho Barrios", released: 1947, note: "El vals porteño por excelencia, música de Víctor Acosta, convertido en himno de la ciudad por la voz de Lucho Barrios. Lo que tocan los músicos del trolebús en las noches de verano." },
+        { track: "El Pueblo Unido Jamás Será Vencido", artist: "Quilapayún · Sergio Ortega", released: 1973, note: "Música de Sergio Ortega con Quilapayún, llevada al mundo por Inti-Illimani. La melodía que un cerro entero canta cuando decide cuidarse en común." },
+        { track: "Yo Vengo a Ofrecer Mi Corazón", artist: "Mercedes Sosa", released: 1985, note: "Escrita por el argentino Fito Páez, hecha suya por la voz de Mercedes Sosa y por toda Sudamérica. Ofrecer el corazón es la única traducción posible de Cor del Món." }
       ]
     },
     traditions: {
@@ -182,7 +187,8 @@ const vocab = {
         { icon: "book",      tag: "Educación",     title: "Taller del Cerro PUCV (un solo MArch)",         desc: "La Escuela de Arquitectura de la PUCV (referente continental por la Travesía y la Ciudad Abierta de Amereida) abre un único taller MArch enfocado: vivienda incremental en pendiente, edificio-escalera, fachadas de zinc pintado. Veinte alumnos al año, cinco cupos para estudiantes de las ciudades hermanas. Un solo taller bien dictado, sin facultades nuevas." },
         { icon: "doublehearts", tag: "Cuidado",    title: "Salas cuna en Hogares del Corazón",             desc: "Cuidado infantil gratuito desde los 12 meses en planta baja de cada bloque incremental. Coordinado con la JUNJI Valparaíso y los planes de cobertura ya existentes del MINEDUC. La caminata de la cocina a la sala cuna no excede los dos minutos." },
         { icon: "leaf",      tag: "Salud",         title: "Apoyo postnatal en el Hospital Van Buren",      desc: "Ampliación de la cobertura postnatal de salud mental para padres y parejas en el Hospital Carlos Van Buren, financiada por Fonasa y el programa GES de salud mental. Telesalud para los cerros con acceso vehicular limitado." },
-        { icon: "transit",   tag: "Movilidad",     title: "Trolebús del Corazón (recorrido del Plan)",     desc: "Los trolebuses históricos de Valpo (los más antiguos del mundo en operación continua, desde 1952) suman una librea rosa para los recorridos del Plan: El Faro, los Hogares restaurados de los cerros y el casco UNESCO. Subsidiados para residentes con un pequeño aporte de los cruceros que recalan en el muelle." }
+        { icon: "transit",   tag: "Movilidad",     title: "Trolebús del Corazón (recorrido del Plan)",     desc: "Los trolebuses históricos de Valpo (los más antiguos del mundo en operación continua, desde 1952) suman una librea rosa para los recorridos del Plan: El Faro, los Hogares restaurados de los cerros y el casco UNESCO. Subsidiados para residentes con un pequeño aporte de los cruceros que recalan en el muelle." },
+        { icon: "leaf",      tag: "Animales",      title: "Los quiltros del cerro",                        desc: "Valparaíso es ciudad de quiltros, los perros de barrio que suben y bajan las escaleras con todo el mundo. Bajo la Ley 21.020 (la 'Ley Cholito') de tenencia responsable, Cor apoya las campañas municipales de esterilización, registro y adopción, comederos comunitarios en los cerros y visitas escolares: cuidar al perro del cerro es la primera lección de comunidad que aprende un niño porteño." }
       ],
       stats: [
         { n: "10",    l: "Residencia del Corazón intake/año" },
@@ -210,25 +216,25 @@ const vocab = {
           metrics: { charterSigned: true, competitionAwarded: true, siteSecured: "Muelle Prat" },
           networkContribution: "Valparaíso se convierte en el ancla del Pacífico Sur de Cor del Món, junto con Adelaide. Hospeda la Cor Biennale 2031 dentro del Festival de Viña del Mar tradicional, dos años antes de la apertura de su monumento.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2032,
           stage: "Break Ground",
-          commitment: "Construcción comienza en El Faro del Corazón y en los primeros 400 cores Hogares del Corazón en Cerro Mariposa. Visa del Corazón piloto abre con la primera cohorte de 100 parejas (propuesta Q2 2026). Aislamiento sísmico base (NCh2745) instalado bajo el plinto de andesita esta primavera. Andorra acaba de operar su monumento; Adelaide y Yokohama están bajo construcción.",
+          commitment: "Construcción comienza en El Faro del Corazón y en los primeros 400 cores Hogares del Corazón en Cerro Mariposa. Visa del Corazón piloto abre con la primera cohorte de 100 parejas (propuesta Q3 2026). Aislamiento sísmico base (NCh2745) instalado bajo el plinto de andesita esta primavera. Andorra acaba de operar su monumento; Adelaide y Yokohama están bajo construcción.",
           metrics: { homesUnderConstruction: 400, corVisaCouples: 100, baseIsolationInstalled: true },
           networkContribution: "Valparaíso publica los primeros diez patrones autoría-Valparaíso en la Cor Pattern Library (vivienda incremental Aravena hill-port, color de fachada como identidad, restauración de fachada de hierro). Andorra Daily Ceremony broadcasts comienzan en su monumento; Valparaíso es ahora una de las cuatro ciudades en construcción simultánea.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2038,
           stage: "Operational",
           commitment: "El Faro del Corazón abre. Daily Ceremony broadcasts comienzan a la hora Cor declarada por la ciudad desde el mirador del octavo piso sobre la bahía. Los primeros 600 cores Hogares del Corazón nuevos entregados a través de los cerros, Almendral y Gran Valparaíso (Quilpué, Villa Alemana); en paralelo, las primeras 100 casas patrimoniales restauradas en el casco UNESCO. Población del Gran Valparaíso sostenida en 1.05M. TFR recuperándose de 1,4 hacia 1,6. La pérdida histórica de stock patrimonial se ha estabilizado. Los primeros residentes Cor Generation se mudan a las unidades de la red.",
-          metrics: { homesNew: 600, homesRestored: 100, monumentHeightM: 47, fertilityRate: 1.6, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterValparaiso: 1050000 },
+          metrics: { homesNew: 600, homesRestored: 100, monumentHeightM: 12, fertilityRate: 1.6, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterValparaiso: 1050000 },
           networkContribution: "Valparaíso se une a Andorra, Adelaide, y Yokohama en la rotación de Daily Ceremony, junto con Cape Town y Jaipur que también abren este año. La red ahora hospeda 60 Cor Residentes por año en total (la meta original alcanzada). UV + PUCV + UAI Cor Programme alcanza 600 estudiantes internacionales de posgrado.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         },
         {
           year:     2063,
@@ -237,34 +243,34 @@ const vocab = {
           metrics: { networkAgeYears: 25, totalHomesNew: 1000, totalHomesRestored: 300, generationAdults: 700, heritageStockRecovered: "to 1980 baseline" },
           networkContribution: "Valparaíso se gradúa al estado de élder de la red junto con Cape Town y Jaipur (todos del 2063-2065). Valparaíso mentoriza a las ciudades candidatas Wave-2 latinoamericanas (probables: Antofagasta, Concepción, Mar del Plata, Cartagena). El Cuaderno del Faro (las Cartas a Neruda encuadernadas anualmente) se convierte en un volumen reconocido de poesía contemporánea chilena.",
           status: "concept",
-          lastVerified: "2026-Q2"
+          lastVerified: "2026-Q3"
         }
       ]
     }
   },
   feasibility: {
     title: "Restricciones honestas",
-    intro: "Lo que un faro de 47m en Muelle Prat realmente debe negociar, y las autoridades reales que tienen el trabajo en sus manos.",
+    intro: "Lo que un faro de 12m en Muelle Prat realmente debe negociar, y las autoridades reales que tienen el trabajo en sus manos.",
     category: "Restauración patrimonial dentro del Plan Maestro UNESCO + ancla cultural en Muelle Prat + DS-1 vivienda incremental. Categoría existente del urbanismo chileno. No requiere paquete de permiso nuevo.",
     permissionChain: [
-      "Arriendo de largo plazo del sitio portuario con la autoridad portuaria estatal correspondiente, en su carácter estatutario, sin nombrar contrapartes específicas en esta etapa.",
-      "Aprobación de uso de borde costero por la autoridad marítima estatutaria correspondiente.",
-      "Revisión patrimonial estatutaria por la autoridad nacional de monumentos correspondiente para cualquier intervención en el buffer UNESCO.",
-      "Aprobación municipal estatutaria conforme al Plan Regulador Comunal vigente.",
-      "Aprobación regional estatutaria por el Gobierno Regional correspondiente para cualquier asignación de capital regional.",
-      "Coordinación estatutaria con los ministerios chilenos de vivienda y de cultura cuando aplique.",
-      "Cupo de visa cultural a través del Servicio Nacional de Migraciones, dentro de las categorías existentes, si una versión construida se llegara a perseguir formalmente."
+      "Empresa Portuaria Valparaíso (EPV) firma el arriendo de largo plazo del sitio Muelle Prat. El Gerente General de EPV firma el MoU.",
+      "DIRECTEMAR (Autoridad Marítima) aprueba uso de borde costero.",
+      "Consejo de Monumentos Nacionales (CMN) revisa intervenciones en el buffer UNESCO; el Secretario Ejecutivo del CMN firma.",
+      "Municipalidad de Valparaíso (Plan Regulador Comunal). El Alcalde firma el MoU cultural.",
+      "Gobierno Regional de Valparaíso. El Gobernador Regional aprueba la asignación capital regional.",
+      "MINVU (Ministerio de Vivienda y Urbanismo) más MINCAP (Ministerio de las Culturas, las Artes y el Patrimonio) a nivel nacional.",
+      "Servicio Nacional de Migraciones, cupo de Visa Subject to Contract para residentes Cor."
     ],
     budgetSources: [
-      "Categorías de fuentes de financiamiento que en principio podrían aplicar a una hipotética versión construida, listadas sin nombrar entidad ni programa específico.",
-      "Líneas nacionales o regionales de capital de infraestructura cultural, donde existan y apliquen, sujetas a las prioridades y procedimientos estatutarios de cada autoridad.",
-      "Líneas nacionales o regionales de subsidio para vivienda asequible o incremental como capa adicional sobre programas existentes, no como programa paralelo.",
-      "Filantropía cultural privada activa en Chile, sujeta a los procesos de postulación de cada fundación.",
-      "Aportes en especie de propietarios públicos cuando un arriendo cultural de largo plazo sea factible bajo la normativa chilena de propiedad pública.",
-      "No se han recaudado, solicitado, adjudicado, comprometido ni aceptado fondos para esta propuesta. No se solicita inversión. No se ofrece consultoría comercial."
+      "MINVU DS-1 (programa existente de subsidio para vivienda incremental, mismo programa que financia los proyectos ELEMENTAL).",
+      "MINCAP, infraestructura cultural (Programa de Infraestructura Cultural Pública).",
+      "Gobierno Regional de Valparaíso, aporte capital regional (Fondo Nacional de Desarrollo Regional).",
+      "Empresa Portuaria Valparaíso, aporte en especie del sitio Muelle Prat.",
+      "Cor del Món red, aporte de capital partner.",
+      "Filantropía chilena y latinoamericana: Fundación Mar Adentro, Fundación Cultural de Providencia, Centex (Centro de Extensión Cultural de Valparaíso), iniciativas culturales del grupo Quiñenco-Luksic. (Fundación Andes ya no existe; se disolvió en 2008 distribuyendo su capital.)"
     ],
     items: [
-      { area: "Puerto",                detail: "Cualquier sitio en el borde portuario es de propiedad estatal y requiere arriendo de largo plazo con la autoridad portuaria estatutaria correspondiente, más aprobación de la autoridad marítima estatutaria. La propuesta no nombra una contraparte específica en esta etapa; las negociaciones, en caso de perseguirse formalmente una versión construida, se iniciarían en el año del Charter dentro del marco normativo chileno." },
+      { area: "Puerto",                detail: "Muelle Prat es propiedad de la Empresa Portuaria Valparaíso (EPV). El uso del sitio requiere arriendo de largo plazo con EPV más aprobación de la Autoridad Marítima (DIRECTEMAR). La negociación con EPV se inicia en el año del Charter; el faro no compite con el comercio del puerto, lo enmarca." },
       { area: "UNESCO",                detail: "Las 200 casas patrimoniales restauradas en Cerro Alegre, Cerro Concepción y el Plan requieren aprobación del Consejo de Monumentos Nacionales (CMN). Cor del Món no opera en paralelo al Plan Maestro de Recuperación Patrimonial de la Municipalidad sino dentro de él, sumando una capa de prioridad joven-familia sobre las cuotas existentes." },
       { area: "Sísmica",               detail: "NCh433 más NCh2745 para zona de subducción del Pacífico, revisada por la Cámara Chilena de la Construcción. La aislación basal del faro no es opcional, es obligatoria. Los terremotos de 1906 (M8.2) y 2017 (M6.9) son las referencias locales." },
       { area: "Residencia",            detail: "La Residencia del Corazón (10 entrantes por año) opera dentro del marco existente Subject to Contract / Definitive Permanent Residency de Chile, no como nueva categoría de visa. Servicio Nacional de Migraciones gestiona el cupo dedicado." },
@@ -274,15 +280,15 @@ const vocab = {
   },
   costs: {
     title: "Costos aproximados (2026 USD)",
-    monumentTotal: "USD 40 a 70 millones",
-    intro: "No se han recaudado, solicitado, adjudicado, comprometido ni aceptado fondos para esta propuesta. No se solicita inversión y no se ofrece consultoría comercial. Las cifras siguientes son estimaciones de orden de magnitud meramente ilustrativas, ancladas a obras cívicas chilenas públicamente comparables (el Centro Cultural Gabriela Mistral remodelado fue reportado en alrededor de USD 25M en 2010; el Parque Cultural Valparaíso ex-Cárcel en alrededor de USD 18M en 2011), y existen solo para dar contexto narrativo al diseño. Los presupuestos reales, en caso de perseguirse formalmente una versión construida, se establecerían tras concurso internacional y revisión estatutaria por profesionales licenciados en la jurisdicción correspondiente.",
+    monumentTotal: "USD 3 a 7 millones",
+    intro: "Estimaciones de orden de magnitud, ancladas a edificios cívicos chilenos comparables (Centro Cultural Gabriela Mistral remodelado costó USD 25M en 2010; Parque Cultural Valparaíso ex-Cárcel costó USD 18M en 2011). A 12 metros, el faro es un objeto pequeño y la estructura liviana cuesta muy poco; el corazón de luz nocturno es proyección, no obra. Presupuestos reales después del concurso internacional.",
     stages: [
-      { phase: "Charter (2030)",          range: "USD 2 a 4M",   scope: "Concurso internacional de diseño + acuerdo de arriendo con EPV + estudios de sitio Muelle Prat + aprobación CMN para impacto en buffer UNESCO" },
-      { phase: "Break Ground (2031-32)",  range: "USD 8 a 14M",  scope: "Aislación basal NCh2745, marco de acero, plinto de mármol Pelequén, obras marítimas en Muelle Prat" },
-      { phase: "Construction (2032-37)",  range: "USD 22 a 40M", scope: "Fachada de hierro galvanizado pintado, pabellones de madera laminada, mirador del octavo piso, sistema de circulación switchback" },
-      { phase: "Operational (2038)",      range: "USD 6 a 10M",  scope: "Estudio de la Hora de Valparaíso, fitout de ceremonia, programa de inauguración con el Festival de Viña del Mar" }
+      { phase: "Charter (2030)",          range: "USD 0.2 a 0.5M",   scope: "Concurso internacional de diseño + acuerdo de arriendo con EPV + estudios de sitio Muelle Prat + aprobación CMN para impacto en buffer UNESCO" },
+      { phase: "Break Ground (2031-32)",  range: "USD 0.5 a 1.2M",  scope: "Aislación basal NCh2745, marco de acero, plinto de andesita, obras marítimas en Muelle Prat" },
+      { phase: "Construction (2032-37)",  range: "USD 1.5 a 3.5M", scope: "Fachada de hierro galvanizado pintado, pabellones de madera laminada, mirador, sistema de circulación switchback" },
+      { phase: "Operational (2038)",      range: "USD 0.8 a 1.8M",   scope: "Estudio de la Hora de Valparaíso, fitout de ceremonia, programa de inauguración con el Festival de Viña del Mar" }
     ],
-    fundingNote: "Categorías de financiamiento que en principio podrían aplicar a una hipotética versión construida, sin nombrar entidades específicas: líneas nacionales o regionales de capital de infraestructura cultural, líneas de vivienda asequible o incremental como capa adicional (no programa paralelo), filantropía cultural privada activa en Chile, y aportes en especie de propietarios públicos cuando un arriendo cultural de largo plazo sea factible. No se han recaudado, solicitado, adjudicado, comprometido ni aceptado fondos. No se ofrece consultoría comercial."
+    fundingNote: "El monumento se financia sobre todo de forma privada: participación de la red Cor del Món (35-50%), filantropía latinoamericana (Fundación Mar Adentro, Luksic Cultural) (20-30%), la línea de cultura de MINCAP (10-20%) y el aporte en especie de EPV (el sitio). Los fondos públicos regionales van al MINVU, a los Hogares del Corazón y a la restauración patrimonial de los cerros, no al monumento. Sin financiamiento de un solo soberano extranjero."
   },
   impact: {
     title: "Impacto y beneficio",
@@ -291,17 +297,15 @@ const vocab = {
       { metric: "200 casas patrimoniales restauradas",                   note: "En Cerro Alegre, Cerro Concepción y el Plan, dentro del Plan Maestro de Recuperación Patrimonial. La restauración importa más que la nueva construcción para Valpo: ha perdido 35% de stock histórico en 40 años." },
       { metric: "10 residentes Cor por año",                            note: "Casas restauradas en Cerro Alegre y Cerro Concepción albergan 10 residentes creativos internacionales por año. Estudio en Galería Bahía Utópica y en el taller del Parque Cultural ex-Cárcel." },
       { metric: "Hora de Valparaíso en la transmisión de la red",        note: "Franja semanal en español desde el estudio del faro, dentro de Cor FM anclada en Andorra. Suma voz porteña a la red sin desplazar Radio Festival, Radio Valparaíso ni TVN Regional." },
-      { metric: "Faro de 47m en Muelle Prat",                            note: "Altura igual al ascensor histórico Concepción. El monumento iguala al primer cerro, no lo sobrepasa. Visible desde cada cerro, ascensor y balcón sobre la bahía." }
+      { metric: "Faro de 12m + corazón de luz nocturno",                note: "El mismo corazón de 12m que construye cada ciudad Cor; no toca la silueta patrimonial de los cerros. De noche, un corazón de luz que late con las seis ciudades, atenuado lejos de las vistas protegidas. Pequeño, barato y durable." }
     ]
   },
   alternatives: {
-    title: "Expresiones más livianas de la misma idea",
-    intro: "La propuesta se ofrece como una idea de diseño y de investigación creativa, no como un plan de recaudación ni como un compromiso construido. La expresión más liviana, indicada abajo, es la opción por defecto recomendada para cualquier ciudad que quiera honrar la idea sin un monumento construido.",
+    title: "Lighter expressions of the same idea",
+    intro: "The proposal is offered as a creative-research design idea, not as a fundraising plan or a built commitment. The lightest expression below is the recommended default for any city that wishes to honour the idea without a built monument.",
     items: [
-      { fallback: "Expresión solo holográfica (la opción por defecto recomendada)", reason: "La experiencia Cor del Món para Valparaíso entregada como proyección, holograma e instalación de realidad aumentada dentro de un edificio público existente. Sin obra nueva, sin uso de suelo, sin riesgo sísmico ni patrimonial, sin permisos más allá de las autorizaciones estándar para eventos públicos. Aproximadamente entre uno y tres por ciento del costo de la versión construida. De seis a dieciocho meses desde el acuerdo hasta la inauguración. Totalmente reversible. El gobierno local mantiene flexibilidad completa para sincronizar la instalación con su propio calendario cívico y cultural y para reubicarla o retirarla en cualquier momento. Es la ruta más segura y rápida para cualquier ciudad que quiera participar sin comprometerse a una construcción permanente." },
-      { fallback: "Expresión impresa, audiovisual y en línea", reason: "La idea de diseño publicada como libro, catálogo de exposición, documental, sitio web de acceso abierto y red de charlas públicas, sin instalación física en la ciudad. Costo aún menor, sin compromiso del gobierno local de ningún tipo." },
-      { fallback: "Cerro Concepción (dentro de Valparaíso, buffer UNESCO)", reason: "Sitio alternativo dentro del mismo contexto cultural; listado solo como nota de investigación de diseño en caso de perseguirse formalmente una versión construida." },
-      { fallback: "Viña del Mar (ciudad hermana, costa)", reason: "Sitio alternativo costero sin carga UNESCO; listado solo como nota de investigación de diseño." }
+      { fallback: "Hologram-only expression (the recommended default)", reason: "The full Cor del Mon city experience delivered as projection, hologram, and augmented-reality installation hosted inside an existing public building, the same night-time heart of light without the 12 metre building beneath it. No new construction, no land take, no seismic or heritage risk, no permits beyond standard public-event approvals. Roughly one to three percent of the built-version cost. Six to eighteen months from agreement to opening night. Fully reversible. The local government keeps complete flexibility to time the installation to its own civic and cultural calendar and to relocate or remove it at any time. The safest and fastest path for any city that wishes to participate without committing to a permanent build." },
+      { fallback: "Print, broadcast, and online expression", reason: "The design idea published as a book, an exhibition catalogue, a documentary, an open-access website, and a network of public talks, with no physical installation in the city. Lower cost again, no local-government commitment of any kind required." }
     ]
   }
 };

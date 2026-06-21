@@ -66,7 +66,7 @@ test('e2e: smoke test page renders every shared-library component without errors
 
   // Constitution + Cities counts visible (proves async JSON fetch worked).
   await expect(page.locator('text=/9 mandatory sections/')).toBeVisible();
-  await expect(page.locator('text=/6 network mechanics/')).toBeVisible();
+  await expect(page.locator('text=/8 network mechanics/')).toBeVisible();
 
   expect(consoleErrors, `console errors: ${consoleErrors.join('\n')}`).toHaveLength(0);
 });

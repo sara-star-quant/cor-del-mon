@@ -71,6 +71,14 @@
     .top-bar-link:hover { color: var(--md-sys-color-on-surface); background: color-mix(in oklab, var(--md-sys-color-on-surface) 6%, transparent); }
     .wordmark { font-family: var(--font-serif); font-style: italic; font-weight: 700; font-size: 18px; color: var(--md-sys-color-primary); text-decoration: none; }
 
+    /* Phone top bar: wrap and centre like the city pages instead of overflowing a fixed-height row. */
+    @media (max-width: 700px) {
+      .m3-top-app-bar { height: auto; flex-wrap: wrap; justify-content: center; gap: 2px 6px; padding: 8px 12px; padding-top: max(8px, env(safe-area-inset-top)); }
+      .m3-top-app-bar nav { flex-wrap: wrap; justify-content: center; gap: 2px; }
+      .top-bar-link { padding: 6px 9px; font-size: 12px; }
+      .wordmark { font-size: 16px; }
+    }
+
     /* City card visual */
     .city-tile { display: flex; flex-direction: column; gap: 14px; text-decoration: none; color: inherit; min-height: 220px; }
     .city-tile.featured { min-height: 460px; }
@@ -175,6 +183,7 @@
               <a className="top-bar-link" href="#heartbeat">Heartbeat</a>
               <a className="top-bar-link" href="#arc">Arc</a>
               <a className="top-bar-link" href="#mechanics">Mechanics</a>
+              <a className="top-bar-link" href="#coryear">Year</a>
               <a className="top-bar-link" href="#join">Join</a>
               <span style={{ marginLeft: 12, color: "var(--md-sys-color-primary)" }}><Heartbeat size={20} /></span>
             </nav>
@@ -201,8 +210,11 @@
         );
       }
 
+      const STAGE_LABEL = { concept: "Concept ready", proposal: "Proposal", planned: "Planned" };
+
       function CityTile({ city, featured }) {
-        const isLive = city.status === "live";
+        const published = city.status === "live";
+        const stage = STAGE_LABEL[city.lifecycle] || "Concept ready";
         const cardClass = featured ? "m3-card-featured city-tile featured" : "m3-card-filled city-tile";
         const featuredAttr = featured ? "featured-2x2" : "";
         return (
@@ -216,8 +228,8 @@
             <p className="tagline">{city.tagline.english}</p>
             <div className="row">
               <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                <span className={`status-dot ${isLive ? 'live' : 'coming'}`} />
-                <span className="m3-label-medium" style={{ color: isLive ? "var(--md-sys-color-primary)" : "var(--md-sys-color-on-surface-variant)" }}>{isLive ? "Live" : "Coming · 2026"}</span>
+                <span className={`status-dot ${published ? 'live' : 'coming'}`} />
+                <span className="m3-label-medium" style={{ color: published ? "var(--md-sys-color-primary)" : "var(--md-sys-color-on-surface-variant)" }}>{stage}</span>
               </span>
               <Icon name="residency" size={18} color="var(--md-sys-color-on-surface-variant)" />
             </div>
@@ -310,7 +322,7 @@
           <section id="arc" className="m3-section">
             <p className="m3-label-small">The Rolling Wave</p>
             <h2 className="m3-headline-large" style={{ marginTop: 8, marginBottom: 18 }}>2027 to 2042, five phases</h2>
-            <p className="m3-body-large" style={{ maxWidth: 760, marginBottom: 28 }}>Cor del Món is a rolling wave, not a synchronized handover. Each city's monument is sized to its own skyline (Andorra 33m, Yokohama 120m, Adelaide 65m, Valparaíso 47m, Cape Town 99m, Jaipur 28m) and takes four to seven years to build. Andorra leads in 2032; Adelaide and Yokohama join in 2035-2036; Valparaíso, Cape Town, and Jaipur reach operational by 2038-2040. Each city has its own four stages (Charter, Break Ground, Operational, Generation) at city-specific years.</p>
+            <p className="m3-body-large" style={{ maxWidth: 760, marginBottom: 28 }}>Cor del Món is a rolling wave, not a synchronized handover. Every city builds the same 12 metre heart, the shared heart-core made the whole monument, in its own materials and culture, crowned at night by a heart of light that beats in sync with all six. Each takes four to seven years to build. Andorra leads in 2032; Adelaide and Yokohama join in 2035-2036; Valparaíso, Cape Town, and Jaipur reach operational by 2038-2040. Each city has its own four stages (Charter, Break Ground, Operational, Generation) at city-specific years.</p>
             <div className="scroll-rail" role="list" style={{ marginInline: -24 }}>
               {phases.map(p => (
                 <div key={p.name} role="listitem" className="phase-card m3-card-elevated"
@@ -405,6 +417,29 @@
         );
       }
 
+      function CorYear() {
+        const slug2name = Object.fromEntries(cities.map(c => [c.slug, c.name.english]));
+        const year = data.CITIES.corYear || [];
+        if (!year.length) return null;
+        return (
+          <section id="coryear" className="m3-section">
+            <p className="m3-label-small">The Cor Year</p>
+            <h2 className="m3-headline-large" style={{ marginTop: 8, marginBottom: 18 }}>A love calendar that circles the year</h2>
+            <p className="m3-body-large" style={{ maxWidth: 720, marginBottom: 28 }}>Beyond the daily sunset ceremony and the rotating biennale, the network keeps one shared calendar. Each city anchors a month with a love-and-life theme rooted in its own real festival, and the baton passes from city to city around the year.</p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(220px,1fr))", gap: 16 }}>
+              {year.map((m, i) => (
+                <div key={i} className="m3-card-filled" style={{ padding: 22 }}>
+                  <div className="m3-label-small" style={{ color: "var(--md-sys-color-primary)" }}>{m.month}</div>
+                  <div style={{ fontFamily: "var(--font-serif)", fontStyle: "italic", fontWeight: 700, fontSize: 22, marginTop: 6 }}>{slug2name[m.city] || m.city}</div>
+                  <div className="m3-body-small" style={{ marginTop: 4, color: "var(--md-sys-color-on-surface-variant)" }}>{m.festival}</div>
+                  <p className="m3-body-medium" style={{ marginTop: 10 }}>{m.theme}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        );
+      }
+
       function App() {
         useEffect(() => {
           requestAnimationFrame(() => setTimeout(() => {
@@ -422,6 +457,7 @@
             <HeroMap />
             <NetworkArc />
             <Mechanics />
+            <CorYear />
             <Join />
             <Footer />
           </div>

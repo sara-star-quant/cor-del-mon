@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Cape Town · Living Heart Cape Town | Cor del Món</title>
-  <meta name="description" content="Cape Town · Living Heart Cape Town, the fifth wave-1 city of Cor del Món. A 99 metre Karoo-sandstone heart at the V&A Waterfront, 1,500 hempcrete water-positive Hearts of Home by 2040 in Khayelitsha, Mitchells Plain and Belhar, the Cape Town Hour weekly multilingual slot on Cor FM, and the rolling-wave milestone arc from Charter (2031) to Generation (2064)." />
+  <meta name="description" content="Cape Town · Living Heart Cape Town, the fifth wave-1 city of Cor del Món. A 12 metre Karoo-sandstone heart at the V&A Waterfront, 1,500 hempcrete water-positive Hearts of Home by 2040 in Khayelitsha, Mitchells Plain and Belhar, the Cape Town Hour weekly multilingual slot on Cor FM, and the rolling-wave milestone arc from Charter (2031) to Generation (2064)." />
   <meta name="author" content="sara-star-quant" />
   <link rel="canonical" href="https://sara-star-quant.github.io/cor-del-mon/capetown/" />
   <link rel="alternate" hreflang="en-za" href="https://sara-star-quant.github.io/cor-del-mon/capetown/" />
@@ -73,7 +73,7 @@
       --font-serif:   "Cormorant Garamond", Georgia, serif;
       --font-sans:    "Work Sans", system-ui, -apple-system, sans-serif;
     }
-    body { overflow-x: hidden; }
+    body { overflow-x: hidden; background: radial-gradient(150% 75% at 50% 132%, rgba(173,20,87,0.13), transparent 56%) fixed, var(--bg); }
     .skip-link { position: absolute; top: -100px; left: 16px; background: var(--rose); color: #fff; padding: 8px 16px; border-radius: 8px; font-family: var(--font-sans); font-size: 13px; z-index: 200; text-decoration: none; transition: top .2s; }
     .skip-link:focus { top: 12px; }
     :focus-visible { outline: 2px solid var(--rose); outline-offset: 3px; border-radius: 4px; }
@@ -253,22 +253,16 @@
               <p className="body" style={{ marginBottom: 14 }}>{s.media.lead}</p>
               <Viral>{s.media.viral}</Viral>
               <div className="grid2" style={{ marginTop: 16 }}>
-                <Card>
-                  <div style={{ marginBottom: 14, color: "var(--rose)" }}><Icon name="mic" size={32} /></div>
-                  <h3 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8 }}>Cor FM · Love Radio</h3>
-                  <p className="s" style={{ fontSize: 13, color: "var(--text-muted)", lineHeight: 1.7 }}>24/7 love radio. Catalan and multilingual. Andorran love ballads, international romantic music, live poetry, "Nit Sensual" late-night programming. Broadcast from a heart-shaped glass studio in Encamp, visible from the street, streaming globally.</p>
-                  <div style={{ marginTop: 14, display: "flex", gap: 6, flexWrap: "wrap" }}>
-                    <Tag>24/7 Broadcast</Tag><Tag>Global Streaming</Tag><Tag>Catalan First</Tag>
-                  </div>
-                </Card>
-                <Card>
-                  <div style={{ marginBottom: 14, color: "var(--rose)" }}><Icon name="screen" size={32} /></div>
-                  <h3 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8 }}>Cor Kids TV · Children's Channel</h3>
-                  <p className="s" style={{ fontSize: 13, color: "var(--text-muted)", lineHeight: 1.7 }}>A full Catalan children's channel replacing the tiny Club Piolet strand. Original Andorran animated characters teaching kindness, empathy, and love. Mountain adventures set in real Andorran valleys.</p>
-                  <div style={{ marginTop: 14, display: "flex", gap: 6, flexWrap: "wrap" }}>
-                    <Tag variant="soft">Full Channel</Tag><Tag variant="soft">Catalan Language</Tag><Tag variant="soft">Original Content</Tag>
-                  </div>
-                </Card>
+                {s.media.outlets.map((o, i) => (
+                  <Card key={i}>
+                    <div style={{ marginBottom: 14, color: "var(--rose)" }}><Icon name={o.icon} size={32} /></div>
+                    <h3 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8 }}>{o.title}</h3>
+                    <p className="s" style={{ fontSize: 13, color: "var(--text-muted)", lineHeight: 1.7 }}>{o.desc}</p>
+                    <div style={{ marginTop: 14, display: "flex", gap: 6, flexWrap: "wrap" }}>
+                      {o.tags.map((t, j) => <Tag key={j} variant={o.tagVariant || undefined}>{t}</Tag>)}
+                    </div>
+                  </Card>
+                ))}
               </div>
               <div style={{ marginTop: 30 }}>
                 <h3 style={{ fontSize: 20, fontWeight: 700, marginBottom: 12, display: "flex", alignItems: "center", gap: 10 }}><Icon name="heart" color="var(--rose)" size={14} /> {s.media.soundtrackTitle || `The Soundtrack of ${vocab.monument.name}`}</h3>
