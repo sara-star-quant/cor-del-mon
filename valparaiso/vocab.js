@@ -57,22 +57,22 @@ const vocab = {
     ],
     motifs: [
       { name: "Funicular silhouette",        origin: "Valpo's 16 historic ascensores (1883 onward)",       application: "Pavilion crown geometry and the entry-pavilion sectional cut" },
-      { name: "Cerro switchback path",       origin: "The zig-zag stairs and paths up every cerro",        application: "Internal circulation: the eight floors connect via a continuous switchback rather than a stacked stair core" },
+      { name: "Cerro switchback path",       origin: "The zig-zag stairs and paths up every cerro",        application: "Internal circulation: the levels connect via a continuous switchback rather than a stacked stair core" },
       { name: "Hill-house colour grid",      origin: "Valpo's iconic painted-corrugated-iron palette",     application: "The facade panels are a curated palette of the city's actual hill-house rose, rust, mustard, and turquoise tones" },
       { name: "Trolebús arch",               origin: "The 1952 Valpo trolleybus overhead lines",            application: "Reference geometry for the ceremony pavilion ceiling truss" },
       { name: "Neruda three-house silhouette", origin: "La Sebastiana, La Chascona, Isla Negra (Neruda's three houses)", application: "Subtle pediment relief on the eastern facade, three peaks in line" }
     ],
-    buildingTypology: "Painted corrugated-iron facade on a base-isolated steel frame, with mass-timber pavilions above and a continuous switchback circulation that internalises the cerro's zig-zag climb",
+    buildingTypology: "Painted corrugated-iron facade on a small braced timber-and-steel frame, with a switchback stair that internalises the cerro's zig-zag climb",
     referenceArchitects: ["Alejandro Aravena (ELEMENTAL incremental housing)", "Smiljan Radic", "Mathias Klotz", "Cazú Zegers"],
     silhouette: "A heart of painted corrugated iron, rose at the bottom and rust at the top, lit at evening like a lantern at the port edge"
   },
   seismic: {
     code: "NCh433.Of1996 (modified 2009 + 2012) and NCh2745.Of2013 for seismic isolation, plus AChISINA recommendations",
-    designSpec: "Chilean Nazca-South American subduction zone. Valparaíso sits directly on the seismic gap. The 1906 Valparaíso earthquake (M8.2) and the 2017 Valparaíso earthquake (M6.9) are the local references. Chile has more experience with seismic-isolated tall buildings than almost any country.",
-    peakAccel: "0.6g design / 1.0g MCE",
-    isolation: "Lead-rubber bearings at the steel base frame, 70 cm displacement capacity. Friction pendulum dampers at four corners. Visible isolation gap at the plinth, dramatised as a horizontal copper shadow line.",
-    notes: "Chile leads the world in seismic-isolated tall-building practice (Santiago has more than 30 base-isolated buildings). Valparaíso's hill-port site gives soil amplification heterogeneity, which the steel-frame-on-isolators handles. The painted corrugated iron facade above the isolated base behaves as ductile cladding through a major event.",
-    designConsequences: "Base isolation is non-negotiable in this seismic context. The visible shadow gap at the plinth is the visible engineering. Above the isolators, the painted corrugated iron facade can flex without fracture, preserving the Valpo hill-house colour palette through the next major Pacific subduction event."
+    designSpec: "Chilean Nazca-South American subduction zone. Valparaíso sits directly on the seismic gap. The 1906 Valparaíso earthquake (M8.2) and the 2017 Valparaíso earthquake (M6.9) are the local references. A 12 metre building barely engages this hazard: there is no tall mass to isolate.",
+    peakAccel: "0.6g design / 1.0g MCE (ground motion; the small structure meets it on standard footings)",
+    isolation: "No base isolation: at 12 metres the heart is light enough that standard reinforced footings carry it, even on the Pacific subduction zone. Painted corrugated iron on a braced timber-and-steel frame, detailed for ductility and salt-air durability rather than for the displacement of a tower.",
+    notes: "Chile knows this seismic context better than almost anywhere, but a 12 metre building barely engages it. The 1906 and 2017 Valparaíso earthquakes set the design loads, which a small braced structure meets comfortably under NCh433.",
+    designConsequences: "Because the building is small, the budget goes to craft and the painted hill-house colour palette rather than to bearings and dampers. The night-time heart of light adds no structural load at all."
   },
   sections: {
     hero: {
@@ -222,7 +222,7 @@ const vocab = {
           year:     2032,
           stage: "Break Ground",
           commitment: "Construcción comienza en El Faro del Corazón y en los primeros 400 cores Hogares del Corazón en Cerro Mariposa. Visa del Corazón piloto abre con la primera cohorte de 100 parejas (propuesta Q3 2026). Aislamiento sísmico base (NCh2745) instalado bajo el plinto de andesita esta primavera. Andorra acaba de operar su monumento; Adelaide y Yokohama están bajo construcción.",
-          metrics: { homesUnderConstruction: 400, corVisaCouples: 100, baseIsolationInstalled: true },
+          metrics: { homesUnderConstruction: 400, corVisaCouples: 100, footingsPoured: true },
           networkContribution: "Valparaíso publica los primeros diez patrones autoría-Valparaíso en la Cor Pattern Library (vivienda incremental Aravena hill-port, color de fachada como identidad, restauración de fachada de hierro). Andorra Daily Ceremony broadcasts comienzan en su monumento; Valparaíso es ahora una de las cuatro ciudades en construcción simultánea.",
           status: "concept",
           lastVerified: "2026-Q3"

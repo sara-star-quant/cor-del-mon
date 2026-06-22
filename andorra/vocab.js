@@ -61,7 +61,7 @@ const vocab = {
     code: "Eurocode 8 (EN 1998), Andorran national annex",
     designSpec: "Low-seismic Pyrenean zone, agR around 0.04g, soil category C",
     peakAccel: "0.04g design / 0.10g MCE",
-    isolation: "Stone-clad RC core with discrete elastomeric bearings at the plinth, no visible isolators above ground",
+    isolation: "No isolation needed: a 12 metre stone-clad heart sits on standard reinforced footings on the granite plinth, well within the low-seismic Pyrenean zone",
     notes: "Coordinated with AR+I and the POCRISC framework. Andorra's seismic record shows roughly an M4 every 5-10 years; a 12 metre stone heart is trivially within the comfortable range for the zone.",
     designConsequences: "At 12 metres on a granite plinth, the seismic demand is negligible and no base isolation is needed anywhere in the network; the uniform low height is part of why every Cor monument is cheap, safe, and quick to build. The hologram crown adds no structural load at all."
   },
