@@ -45,15 +45,16 @@ const vocab = {
     heightM: 12,
     name: "El Faro del Corazón",
     completionYear: 2030,
-    signature: "Un Faro del Corazón de 12 metros en el borde de Muelle Prat, en el plan llano, el mismo corazón de 12 metros que construye cada ciudad Cor. A esta altura nunca toca la silueta patrimonial de los cerros que tiene detrás, y por pequeño es barato y rápido de levantar. Hierro galvanizado pintado en la paleta rosa-óxido de las casas de cerro, con fijaciones de acero inoxidable marino (316) contra el aire salino, sobre un marco con aislación basal para la zona de subducción del Pacífico. De noche, en horas acordadas, el pequeño faro florece en un corazón de luz mucho mayor sobre el agua que late al unísono con las seis ciudades, ingrávido y completamente reversible, atenuado lejos de los cerros y las vistas protegidas. Un corazón al borde del agua, idéntico en su núcleo a sus cinco hermanas, alrededor de una sola llama."
+    signature: "Un Faro del Corazón de 12 metros en el borde de Muelle Prat, en el plan llano, el mismo corazón de 12 metros que construye cada ciudad Cor. A esta altura nunca toca la silueta patrimonial de los cerros que tiene detrás, y por pequeño es barato y rápido de levantar. Hierro galvanizado pintado en la paleta rosa-óxido de las casas de cerro, con fijaciones de acero inoxidable marino (316) contra el aire salino, sobre un marco arriostrado de acero y madera, sin aislación basal (a 12 metros no hace falta), en la zona de subducción del Pacífico. De noche, en horas acordadas, el pequeño faro se vuelve un corazón de luz que late, enviando olas de corazones de luz que se propagan sobre el agua y los cerros en cada pulso del latido compartido de 60 BPM, ingrávido y completamente reversible, atenuado lejos de los cerros y las vistas protegidas. Un corazón al borde del agua, idéntico en su núcleo a sus cinco hermanas, alrededor de una sola llama."
   },
   nationalStyle: {
     materials: [
       { name: "Painted corrugated iron",    sourceRegion: "Chilean steelworks (CAP) reinterpreting the classic Valpo hill-house cladding",  role: "Facade panels in deep rose and rust, the city's iconic colour palette pulled into a single lantern" },
-      { name: "Oregon pine and rauli",      sourceRegion: "Bío Bío forests, southern Chile",                role: "Interior structure and ceremony floor planking, mass-timber columns above the isolated base" },
+      { name: "Oregon pine and rauli",      sourceRegion: "Bío Bío forests, southern Chile",                role: "Interior structure and ceremony floor planking, mass-timber columns within the frame" },
       { name: "Andesite stone",             sourceRegion: "Andean cordillera quarries",                    role: "Plinth and ceremony courtyard paving, tying the building to the Andes geology behind the bay" },
       { name: "Lapis lazuli inlay",         sourceRegion: "Ovalle, north of Valparaíso (Chilean lapis)",   role: "Decorative inlay around the eternal flame and the ceremony bench, in the Cor del Món rose-blue palette" },
-      { name: "Cypress shingles",           sourceRegion: "Chiloé island traditions, southern Chile",      role: "Roof shells of the entry pavilion, weathering to silver-grey against the rose facade" }
+      { name: "Cypress shingles",           sourceRegion: "Chiloé island traditions, southern Chile",      role: "Roof shells of the entry pavilion, weathering to silver-grey against the rose facade" },
+      { name: "Rose-bronze accent (illustrative)", sourceRegion: "Adapts to the final site and local sourcing", role: "A thin rose-bronze rim that catches the daytime sun over the primary stone or skin. The named materials are worked examples chosen for durability and local character; the final material and accent would be set with local quarries and craftspeople for the specific site." }
     ],
     motifs: [
       { name: "Funicular silhouette",        origin: "Valpo's 16 historic ascensores (1883 onward)",       application: "Pavilion crown geometry and the entry-pavilion sectional cut" },
@@ -92,7 +93,7 @@ const vocab = {
     monumentSection: {
       label: "El Faro del Corazón",
       title: "El Faro del Corazón",
-      lead: "El Faro del Corazón. 12 metros de hierro pintado en el borde de Muelle Prat, el mismo corazón que construye cada ciudad Cor. A esta altura no toca la silueta patrimonial de los cerros. Marco de acero con aislación basal. De noche florece en un corazón de luz mucho mayor sobre el agua que late con las seis ciudades, ingrávido y reversible.",
+      lead: "El Faro del Corazón. 12 metros de hierro pintado en el borde de Muelle Prat, el mismo corazón que construye cada ciudad Cor. A esta altura no toca la silueta patrimonial de los cerros. Marco arriostrado de acero, sin aislación basal. De noche se vuelve un corazón de luz que late, enviando olas de corazones de luz sobre el agua en cada pulso del latido compartido, ingrávido y reversible.",
       viral: "Not the tallest building in the harbour. The one the cerros agreed to face."
     },
     passivhaus: {

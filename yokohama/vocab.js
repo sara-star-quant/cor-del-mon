@@ -49,16 +49,17 @@ const vocab = {
     heightM: 12,
     name: "Minatokokoro",
     completionYear: 2036,
-    signature: "A 12 metre Port Heart on Pier 8 of Minato Mirai 21, the same 12 metre heart every Cor city builds. Stacked cross-laminated timber under a titanium shingle skin that shrugs off the salt air where ordinary steel would rust, on a small base-isolated frame. Magenta-rose tinted glass, patinated copper, an andesite plinth from the Hakone volcanic field. By night, during accepted hours, the little timber heart blooms into a far larger heart of light over the bay that beats in perfect time with all six cities, doubling in the water at evening, weightless and fully reversible, dimmed where it would touch homes or protected views. Not the tallest thing in MM21 by a wide margin. The most lived-in, and identical at its core to its five sisters around one flame."
+    signature: "A 12 metre Port Heart on Pier 8 of Minato Mirai 21, the same 12 metre heart every Cor city builds. Stacked cross-laminated timber under a titanium shingle skin that shrugs off the salt air where ordinary steel would rust, on a small braced frame. Magenta-rose tinted glass, patinated copper, an andesite plinth from the Hakone volcanic field. By night, during accepted hours, the little timber heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the bay on every pulse of the shared 60 BPM heartbeat, doubling in the water at evening, weightless and fully reversible, dimmed where it would touch homes or protected views. Not the tallest thing in MM21 by a wide margin. The most lived-in, and identical at its core to its five sisters around one flame."
   },
   nationalStyle: {
     materials: [
-      { name: "Hinoki cypress and sugi cedar", sourceRegion: "Kanagawa and Shizuoka prefecture forests",  role: "Stacked timber pavilions, ceremony floor planks, mass-timber columns above the isolated base" },
+      { name: "Hinoki cypress and sugi cedar", sourceRegion: "Kanagawa and Shizuoka prefecture forests",  role: "Stacked timber pavilions, ceremony floor planks, mass-timber columns within the frame" },
       { name: "Titanium shingle cladding",     sourceRegion: "Japanese titanium mills (Kobe Steel lineage)", role: "Bay-facing rainscreen skin, near-inert in salt air where ordinary steel rusts; the proven choice for Japanese coastal landmarks" },
       { name: "Marine-grade (316) stainless",  sourceRegion: "Japanese stainless producers",              role: "Every exposed fixing, anchor, and bearing housing in the splash zone" },
       { name: "Tinted glass curtain wall",     sourceRegion: "AGC plant, Kanagawa",                       role: "Magenta-rose tinted facade catching dawn and evening over the bay" },
       { name: "Patinated copper roofing",      sourceRegion: "Niigata copper",                            role: "Roof shells of the entry pavilion, weathering to deep verdigris green-rose" },
-      { name: "Andesite stone",                sourceRegion: "Hakone volcanic field, Kanagawa",           role: "Plinth and ceremony courtyard paving" }
+      { name: "Andesite stone",                sourceRegion: "Hakone volcanic field, Kanagawa",           role: "Plinth and ceremony courtyard paving" },
+      { name: "Rose-bronze accent (illustrative)", sourceRegion: "Adapts to the final site and local sourcing", role: "A thin rose-bronze rim that catches the daytime sun over the primary stone or skin. The named materials are worked examples chosen for durability and local character; the final material and accent would be set with local quarries and craftspeople for the specific site." }
     ],
     motifs: [
       { name: "Lantern silhouette",            origin: "Yokohama bayfront promenade lanterns",            application: "Pavilion crown geometry and night lighting array" },
@@ -87,7 +88,7 @@ const vocab = {
       lead: "Japan's gateway to the world since 1859, when the port opened to international trade. Around 3.77 million people. Chukagai (Asia's largest Chinatown) and Yamate (the Western quarter) sit a short walk from each other. Minato Mirai 21 is the country's most ambitious modern waterfront. Andorra writes love in stone. Yokohama writes love in arrivals and departures.",
       viral: "A city built on people choosing to come, and choosing to stay",
       stats: [
-        { n: "12m",      l: "Minatokokoro (the shared heart, +hologram)" },
+        { n: "12m",      l: "Minatokokoro (the shared heart, +heart of light)" },
         { n: "10",       l: "Heart-shaped Cor landmarks" },
         { n: "600",      l: "Kokoro no Ie by 2035" },
         { n: "1 hr/wk",  l: "Yokohama Hour on Cor FM" },
@@ -97,7 +98,7 @@ const vocab = {
     monumentSection: {
       label: "港心",
       title: "Minatokokoro",
-      lead: "The Port Heart. 12 metres of cross-laminated timber under a salt-proof titanium skin, the same heart every Cor city builds, sited on Minato Mirai 21 Pier 8 with sister piers reaching into the bay. Tiny against the MM21 skyline by design; the grandeur is the night-time heart of light blooming over the water and beating in sync with all six cities, weightless and switched off by day. Magenta-rose tinted glass, patinated copper, andesite plinth tied to Hakone volcanic geology.",
+      lead: "The Port Heart. 12 metres of cross-laminated timber under a salt-proof titanium skin, the same heart every Cor city builds, sited on Minato Mirai 21 Pier 8 with sister piers reaching into the bay. Tiny against the MM21 skyline by design; the grandeur is the night-time heart of light that beats, rippling out in waves of light-hearts over the water on every pulse of the shared heartbeat, weightless and switched off by day. Magenta-rose tinted glass, patinated copper, andesite plinth tied to Hakone volcanic geology.",
       viral: "Not the tallest tower in MM21. The most lived-in."
     },
     passivhaus: {

@@ -40,13 +40,14 @@ const vocab = {
     heightM: 12,
     name: "El Cor Viu",
     completionYear: 2032,
-    signature: "A 12 metre living heart on the Valira valley floor, the same height as every Cor monument: the shared heart-core made the whole building, so a couple stands in the identical 12 metre heart whether in Andorra or Jaipur. Warm Pyrenean granite and rose-tinted glass that blushes deeper as night falls. Eternal flame at the ground-floor chowk, ceremony space on the upper floor, the Constitution archive in the undercroft. By night, during accepted hours, the little stone heart blooms into a far larger heart of light that beats in perfect time with all six cities at 60 BPM, the network's one heartbeat made visible over the valley, grand but weightless, fully reversible, dimmed away from homes and protected views. Small enough for a microstate to build and love, identical to its five sisters, unmistakably Andorran in its skin."
+    signature: "A 12 metre living heart on the Valira valley floor, the same height as every Cor monument: the shared heart-core made the whole building, so a couple stands in the identical 12 metre heart whether in Andorra or Jaipur. Warm Pyrenean granite and rose-tinted glass that blushes deeper as night falls. Eternal flame at the ground-floor chowk, ceremony space on the upper floor, the Constitution archive in the undercroft. By night, during accepted hours, the little stone heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the valley on every pulse of the shared 60 BPM heartbeat, the network's one heartbeat made visible, grand but weightless, fully reversible, dimmed away from homes and protected views. Small enough for a microstate to build and love, identical to its five sisters, unmistakably Andorran in its skin."
   },
   nationalStyle: {
     materials: [
       { name: "Pyrenean granite",   sourceRegion: "Llorts and Ordino quarries",     role: "Plinth and external cladding" },
       { name: "Larch heartwood",    sourceRegion: "La Massana valley forests",       role: "Interior linings, ceremony bench, mirador railings" },
-      { name: "Rose-tinted glass",  sourceRegion: "Catalan glassworks (Vimianzo)",   role: "Living facade skin that warms with the daylight" }
+      { name: "Rose-tinted glass",  sourceRegion: "Catalan glassworks (Vimianzo)",   role: "Living facade skin that warms with the daylight" },
+      { name: "Rose-bronze accent (illustrative)", sourceRegion: "Adapts to the final site and local sourcing", role: "A thin rose-bronze rim that catches the daytime sun over the primary stone or skin. The named materials are worked examples chosen for durability and local character; the final material and accent would be set with local quarries and craftspeople for the specific site." }
     ],
     motifs: [
       { name: "Quatre barres",            origin: "Andorran coat of arms",                  application: "Subtle relief carved into the eastern plinth face" },
@@ -63,7 +64,7 @@ const vocab = {
     peakAccel: "0.04g design / 0.10g MCE",
     isolation: "No isolation needed: a 12 metre stone-clad heart sits on standard reinforced footings on the granite plinth, well within the low-seismic Pyrenean zone",
     notes: "Coordinated with AR+I and the POCRISC framework. Andorra's seismic record shows roughly an M4 every 5-10 years; a 12 metre stone heart is trivially within the comfortable range for the zone.",
-    designConsequences: "At 12 metres on a granite plinth, the seismic demand is negligible and no base isolation is needed anywhere in the network; the uniform low height is part of why every Cor monument is cheap, safe, and quick to build. The hologram crown adds no structural load at all."
+    designConsequences: "At 12 metres on a granite plinth, the seismic demand is negligible and no base isolation is needed anywhere in the network; the uniform low height is part of why every Cor monument is cheap, safe, and quick to build. The night-time heart of light adds no structural load at all."
   },
   sections: {
     hero: {
@@ -73,7 +74,7 @@ const vocab = {
       lead: "A country that wove love into every stone, every meal shared by candlelight, every slow dance under mountain stars, every voice on the airwaves, every child born into a home that was waiting for them.",
       viral: "The country where buildings have heartbeats and radio stations have pulses",
       stats: [
-        { n: "12m",      l: "El Cor Viu (the shared heart, +hologram)" },
+        { n: "12m",      l: "El Cor Viu (the shared heart, +heart of light)" },
         { n: "10",       l: "Heart-shaped Cor landmarks" },
         { n: "300",      l: "Llars del Cor by 2035" },
         { n: "24/7",     l: "Cor FM + Cor Kids TV (network broadcast)" },
@@ -83,7 +84,7 @@ const vocab = {
     monumentSection: {
       label: "El Cor Viu",
       title: "El Cor Viu",
-      lead: "The Living Heart. 12 metres of desire on the Valira valley floor, the same heart every Cor city builds. Not a statue to look at. A building to enter, to feel, to fall in love inside, that blooms at night into a far larger heart of light beating in time with all six cities and weighing nothing.",
+      lead: "The Living Heart. 12 metres of desire on the Valira valley floor, the same heart every Cor city builds. Not a statue to look at. A building to enter, to feel, to fall in love inside, that becomes a heart of light at night, rippling out in waves of light-hearts across the valley on every beat of the shared heartbeat and weighing nothing.",
       viral: "360 degrees of vision, creation, and light. Where the world's boldest minds come to shape what love builds next."
     },
     passivhaus: {

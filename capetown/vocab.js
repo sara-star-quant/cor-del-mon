@@ -49,7 +49,7 @@ const vocab = {
     heightM: 12,
     name: "Living Heart Cape Town",
     completionYear: 2039,
-    signature: "A 12 metre Living Heart at the V&A Waterfront, with Table Mountain rising behind it and the Atlantic at its plinth, the same 12 metre heart every Cor city builds. At this height the south-easterly Cape Doctor wind that governs tall structures here is a non-issue, and the build is cheap and quick. Table Mountain sandstone facade, the Cape's own heritage building stone, glowing honey-grey by day and rose at sunset, on a Cape granite plinth that has held this coast for centuries and shrugs off the salt. Cape pine timber inside, marine-grade stainless fixings, water-positive design that recycles greywater into a public reflective pool. By night, during accepted hours, the little stone heart blooms into a far larger heart of light at the foot of the mountain that beats in time with all six cities, weightless and fully reversible, dimmed away from Table Mountain's protected view corridors. The heart that sits at the foot of the mountain and never competes with it, identical at its core to its five sisters around one flame."
+    signature: "A 12 metre Living Heart at the V&A Waterfront, with Table Mountain rising behind it and the Atlantic at its plinth, the same 12 metre heart every Cor city builds. At this height the south-easterly Cape Doctor wind that governs tall structures here is a non-issue, and the build is cheap and quick. Table Mountain sandstone facade, the Cape's own heritage building stone, glowing honey-grey by day and rose at sunset, on a Cape granite plinth that has held this coast for centuries and shrugs off the salt. Cape pine timber inside, marine-grade stainless fixings, water-positive design that recycles greywater into a public reflective pool. By night, during accepted hours, the little stone heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the bay at the foot of the mountain on every pulse of the shared 60 BPM heartbeat, weightless and fully reversible, dimmed away from Table Mountain's protected view corridors. The heart that sits at the foot of the mountain and never competes with it, identical at its core to its five sisters around one flame."
   },
   nationalStyle: {
     materials: [
@@ -58,7 +58,8 @@ const vocab = {
       { name: "Cape pine timber",     sourceRegion: "Tokai and Newlands plantation forests, Cape Peninsula",    role: "Interior pavilion structure, ceremony floor planking, mass-timber columns above the plinth" },
       { name: "Hempcrete",            sourceRegion: "Western Cape hemp plantations (post-2018 legalisation)",    role: "Hearts of Home wall infill, low-carbon thermal mass for the Mediterranean climate" },
       { name: "Patinated copper",     sourceRegion: "Northern Cape copper belt (Springbok)",                     role: "Roof shells of the entry pavilion, weathering to verdigris green-rose" },
-      { name: "Western Cape glass",   sourceRegion: "PFG Building Glass plant, Western Cape",                    role: "Curtain wall in subtle rose tint, framing Table Mountain views from every floor" }
+      { name: "Western Cape glass",   sourceRegion: "PFG Building Glass plant, Western Cape",                    role: "Curtain wall in subtle rose tint, framing Table Mountain views from every floor" },
+      { name: "Rose-bronze accent (illustrative)", sourceRegion: "Adapts to the final site and local sourcing", role: "A thin rose-bronze rim that catches the daytime sun over the primary stone or skin. The named materials are worked examples chosen for durability and local character; the final material and accent would be set with local quarries and craftspeople for the specific site." }
     ],
     motifs: [
       { name: "Table Mountain silhouette", origin: "The defining horizon of Cape Town (1,086m flat-top profile)", application: "Pavilion crown geometry; the building's roofline echoes Table Mountain's flat top in deliberate dialogue" },
@@ -97,7 +98,7 @@ const vocab = {
     monumentSection: {
       label: "Living Heart Cape Town",
       title: "The Heart at the V&A Waterfront",
-      lead: "A 12 metre Living Heart at the V&A Waterfront, the same heart every Cor city builds. At this height the Cape Doctor wind is a non-issue. Table Mountain sandstone facade glowing honey-grey by day and rose at sunset, Cape granite plinth against the salt, Cape pine timber inside, water-positive design that recycles greywater into a public reflective pool. By night it blooms into a far larger heart of light at the foot of the mountain, beating with all six cities, dimmed from the protected view corridors.",
+      lead: "A 12 metre Living Heart at the V&A Waterfront, the same heart every Cor city builds. At this height the Cape Doctor wind is a non-issue. Table Mountain sandstone facade glowing honey-grey by day and rose at sunset, Cape granite plinth against the salt, Cape pine timber inside, water-positive design that recycles greywater into a public reflective pool. By night it becomes a heart of light that beats, rippling out in waves of light-hearts across the bay on every pulse of the shared heartbeat, dimmed from the protected view corridors.",
       viral: "Other cities build with concrete. Cape Town builds with sandstone, timber, and the conviction that water is precious."
     },
     passivhaus: {
