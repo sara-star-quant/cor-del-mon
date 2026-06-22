@@ -39,7 +39,7 @@ const vocab = {
   monument: {
     heightM: 12,
     name: "El Cor Viu",
-    completionYear: 2032,
+    completionOffsetYears: 5,
     signature: "A 12 metre living heart on the Valira valley floor, the same height as every Cor monument: the shared heart-core made the whole building, so a couple stands in the identical 12 metre heart whether in Andorra or Jaipur. Warm Pyrenean granite and rose-tinted glass that blushes deeper as night falls. Eternal flame at the ground-floor chowk, ceremony space on the upper floor, the Constitution archive in the undercroft. By night, during accepted hours, the little stone heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the valley on every pulse of the shared 60 BPM heartbeat, the network's one heartbeat made visible, grand but weightless, fully reversible, dimmed away from homes and protected views. Small enough for a microstate to build and love, identical to its five sisters, unmistakably Andorran in its skin."
   },
   nationalStyle: {
@@ -76,9 +76,9 @@ const vocab = {
       stats: [
         { n: "12m",      l: "El Cor Viu (the shared heart, +heart of light)" },
         { n: "10",       l: "Heart-shaped Cor landmarks" },
-        { n: "300",      l: "Llars del Cor by 2035" },
+        { n: "300",      l: "Llars del Cor by Year 8" },
         { n: "24/7",     l: "Cor FM + Cor Kids TV (network broadcast)" },
-        { n: "Q1 2028",  l: "First Families Move In" }
+        { n: "Year 1",   l: "First Families Move In" }
       ]
     },
     monumentSection: {
@@ -91,18 +91,18 @@ const vocab = {
       label: "Llars del Cor",
       title: "Llars del Cor",
       subtitle: "Passivhaus-inspired family homes (an honest microstate count)",
-      lead: "Andorra is 468 km², roughly 92% steep mountain terrain. Buildable valley floor is genuinely scarce and mostly developed. The government's existing affordable-housing target is 600 to 650 units by 2027 across the seven parishes. Cor del Món does not double a national programme; it adds 300 family-typology units by 2035, every one of them an infill, conversion, or retrofit on land already in use. The contribution is the typology (3+ bedrooms, intergenerational alcove, courtyard) and the family-priority allocation overlay. The contribution is not the count.",
+      lead: "Andorra is 468 km², roughly 92% steep mountain terrain. Buildable valley floor is genuinely scarce and mostly developed. The government's existing affordable-housing target is 600 to 650 units by 2027 across the seven parishes. Cor del Món does not double a national programme; it adds 300 family-typology units by Year 8, every one of them an infill, conversion, or retrofit on land already in use. The contribution is the typology (3+ bedrooms, intergenerational alcove, courtyard) and the family-priority allocation overlay. The contribution is not the count.",
       viral: "Andorra cannot be Yokohama. The honest answer is small, slow, retrofitted, and beautifully insulated.",
       cards: [
-        { icon: "leaf",   title: "Passivhaus-inspired retrofit",      desc: "Superior insulation, controlled ventilation, airtight envelope on existing 1970s and 1980s apartment blocks across Andorra la Vella, Escaldes-Engordany, and Sant Julià de Lòria. Up to 75% heating energy reduction without rebuilding from scratch. The country has hundreds of these blocks; the Cor contribution is bringing 200 of them up to current standards by 2035." },
+        { icon: "leaf",   title: "Passivhaus-inspired retrofit",      desc: "Superior insulation, controlled ventilation, airtight envelope on existing 1970s and 1980s apartment blocks across Andorra la Vella, Escaldes-Engordany, and Sant Julià de Lòria. Up to 75% heating energy reduction without rebuilding from scratch. The country has hundreds of these blocks; the Cor contribution is bringing 200 of them up to current standards by Year 8." },
         { icon: "heart",  title: "Courtyard infill, ten sites only",   desc: "Ten new-build infill sites identified with the seven communes, each yielding ten to twelve family units around a small heart-shaped patio. One hundred new units total. Sites only on already-zoned residential plots, no new land take." },
         { icon: "hearth", title: "Family typology, three bedrooms +",  desc: "Every Cor unit, retrofit or new: 3+ bedrooms, soundproofed nursery, an alcove for an elder family member, sliding panels reconfiguring the floor plan as the family grows. The typology is the contribution; the count is modest." },
         { icon: "key",    title: "Family-priority allocation",         desc: "Eligible Andorran residents under 35 (3+ years residency, active CASS): up to 25% subsidy on Cor units, scaled by number of children. Income-tested. Coordinated with the existing Govern d'Andorra Housing Plan, not parallel to it." },
         { icon: "sun",    title: "Geothermal from Caldea aquifer",     desc: "Andorra's hot-spring aquifer feeds the existing Caldea spa; the Cor blocks tap the same source for ground-loop space-heating and domestic hot water. Bills minimal year-round; carbon footprint near zero on the heating side." },
-        { icon: "arc",    title: "Timeline: 200 retrofit + 100 new",   desc: "Phase 1 (2028-2031): 100 retrofitted units across Andorra la Vella and Escaldes blocks. Phase 2 (2031-2034): 100 more retrofit + 50 new infill across La Massana, Encamp, Canillo. Phase 3 (2034-2035): 50 final infill. Total 300 by 2035. All builds reviewed by AR+I for site-specific Pyrenean seismic conditions." }
+        { icon: "arc",    title: "Timeline: 200 retrofit + 100 new",   desc: "Phase 1 (Years 1-4): 100 retrofitted units across Andorra la Vella and Escaldes blocks. Phase 2 (Years 4-7): 100 more retrofit + 50 new infill across La Massana, Encamp, Canillo. Phase 3 (Years 7-8): 50 final infill. Total 300 by Year 8. All builds reviewed by AR+I for site-specific Pyrenean seismic conditions." }
       ],
       stats: [
-        { n: "300",     l: "Cor units by 2035 (not 1,200)" },
+        { n: "300",     l: "Cor units by Year 8 (not 1,200)" },
         { n: "200",     l: "Retrofitted, 100 new infill" },
         { n: "Up to 25%", l: "Family-priority subsidy" },
         { n: "3+",      l: "Bedrooms (Cor typology)" }
@@ -188,24 +188,24 @@ const vocab = {
       stats: [
         { n: "100",   l: "Cor Visa Couples/Yr (proposed)" },
         { n: "800",   l: "2025 Permit Quota" },
-        { n: "1.69",  l: "Fertility Target by 2035 (proj.)" },
-        { n: "~96K",  l: "Sustainable Pop. 2035 (proj.)" }
+        { n: "1.69",  l: "Fertility Target by Year 8 (proj.)" },
+        { n: "~96K",  l: "Sustainable Pop. Year 8 (proj.)" }
       ]
     },
     network: {
       label: "Xarxa del Cor",
       title: "Every Valley. Every Summit.",
-      lead: "Andorra is the seed of Cor del Món. Below are the five other cities the network is being built with through 2030.",
+      lead: "Andorra is the seed of Cor del Món. Below are the five other cities the network is being built with through Year 3.",
       viral: "Pure Andorra spirit emanation. Six cities. One heartbeat."
     },
     roadmap: {
       label: "The Rolling Wave",
       title: "Four stages, on Andorra's pace",
-      lead: "El Cor Viu is the seed of Cor del Món. Andorra leads the network's rolling-wave schedule with the earliest charter (2027), the earliest monument operational (2032), and the first Generation milestone in 2057. The other five cities follow at their own pace.",
+      lead: "El Cor Viu is the seed of Cor del Món. Andorra leads the network's rolling-wave schedule with the earliest charter (Year 0), the earliest monument operational (Year 5), and the first Generation milestone in Year 30. The other five cities follow at their own pace.",
       viral: "Andorra alone is a love letter. The network is what happens when five other cities decide to write back, each at their own speed.",
       milestones: [
         {
-          year:     2027,
+          year:     0,
           stage: "Charter",
           commitment: "Cor Charter signed with the Govern d'Andorra. International architecture competition for El Cor Viu awarded. Site secured on the Valira valley floor near the Riu Valira ribera. First Annual Cor Biennale opens in Andorra la Vella as the network's founding cultural moment.",
           metrics: { charterSigned: true, competitionAwarded: true, biennaleHosted: true },
@@ -214,7 +214,7 @@ const vocab = {
           lastVerified: "2026-Q3"
         },
         {
-          year:     2028,
+          year:     1,
           stage: "Break Ground",
           commitment: "Construction begins on El Cor Viu and on the first 400-unit Llars del Cor block in Andorra la Vella. The Cor Visa pilot opens with the first 100-couple cohort (proposed Q3 2026). Adelaide and Yokohama sign their own Cor Charters this year, anchoring the wave-1 trio.",
           metrics: { homesUnderConstruction: 400, corVisaCouples: 100 },
@@ -223,20 +223,20 @@ const vocab = {
           lastVerified: "2026-Q3"
         },
         {
-          year:     2032,
+          year:     5,
           stage: "Operational",
           commitment: "El Cor Viu opens. The Daily Ceremony begins broadcasting at the local sunset hour (around 18:00 CET in winter, 21:00 in midsummer) from the upper floor of the 12 m heart, the larger heart of light blooming above it and beating with the network for the hour. The first 200 Llars del Cor units (mostly retrofits in Andorra la Vella and Escaldes) delivered. Cor FM and Cor Kids TV have been broadcasting on the Cor Play app for two years. The first Cor Generation residents (network families across all wave-1 cities) move into Andorran Llars units.",
           metrics: { homes: 200, monumentHeightM: 12, residentsIncoming: 10 },
-          networkContribution: "Andorra alone holds the Daily Ceremony from 2032 onward. Cor Residency activates with 10 incoming residents per year (two from each of Adelaide, Yokohama, Valparaíso, Cape Town, Jaipur). Adelaide and Yokohama monuments under construction.",
+          networkContribution: "Andorra alone holds the Daily Ceremony from Year 5 onward. Cor Residency activates with 10 incoming residents per year (two from each of Adelaide, Yokohama, Valparaíso, Cape Town, Jaipur). Adelaide and Yokohama monuments under construction.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2057,
+          year:     30,
           stage: "Generation",
-          commitment: "El Cor Viu celebrates twenty-five years operational. The first Cor Generation residents who arrived in 2032 (then in their 20s, now in their 50s) have raised families inside the Llars stock. A second-wave Llars del Cor expansion adds 200 units across La Massana and Encamp through more retrofits and three small new infill blocks, bringing the Cor total to 500 (still tiny, still honest). The Cor Viu Pattern-Library archive opens in a small annex pavilion attached to the original monument.",
+          commitment: "El Cor Viu celebrates twenty-five years operational. The first Cor Generation residents who arrived in Year 5 (then in their 20s, now in their 50s) have raised families inside the Llars stock. A second-wave Llars del Cor expansion adds 200 units across La Massana and Encamp through more retrofits and three small new infill blocks, bringing the Cor total to 500 (still tiny, still honest). The Cor Viu Pattern-Library archive opens in a small annex pavilion attached to the original monument.",
           metrics: { networkAgeYears: 25, totalHomes: 500, generationAdults: 350 },
-          networkContribution: "Andorra graduates into network elder status. Andorran mentors begin advising Wave-2 candidate cities (admitted from 2042 onward) through the Cor Mentorship Programme. By this point the network is over 30 member cities and Andorra is the eldest of them all.",
+          networkContribution: "Andorra graduates into network elder status. Andorran mentors begin advising Wave-2 candidate cities (admitted from Year 15 onward) through the Cor Mentorship Programme. By this point the network is over 30 member cities and Andorra is the eldest of them all.",
           status: "concept",
           lastVerified: "2026-Q3"
         }
@@ -273,18 +273,18 @@ const vocab = {
     monumentTotal: "USD 4 to 8 million",
     intro: "Order-of-magnitude estimates. Real budgets will come after the international design competition and detailed engineering.",
     stages: [
-      { phase: "Charter (2027)",          range: "USD 0.3 to 0.7M",  scope: "Design competition prize + jury + initial site studies + Govern approvals" },
-      { phase: "Break Ground (2028)",     range: "USD 0.7 to 1.5M",      scope: "Foundation, Pyrenean granite plinth, RC core to grade" },
-      { phase: "Construction (2029-2031)", range: "USD 1.5 to 3.5M",     scope: "Stone-clad RC core, rose-tinted glass curtain wall, larch interior, eternal flame, mirador" },
-      { phase: "Operational (2032)",      range: "USD 1 to 2.3M",  scope: "Fitout, broadcast studio, opening programme" }
+      { phase: "Charter (Year 0)",          range: "USD 0.3 to 0.7M",  scope: "Design competition prize + jury + initial site studies + Govern approvals" },
+      { phase: "Break Ground (Year 1)",     range: "USD 0.7 to 1.5M",      scope: "Foundation, Pyrenean granite plinth, RC core to grade" },
+      { phase: "Construction (Years 2-4)", range: "USD 1.5 to 3.5M",     scope: "Stone-clad RC core, rose-tinted glass curtain wall, larch interior, eternal flame, mirador" },
+      { phase: "Operational (Year 5)",      range: "USD 1 to 2.3M",  scope: "Fitout, broadcast studio, opening programme" }
     ],
     fundingNote: "A small seed, mostly partner-funded. The monument leans on the Cor del Món network share and the Govern d'Andorra cultural-infrastructure line; the country's housing money stays where it belongs, in the existing affordable-housing programme for Andorran families. It asks little of the public purse and gives the public benefit back as homes. No external sovereign funding sought."
   },
   impact: {
     title: "Impact and benefit",
     items: [
-      { metric: "300 family-typology homes by 2035",   note: "Half the size of Govern's existing 600-by-2027 affordable-housing target. The Cor contribution is the typology (3+ bedrooms, intergenerational alcove, courtyard) not the count." },
-      { metric: "5 Cor Residency intake per year",      note: "Five incoming creative residents annually from 2032, housed in retrofitted Andorra la Vella and Escaldes apartments. Punching above weight as the network's seed." },
+      { metric: "300 family-typology homes by Year 8",   note: "Half the size of Govern's existing 600-by-2027 affordable-housing target. The Cor contribution is the typology (3+ bedrooms, intergenerational alcove, courtyard) not the count." },
+      { metric: "5 Cor Residency intake per year",      note: "Five incoming creative residents annually from Year 5, housed in retrofitted Andorra la Vella and Escaldes apartments. Punching above weight as the network's seed." },
       { metric: "Network broadcast hub",                note: "Cor FM and Cor Kids TV stream from El Cor Viu studios. Each operational network city contributes a weekly hour. Andorra anchors the broadcast in perpetuity." },
       { metric: "12m monument, identical to every Cor heart",  note: "Every Cor city builds the same 12 metre heart; only the skin and the night-time heart of light differ. Tiny footprint, tiny cost, nothing that towers over the valley. Unity made literal." }
     ]

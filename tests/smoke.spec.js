@@ -55,9 +55,9 @@ test('smoke: cor-constitution.json has nine sections, eight mechanics, and a rol
   expect(data.rollingWave, 'rollingWave object present').toBeDefined();
   expect(data.rollingWave.stages.map(s => s.name)).toEqual(['Charter', 'Break Ground', 'Operational', 'Generation']);
   expect(data.rollingWave.phases.map(p => p.name)).toEqual(['Genesis', 'Activation', 'Spread', 'Network', 'Lifetime']);
-  // Operational years per city, sanity-check the canonical schedule
-  expect(data.rollingWave.cityOperational.andorra).toBe(2032);
-  expect(data.rollingWave.cityOperational.yokohama).toBe(2035);
+  // Operational offsets per city (years since initialization), sanity-check the canonical sequence
+  expect(data.rollingWave.cityOperationalOffset.andorra).toBe(5);
+  expect(data.rollingWave.cityOperationalOffset.yokohama).toBe(9);
 });
 
 test('smoke: each live city vocab has four milestones in canonical Charter/Break Ground/Operational/Generation order', async ({ request }) => {
@@ -67,12 +67,12 @@ test('smoke: each live city vocab has four milestones in canonical Charter/Break
     // Extract the milestones array's stage values via regex; vocab.js is a JS module not JSON
     const stageMatches = [...src.matchAll(/stage:\s*"([^"]+)"/g)].map(m => m[1]);
     expect(stageMatches, `${slug} vocab should have Charter, Break Ground, Operational, Generation`).toEqual(['Charter', 'Break Ground', 'Operational', 'Generation']);
-    // Each milestone should also have a year (any integer 2026-2080)
-    const yearMatches = [...src.matchAll(/year:\s*(20[2-7][0-9])/g)].map(m => parseInt(m[1], 10));
-    expect(yearMatches.length, `${slug} should have at least 4 milestone years`).toBeGreaterThanOrEqual(4);
+    // Each milestone should also have a year offset (years since initialization, integer 0-60)
+    const yearMatches = [...src.matchAll(/year:\s*(\d{1,2})\s*,/g)].map(m => parseInt(m[1], 10));
+    expect(yearMatches.length, `${slug} should have at least 4 milestone year offsets`).toBeGreaterThanOrEqual(4);
     yearMatches.forEach(y => {
-      expect(y).toBeGreaterThanOrEqual(2026);
-      expect(y).toBeLessThanOrEqual(2080);
+      expect(y).toBeGreaterThanOrEqual(0);
+      expect(y).toBeLessThanOrEqual(60);
     });
   }
 });

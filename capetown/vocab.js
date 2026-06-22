@@ -9,8 +9,8 @@
 // respectful dialogue with any future Indigenous-led naming and design review.
 //
 // Cape Town anchors the African cluster of Cor del Món as the Wave-1 city. Marrakech
-// joins as a Wave-2 transitional city sponsored by Cape Town (around 2034-2041), and
-// Stone Town Zanzibar joins as a full Wave-2 candidate (post-2042). See the Africa
+// joins as a Wave-2 transitional city sponsored by Cape Town (around Years 7 to 14), and
+// Stone Town Zanzibar joins as a full Wave-2 candidate (post-Year 15). See the Africa
 // Cluster section of /network-constitution.md for the cluster's Q3 2026 numbers and
 // timing-uncertain markers.
 
@@ -48,7 +48,7 @@ const vocab = {
   monument: {
     heightM: 12,
     name: "Living Heart Cape Town",
-    completionYear: 2039,
+    completionOffsetYears: 12,
     signature: "A 12 metre Living Heart at the V&A Waterfront, with Table Mountain rising behind it and the Atlantic at its plinth, the same 12 metre heart every Cor city builds. At this height the south-easterly Cape Doctor wind that governs tall structures here is a non-issue, and the build is cheap and quick. Table Mountain sandstone facade, the Cape's own heritage building stone, glowing honey-grey by day and rose at sunset, on a Cape granite plinth that has held this coast for centuries and shrugs off the salt. Cape pine timber inside, marine-grade stainless fixings, water-positive design that recycles greywater into a public reflective pool. By night, during accepted hours, the little stone heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the bay at the foot of the mountain on every pulse of the shared 60 BPM heartbeat, weightless and fully reversible, dimmed away from Table Mountain's protected view corridors. The heart that sits at the foot of the mountain and never competes with it, identical at its core to its five sisters around one flame."
   },
   nationalStyle: {
@@ -90,9 +90,9 @@ const vocab = {
       stats: [
         { n: "12m",      l: "Living Heart (the shared heart, +heartbeat of light)" },
         { n: "10",       l: "Heart-shaped Cor landmarks" },
-        { n: "1,500",    l: "Hearts of Home by 2040" },
+        { n: "1,500",    l: "Hearts of Home by Year 13" },
         { n: "1 hr/wk",  l: "Cape Town Hour on Cor FM" },
-        { n: "Q1 2032",  l: "First Families Move In" }
+        { n: "Year 5",  l: "First Families Move In" }
       ]
     },
     monumentSection: {
@@ -105,7 +105,7 @@ const vocab = {
       label: "Hearts of Home",
       title: "Hearts of Home Cape Town",
       subtitle: "Water-positive family homes for the Mediterranean Cape",
-      lead: "Cape Town is 5.06M people in a structural housing crisis: 14% of households live in informal settlements and use only 4% of the city's municipal water. The 2015 to 2020 Day Zero crisis was a near miss; the next drought will not be. The Breaking New Ground (BNG) programme builds around 10,000 RDP/BNG units a year in Greater Cape Town. The Cor del Món contribution adds 1,500 Hearts of Home family homes by 2040 (about 1.7% of BNG output over nine years), specifically hempcrete-insulated water-positive bay-courtyard blocks with rainwater harvesting and greywater recycling: 700 in Khayelitsha (formal infill), 500 in Mitchells Plain (revitalisation of apartheid-era stock), and 300 in Belhar (transit-oriented infill). The novelty is the water-positive typology, not the count.",
+      lead: "Cape Town is 5.06M people in a structural housing crisis: 14% of households live in informal settlements and use only 4% of the city's municipal water. The 2015 to 2020 Day Zero crisis was a near miss; the next drought will not be. The Breaking New Ground (BNG) programme builds around 10,000 RDP/BNG units a year in Greater Cape Town. The Cor del Món contribution adds 1,500 Hearts of Home family homes by Year 13 (about 1.7% of BNG output over nine years), specifically hempcrete-insulated water-positive bay-courtyard blocks with rainwater harvesting and greywater recycling: 700 in Khayelitsha (formal infill), 500 in Mitchells Plain (revitalisation of apartheid-era stock), and 300 in Belhar (transit-oriented infill). The novelty is the water-positive typology, not the count.",
       viral: "A house that catches its own rain, recycles its own water, and faces Table Mountain through every window",
       cards: [
         { icon: "drop",   title: "Water-positive design",            desc: "Rainwater harvesting from every roof, greywater recycling for toilets and laundry, native fynbos landscape that needs no irrigation. Each block produces more water than it consumes in an average rainfall year." },
@@ -113,10 +113,10 @@ const vocab = {
         { icon: "hearth", title: "Family-first, intergenerational",  desc: "Every unit: 3+ bedrooms, soundproofed nurseries, an alcove for an elder family member, sliding panels reconfiguring the floor plan as the family grows. Designed for a multi-generational South African household." },
         { icon: "key",    title: "Subsidised for young families",    desc: "Eligible Cape Town residents under 35 with two-plus years of residency: up to 30% subsidy on Hearts of Home units, scaled by number of children. Income-tested. Coordinated with the City of Cape Town's existing Breaking New Ground (BNG) housing programme. Proposed Q3 2026." },
         { icon: "sun",    title: "Net-zero, Cape-Doctor cooled",     desc: "Solar shingles on every unit, geothermal warmth from the Cape Flats aquifer, evaporative comfort through the Cape Doctor wind during summer. Bills minimal year round, water-positive in normal rainfall years." },
-        { icon: "arc",    title: "Timeline: Q1 2033 start",          desc: "Phase 1 (2033-2036): 700 units in Khayelitsha (formal infill upgrade alongside existing community). Phase 2 (2036-2038): 500 in Mitchells Plain (revitalisation of apartheid-era stock). Phase 3 (2038-2040): 300 in Belhar (transit-oriented infill). Total 1,500. All builds reviewed under SANS 10160-4 for Cape intra-plate seismic conditions." }
+        { icon: "arc",    title: "Timeline: around Year 6 start",          desc: "Phase 1 (Years 6 to 9): 700 units in Khayelitsha (formal infill upgrade alongside existing community). Phase 2 (Years 9 to 11): 500 in Mitchells Plain (revitalisation of apartheid-era stock). Phase 3 (Years 11 to 13): 300 in Belhar (transit-oriented infill). Total 1,500. All builds reviewed under SANS 10160-4 for Cape intra-plate seismic conditions." }
       ],
       stats: [
-        { n: "1,500", l: "Homes by 2040" },
+        { n: "1,500", l: "Homes by Year 13" },
         { n: "Water+", l: "Net producer in average year" },
         { n: "Up to 30%", l: "Family Subsidy" },
         { n: "3+",    l: "Bedrooms Min" }
@@ -136,7 +136,7 @@ const vocab = {
     media: {
       label: "Cape Town on the air",
       title: "Cape Town Hour on the network broadcast",
-      lead: "Cape Town does not run a separate station. The Cor del Món network broadcast is anchored in Andorra (Cor FM, Cor Play). Cape Town contributes the Cape Town Hour: a weekly two-hour multilingual strand from 2038 onward, in English, Afrikaans, and isiXhosa, recorded inside Living Heart Cape Town and rebroadcast worldwide via Cor Play. Cape Talk, Heart 104.9, SABC Radio Western Cape, and Bush Radio stay where they are; the Cape Town Hour brings the Cape's three-language conversation to the rest of the network.",
+      lead: "Cape Town does not run a separate station. The Cor del Món network broadcast is anchored in Andorra (Cor FM, Cor Play). Cape Town contributes the Cape Town Hour: a weekly two-hour multilingual strand from Year 11 onward, in English, Afrikaans, and isiXhosa, recorded inside Living Heart Cape Town and rebroadcast worldwide via Cor Play. Cape Talk, Heart 104.9, SABC Radio Western Cape, and Bush Radio stay where they are; the Cape Town Hour brings the Cape's three-language conversation to the rest of the network.",
       viral: "Cape Town has been speaking three languages over breakfast for centuries. The Cape Town Hour is not a new voice. It is the existing one, on the network's frequency.",
       outlets: [
         { icon: "mic", title: "Cape Town Hour · with Bush Radio", desc: "A weekly multilingual hour made with Bush Radio, one of Africa's oldest community stations, and its long tradition of teaching young people to make their own radio. Cape jazz, kwaito, isiXhosa and Afrikaans love songs, carried worldwide on Cor Play.", tags: ["Weekly", "Community radio", "Three languages"] },
@@ -188,7 +188,7 @@ const vocab = {
       lead: "Cape Town's housing crisis is the inverse of Adelaide's: people are choosing to come, and people are struggling to stay. 14% of households live in informal settlements with 4% of the city's water. South Africa already has a strong Critical Skills Visa programme; Cape Town does not need a new visa class. What the city needs is water-positive family housing, restored Bo-Kaap and Woodstock cottages for the network's residency intake, and a focused Cape Heritage MArch studio at UCT. Small contributions, plugged into existing Western Cape provincial programmes that already work.",
       viral: "The city that figured out Day Zero already knows the answer. The Cor del Món contribution is housing that catches its own water, not another visa category.",
       cards: [
-        { icon: "hearth",    tag: "Housing",       title: "Hearts of Home, Breaking New Ground overlay",    desc: "1,500 hempcrete water-positive family homes by 2040 across Khayelitsha (700), Mitchells Plain (500), and Belhar (300). Sized at about 1.7% of BNG's annual ~10,000-unit output over nine years; the contribution is the water-positive hempcrete typology rather than the count. Allocated through the City of Cape Town's existing Breaking New Ground programme with a young-family priority overlay (under 35, two-plus years Western Cape residency, child-count-scaled subsidy up to 30%)." },
+        { icon: "hearth",    tag: "Housing",       title: "Hearts of Home, Breaking New Ground overlay",    desc: "1,500 hempcrete water-positive family homes by Year 13 across Khayelitsha (700), Mitchells Plain (500), and Belhar (300). Sized at about 1.7% of BNG's annual ~10,000-unit output over nine years; the contribution is the water-positive hempcrete typology rather than the count. Allocated through the City of Cape Town's existing Breaking New Ground programme with a young-family priority overlay (under 35, two-plus years Western Cape residency, child-count-scaled subsidy up to 30%)." },
         { icon: "residency", tag: "Cor Residency", title: "Cape Heart Residency, Bo-Kaap and Woodstock",    desc: "Cape Town's contribution to the network Cor Residency. Ten incoming residents per year housed in restored cottages in Bo-Kaap (heritage-quarter terraces) and Woodstock (the artist-precinct row houses behind the Old Biscuit Mill). Twelve months, partnership with Greatmore Studios for studio space. Two residents per other Wave-1 city." },
         { icon: "book",      tag: "Education",     title: "UCT Cape Heritage Studio (one MArch)",           desc: "UCT's School of Architecture, Planning and Geomatics runs a single annual MArch studio on water-positive design, Cape Malay heritage, and Township-CBD reconnection. Twenty seats per year including five funded for network-city students. Stellenbosch and UWC architecture co-teach the Mediterranean-arid module. One studio, well-taught, beats new faculties." },
         { icon: "doublehearts", tag: "Childcare",  title: "Hempcrete bay-courtyard nurseries",              desc: "Free childcare from 12 months at the ground floor of every Hearts of Home block. Built into the housing typology so the walk to drop-off is two minutes. Coordinated with the Western Cape Department of Social Development and the existing ECD subsidy framework." },
@@ -198,7 +198,7 @@ const vocab = {
       ],
       stats: [
         { n: "10",      l: "Cape Heart Residency intake/yr" },
-        { n: "1,500",   l: "Hearts of Home by 2040" },
+        { n: "1,500",   l: "Hearts of Home by Year 13" },
         { n: "20",      l: "UCT Cape Heritage Studio Master of Architecture seats/yr" },
         { n: "5.06M",   l: "Greater Cape Town (2025)" }
       ]
@@ -206,48 +206,48 @@ const vocab = {
     network: {
       label: "Heart Network",
       title: "Six cities. One heartbeat. One mountain to face it from.",
-      lead: "Cape Town joins Cor del Món as the fifth wave-1 city, anchoring the African cluster. Marrakech joins as a Wave-2 transitional city sponsored by Cape Town (around 2034 to 2041). Stone Town Zanzibar joins as a full Wave-2 candidate (post-2042).",
+      lead: "Cape Town joins Cor del Món as the fifth wave-1 city, anchoring the African cluster. Marrakech and Stone Town Zanzibar are named only as illustrative Wave-2 candidates; they have not been approached and no participation is agreed.",
       viral: "Andorra writes love in stone. Yokohama in arrivals. Adelaide in festivals. Valparaíso in colour. Cape Town writes love in water and in mountain stone."
     },
     roadmap: {
       label: "The rolling wave",
       title: "Four stages, on Cape Town's pace",
-      lead: "Living Heart Cape Town is the Cape's contribution to Cor del Món. Cape Town joins the network in the Spread phase, opening its monument in 2038-2039 alongside Valparaíso and Jaipur. Generation arrives in 2063-2064.",
+      lead: "Living Heart Cape Town is the Cape's contribution to Cor del Món. Cape Town joins the network in the Spread phase, opening its monument in Years 11 to 12 alongside Valparaíso and Jaipur. Generation arrives in Years 36 to 37.",
       viral: "Cape Town alone is Table Mountain and the Atlantic. Cape Town inside Cor del Món is the African anchor of a six-city heartbeat that learns from the Day Zero playbook.",
       milestones: [
         {
-          year:     2031,
+          year:     4,
           stage: "Charter",
-          commitment: "Cor Charter signed with the City of Cape Town and the Western Cape Provincial Government. International architecture competition for Living Heart Cape Town awarded. Site secured at the V&A Waterfront, with Table Mountain sightline preserved. Cape Town hosts the Cor Biennale 2033 ahead of its monument opening, as a pre-build cultural moment.",
+          commitment: "Cor Charter signed with the City of Cape Town and the Western Cape Provincial Government. International architecture competition for Living Heart Cape Town awarded. Site secured at the V&A Waterfront, with Table Mountain sightline preserved. Cape Town hosts the Cor Biennale in Year 6 ahead of its monument opening, as a pre-build cultural moment.",
           metrics: { charterSigned: true, competitionAwarded: true, siteSecured: "V&A Waterfront" },
           networkContribution: "Cape Town becomes Cor del Món's African anchor and the formal sponsor of the Marrakech Wave-2 transitional admission. The African cluster of three (Cape Town live; Marrakech transitional; Stone Town Zanzibar full Wave-2) is documented in the Constitution.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2033,
+          year:     6,
           stage: "Break Ground",
-          commitment: "Construction begins on Living Heart Cape Town and on the first 400 Hearts of Home hempcrete units in Khayelitsha. Cor Visa pilot opens with the first 100-couple cohort (proposed Q3 2026). Cape Town hosts the Cor Biennale 2033 inside the V&A festival schedule. Marrakech Wave-2 admission process opens this year, sponsored by Cape Town.",
+          commitment: "Construction begins on Living Heart Cape Town and on the first 400 Hearts of Home hempcrete units in Khayelitsha. Cor Visa pilot opens with the first 100-couple cohort (proposed Q3 2026). Cape Town hosts the Cor Biennale in Year 6 inside the V&A festival schedule. Marrakech Wave-2 admission process opens this year, sponsored by Cape Town.",
           metrics: { homesUnderConstruction: 400, corVisaCouples: 100, biennaleHosted: true, marrakechAdmitted: "Wave-2 process opens" },
           networkContribution: "Cape Town publishes the first ten Cape-authored Cor Patterns (water-positive urbanism, hempcrete bay-courtyard housing, Day-Zero-resilient design). Andorra Daily Ceremony broadcasts have been running for one year; Cape Town is now part of the four-city construction wave alongside Adelaide, Yokohama, Valparaíso.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2039,
+          year:     12,
           stage: "Operational",
           commitment: "Living Heart Cape Town opens at the V&A Waterfront. Daily Ceremony begins broadcasting at the city's declared Cor hour from the Table Mountain sandstone ceremony hall. The first 1,200 of 1,500 Hearts of Home units delivered across Khayelitsha (Phase 1 complete, 700 done), Mitchells Plain (Phase 2 underway, 500 in build), Belhar (Phase 3 starting, 300 to come). Cape Town's TFR recovering toward 2.0. The first Cor Generation residents move into the network units.",
           metrics: { homes: 1000, monumentHeightM: 12, fertilityRate: 1.95, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterCapeTown: 5500000 },
-          networkContribution: "Cape Town joins Andorra, Adelaide, Yokohama, Valparaíso (and Jaipur 2038 to 2040) in the Daily Ceremony rotation. The full wave-1 six-city ceremony is now active. The network's six operational cities host the target 60 Cor Residents per year. Cape Town-authored patterns reach 30 contributions to the Cor Pattern Library, leading on water-positive design.",
+          networkContribution: "Cape Town joins Andorra, Adelaide, Yokohama, Valparaíso (and Jaipur Years 11 to 13) in the Daily Ceremony rotation. The full wave-1 six-city ceremony is now active. The network's six operational cities host the target 60 Cor Residents per year. Cape Town-authored patterns reach 30 contributions to the Cor Pattern Library, leading on water-positive design.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2064,
+          year:     37,
           stage: "Generation",
-          commitment: "Living Heart Cape Town celebrates twenty-five years operational. The first Cor Generation residents who arrived in 2039 (then in their 20s, now in their 50s) have raised families inside the hempcrete stock. A second-wave expansion adds 700 hempcrete units across Sea Point and Observatory, bringing the Cor total to 2,200. The Day Zero scar of 2018 is now a curriculum module taught in every Cape primary school via the network broadcast's Cape Kids strand. Cape Town's water-positive hempcrete typology has become a continental reference.",
+          commitment: "Living Heart Cape Town celebrates twenty-five years operational. The first Cor Generation residents who arrived in Year 12 (then in their 20s, now in their 50s) have raised families inside the hempcrete stock. A second-wave expansion adds 700 hempcrete units across Sea Point and Observatory, bringing the Cor total to 2,200. The Day Zero scar of 2018 is now a curriculum module taught in every Cape primary school via the network broadcast's Cape Kids strand. Cape Town's water-positive hempcrete typology has become a continental reference.",
           metrics: { networkAgeYears: 25, totalHomes: 2200, generationAdults: 1500, dayZeroResilience: "permanent" },
-          networkContribution: "Cape Town graduates into network elder status alongside Valparaíso and Jaipur (all 2063-2065). Cape Town mentors Wave-2 African candidate cities: Marrakech (operational 2040-2041 under Cape Town's transitional sponsorship), Stone Town Zanzibar (Wave-2 candidate post-2042), Dakar, and Lagos. The Mountain Anthology (Letters to the Mountain bound annually) becomes a recognised volume of contemporary South African writing.",
+          networkContribution: "Cape Town graduates into network elder status alongside Valparaíso and Jaipur (all Years 36 to 38). Cape Town mentors Wave-2 African candidate cities: Marrakech (operational Years 13 to 14 under Cape Town's transitional sponsorship), Stone Town Zanzibar (Wave-2 candidate post-Year 15), Dakar, and Lagos. The Mountain Anthology (Letters to the Mountain bound annually) becomes a recognised volume of contemporary South African writing.",
           status: "concept",
           lastVerified: "2026-Q3"
         }
@@ -289,17 +289,17 @@ const vocab = {
     monumentTotal: "USD 5 to 10 million",
     intro: "Order-of-magnitude estimates anchored against comparable Cape Town builds (Zeitz MOCAA at the V&A cost roughly USD 38M in 2017; the Norval Foundation cost about USD 50M in 2018). At 60m on a concrete core, without base isolation and with the wind-driven structure kept low, this stays modest. Real budgets after the international design competition.",
     stages: [
-      { phase: "Charter (2031)",          range: "USD 0.4 to 0.8M",    scope: "International design competition + V&A site lease negotiation + SAHRA + HWC approvals + Western Cape Provincial Government negotiation" },
-      { phase: "Break Ground (2032-33)",  range: "USD 0.8 to 2M",  scope: "RC core foundation, ductile seismic detailing for SANS 10160-4, water-positive systems infrastructure, Table Mountain sandstone and Cape granite supply contracts" },
-      { phase: "Construction (2033-38)",  range: "USD 2.5 to 5M",  scope: "Table Mountain sandstone facade, Cape granite plinth, Cape pine timber pavilions, water-positive systems (rainwater + greywater), Cape Doctor wind diagrams in ventilation, V&A site work" },
-      { phase: "Operational (2038-39)",   range: "USD 1.3 to 2.2M",  scope: "Cape Town Hour multilingual broadcast studio, ceremony hall fitout, Cape Town International Jazz Festival partnership integration" }
+      { phase: "Charter (Year 4)",          range: "USD 0.4 to 0.8M",    scope: "International design competition + V&A site lease negotiation + SAHRA + HWC approvals + Western Cape Provincial Government negotiation" },
+      { phase: "Break Ground (Years 5 to 6)",  range: "USD 0.8 to 2M",  scope: "RC core foundation, ductile seismic detailing for SANS 10160-4, water-positive systems infrastructure, Table Mountain sandstone and Cape granite supply contracts" },
+      { phase: "Construction (Years 6 to 11)",  range: "USD 2.5 to 5M",  scope: "Table Mountain sandstone facade, Cape granite plinth, Cape pine timber pavilions, water-positive systems (rainwater + greywater), Cape Doctor wind diagrams in ventilation, V&A site work" },
+      { phase: "Operational (Years 11 to 12)",   range: "USD 1.3 to 2.2M",  scope: "Cape Town Hour multilingual broadcast studio, ceremony hall fitout, Cape Town International Jazz Festival partnership integration" }
     ],
     fundingNote: "Funding mix expected for the monument: Cor del Món network partner share (35-50%), South African arts philanthropy (illustrative: Oppenheimer, Mary Slack, Motsepe foundations) (25-35%), V&A Waterfront in-kind via a discounted cultural-anchor lease (Zeitz MOCAA precedent) (15-25%), national Department of Sport, Arts and Culture (5-15%), small bilateral cultural partnerships (5-10%). Provincial and city public funds go to the Hearts of Home housing track, not the monument: post-Day-Zero Cape Town has to put homes and water first. All foreign-source funding under FATF and PRECCA review."
   },
   impact: {
     title: "Impact and benefit",
     items: [
-      { metric: "1,500 hempcrete water-positive family homes by 2040", note: "About 1.7% of BNG's annual ~10,000-unit output over nine years. The novelty is the water-positive hempcrete typology, not the count. 700 Khayelitsha + 500 Mitchells Plain + 300 Belhar; only city in the network that goes UP from the original 1,200." },
+      { metric: "1,500 hempcrete water-positive family homes by Year 13", note: "About 1.7% of BNG's annual ~10,000-unit output over nine years. The novelty is the water-positive hempcrete typology, not the count. 700 Khayelitsha + 500 Mitchells Plain + 300 Belhar; only city in the network that goes UP from the original 1,200." },
       { metric: "Day Zero resilience as continental reference",        note: "Cape Town is the only major city in the network that has lived through a near-water-zero crisis (2015-2020). The water-positive typology demonstrated at scale here becomes a continental-African export, especially relevant to other dry African coastal cities." },
       { metric: "10 Cape Heart Residency intake per year",             note: "Bo-Kaap heritage-quarter terraces and Woodstock artist-precinct row houses. Greatmore Studios partnership for studio space. Twelve-month stay, V&A access." },
       { metric: "Cape Town Hour multilingual broadcast",                note: "English, Afrikaans, isiXhosa each in rotation. From the Table Mountain sandstone ceremony hall studio. Cape Talk, Heart 104.9, SABC Radio Western Cape, Bush Radio stay where they are; the Cor contribution is the network slot." },

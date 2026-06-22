@@ -4,6 +4,10 @@
 
 **Cor del Món is a conceptual design proposal and creative-research project.** Nothing on this site is a built work, an active programme, an offer, or an established partnership with any government, institution, foundation, corporation, individual, or community. Read the entire disclaimer before relying on any content. The summary on every city page links here.
 
+**The six cities are not confirmed participants.** They are an illustrative, author-recommended starting set chosen for geographic and cultural spread. No city government, and no named authority, ministry, university, foundation, broadcaster, architect, or community, has been approached, contacted, or consulted, and none has agreed to, endorsed, or reviewed anything here. The selection may grow, shrink, or change with local interest, external factors, and regulation. Any real participation would be each city's own decision, under its own statutory review.
+
+**Cor del Món is not an organisation or legal entity.** There is no foundation, company, board, secretariat, or membership structure. It is an open-source design proposal maintained by a single author (sara-star-quant) with no authority, jurisdiction, funding, or enforcement power. The "Constitution" and "Charter" documents use those words in a poetic, design-fiction sense, not a legal one. Timelines on this site are illustrative offsets from a project/city initialization (Year 0), not calendar dates or a schedule.
+
 ## 1. No professional advice of any kind
 
 Nothing on this site, in any city section, in `_shared/cor-constitution.json`, in `network-constitution.md`, in any `vocab.js` file, or in any linked document, constitutes:
@@ -28,6 +32,8 @@ Every number in this proposal (population, fertility, housing counts, monument h
 
 The website's authors make no representation that any number is current, complete, accurate, or appropriate for any decision. Numbers may have been superseded by official statistics, government plans, or local conditions between authoring and reading.
 
+Where the proposal associates housing, architecture, or design with demographic, fertility, wellbeing, or social outcomes, it makes **no causal claim** and offers no evidence of such an effect. Any such figure is an illustrative scenario input, not a predicted result the project can deliver.
+
 ## 3. Named entities are referenced descriptively, not endorsed
 
 Government bodies, ministries, departments, corporations, foundations, architects, universities, hospitals, broadcasters, religious institutions, civic associations, cooperatives, and individuals named anywhere on this site are referenced **descriptively for context only**. References reflect only the project's research about how a real implementation would interact with these entities. They do not reflect:
@@ -40,19 +46,19 @@ Government bodies, ministries, departments, corporations, foundations, architect
 
 Examples of named entities referenced this way include but are not limited to: Govern d'Andorra, Comú d'Andorra la Vella, Yokohama City Hall, Mitsubishi Estate, Kanagawa Prefecture, City of Adelaide, Renewal SA, Kaurna Yerta Aboriginal Corporation, Empresa Portuaria Valparaíso, Consejo de Monumentos Nacionales, MINVU, MINCAP, V&A Waterfront (Pty) Ltd, Growthpoint Properties, Public Investment Corporation, City of Cape Town, Western Cape Provincial Government, SAHRA, Heritage Western Cape, Department of Sport, Arts and Culture, Jaipur Development Authority, Jaipur Municipal Corporation Greater, Government of Rajasthan, INTACH Rajasthan, Ministry of Home Affairs, Ministry of Culture, Foreign Office Architects, SANAA, Sou Fujimoto, Tadao Ando, Glenn Murcutt, Studio Bright, Charles Correa, Sanjay Puri, Anupama Kundoo, Bijoy Jain, Jo Noero, Heinrich Wolff, Sumayya Vally, Alejandro Aravena and ELEMENTAL, Tata Trusts, Aditya Birla Foundation, Infosys Foundation, Bharti Foundation, Patrice Motsepe Foundation, Mary Slack Investments, Oppenheimer Memorial Trust, Asahi Group Foundation, Toyota Foundation, Mori Memorial Foundation, Aga Khan Trust for Culture.
 
-If any named entity wishes to have its reference removed, clarified, or changed, please contact cor-del-mon [at] protonmail [dot] com and the change will be made promptly.
+**No named entity has been contacted or informed of its inclusion** in this proposal. If any named entity wishes to have its reference removed, clarified, or changed, please contact cor-del-mon [at] protonmail [dot] com and the change will be made promptly.
 
 ## 4. No solicitation of investment, securities, or real estate
 
 This site is not an offer to sell, an offer to buy, or a solicitation of any offer to buy any security, real estate, partnership interest, or any other financial instrument anywhere in the world. No prospectus, private-placement memorandum, or offering document is being distributed. Any cost figures are illustrative project-research estimates, not capital-raise targets.
 
-If a real Cor del Món project is ever initiated in any city, any financial activity will be conducted under the laws of the relevant jurisdiction, with the registrations, prospectuses, and disclosures those laws require. No such activity is being conducted today.
+The project author **owns, controls, leases, and has secured no land or sites** anywhere; no site mentioned has been acquired, reserved, optioned, or negotiated. If a real Cor del Món project is ever initiated in any city, any financial activity, and any site identification, will be conducted under the laws of the relevant jurisdiction, with the registrations, prospectuses, and disclosures those laws require. No such activity is being conducted today.
 
 ## 5. Indigenous and Traditional Custodian content
 
 The proposal references and uses words from Indigenous and Traditional Custodian languages, including but not limited to **Kaurna** (Adelaide), **Khoekhoegowab** (Cape Town area), and Indigenous knowledge frames acknowledged in `_shared/cor-visual-identity.md` and per-city `vocab.js` files.
 
-Indigenous content on this site is **preliminary and offered respectfully and provisionally**. The project commits to:
+**No Traditional Custodian organisation or elder has been consulted on the current content;** all Indigenous-language terms are provisional and await community-led review. Indigenous content on this site is **preliminary and offered respectfully and provisionally**. The project commits to:
 
 - replacing all Indigenous-language content with versions reviewed and authored by the relevant Traditional Custodian organisations and elders before any real-world deployment;
 - not asserting, suggesting, or implying that Traditional Custodian organisations have reviewed, endorsed, or contributed to the current content;
@@ -85,7 +91,7 @@ The proposal references **UNESCO World Heritage** sites (Valparaíso 2003, Jaipu
 
 References to UNESCO are descriptive. The project is not a UNESCO partner, has not been reviewed by UNESCO or by the relevant State Parties, and makes no claim about how UNESCO would view any proposed intervention. Real heritage interventions would proceed only with the relevant State Party and the World Heritage Centre's processes.
 
-The project deliberately sites Hriday Mahal (Jaipur) **outside** the UNESCO Walled City core buffer; the Hriday Niwas residency operates in the buffer-adjacent heritage corridor, not inside the protected zone, and any haveli stewardship work is described as a partnership with INTACH Rajasthan and the Walled City Heritage Management Committee, not a Cor del Món-led intervention.
+The project deliberately sites Hriday Mahal (Jaipur) **outside** the UNESCO Walled City core buffer; the Hriday Niwas residency operates in the buffer-adjacent heritage corridor, not inside the protected zone. Any haveli stewardship work would defer entirely to the relevant Indian statutory and heritage authorities (such as the ASI and the Walled City Heritage Management Committee), not a Cor del Món-led intervention; no organisation is named as a partner in advance.
 
 ## 9. Trademarks and intellectual property
 
@@ -97,6 +103,8 @@ City names, country names, place names, government bodies, and indigenous-langua
 - registered cultural institutions (Yokohama Triennale, Adelaide Festival, Cape Town International Jazz Festival, Jaipur Literature Festival, etc.)
 
 are made under fair-use research, commentary, and editorial principles. The project claims no rights to these marks.
+
+Cultural, literary, and musical references on this site (including but not limited to a poet's hand or words, named songs and recording artists, and traditional or folk repertoire) are illustrative homage offered for creative-research purposes. No reproduction, licensing, synchronization, performance, or endorsement right is claimed, and any real installation would clear the necessary rights and community permissions first.
 
 The brand vocabulary coined by Cor del Món (including but not limited to *Cor del Món*, *El Cor Viu*, *Llars del Cor*, *Cor FM*, *Cor Kids TV*, *Minatokokoro*, *Kokoro no Ie*, *Kokoro Yado*, *Living Heart Adelaide*, *Hearts of Home*, *El Faro del Corazón*, *Hogares del Corazón*, *Living Heart Cape Town*, *Hriday Mahal*, *Hriday Ghar*, *Hriday Niwas*, and the rolling-wave stage names) is project-original. Use is governed by the licences in `LICENSE` (PolyForm Noncommercial 1.0.0) and `LICENSE-content.md` (Creative Commons Attribution-NonCommercial 4.0).
 

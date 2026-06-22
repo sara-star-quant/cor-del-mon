@@ -503,7 +503,7 @@ export function NationalStyleBlock(props) {
       ))
     ) : null,
     s.referenceArchitects && s.referenceArchitects.length ? h("div", null,
-      h("div", { className: "s", style: { fontSize: 9, letterSpacing: 2, textTransform: "uppercase", color: "var(--text-faint)", marginBottom: 6 } }, "In dialogue with"),
+      h("div", { className: "s", style: { fontSize: 9, letterSpacing: 2, textTransform: "uppercase", color: "var(--text-faint)", marginBottom: 6 } }, "Precedent reference only (no affiliation)"),
       h("div", { className: "s", style: { fontSize: 12, color: "var(--text-muted)" } }, s.referenceArchitects.join(", "))
     ) : null
   );
@@ -519,7 +519,7 @@ export function MilestoneRow(props) {
     style: { display: "grid", gridTemplateColumns: "minmax(110px, auto) 1fr", gap: 22, padding: "22px 0", borderBottom: "1px solid rgba(225,29,72,.06)" }
   },
     h("div", null,
-      h("div", { className: "metric", style: { fontSize: 36, lineHeight: 1 } }, m.year),
+      h("div", { className: "metric", style: { fontSize: 36, lineHeight: 1 } }, "Year " + m.year),
       h("div", { style: { marginTop: 8 } }, h(Tag, { variant: "rose" }, ((m.stage || m.phase) || "").toUpperCase()))
     ),
     h("div", null,
@@ -567,7 +567,7 @@ export function MilestoneMatrix(props) {
               style: { padding: 12, verticalAlign: "top", fontSize: 11, color: "var(--text-hint)", lineHeight: 1.5 }
             }, m
               ? h("div", null,
-                  h("div", { style: { fontWeight: 700, color: stageColours[s] || "var(--rose)", marginBottom: 4 } }, m.year),
+                  h("div", { style: { fontWeight: 700, color: stageColours[s] || "var(--rose)", marginBottom: 4 } }, "Year " + m.year),
                   h("div", null, m.commitment.slice(0, 120) + (m.commitment.length > 120 ? "..." : ""))
                 )
               : h("span", { style: { color: "var(--text-faint)", fontStyle: "italic" } }, "TBD"));

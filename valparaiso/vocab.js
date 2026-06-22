@@ -44,7 +44,7 @@ const vocab = {
   monument: {
     heightM: 12,
     name: "El Faro del Corazón",
-    completionYear: 2030,
+    completionOffsetYears: 3,
     signature: "Un Faro del Corazón de 12 metros en el borde de Muelle Prat, en el plan llano, el mismo corazón de 12 metros que construye cada ciudad Cor. A esta altura nunca toca la silueta patrimonial de los cerros que tiene detrás, y por pequeño es barato y rápido de levantar. Hierro galvanizado pintado en la paleta rosa-óxido de las casas de cerro, con fijaciones de acero inoxidable marino (316) contra el aire salino, sobre un marco arriostrado de acero y madera, sin aislación basal (a 12 metros no hace falta), en la zona de subducción del Pacífico. De noche, en horas acordadas, el pequeño faro se vuelve un corazón de luz que late, enviando olas de corazones de luz que se propagan sobre el agua y los cerros en cada pulso del latido compartido de 60 BPM, ingrávido y completamente reversible, atenuado lejos de los cerros y las vistas protegidas. Un corazón al borde del agua, idéntico en su núcleo a sus cinco hermanas, alrededor de una sola llama."
   },
   nationalStyle: {
@@ -85,9 +85,9 @@ const vocab = {
       stats: [
         { n: "12m",      l: "El Faro del Corazón (corazón compartido, +latido de luz)" },
         { n: "10",       l: "Cor Landmarks (en forma de corazón)" },
-        { n: "600+200", l: "Hogares incrementales + casas restauradas (2038)" },
+        { n: "600+200", l: "Hogares incrementales + casas restauradas (Ano 11)" },
         { n: "1 hr/sem", l: "Hora de Valparaíso en Cor FM" },
-        { n: "Q1 2031",  l: "Primeras familias se mudan" }
+        { n: "Ano 4",  l: "Primeras familias se mudan" }
       ]
     },
     monumentSection: {
@@ -100,7 +100,7 @@ const vocab = {
       label: "Hogares del Corazón",
       title: "Hogares del Corazón",
       subtitle: "Aravena-school incremental hill-housing",
-      lead: "La restricción binding de Valparaíso es la pérdida de patrimonio (35% del stock histórico perdido en 40 años), no la nueva construcción. La contribución de Cor del Món es doble: 600 cores incrementales nuevos en la tradición ELEMENTAL de Aravena (6 sitios × 100 cores), más 200 casas patrimoniales restauradas en el casco UNESCO. Total: 800 hogares para 2038, mitad nuevos en cerro y mitad restaurados en el Plan. Cada core nuevo arranca en 40m² y está diseñado para ser duplicado por la familia en una década. Fachadas de hierro galvanizado pintado en la paleta Valpo.",
+      lead: "La restricción binding de Valparaíso es la pérdida de patrimonio (35% del stock histórico perdido en 40 años), no la nueva construcción. La contribución de Cor del Món es doble: 600 cores incrementales nuevos en la tradición ELEMENTAL de Aravena (6 sitios × 100 cores), más 200 casas patrimoniales restauradas en el casco UNESCO. Total: 800 hogares para el Ano 11, mitad nuevos en cerro y mitad restaurados en el Plan. Cada core nuevo arranca en 40m² y está diseñado para ser duplicado por la familia en una década. Fachadas de hierro galvanizado pintado en la paleta Valpo.",
       viral: "A house designed to grow with the family, the way the cerros grow with their stairs",
       cards: [
         { icon: "leaf",   title: "Pacific-coast passive design",  desc: "Deep eaves shade the north facade against the Chilean summer (the southern hemisphere flip). Sea-breeze cross-ventilation from the bay through a heart-shaped courtyard. Cypress-shingle roofs reflecting the southern sun. Roughly 60% below a conventional Santiago apartment's energy use." },
@@ -108,10 +108,10 @@ const vocab = {
         { icon: "hearth", title: "Family-first, intergenerational", desc: "Every core: 2-3 bedrooms, soundproofed nursery, an alcove for an elder family member (essential given Valpo's demographic skew), sliding panels reconfiguring the floor plan as the family grows." },
         { icon: "key",    title: "Subsidio MINVU DS-1 con prioridad joven-familia",   desc: "Subsidio asignado dentro del DS-1 (Decreto Supremo 1) del MINVU, el programa chileno de vivienda incremental que ya financia los proyectos ELEMENTAL. Hasta 35% de subsidio sobre el core Hogares del Corazón para residentes de Valparaíso menores de 35 años con dos años en la ciudad, escalado por número de hijos. Cor del Món no monta un programa paralelo." },
         { icon: "sun",    title: "Net-zero, painted-iron skin",     desc: "Solar panels on the cypress-shingle roof, geothermal warmth from the Andean fault aquifer, rainwater harvesting into the courtyard cistern. Bills minimal year round." },
-        { icon: "arc",    title: "Timeline: Q1 2031 start",         desc: "Phase 1 (2031-2033): 200 cores en sitios de cerro despejados (Cerro Mariposa, Cerro Las Cañas). Phase 2 (2033-2036): 200 cores en redesarrollo del Almendral. Phase 3 (2036-2038): 200 cores en Gran Valparaíso (Quilpué, Villa Alemana). En paralelo: 200 casas patrimoniales restauradas en el casco UNESCO (Cerro Alegre, Cerro Concepción, Plan), bajo el Plan Maestro de Recuperación Patrimonial existente. Total 800. Todas las construcciones revisadas bajo NCh433 + NCh2745 para la zona de subducción del Pacífico." }
+        { icon: "arc",    title: "Timeline: around Year 4 start",         desc: "Phase 1 (Anos 4-6): 200 cores en sitios de cerro despejados (Cerro Mariposa, Cerro Las Cañas). Phase 2 (Anos 6-9): 200 cores en redesarrollo del Almendral. Phase 3 (Anos 9-11): 200 cores en Gran Valparaíso (Quilpué, Villa Alemana). En paralelo: 200 casas patrimoniales restauradas en el casco UNESCO (Cerro Alegre, Cerro Concepción, Plan), bajo el Plan Maestro de Recuperación Patrimonial existente. Total 800. Todas las construcciones revisadas bajo NCh433 + NCh2745 para la zona de subducción del Pacífico." }
       ],
       stats: [
-        { n: "600+200", l: "Nuevos cores + restauradas (2038)" },
+        { n: "600+200", l: "Nuevos cores + restauradas (Ano 11)" },
         { n: "60%",   l: "Energy below baseline" },
         { n: "Up to 35%", l: "Family Subsidy" },
         { n: "40+40m²", l: "Incremental footprint" }
@@ -125,13 +125,13 @@ const vocab = {
       murals: [
         { text: "QUÉDATE",   sub: "Stay. A two-storey letter painted in deep rose on a Cerro Concepción facade.",                  gradient: "linear-gradient(135deg,#ec407a,#880e4f)" },
         { text: "ABRÁZAME",  sub: "Hold me. Hands woven in painted iron between two buildings on Pasaje Bavestrello.",                gradient: "linear-gradient(135deg,#f48fb1,#ec407a)" },
-        { text: "VEN",       sub: "Come. One word in Pablo Neruda's handwriting across an apartment block in Almendral.",             gradient: "linear-gradient(135deg,#fce4ec,#f48fb1)" }
+        { text: "VEN",       sub: "Come. One word in a Neruda-inspired script across an apartment block in Almendral (no reproduction of copyrighted material).",             gradient: "linear-gradient(135deg,#fce4ec,#f48fb1)" }
       ]
     },
     media: {
       label: "Valpo en el aire",
       title: "Hora de Valparaíso en la transmisión de la red",
-      lead: "Valparaíso no monta una emisora aparte. La transmisión de Cor del Món está anclada en Andorra (Cor FM, app Cor Play); Valparaíso aporta la Hora de Valparaíso, una franja semanal en español grabada dentro de El Faro del Corazón y transmitida al mundo vía Cor Play desde 2038. En la ciudad trabaja con las casas que ya cuentan a Valpo: una franja infantil de cariño coproducida con UCV TV, el canal cultural y educativo más antiguo de Chile, nacido en la PUCV de Valparaíso, con financiamiento del Fondo CNTV, y una compañía de radio con Radio Valentín Letelier y las radios de los cerros. TVN, UCV TV y las radios locales se quedan donde están. La Hora es un regalo a la red, nunca una emisora por encima de Valpo.",
+      lead: "Valparaíso no monta una emisora aparte. La transmisión de Cor del Món está anclada en Andorra (Cor FM, app Cor Play); Valparaíso aporta la Hora de Valparaíso, una franja semanal en español grabada dentro de El Faro del Corazón y transmitida al mundo vía Cor Play desde el Ano 11. En la ciudad trabaja con las casas que ya cuentan a Valpo: una franja infantil de cariño coproducida con UCV TV, el canal cultural y educativo más antiguo de Chile, nacido en la PUCV de Valparaíso, con financiamiento del Fondo CNTV, y una compañía de radio con Radio Valentín Letelier y las radios de los cerros. TVN, UCV TV y las radios locales se quedan donde están. La Hora es un regalo a la red, nunca una emisora por encima de Valpo.",
       viral: "Valpo no necesitaba otra emisora. Necesitaba una hora que la ciudad le prestara.",
       outlets: [
         { icon: "mic", title: "La Hora de Valparaíso · con Radio Valentín Letelier", desc: "Una hora semanal en la red, hecha con la radio universitaria de la PUCV, Radio Valentín Letelier, y las radios de los cerros. Vals porteño, nueva canción, cartas leídas al aire, transmitida al mundo por Cor Play.", tags: ["Semanal", "Español", "Radio porteña"] },
@@ -183,7 +183,7 @@ const vocab = {
       lead: "Valparaíso envejece más rápido que cualquier otra ciudad mayor de Chile (16,6% mayor de 65 años, contra 14% nacional). La fertilidad chilena cayó a 1,4 (2024). Hace dos décadas que el Plan pierde jóvenes hacia Santiago. La contribución de Cor del Món es chica, concreta y porteña: vivienda incremental en la tradición ELEMENTAL de Aravena para los cerros, una Residencia del Corazón anclada en casas restauradas de Cerro Alegre, y un taller MArch enfocado en la PUCV. La visa Subject to Contract chilena ya existe; lo que falta es vivienda priorizada y techo seguro.",
       viral: "La ciudad que le enseñó a Sudamérica a escribir poemas de amor no necesita pedirle al gobierno una nueva visa. Necesita restaurar las casas donde esos poemas se escribieron.",
       cards: [
-        { icon: "hearth",    tag: "Vivienda",      title: "Hogares del Corazón + restauración patrimonial", desc: "600 cores incrementales nuevos en los cerros + 200 casas patrimoniales restauradas en el casco UNESCO para 2038 (ver sección Hearth). El Plan Maestro de Recuperación Patrimonial de la Municipalidad ya existe; Cor del Món suma una capa de prioridad para familias jóvenes (menores de 35, dos años en Valpo, subsidio escalado por número de hijos hasta el 25%) sobre las cuotas existentes. La restauración importa más que la nueva construcción para Valpo." },
+        { icon: "hearth",    tag: "Vivienda",      title: "Hogares del Corazón + restauración patrimonial", desc: "600 cores incrementales nuevos en los cerros + 200 casas patrimoniales restauradas en el casco UNESCO para el Ano 11 (ver sección Hearth). El Plan Maestro de Recuperación Patrimonial de la Municipalidad ya existe; Cor del Món suma una capa de prioridad para familias jóvenes (menores de 35, dos años en Valpo, subsidio escalado por número de hijos hasta el 25%) sobre las cuotas existentes. La restauración importa más que la nueva construcción para Valpo." },
         { icon: "residency", tag: "Residencia",    title: "Residencia del Corazón en Cerro Alegre",       desc: "El aporte de Valparaíso a la Residencia Cor de la red. Diez residentes entrantes por año en casas restauradas de Cerro Alegre y Cerro Concepción. Doce meses, acceso a estudios en Galería Bahía Utópica y al taller del Parque Cultural ex-Cárcel. Dos por cada una de las otras cinco ciudades de la primera ola." },
         { icon: "book",      tag: "Educación",     title: "Taller del Cerro PUCV (un solo MArch)",         desc: "La Escuela de Arquitectura de la PUCV (referente continental por la Travesía y la Ciudad Abierta de Amereida) abre un único taller MArch enfocado: vivienda incremental en pendiente, edificio-escalera, fachadas de zinc pintado. Veinte alumnos al año, cinco cupos para estudiantes de las ciudades hermanas. Un solo taller bien dictado, sin facultades nuevas." },
         { icon: "doublehearts", tag: "Cuidado",    title: "Salas cuna en Hogares del Corazón",             desc: "Cuidado infantil gratuito desde los 12 meses en planta baja de cada bloque incremental. Coordinado con la JUNJI Valparaíso y los planes de cobertura ya existentes del MINEDUC. La caminata de la cocina a la sala cuna no excede los dos minutos." },
@@ -193,7 +193,7 @@ const vocab = {
       ],
       stats: [
         { n: "10",    l: "Residencia del Corazón intake/año" },
-        { n: "800",   l: "Hogares totales (600 nuevos + 200 restauradas) para 2038" },
+        { n: "800",   l: "Hogares totales (600 nuevos + 200 restauradas) para el Ano 11" },
         { n: "20",    l: "Cupos Magíster en Arquitectura, Taller del Cerro PUCV/año" },
         { n: "1.02M", l: "Gran Valparaíso (2025)" }
       ]
@@ -201,26 +201,26 @@ const vocab = {
     network: {
       label: "Red del Corazón",
       title: "Seis ciudades. Un latido.",
-      lead: "Valparaíso joins Cor del Món as the fourth wave-1 city. Below are the five other cities the network is being built with through 2030.",
+      lead: "Valparaíso joins Cor del Món as the fourth wave-1 city. Below are the five other cities the network is being built with through Year 3.",
       viral: "Andorra writes love in stone. Yokohama in arrivals. Adelaide in festivals. Valparaíso writes love in colour and in funiculars."
     },
     roadmap: {
       label: "La ola rodante",
       title: "Cuatro etapas, al ritmo de Valparaíso",
-      lead: "El Faro del Corazón es la contribución de Valparaíso a Cor del Món. Valparaíso se une a la red en la fase Spread, abriendo su monumento en 2038, después de Andorra, Adelaide y Yokohama. Generación llega en 2063.",
+      lead: "El Faro del Corazón es la contribución de Valparaíso a Cor del Món. Valparaíso se une a la red en la fase Spread, abriendo su monumento en el Ano 11, después de Andorra, Adelaide y Yokohama. Generación llega en el Ano 36.",
       viral: "Valparaíso solo es 42 cerros y un poeta. Valparaíso dentro de Cor del Món es la cuarta ciudad de la red, leyendo a Neruda mientras tres ciudades hermanas ya tienen monumento.",
       milestones: [
         {
-          year:     2030,
+          year:     3,
           stage: "Charter",
           commitment: "Carta del Cor firmada con la Municipalidad de Valparaíso, el Gobierno Regional de Valparaíso, y MINVU (Ministerio de Vivienda y Urbanismo). Concurso internacional de arquitectura para El Faro del Corazón otorgado. Sitio asegurado en Muelle Prat, en el borde del puerto entre el casco UNESCO de los cerros y el muelle de trabajo. Cape Town firma su Carta el año siguiente, anclando el par Valparaíso-Cape Town del wave-1.",
           metrics: { charterSigned: true, competitionAwarded: true, siteSecured: "Muelle Prat" },
-          networkContribution: "Valparaíso se convierte en el ancla del Pacífico Sur de Cor del Món, junto con Adelaide. Hospeda la Cor Biennale 2031 dentro del Festival de Viña del Mar tradicional, dos años antes de la apertura de su monumento.",
+          networkContribution: "Valparaíso se convierte en el ancla del Pacífico Sur de Cor del Món, junto con Adelaide. Hospeda la Cor Biennale del Ano 4 dentro del Festival de Viña del Mar tradicional, dos años antes de la apertura de su monumento.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2032,
+          year:     5,
           stage: "Break Ground",
           commitment: "Construcción comienza en El Faro del Corazón y en los primeros 400 cores Hogares del Corazón en Cerro Mariposa. Visa del Corazón piloto abre con la primera cohorte de 100 parejas (propuesta Q3 2026). Aislamiento sísmico base (NCh2745) instalado bajo el plinto de andesita esta primavera. Andorra acaba de operar su monumento; Adelaide y Yokohama están bajo construcción.",
           metrics: { homesUnderConstruction: 400, corVisaCouples: 100, footingsPoured: true },
@@ -229,7 +229,7 @@ const vocab = {
           lastVerified: "2026-Q3"
         },
         {
-          year:     2038,
+          year:     11,
           stage: "Operational",
           commitment: "El Faro del Corazón abre. Daily Ceremony broadcasts comienzan a la hora Cor declarada por la ciudad desde el mirador del octavo piso sobre la bahía. Los primeros 600 cores Hogares del Corazón nuevos entregados a través de los cerros, Almendral y Gran Valparaíso (Quilpué, Villa Alemana); en paralelo, las primeras 100 casas patrimoniales restauradas en el casco UNESCO. Población del Gran Valparaíso sostenida en 1.05M. TFR recuperándose de 1,4 hacia 1,6. La pérdida histórica de stock patrimonial se ha estabilizado. Los primeros residentes Cor Generation se mudan a las unidades de la red.",
           metrics: { homesNew: 600, homesRestored: 100, monumentHeightM: 12, fertilityRate: 1.6, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterValparaiso: 1050000 },
@@ -238,11 +238,11 @@ const vocab = {
           lastVerified: "2026-Q3"
         },
         {
-          year:     2063,
+          year:     36,
           stage: "Generation",
-          commitment: "El Faro del Corazón celebra veinticinco años en operación. Los primeros residentes Cor Generation que llegaron en 2038 (entonces de veintipico, hoy de cincuentipico) han criado familias dentro del stock Hogares del Corazón. Una expansión segunda-ola añade 400 cores nuevos en los cerros, llevando el total nuevo a 1.000; en paralelo, la restauración patrimonial alcanza 200 casas históricas adicionales (total restauradas: 300). La pérdida histórica de stock patrimonial de Valparaíso se ha revertido al nivel de 1980. Gran Valparaíso es la ciudad más joven del Chile central por primera vez en cincuenta años.",
+          commitment: "El Faro del Corazón celebra veinticinco años en operación. Los primeros residentes Cor Generation que llegaron en el Ano 11 (entonces de veintipico, hoy de cincuentipico) han criado familias dentro del stock Hogares del Corazón. Una expansión segunda-ola añade 400 cores nuevos en los cerros, llevando el total nuevo a 1.000; en paralelo, la restauración patrimonial alcanza 200 casas históricas adicionales (total restauradas: 300). La pérdida histórica de stock patrimonial de Valparaíso se ha revertido al nivel de 1980. Gran Valparaíso es la ciudad más joven del Chile central por primera vez en cincuenta años.",
           metrics: { networkAgeYears: 25, totalHomesNew: 1000, totalHomesRestored: 300, generationAdults: 700, heritageStockRecovered: "to 1980 baseline" },
-          networkContribution: "Valparaíso se gradúa al estado de élder de la red junto con Cape Town y Jaipur (todos del 2063-2065). Valparaíso mentoriza a las ciudades candidatas Wave-2 latinoamericanas (probables: Antofagasta, Concepción, Mar del Plata, Cartagena). El Cuaderno del Faro (las Cartas a Neruda encuadernadas anualmente) se convierte en un volumen reconocido de poesía contemporánea chilena.",
+          networkContribution: "Valparaíso se gradúa al estado de élder de la red junto con Cape Town y Jaipur (todos del Ano 36 al 38). Valparaíso mentoriza a las ciudades candidatas Wave-2 latinoamericanas (probables: Antofagasta, Concepción, Mar del Plata, Cartagena). El Cuaderno del Faro (las Cartas a Neruda encuadernadas anualmente) se convierte en un volumen reconocido de poesía contemporánea chilena.",
           status: "concept",
           lastVerified: "2026-Q3"
         }
@@ -284,17 +284,17 @@ const vocab = {
     monumentTotal: "USD 3 a 7 millones",
     intro: "Estimaciones de orden de magnitud, ancladas a edificios cívicos chilenos comparables (Centro Cultural Gabriela Mistral remodelado costó USD 25M en 2010; Parque Cultural Valparaíso ex-Cárcel costó USD 18M en 2011). A 12 metros, el faro es un objeto pequeño y la estructura liviana cuesta muy poco; el corazón de luz nocturno es proyección, no obra. Presupuestos reales después del concurso internacional.",
     stages: [
-      { phase: "Charter (2030)",          range: "USD 0.2 a 0.5M",   scope: "Concurso internacional de diseño + acuerdo de arriendo con EPV + estudios de sitio Muelle Prat + aprobación CMN para impacto en buffer UNESCO" },
-      { phase: "Break Ground (2031-32)",  range: "USD 0.5 a 1.2M",  scope: "Aislación basal NCh2745, marco de acero, plinto de andesita, obras marítimas en Muelle Prat" },
-      { phase: "Construction (2032-37)",  range: "USD 1.5 a 3.5M", scope: "Fachada de hierro galvanizado pintado, pabellones de madera laminada, mirador, sistema de circulación switchback" },
-      { phase: "Operational (2038)",      range: "USD 0.8 a 1.8M",   scope: "Estudio de la Hora de Valparaíso, fitout de ceremonia, programa de inauguración con el Festival de Viña del Mar" }
+      { phase: "Charter (Ano 3)",          range: "USD 0.2 a 0.5M",   scope: "Concurso internacional de diseño + acuerdo de arriendo con EPV + estudios de sitio Muelle Prat + aprobación CMN para impacto en buffer UNESCO" },
+      { phase: "Break Ground (Anos 4-5)",  range: "USD 0.5 a 1.2M",  scope: "Aislación basal NCh2745, marco de acero, plinto de andesita, obras marítimas en Muelle Prat" },
+      { phase: "Construction (Anos 5-10)",  range: "USD 1.5 a 3.5M", scope: "Fachada de hierro galvanizado pintado, pabellones de madera laminada, mirador, sistema de circulación switchback" },
+      { phase: "Operational (Ano 11)",      range: "USD 0.8 a 1.8M",   scope: "Estudio de la Hora de Valparaíso, fitout de ceremonia, programa de inauguración con el Festival de Viña del Mar" }
     ],
     fundingNote: "El monumento se financia sobre todo de forma privada: participación de la red Cor del Món (35-50%), filantropía latinoamericana (Fundación Mar Adentro, Luksic Cultural) (20-30%), la línea de cultura de MINCAP (10-20%) y el aporte en especie de EPV (el sitio). Los fondos públicos regionales van al MINVU, a los Hogares del Corazón y a la restauración patrimonial de los cerros, no al monumento. Sin financiamiento de un solo soberano extranjero."
   },
   impact: {
     title: "Impacto y beneficio",
     items: [
-      { metric: "600 cores incrementales nuevos en cerros para 2038", note: "En la tradición ELEMENTAL de Aravena: cada core arranca en 40m² y se diseña para que la familia lo duplique en una década. 6 sitios × 100 cores. Sumados al subsidio DS-1 existente del MINVU." },
+      { metric: "600 cores incrementales nuevos en cerros para el Ano 11", note: "En la tradición ELEMENTAL de Aravena: cada core arranca en 40m² y se diseña para que la familia lo duplique en una década. 6 sitios × 100 cores. Sumados al subsidio DS-1 existente del MINVU." },
       { metric: "200 casas patrimoniales restauradas",                   note: "En Cerro Alegre, Cerro Concepción y el Plan, dentro del Plan Maestro de Recuperación Patrimonial. La restauración importa más que la nueva construcción para Valpo: ha perdido 35% de stock histórico en 40 años." },
       { metric: "10 residentes Cor por año",                            note: "Casas restauradas en Cerro Alegre y Cerro Concepción albergan 10 residentes creativos internacionales por año. Estudio en Galería Bahía Utópica y en el taller del Parque Cultural ex-Cárcel." },
       { metric: "Hora de Valparaíso en la transmisión de la red",        note: "Franja semanal en español desde el estudio del faro, dentro de Cor FM anclada en Andorra. Suma voz porteña a la red sin desplazar Radio Festival, Radio Valparaíso ni TVN Regional." },
