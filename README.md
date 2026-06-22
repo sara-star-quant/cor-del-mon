@@ -15,15 +15,18 @@ Every site shares a synchronized heartbeat, a nine-section structure, and a
 **rolling-wave** milestone narrative (Charter, Break Ground, Operational, Generation)
 where each city moves at its own city-specific pace, not a synchronized handover.
 The first city, *Andorra · El Cor Viu*, is the seed; each other city is shaped to
-its own skyline, materials, languages, and binding constraints.
+its own materials, languages, and binding constraints, around the same shared 12
+metre heart.
 
 ## The current state
 
 All six wave-1 city pages are concept-ready. Every city builds the same **12 metre heart**, the shared heart-core made the whole monument, in its own materials and culture, lit at night by a far larger **heart of light** that beats in sync across all six. The rolling-wave schedule has Andorra opening 2032, Adelaide and Yokohama 2035-2036, and Valparaíso, Cape Town, and Jaipur reaching Operational by 2038-2040.
 
-The network broadcast (Cor FM and Cor Kids TV) runs from a single hub anchored in
-Andorra, with each operational city contributing a weekly hour in its own language.
-There is no per-city radio station; the Yokohama Hour, Adelaide Hour, Valparaíso Hour,
+The network broadcast is anchored in Andorra (Cor FM, on the Cor Play app), and in
+each city it works with the country's own public broadcaster rather than around it:
+a kindness children's strand co-produced with RTVA, tvk and FM Yokohama, ABC Kids,
+UCV TV, SABC, or Doordarshan Rajasthan, plus a weekly city hour in its own language.
+There is no new per-city station; the Yokohama Hour, Adelaide Hour, Valparaíso Hour,
 Cape Town Hour, and Jaipur Hour are weekly slots inside the network broadcast.
 
 ## Read it first
@@ -34,8 +37,8 @@ start are:
 - **Andorra · El Cor Viu**, the seed page, in Catalan and English.
 - **[`network-constitution.md`](network-constitution.md)**, the easy-to-read charter:
   the nine mandatory sections every city honours, the synchronized heartbeat,
-  the Cor Residency and Biennale mechanics, the four milestone years, and
-  how a new city signs the Cor Charter to join.
+  the shared 12 metre heart-core, the Cor Residency, Biennale and Cor Year
+  mechanics, the four milestone years, and how a new city signs the Cor Charter to join.
 - **[`DISCLAIMER.md`](DISCLAIMER.md)**, the full disclaimer covering professional
   advice, named entities, illustrative numbers, and the no-funds, no-investment,
   no-consultancy posture of the project.
@@ -64,7 +67,7 @@ fix.
 
 ## Tests
 
-The repo ships with a 90-test Playwright suite under `tests/` covering smoke
+The repo ships with a 123-test Playwright suite under `tests/` covering smoke
 checks (every URL responds, every JSON parses, key strings are present), end-to-end
 behaviour (React renders, synchronized heartbeat animates and stays phase-locked
 across browser tabs), AJV schema validation (every per-city vocab object validates
