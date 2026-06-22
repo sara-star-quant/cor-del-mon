@@ -42,7 +42,7 @@ const vocab = {
   monument: {
     heightM: 12,
     name: "Living Heart Adelaide",
-    completionYear: 2030,
+    completionOffsetYears: 3,
     signature: "A 12 metre Living Heart at the northern edge of Tarndanyangga (Victoria Square), where the planned grid meets the Park Lands, the same 12 metre heart every Cor city builds. Rammed earth core in deep ochre, corrugated steel verandahs reading as horizontal shadow bands, a Macclesfield bluestone plinth tied into the Adelaide Hills bedrock, the materials Adelaide's heritage civic buildings are already made of and chosen to stand a hundred years in a hot dry climate. By night, during accepted hours, the little earth heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the Park Lands on every pulse of the shared 60 BPM heartbeat, weightless and fully reversible, dimmed toward homes and Kaurna places. Small, identical to its five sisters, unmistakably Adelaide in its skin, around a single flame."
   },
   nationalStyle: {
@@ -81,9 +81,9 @@ const vocab = {
       stats: [
         { n: "12m",      l: "Living Heart (the shared heart, +heartbeat of light)" },
         { n: "10",       l: "Heart-shaped Cor landmarks" },
-        { n: "800",      l: "Hearts of Home by 2035" },
+        { n: "800",      l: "Hearts of Home by Year 8" },
         { n: "1 hr/wk",  l: "Adelaide Hour on Cor FM" },
-        { n: "Q1 2028",  l: "First Families Move In" }
+        { n: "Year 1",  l: "First Families Move In" }
       ]
     },
     monumentSection: {
@@ -96,7 +96,7 @@ const vocab = {
       label: "Hearts of Home",
       title: "Hearts of Home Adelaide",
       subtitle: "Verandah-block family homes for a Mediterranean climate",
-      lead: "Adelaide is in a real housing crisis: median house price $914K (January 2026), rental vacancy 1.06%, CBD fertility rate 0.60 (the lowest of any local government area in Australia). The SA Housing Trust currently builds around 500 social/affordable units per year. The Cor del Món contribution adds 800 Hearts of Home family homes by 2035 (a ~22% boost on state output over seven years): 300 in Munno Para West (the outer-north growth zone), 250 in Mount Barker (Adelaide Hills), and 250 inner-suburb infill across Norwood, Goodwood, and Prospect. Low-rise verandah-block courtyards in rammed earth and corrugated steel, deep-eaved for passive cooling through the long summer.",
+      lead: "Adelaide is in a real housing crisis: median house price $914K (January 2026), rental vacancy 1.06%, CBD fertility rate 0.60 (the lowest of any local government area in Australia). The SA Housing Trust currently builds around 500 social/affordable units per year. The Cor del Món contribution adds 800 Hearts of Home family homes by Year 8 (a ~22% boost on state output over seven years): 300 in Munno Para West (the outer-north growth zone), 250 in Mount Barker (Adelaide Hills), and 250 inner-suburb infill across Norwood, Goodwood, and Prospect. Low-rise verandah-block courtyards in rammed earth and corrugated steel, deep-eaved for passive cooling through the long summer.",
       viral: "A house with a verandah deep enough to host a Fringe show, a baby's first walk, and a wedding ceremony, all on the same week",
       cards: [
         { icon: "leaf",   title: "Passive cooling, Murcutt-deep eaves", desc: "Two-metre verandahs on the north and west, cross-ventilation through the heart-shaped courtyard, rammed earth thermal mass holding the night cool through 38°C summer days. Roughly 70% below a conventional Adelaide build's cooling load." },
@@ -104,10 +104,10 @@ const vocab = {
         { icon: "hearth", title: "Family-first, three-generation",       desc: "Every unit: 3+ bedrooms, soundproofed nurseries, a generous laundry, a granny-flat alcove for an elder family member, sliding panels reconfiguring the floor plan as the family grows." },
         { icon: "key",    title: "HomeStart family overlay",              desc: "Subsidy and entry-loan structure through SA HomeStart Finance's existing Family Loan and Graduate Loan products. Up to 25% reduction on the Hearts of Home unit price for under-35 Adelaide residents with two-plus years of SA residency, scaled by number of children. Coordinated with the First Home Owner Grant. Adds onto an existing programme rather than replacing it." },
         { icon: "sun",    title: "Net-zero, solar-mandated",             desc: "Rooftop solar on every unit, battery storage block-shared, greywater recycling into the courtyard reedbed, evaporative comfort through the eight hottest weeks. Bills minimal year round." },
-        { icon: "arc",    title: "Timeline: Q1 2028 start",              desc: "Phase 1 (2028-2030): 300 units in Munno Para West (Adelaide's outer-north growth zone). Phase 2 (2030-2033): 250 in Mount Barker (Adelaide Hills). Phase 3 (2033-2035): 250 inner-suburb infill across Norwood, Goodwood, and Prospect. Total 800. All builds reviewed under AS 1170.4 for the Adelaide intra-plate seismic zone." }
+        { icon: "arc",    title: "Timeline: around Year 1 start",              desc: "Phase 1 (Years 1-3): 300 units in Munno Para West (Adelaide's outer-north growth zone). Phase 2 (Years 3-6): 250 in Mount Barker (Adelaide Hills). Phase 3 (Years 6-8): 250 inner-suburb infill across Norwood, Goodwood, and Prospect. Total 800. All builds reviewed under AS 1170.4 for the Adelaide intra-plate seismic zone." }
       ],
       stats: [
-        { n: "800",   l: "Homes by 2035" },
+        { n: "800",   l: "Homes by Year 8" },
         { n: "70%",   l: "Cooling load reduction" },
         { n: "Up to 25%", l: "Family Subsidy" },
         { n: "3+",    l: "Bedrooms Min" }
@@ -127,7 +127,7 @@ const vocab = {
     media: {
       label: "Adelaide on the air",
       title: "Adelaide Hour on the network broadcast",
-      lead: "Adelaide does not run a separate station. The Cor del Món network broadcast is anchored in Andorra (Cor FM, Cor Play). Adelaide contributes the Adelaide Hour: a weekly two-hour English-language strand from 2035 onward, recorded inside Living Heart Adelaide and rebroadcast worldwide via Cor Play. Existing Adelaide voices stay where they are: 5RTI on community FM, Three D Radio on the alternative band, ABC Adelaide on the public broadcaster, FIVEaa on talk. The Adelaide Hour fronts the festival calendar to the world.",
+      lead: "Adelaide does not run a separate station. The Cor del Món network broadcast is anchored in Andorra (Cor FM, Cor Play). Adelaide contributes the Adelaide Hour: a weekly two-hour English-language strand from Year 8 onward, recorded inside Living Heart Adelaide and rebroadcast worldwide via Cor Play. Existing Adelaide voices stay where they are: 5RTI on community FM, Three D Radio on the alternative band, ABC Adelaide on the public broadcaster, FIVEaa on talk. The Adelaide Hour fronts the festival calendar to the world.",
       viral: "Adelaide does not need another station. The Festival City already broadcasts. We just gave the network its Sunday night.",
       outlets: [
         { icon: "mic", title: "Adelaide Hour · with Radio Adelaide", desc: "A weekly hour made with the community stations the city actually listens to, Radio Adelaide and Three D Radio, recorded inside Living Heart Adelaide and carried worldwide on Cor Play. Local songwriters, festival sessions, listener dedications.", tags: ["Weekly", "Community radio", "Local first"] },
@@ -179,7 +179,7 @@ const vocab = {
       lead: "Adelaide has Australia's lowest CBD fertility rate (0.60), positive net overseas migration (+17,800 in 2024), and a brain drain of young South Australians to Melbourne and Sydney that has run for two decades. The Cor del Món contribution is small, concrete, and South-Australian: family housing on the verandah-block typology, a Cor Residency intake placed inside Adelaide's existing Designated Area Migration Agreement (no new visa class), and a focused MArch studio at UniSA. The state already runs HomeStart and First Home Owner Grants; what is missing is family-priority allocation against the right kind of housing.",
       viral: "Adelaide raised the rest of Australia's kids and let them leave. The work is not asking the federal government for a new visa. It is making sure the next ones get a verandah.",
       cards: [
-        { icon: "hearth",    tag: "Housing",       title: "Hearts of Home, family-priority allocation", desc: "800 verandah-block family homes by 2035 (see the Hearth section), a 22% boost on the SA Housing Trust's annual ~500 social/affordable build over seven years. South Australia's HomeStart Finance and the First Home Owner Grant already exist; the Cor del Món addition is a family-priority allocation overlay (under-35, two-plus years SA residency, child-count-scaled subsidy up to 25% of unit price)." },
+        { icon: "hearth",    tag: "Housing",       title: "Hearts of Home, family-priority allocation", desc: "800 verandah-block family homes by Year 8 (see the Hearth section), a 22% boost on the SA Housing Trust's annual ~500 social/affordable build over seven years. South Australia's HomeStart Finance and the First Home Owner Grant already exist; the Cor del Món addition is a family-priority allocation overlay (under-35, two-plus years SA residency, child-count-scaled subsidy up to 25% of unit price)." },
         { icon: "residency", tag: "Cor Residency", title: "Adelaide Heart Residency, Bowden cottages",  desc: "Adelaide's contribution to the network Cor Residency. Ten incoming residents per year housed in restored bluestone cottages in Bowden and Norwood. Two from each of the other five Wave-1 cities. Twelve months, full Festival pass, studio space at JamFactory or the AC Arts Light Square campus." },
         { icon: "book",      tag: "Education",     title: "UniSA Verandah Studio (one MArch studio)",  desc: "UniSA's Louis Laybourne Smith School and the University of Adelaide's School of Architecture co-run a single annual MArch studio focused on Mediterranean-climate verandah blocks, festival-grade public space, and Park Lands edges. Twenty seats per year, including five funded for network-city students. One studio, taught well, is more useful than a new faculty." },
         { icon: "doublehearts", tag: "Childcare",  title: "Verandah-block nurseries",                  desc: "Free childcare from 12 months at the ground floor of every Hearts of Home block. Built into the housing typology so the walk to drop-off is two minutes, not twenty. Coordinated with the SA Department for Education's existing capacity expansion programme." },
@@ -189,7 +189,7 @@ const vocab = {
       ],
       stats: [
         { n: "10",     l: "Heart Residency intake/yr" },
-        { n: "800",    l: "Hearts of Home by 2035" },
+        { n: "800",    l: "Hearts of Home by Year 8" },
         { n: "20",     l: "UniSA Verandah Studio Master of Architecture seats/yr" },
         { n: "1.49M",  l: "Greater Adelaide population (2024)" }
       ]
@@ -197,26 +197,26 @@ const vocab = {
     network: {
       label: "Heart Network",
       title: "Six cities. One heartbeat.",
-      lead: "Adelaide joins Cor del Món as the third wave-1 city after Andorra and Yokohama. Below are the five other network cities being built with through 2030.",
+      lead: "Adelaide joins Cor del Món as the third wave-1 city after Andorra and Yokohama. Below are the five other network cities being built with through Year 3.",
       viral: "Andorra writes love in stone. Yokohama writes love in arrivals. Adelaide writes love in festivals."
     },
     roadmap: {
       label: "The rolling wave",
       title: "Four stages, on Adelaide's pace",
-      lead: "Living Heart Adelaide is South Australia's contribution to Cor del Món. Adelaide joins Andorra and Yokohama in the wave-1 trio, opening its monument in 2035 and reaching the Generation milestone in 2060.",
+      lead: "Living Heart Adelaide is South Australia's contribution to Cor del Món. Adelaide joins Andorra and Yokohama in the wave-1 trio, opening its monument in Year 8 and reaching the Generation milestone in Year 33.",
       viral: "Adelaide alone is sixty years of festivals. Adelaide inside Cor del Món is sixty years of festivals plus the courage to throw the next sixty for love.",
       milestones: [
         {
-          year:     2028,
+          year:     1,
           stage: "Charter",
           commitment: "Cor Charter signed with the Government of South Australia and the City of Adelaide. International architecture competition for Living Heart Adelaide awarded. Site secured at Tarndanyangga (Victoria Square), where Light's grid meets the Park Lands. Yokohama signs its own Cor Charter the same year, anchoring the wave-1 parallel build.",
           metrics: { charterSigned: true, competitionAwarded: true, siteSecured: "Tarndanyangga" },
-          networkContribution: "Adelaide becomes Cor del Món's first Pacific anchor and joins Andorra (live since 2027) and Yokohama (also chartering 2028) as the wave-1 trio. Adelaide hosts the Cor Biennale 2034 strand inside Adelaide Festival, one year ahead of its monument opening as a pre-opening cultural countdown.",
+          networkContribution: "Adelaide becomes Cor del Món's first Pacific anchor and joins Andorra (live since Year 0) and Yokohama (also chartering Year 1) as the wave-1 trio. Adelaide hosts the Cor Biennale Year 7 strand inside Adelaide Festival, one year ahead of its monument opening as a pre-opening cultural countdown.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2030,
+          year:     3,
           stage: "Break Ground",
           commitment: "Construction begins on Living Heart Adelaide and on the first 400 Hearts of Home verandah-block units in Munno Para West. Cor Visa pilot opens with the first 100-couple cohort (proposed Q3 2026). Adelaide's rammed-earth thermal core is poured this year; AS 1170.4 seismic detailing complete.",
           metrics: { homesUnderConstruction: 400, corVisaCouples: 100, rammedEarthCorePoured: true },
@@ -225,7 +225,7 @@ const vocab = {
           lastVerified: "2026-Q3"
         },
         {
-          year:     2035,
+          year:     8,
           stage: "Operational",
           commitment: "Living Heart Adelaide opens at Tarndanyangga. The Daily Ceremony begins broadcasting at 18:00 ACDT from the rammed-earth ceremony floor. All 800 Hearts of Home units delivered across Munno Para West (300), Mount Barker (250), and inner-suburb infill at Norwood, Goodwood, and Prospect (250). Greater Adelaide population sustained at around 1.6M. Adelaide CBD TFR recovering from 0.60 toward 1.0. The first Cor Generation residents move into the network units.",
           metrics: { homes: 1000, monumentHeightM: 12, fertilityRate: 1.0, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterAdelaide: 1600000 },
@@ -234,11 +234,11 @@ const vocab = {
           lastVerified: "2026-Q3"
         },
         {
-          year:     2060,
+          year:     33,
           stage: "Generation",
-          commitment: "Living Heart Adelaide celebrates twenty-five years operational. The first Cor Generation residents who arrived in 2035 (then in their 20s, now in their 50s) have raised families inside the verandah-block stock. A second-wave Hearts of Home expansion adds 400 units across Bowden, Brompton, and the Mile End infill corridor, bringing the Cor total to 1,200. The Park Lands' Cor Forest at West and South Tce reaches maturity (tens of thousands of native trees planted over the quarter century, a thousand for every metre of the monument). The Festival City has rewritten its identity to include Family City alongside it.",
+          commitment: "Living Heart Adelaide celebrates twenty-five years operational. The first Cor Generation residents who arrived in Year 8 (then in their 20s, now in their 50s) have raised families inside the verandah-block stock. A second-wave Hearts of Home expansion adds 400 units across Bowden, Brompton, and the Mile End infill corridor, bringing the Cor total to 1,200. The Park Lands' Cor Forest at West and South Tce reaches maturity (tens of thousands of native trees planted over the quarter century, a thousand for every metre of the monument). The Festival City has rewritten its identity to include Family City alongside it.",
           metrics: { networkAgeYears: 25, totalHomes: 1200, generationAdults: 800, treesMature: 65000, populationStabilised: true },
-          networkContribution: "Adelaide graduates into network elder status alongside Andorra (2057) and Yokohama (2060-2061). Adelaide mentors Wave-2 Pacific candidate cities (likely Auckland, Wellington, Hobart, Christchurch). The Adelaide Cor Charter becomes a template for South Pacific climate-adapted love urbanism.",
+          networkContribution: "Adelaide graduates into network elder status alongside Andorra (Year 30) and Yokohama (Years 33-34). Adelaide mentors Wave-2 Pacific candidate cities (likely Auckland, Wellington, Hobart, Christchurch). The Adelaide Cor Charter becomes a template for South Pacific climate-adapted love urbanism.",
           status: "concept",
           lastVerified: "2026-Q3"
         }
@@ -279,17 +279,17 @@ const vocab = {
     monumentTotal: "USD 4 to 8 million",
     intro: "Order-of-magnitude estimates anchored against comparable Adelaide civic-cultural builds (Adelaide Festival Centre redevelopment was AUD 180 million, Adelaide Oval redevelopment was AUD 535 million for context). Real budgets after design competition.",
     stages: [
-      { phase: "Charter (2028)",         range: "USD 0.3 to 0.7M",   scope: "International design competition + Kaurna Yerta consultation + Park Lands Act variation pathway + State Planning Commission approval cycle" },
-      { phase: "Break Ground (2029-30)", range: "USD 0.7 to 1.5M", scope: "Bluestone plinth foundation, rammed-earth core formwork, AS 1170.4 seismic detailing, Tarndanyangga site preparation" },
-      { phase: "Construction (2030-34)", range: "USD 2 to 4M", scope: "Rammed-earth core, corrugated-steel verandah cladding, festival-ribbon banner system, interior fitout" },
-      { phase: "Operational (2035)",     range: "USD 1 to 1.8M", scope: "Adelaide Hour broadcast studio, ceremony floor fitout, opening programme inside the Adelaide Festival" }
+      { phase: "Charter (Year 1)",         range: "USD 0.3 to 0.7M",   scope: "International design competition + Kaurna Yerta consultation + Park Lands Act variation pathway + State Planning Commission approval cycle" },
+      { phase: "Break Ground (Years 2-3)", range: "USD 0.7 to 1.5M", scope: "Bluestone plinth foundation, rammed-earth core formwork, AS 1170.4 seismic detailing, Tarndanyangga site preparation" },
+      { phase: "Construction (Years 3-7)", range: "USD 2 to 4M", scope: "Rammed-earth core, corrugated-steel verandah cladding, festival-ribbon banner system, interior fitout" },
+      { phase: "Operational (Year 8)",     range: "USD 1 to 1.8M", scope: "Adelaide Hour broadcast studio, ceremony floor fitout, opening programme inside the Adelaide Festival" }
     ],
     fundingNote: "Funding for the monument leans private: Cor del Món network partner share (35-50%), South Australian arts philanthropy (20-30%), a federal cultural-infrastructure share (15-25%), and only a modest enabling share from the SA Government (10-20%). Public housing money goes to Renewal SA and the Hearts of Home family homes, not the monument. FIRB review applies to any foreign-source share over the threshold."
   },
   impact: {
     title: "Impact and benefit",
     items: [
-      { metric: "800 verandah-block family homes by 2035", note: "About 22% boost on the SA Housing Trust's annual ~500 social/affordable build over seven years. 300 Munno Para West (outer-north growth zone), 250 Mount Barker (Adelaide Hills), 250 inner-suburb infill (Norwood, Goodwood, Prospect)." },
+      { metric: "800 verandah-block family homes by Year 8", note: "About 22% boost on the SA Housing Trust's annual ~500 social/affordable build over seven years. 300 Munno Para West (outer-north growth zone), 250 Mount Barker (Adelaide Hills), 250 inner-suburb infill (Norwood, Goodwood, Prospect)." },
       { metric: "10 Adelaide Heart Residency intake per year", note: "Bowden bluestone cottages and inner-Norwood terraces house international creative residents. Twelve-month stay, full Festival pass, JamFactory or AC Arts studio access." },
       { metric: "Adelaide Hour on network broadcast",     note: "Weekly English-language slot from Living Heart Adelaide studio, going out alongside FIVEaa, ABC Adelaide, 5RTI, and Three D Radio. Festival-Centre-of-the-world voice." },
       { metric: "Kaurna partnership model",                note: "Demonstration of how a non-Indigenous-led international project can be co-designed with Traditional Custodians from Charter year, not as afterthought. The PIRRALTHI mural process itself is the demonstration." },

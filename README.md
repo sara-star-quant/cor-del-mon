@@ -20,7 +20,9 @@ metre heart.
 
 ## The current state
 
-All six wave-1 city pages are concept-ready. Every city builds the same **12 metre heart**, the shared heart-core made the whole monument, in its own materials and culture, lit at night by a **heart of light** that beats, sending out waves of light-hearts on every pulse of the shared heartbeat. The rolling-wave schedule has Andorra opening 2032, Adelaide and Yokohama 2035-2036, and Valparaíso, Cape Town, and Jaipur reaching Operational by 2038-2040.
+All six wave-1 city pages are concept-ready. Every city builds the same **12 metre heart**, the shared heart-core made the whole monument, in its own materials and culture, lit at night by a **heart of light** that beats, sending out waves of light-hearts on every pulse of the shared heartbeat. Timing is expressed as relative offsets from each city's own initialization (Year 0), illustrative sequencing rather than calendar dates or a schedule: in the rolling-wave design Andorra reaches Operational around Year 5, Adelaide and Yokohama around Years 8-9, and Valparaíso, Cape Town, and Jaipur by Years 11-13.
+
+The six cities are an illustrative, recommended starting set chosen for geographic and cultural spread. They are not confirmed participants and no named authority has agreed to take part; a real network could include more or different cities, and the selection would change with local interest, external factors, and regulation. Cor del Món is not an organisation or legal entity; it is an open-source design proposal with no authority, funding, or enforcement power.
 
 The network broadcast is anchored in Andorra (Cor FM, on the Cor Play app), and in
 each city it works with the country's own public broadcaster rather than around it:
@@ -38,7 +40,7 @@ start are:
 - **[`network-constitution.md`](network-constitution.md)**, the easy-to-read charter:
   the nine mandatory sections every city honours, the synchronized heartbeat,
   the shared 12 metre heart-core, the Cor Residency, Biennale and Cor Year
-  mechanics, the four milestone years, and how a new city signs the Cor Charter to join.
+  mechanics, the four milestone offsets, and how a new city signs the Cor Charter to join.
 - **[`DISCLAIMER.md`](DISCLAIMER.md)**, the full disclaimer covering professional
   advice, named entities, illustrative numbers, and the no-funds, no-investment,
   no-consultancy posture of the project.

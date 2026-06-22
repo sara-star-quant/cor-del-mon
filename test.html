@@ -91,7 +91,7 @@
             <h2>5. Stats</h2>
             <div className="group">
               <Stat n="33m" l="Monument Height (Andorra example)" />
-              <Stat n="300" l="Llars del Cor by 2035" small />
+              <Stat n="300" l="Llars del Cor by Year 8" small />
               <Stat n="60" l="Residents per Year (network total)" small />
             </div>
 
@@ -150,13 +150,13 @@
             <h2>12. MilestoneRow (single roadmap entry)</h2>
             <Card>
               <MilestoneRow
-                year={2030}
+                year={3}
                 phase="Seed"
                 commitment="El Cor Viu monument operational. Phase 1 of Llars del Cor (400 homes) delivered. Cor FM and Cor Kids TV broadcasting on the Cor Play app."
                 networkContribution="All five network cities have signed Cor Charters and broken ground. First Cor Residency cohort of sixty people. Daily Ceremony broadcasts begin."
               />
               <MilestoneRow
-                year={2035}
+                year={8}
                 phase="Bloom"
                 commitment="Llars del Cor reaches the full 300 homes (Andorra honest-microstate count). UdA degree enrolment grows toward 1,000+."
                 networkContribution="All six monuments operational. Around 6,000 Hearth-of-the-Heart homes delivered network-wide. First Cor Generation children born."
@@ -167,7 +167,7 @@
             <MilestoneMatrix
               stageColours={Object.fromEntries((data.CONSTITUTION.rollingWave?.stages || []).map(s => [s.name, s.color]))}
               cities={data.CITIES.cities.map(c => {
-                const op = (data.CONSTITUTION.rollingWave?.cityOperational || {})[c.slug] || 2040;
+                const op = (data.CONSTITUTION.rollingWave?.cityOperationalOffset || {})[c.slug] || 13;
                 return {
                   slug: c.slug,
                   name: c.name,

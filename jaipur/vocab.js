@@ -58,7 +58,7 @@ const vocab = {
   monument: {
     heightM: 12,
     name: "Hriday Mahal",
-    completionYear: 2040,
+    completionOffsetYears: 13,
     signature: "A 12 metre Heart Palace in Mansarovar, southwest of the Walled City and outside the UNESCO heritage buffer, the same 12 metre heart every Cor city builds. Kept low and pink, in the scale of the old city, roughly the height of the Hawa Mahal itself. Pink-limewashed sandstone facade in the same Jaipur Pink that defined the historic core in 1876, when Maharaja Sawai Ram Singh painted the city for the Prince of Wales's visit. Jali screens in the Hawa Mahal tradition, 953 of them as a homage to the Palace of Winds, set in lime plaster and re-limewashed each monsoon the way the city has always kept its colour, the sacrificial coat that lets the sandstone last a century. Marble plinth from Makrana. By night, during accepted hours, the little pink heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the Pink City on every pulse of the shared 60 BPM heartbeat, weightless and fully reversible, dimmed toward the Walled City and protected views. A second heart, beating outside the Walled City so the Walled City can keep beating its own, identical at its core to its five sisters around one flame."
   },
   nationalStyle: {
@@ -99,9 +99,9 @@ const vocab = {
       stats: [
         { n: "12m",      l: "Hriday Mahal (the shared heart, +heartbeat of light)" },
         { n: "953",      l: "Jali openings (Hawa Mahal homage)" },
-        { n: "800",      l: "Hriday Ghar + 14 havelis by 2040" },
+        { n: "800",      l: "Hriday Ghar + 14 havelis by Year 13" },
         { n: "1 hr/wk",  l: "Jaipur Hour on Cor FM" },
-        { n: "Q1 2034",  l: "First Families Move In" }
+        { n: "Year 7",  l: "First Families Move In" }
       ]
     },
     monumentSection: {
@@ -114,18 +114,18 @@ const vocab = {
       label: "हृदय घर",
       title: "Hriday Ghar",
       subtitle: "Heritage-aware family homes for the Pink City",
-      lead: "Jaipur grows at 2.37% per year and Rajasthan's Mukhyamantri Awas Yojana already builds around 20,000 affordable homes a year. The binding constraint is heritage loss (around 400 historic havelis demolished, 122 unsafe per India Today 2025; UNESCO flagged the Walled City's Outstanding Universal Value at risk in November 2025), not new-build supply. The Cor del Món contribution is two-track: 800 new Hriday Ghar family homes by 2040 (400 Mansarovar + 250 Jhotwara + 150 Vidhyadhar Nagar; pink-limewashed sandstone courtyard houses with deep jali screens for passive cooling through the 45°C summer), and 14 Walled City havelis brought back to occupancy through the Hriday Niwas residency rotation. The havelis are the headline; the new-build is the secondary.",
-      viral: "A house that looks like a haveli, breathes like a haveli, and was built in 2034 for a family that wants to stay in Jaipur",
+      lead: "Jaipur grows at 2.37% per year and Rajasthan's Mukhyamantri Awas Yojana already builds around 20,000 affordable homes a year. The binding constraint is heritage loss (around 400 historic havelis demolished, 122 unsafe per India Today 2025; UNESCO flagged the Walled City's Outstanding Universal Value at risk in November 2025), not new-build supply. The Cor del Món contribution is two-track: 800 new Hriday Ghar family homes by Year 13 (400 Mansarovar + 250 Jhotwara + 150 Vidhyadhar Nagar; pink-limewashed sandstone courtyard houses with deep jali screens for passive cooling through the 45°C summer), and 14 Walled City havelis brought back to occupancy through the Hriday Niwas residency rotation. The havelis are the headline; the new-build is the secondary.",
+      viral: "A house that looks like a haveli, breathes like a haveli, and was built in Year 7 for a family that wants to stay in Jaipur",
       cards: [
         { icon: "leaf",   title: "Jali-cooled, deep-veranda design",    desc: "953 jali openings per block (the Hawa Mahal homage scaled for housing). Deep verandahs on the south and west. Cross-ventilation through a heart-shaped courtyard. Pink Limewash reflects the summer sun. Energy use roughly 70% below a conventional Jaipur apartment." },
           { icon: "heart",  title: "Pink-courtyard haveli blocks",         desc: "Each block of 12 units around a heart-shaped courtyard with a stepwell-inspired water feature, a single neem tree, and a jharokha balcony for every unit. Communal under-verandah kitchen, shared bath house, rooftop drying court." },
         { icon: "hearth", title: "Family-first, three-generation",      desc: "Every unit: 3+ bedrooms, soundproofed nurseries, an alcove for an elder family member (essential for Indian multi-generational households), sliding panels reconfiguring the floor plan as the family grows." },
         { icon: "key",    title: "Subsidised for young families",       desc: "Eligible Jaipur residents under 35 with two-plus years of residency: up to 30% subsidy on Hriday Ghar units, scaled by number of children. Income-tested. Coordinated with the Government of Rajasthan's Mukhyamantri Awas Yojana housing programme. Proposed Q3 2026." },
         { icon: "sun",    title: "Net-zero, solar-shaded jali",         desc: "Solar shingles on the chhatri-roofed pavilion, geothermal warmth from the Aravalli aquifer, rainwater harvesting through stepwell-inspired courtyard cisterns. Bills minimal year round, even through the 45°C peak." },
-        { icon: "arc",    title: "Timeline: Q1 2034 start",             desc: "Phase 1 (2034-2036): 400 units in Mansarovar. Phase 2 (2036-2038): 250 in Jhotwara (industrial-zone conversion). Phase 3 (2038-2040): 150 in Vidhyadhar Nagar (transit-oriented infill near the Jaipur Metro). Total 800. In parallel: the first 8 of 14 Walled City havelis brought back to occupancy through the Hriday Niwas residency rotation. All builds reviewed under IS 1893 Zone II for the Jaipur intra-plate seismic context." }
+        { icon: "arc",    title: "Timeline: around Year 7 start",             desc: "Phase 1 (Years 7-9): 400 units in Mansarovar. Phase 2 (Years 9-11): 250 in Jhotwara (industrial-zone conversion). Phase 3 (Years 11-13): 150 in Vidhyadhar Nagar (transit-oriented infill near the Jaipur Metro). Total 800. In parallel: the first 8 of 14 Walled City havelis brought back to occupancy through the Hriday Niwas residency rotation. All builds reviewed under IS 1893 Zone II for the Jaipur intra-plate seismic context." }
       ],
       stats: [
-        { n: "800",   l: "Homes by 2040 (+ 14 havelis restored)" },
+        { n: "800",   l: "Homes by Year 13 (+ 14 havelis restored)" },
         { n: "70%",   l: "Energy below baseline" },
         { n: "Up to 30%", l: "Family Subsidy" },
         { n: "3+",    l: "Bedrooms Min" }
@@ -134,7 +134,7 @@ const vocab = {
     architecture: {
       label: "प्रेम की वास्तुकला",
       title: "Buildings That Stay Pink",
-      lead: "Heart-shaped buildings in Pink Limewashed sandstone with jali screens. Existing concrete walls along Tonk Road and MI Road wrapped in laser-cut jali panels, lit from within during the Cor Biennale 2037. The Pink City extending beyond the Walled City, on its own terms.",
+      lead: "Heart-shaped buildings in Pink Limewashed sandstone with jali screens. Existing concrete walls along Tonk Road and MI Road wrapped in laser-cut jali panels, lit from within during the Cor Biennale in Year 10. The Pink City extending beyond the Walled City, on its own terms.",
       viral: "Other cities have a colour. Jaipur is a colour, and now the Pink City builds a second heart that keeps the colour going.",
       murals: [
         { text: "ठहरो",         sub: "Thaharo (Stay; LLM-suggested phrasing pending Rajasthani-speaker review). Lac-inlay jali screen panel on a south-facing Mansarovar wall, the 953-jali Hawa Mahal homage rendered as a residential mural.",         gradient: "linear-gradient(135deg,#e91e63,#880e4f)" },
@@ -145,7 +145,7 @@ const vocab = {
     media: {
       label: "जयपुर हवा में",
       title: "Jaipur Hour on the network broadcast",
-      lead: "Jaipur does not run a separate station. The network broadcast is anchored in Andorra (Cor FM, Cor Play); Jaipur contributes the Jaipur Hour, a weekly Hindi and Rajasthani strand recorded inside Hriday Mahal and carried worldwide via Cor Play from 2040. Locally it works with the broadcasters Rajasthan already has: a kindness segment for children co-produced with Doordarshan Rajasthan and the Jawahar Kala Kendra, and a radio companion with Akashvani (All India Radio) Jaipur, on the air since the 1950s. The Manganiyar and Langa folk musicians of western Rajasthan, showcased in Jaipur, carry the music. The Jaipur Hour is a gift into the network, never a channel over the ones the city loves.",
+      lead: "Jaipur does not run a separate station. The network broadcast is anchored in Andorra (Cor FM, Cor Play); Jaipur contributes the Jaipur Hour, a weekly Hindi and Rajasthani strand recorded inside Hriday Mahal and carried worldwide via Cor Play from Year 13. Locally it works with the broadcasters Rajasthan already has: a kindness segment for children co-produced with Doordarshan Rajasthan and the Jawahar Kala Kendra, and a radio companion with Akashvani (All India Radio) Jaipur, on the air since the 1950s. The Manganiyar and Langa folk musicians of western Rajasthan, showcased in Jaipur, carry the music. The Jaipur Hour is a gift into the network, never a channel over the ones the city loves.",
       viral: "Jaipur did not need a new station. Akashvani has been on the air for seventy years. Jaipur needed an hour the network gives over to Pink.",
       outlets: [
         { icon: "mic", title: "Jaipur Hour · with All India Radio", desc: "A weekly Hindi and Rajasthani hour made with Akashvani (All India Radio) Jaipur and its long folk and children's tradition. Maand folk, sarangi, wedding songs, letters read on air, carried worldwide on Cor Play.", tags: ["Weekly", "Hindi / Rajasthani", "With AIR"] },
@@ -197,20 +197,20 @@ const vocab = {
       lead: "Jaipur grows at 2.37% per year and Rajasthan's TFR is 2.0 (NFHS 2019-2021). Population is not Jaipur's problem; heritage is. Around 400 havelis demolished, 122 unsafe (India Today, 2025). UNESCO flagged the Walled City's Outstanding Universal Value at risk in November 2025. The Cor del Món contribution is heritage-led, not migration-led: heritage-aware Hriday Ghar in Mansarovar, a residency programme that occupies and restores Walled City havelis (the demolitions follow vacancy), and a single MNIT Jaipur studio on jali architecture and Vastu-grounded urbanism. India's Long-Term Visa already exists; what Jaipur needs is people inside the havelis and family housing outside the buffer.",
       viral: "The city that the world copied for its colour does not need a new visa. It needs occupied havelis and a fired Sanganer kiln in every Hriday Ghar courtyard.",
       cards: [
-        { icon: "hearth",    tag: "Housing",        title: "Hriday Ghar in Mansarovar (heritage-aware)",         desc: "800 pink-limewashed sandstone family courtyards by 2040 (400 Mansarovar + 250 Jhotwara + 150 Vidhyadhar Nagar; see the Hearth section). The Mukhyamantri Awas Yojana already builds around 20,000 affordable units a year in Rajasthan; the Cor del Món addition is the heritage-aware typology (Pink Limewash, jali geometry, chhatri pavilion) with a young-family priority overlay (under 35, two-plus years Jaipur residency, child-count-scaled subsidy up to 30%) on top of existing quotas." },
+        { icon: "hearth",    tag: "Housing",        title: "Hriday Ghar in Mansarovar (heritage-aware)",         desc: "800 pink-limewashed sandstone family courtyards by Year 13 (400 Mansarovar + 250 Jhotwara + 150 Vidhyadhar Nagar; see the Hearth section). The Mukhyamantri Awas Yojana already builds around 20,000 affordable units a year in Rajasthan; the Cor del Món addition is the heritage-aware typology (Pink Limewash, jali geometry, chhatri pavilion) with a young-family priority overlay (under 35, two-plus years Jaipur residency, child-count-scaled subsidy up to 30%) on top of existing quotas." },
         { icon: "residency", tag: "Cor Residency",  title: "Hriday Niwas, Walled City havelis",                  desc: "Jaipur's contribution to the network Cor Residency is structurally different from the other cities: residents do not just live, they occupy and steward. Ten incoming residents per year, each placed in a haveli inside the Walled City buffer (Bani Park, C-Scheme) on a twelve-month restoration-and-residency lease. Vacancy drives demolition; occupancy reverses it." },
         { icon: "book",      tag: "Education",      title: "MNIT Jaipur Jali Studio (one MArch)",                desc: "MNIT Jaipur's School of Architecture and Planning runs a single annual MArch studio focused on jali geometry, Vastu Shastra Prastara grids, and Mediterranean-arid passive cooling for housing. Twenty seats per year including five funded for network-city students. CEPT Ahmedabad and SPA Bhopal external examiners. One studio, well-taught, beats new institutes." },
         { icon: "doublehearts", tag: "Childcare",   title: "Hriday Ghar courtyard creches",                      desc: "Free childcare from 12 months at the courtyard pavilion of every Hriday Ghar block. Built into the haveli-typology so the courtyard is the playground. Coordinated with the Anganwadi network already operating across Rajasthan under ICDS." },
         { icon: "leaf",      tag: "Health",          title: "SMS Hospital postnatal support",                    desc: "SMS Hospital Jaipur (the Sawai Man Singh tertiary public hospital) expands postnatal mental-health support for new parents and couples, funded through the Mukhyamantri Chiranjeevi Swasthya Bima Yojana state insurance scheme. Telehealth across Greater Jaipur for mothers in the outer growth zones." },
         { icon: "transit",   tag: "Movement",        title: "Jaipur Metro Phase 2 Heart spur",                   desc: "A rose-liveried spur off the Jaipur Metro Phase 2 plan (Mansarovar to Badi Chaupar) extending to the Hriday Mahal site. Subsidised for under-25s on weekends. E-bike-share docks at Hriday Ghar blocks linking to Amber Road and Nahargarh weekend walks." },
-        { icon: "lock",      tag: "Heritage",        title: "Haveli restoration target (14 by 2040)",            desc: "A parallel commitment that ties Cor del Món to the Walled City: the Hriday Niwas residents restore one haveli per year through the residency rotation. By Operational + 2 (2040), 14 havelis brought back to occupancy. The new monument outside the buffer and the old havelis inside it are one project." },
+        { icon: "lock",      tag: "Heritage",        title: "Haveli restoration target (14 by Year 13)",            desc: "A parallel commitment that ties Cor del Món to the Walled City: the Hriday Niwas residents restore one haveli per year through the residency rotation. By Operational + 2 (Year 13), 14 havelis brought back to occupancy. The new monument outside the buffer and the old havelis inside it are one project." },
         { icon: "leaf",      tag: "Animals",         title: "Working animals and street creatures",              desc: "Jaipur lives shoulder to shoulder with its animals: camels, the Amer elephants, street cows, and thousands of community dogs. Cor backs Help in Suffering, the Jaipur animal hospital that has run camel welfare and street-dog sterilisation for decades, supports humane care and retirement for the Amer working elephants, and ties every Hriday Ghar courtyard to a neighbourhood gaushala. Kindness to animals is taught to Pink City children as part of who they are." }
       ],
       stats: [
         { n: "10",     l: "Hriday Niwas haveli residents/yr" },
-        { n: "800",    l: "Hriday Ghar by 2040" },
+        { n: "800",    l: "Hriday Ghar by Year 13" },
         { n: "20",     l: "MNIT Jali Studio Master of Architecture seats/yr" },
-        { n: "14",     l: "Walled City havelis restored by 2040" }
+        { n: "14",     l: "Walled City havelis restored by Year 13" }
       ]
     },
     network: {
@@ -222,20 +222,20 @@ const vocab = {
     roadmap: {
       label: "लम्बी लहर",
       title: "Four stages, on Jaipur's pace",
-      lead: "Hriday Mahal is Jaipur's contribution to Cor del Món. Jaipur joins the network in the Spread phase, opening its monument in 2038-2040 alongside Valparaíso and Cape Town, completing the wave-1 six. Generation arrives in 2063-2065.",
+      lead: "Hriday Mahal is Jaipur's contribution to Cor del Món. Jaipur joins the network in the Spread phase, opening its monument in Years 11-13 alongside Valparaíso and Cape Town, completing the wave-1 six. Generation arrives in Years 36-38.",
       viral: "Jaipur alone is 953 jali windows in the Pink City. Jaipur inside Cor del Món is the South Asian heart of a six-city network.",
       milestones: [
         {
-          year:     2032,
+          year:     5,
           stage: "Charter",
-          commitment: "Cor Charter signed with the Government of Rajasthan and the Jaipur Municipal Corporation. International architecture competition for Hriday Mahal awarded. Site secured in Mansarovar (outside the Walled City UNESCO heritage buffer, honouring the November 2025 UNESCO concern). Heritage-haveli restoration partnership announced as part of the Charter (the new monument and the old havelis are tied together). First Cor Biennale 2037 hosted at Jawahar Kala Kendra ahead of the monument opening.",
+          commitment: "Cor Charter signed with the Government of Rajasthan and the Jaipur Municipal Corporation. International architecture competition for Hriday Mahal awarded. Site secured in Mansarovar (outside the Walled City UNESCO heritage buffer, honouring the November 2025 UNESCO concern). Heritage-haveli restoration partnership announced as part of the Charter (the new monument and the old havelis are tied together). First Cor Biennale in Year 10 hosted at Jawahar Kala Kendra ahead of the monument opening.",
           metrics: { charterSigned: true, competitionAwarded: true, siteSecured: "Mansarovar (UNESCO buffer respected)", havelisToRestore: 14 },
           networkContribution: "Jaipur becomes Cor del Món's South Asian anchor. The Pink City colour pairs with Marrakech's Red City framing in the African cluster, giving the network two literal colour-anchor cities. Jaipur's heritage-haveli restoration commitment becomes a model for any future UNESCO-zone Wave-2 city.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2034,
+          year:     7,
           stage: "Break Ground",
           commitment: "Construction begins on Hriday Mahal and on the first 400 Hriday Ghar pink-courtyard units in Mansarovar. The 953 jali screens enter their three-year hand-cutting period at Sanganer and Karauli stonemason workshops. Cor Visa pilot opens with the first 100-couple cohort (proposed Q3 2026). First two havelis in the Walled City buffer enter restoration via the Hriday Niwas residency programme.",
           metrics: { homesUnderConstruction: 400, corVisaCouples: 100, jaliScreensInProduction: 953, havelisInRestoration: 2 },
@@ -244,18 +244,18 @@ const vocab = {
           lastVerified: "2026-Q3"
         },
         {
-          year:     2040,
+          year:     13,
           stage: "Operational",
           commitment: "Hriday Mahal opens. Daily Ceremony begins broadcasting at the local sunset hour from the rooftop chhatri pavilion. The first 650 of 800 Hriday Ghar units delivered: Mansarovar Phase 1 complete (400 done), Jhotwara Phase 2 underway (250 in build), Vidhyadhar Nagar Phase 3 starting (150 to come). The first Cor Generation residents move into the network units. The Hriday Niwas residency partnership with INTACH Rajasthan and the Walled City Heritage Cell has brought the first 4 havelis (in the buffer-adjacent heritage corridor: Bani Park, C-Scheme, Civil Lines, NOT inside the UNESCO core) back to occupancy.",
           metrics: { homes: 1000, monumentHeightM: 12, fertilityRate: 2.0, residentsIncoming: 10, dailyCeremonyActive: true, populationGreaterJaipur: 5500000, havelisRestored: 8 },
-          networkContribution: "Jaipur completes the wave-1 six. The Daily Ceremony rotation now spans all six cities. Cor Residency reaches the target 60 incoming per year network-wide. Jaipur-authored patterns reach 30 contributions to the Cor Pattern Library, leading on heritage-aware urban density. The Wave-2 admission process formally opens 2042 with Marrakech (sponsored by Cape Town) as the transitional first-mover.",
+          networkContribution: "Jaipur completes the wave-1 six. The Daily Ceremony rotation now spans all six cities. Cor Residency reaches the target 60 incoming per year network-wide. Jaipur-authored patterns reach 30 contributions to the Cor Pattern Library, leading on heritage-aware urban density. The Wave-2 admission process formally opens in Year 15 with Marrakech (sponsored by Cape Town) as the transitional first-mover.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2065,
+          year:     38,
           stage: "Generation",
-          commitment: "Hriday Mahal celebrates twenty-five years operational. The first Cor Generation residents who arrived in 2040 (then in their 20s, now in their 50s) have raised families inside the Hriday Ghar stock. A second-wave expansion adds 400 units across Vaishali Nagar and Bagru, bringing the Cor total to 1,200. The INTACH Rajasthan + Walled City Heritage Cell partnership has brought 9 havelis (about 1 every 3 years; sustainable against the Sanganer/Karauli stoneworker craft cadence) back to occupancy in the buffer-adjacent heritage corridor, with Cor Residency tenants stewarding maintenance. The Pink City's Outstanding Universal Value (UNESCO 2019) is supported through partnership rather than direct intervention; the heritage authorities own the OUV-protection work.",
+          commitment: "Hriday Mahal celebrates twenty-five years operational. The first Cor Generation residents who arrived in Year 13 (then in their 20s, now in their 50s) have raised families inside the Hriday Ghar stock. A second-wave expansion adds 400 units across Vaishali Nagar and Bagru, bringing the Cor total to 1,200. The INTACH Rajasthan + Walled City Heritage Cell partnership has brought 9 havelis (about 1 every 3 years; sustainable against the Sanganer/Karauli stoneworker craft cadence) back to occupancy in the buffer-adjacent heritage corridor, with Cor Residency tenants stewarding maintenance. The Pink City's Outstanding Universal Value (UNESCO 2019) is supported through partnership rather than direct intervention; the heritage authorities own the OUV-protection work.",
           metrics: { networkAgeYears: 25, totalHomes: 1200, generationAdults: 800, havelisStewarded: 9 },
           networkContribution: "Jaipur graduates into network elder status alongside Valparaíso and Cape Town. Jaipur mentors Wave-2 South Asian candidate cities (likely Mumbai, Delhi, Ahmedabad, Kolkata, Lahore, Kathmandu, Dhaka). The Pink City Anthology (Letters to Hawa Mahal bound annually) becomes a recognised volume of contemporary Hindi literature.",
           status: "concept",
@@ -292,7 +292,7 @@ const vocab = {
       { area: "Foreign funding",         detail: "All foreign-source contributions registered under India's Foreign Contribution Regulation Act (FCRA). INTACH Rajasthan is the receiving Indian entity for any heritage-allocated funds; Hriday Mahal construction funds flow through a Section 8 (non-profit) Indian company. No FCRA prior-permission shortcuts." },
       { area: "Visa pathway",            detail: "Cor Residency intake (10 per year) operates within India's existing Long-Term Visa and Cultural Activity visa categories. No new visa class proposed. Government of Rajasthan negotiates the dedicated cultural-residency allocation with the Ministry of Home Affairs." },
       { area: "Housing pathway",         detail: "Hriday Ghar new-build sits inside the Government of Rajasthan's Mukhyamantri Awas Yojana programme. Cor del Món adds a heritage-aware typology (Pink Limewash, jali geometry, chhatri pavilion) plus a young-family priority overlay on existing quotas. We do not run a parallel housing programme." },
-      { area: "Craft cadence",           detail: "The 953 hand-cut jali screens enter a three-year cutting period at Sanganer and Karauli stonemason workshops. This is not a bottleneck to be optimised; it is the project's cultural heart. The construction timeline (2034 to 2040) is built around the craft cadence, not against it." }
+      { area: "Craft cadence",           detail: "The 953 hand-cut jali screens enter a three-year cutting period at Sanganer and Karauli stonemason workshops. This is not a bottleneck to be optimised; it is the project's cultural heart. The construction timeline (Years 7 to 13) is built around the craft cadence, not against it." }
     ]
   },
   costs: {
@@ -300,18 +300,18 @@ const vocab = {
     monumentTotal: "USD 3 to 7 million",
     intro: "Order-of-magnitude estimates anchored against comparable Indian heritage-aware civic builds (Charles Correa's Jawahar Kala Kendra cost roughly USD 8M in 1992 rupees adjusted; Sanjay Puri's Mirai House Jaipur cost USD 5M in 2013). Real budgets after international design competition. The lowest network monument cost because the materials are local, the craft is rooted, and the site is outside the UNESCO buffer.",
     stages: [
-      { phase: "Charter (2032)",          range: "USD 0.2 to 0.5M",   scope: "International design competition + Government of Rajasthan signing + JDA Mansarovar site allocation + INTACH Rajasthan partnership agreement + FCRA registration" },
-      { phase: "Break Ground (2033-34)",  range: "USD 0.5 to 1.2M",   scope: "Marble plinth from Makrana, RC core foundation, IS 1893 Zone II seismic detailing, Sanganer and Karauli stonemason 953-jali commission begins" },
-      { phase: "Construction (2034-40)",  range: "USD 1.5 to 3.5M",  scope: "Pink-limewashed Bharatpur sandstone facade, 953 hand-cut jali screens (3-year cutting period), eight rooftop chhatris, Vastu Shastra Prastara nine-chowk floor plan, lac and gemstone inlay around the eternal flame" },
-      { phase: "Operational (2040)",      range: "USD 0.8 to 1.8M",   scope: "Jaipur Hour broadcast studio, ceremony chhatri pavilion fitout, opening programme during the Jaipur Literature Festival, partnership integration with Manganiyar oral-tradition archive" }
+      { phase: "Charter (Year 5)",          range: "USD 0.2 to 0.5M",   scope: "International design competition + Government of Rajasthan signing + JDA Mansarovar site allocation + INTACH Rajasthan partnership agreement + FCRA registration" },
+      { phase: "Break Ground (Years 6-7)",  range: "USD 0.5 to 1.2M",   scope: "Marble plinth from Makrana, RC core foundation, IS 1893 Zone II seismic detailing, Sanganer and Karauli stonemason 953-jali commission begins" },
+      { phase: "Construction (Years 7-13)",  range: "USD 1.5 to 3.5M",  scope: "Pink-limewashed Bharatpur sandstone facade, 953 hand-cut jali screens (3-year cutting period), eight rooftop chhatris, Vastu Shastra Prastara nine-chowk floor plan, lac and gemstone inlay around the eternal flame" },
+      { phase: "Operational (Year 13)",      range: "USD 0.8 to 1.8M",   scope: "Jaipur Hour broadcast studio, ceremony chhatri pavilion fitout, opening programme during the Jaipur Literature Festival, partnership integration with Manganiyar oral-tradition archive" }
     ],
     fundingNote: "Funding for the monument leans private: Cor del Món network partner share (35-50%), Indian philanthropy (illustrative: Tata Trusts, Aditya Birla Foundation, INTACH benefactor consortium) (25-35%), small bilateral cultural partnerships (5-10%), and only a modest enabling share from the Government of Rajasthan plus the JDA in-kind site (10-20%). State housing money stays with the Mukhyamantri Awas Yojana homes and INTACH-led haveli stewardship, not the monument. FCRA receiving entity is INTACH Rajasthan for heritage activity, a separate non-profit for monument construction."
   },
   impact: {
     title: "Impact and benefit",
     items: [
-      { metric: "800 heritage-aware family homes by 2040",      note: "About 4 weeks of state Mukhyamantri Awas Yojana output over six years; not numerically large. The Cor contribution is the heritage-aware typology (Pink Limewash, jali, chhatri) at residential scale. 400 Mansarovar + 250 Jhotwara + 150 Vidhyadhar Nagar." },
-      { metric: "9 Walled City buffer-adjacent havelis stewarded by 2065", note: "Through the Hriday Niwas residency rotation in partnership with INTACH Rajasthan and the Walled City Heritage Cell. About 1 every 3 years; realistic against the Sanganer/Karauli stoneworker craft cadence." },
+      { metric: "800 heritage-aware family homes by Year 13",      note: "About 4 weeks of state Mukhyamantri Awas Yojana output over six years; not numerically large. The Cor contribution is the heritage-aware typology (Pink Limewash, jali, chhatri) at residential scale. 400 Mansarovar + 250 Jhotwara + 150 Vidhyadhar Nagar." },
+      { metric: "9 Walled City buffer-adjacent havelis stewarded by Year 38", note: "Through the Hriday Niwas residency rotation in partnership with INTACH Rajasthan and the Walled City Heritage Cell. About 1 every 3 years; realistic against the Sanganer/Karauli stoneworker craft cadence." },
       { metric: "10 Hriday Niwas residency intake per year",     note: "Each resident lives in a haveli inside the buffer-adjacent corridor on a twelve-month restoration-and-residency lease. Vacancy drives demolition; occupancy reverses it." },
       { metric: "953-jali Hawa Mahal homage at residential scale", note: "The Sanganer and Karauli stonemason workshops are the only craft families in the world who can hand-cut jali at scale. The Hriday Mahal commission keeps that craft network in business for three years and creates demand for similar work afterwards." },
       { metric: "Jaipur Hour on the network broadcast",          note: "Weekly Hindi and Marwari strand from Hriday Mahal studio, going out alongside Akashvani Jaipur, Radio Mirchi, and Doordarshan Rajasthan. Manganiyar oral-tradition contribution to the global Cor FM rotation." },

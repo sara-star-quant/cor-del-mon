@@ -56,11 +56,11 @@
     },
     "monument": {
       "type": "object",
-      "required": ["heightM", "name", "completionYear", "signature"],
+      "required": ["heightM", "name", "completionOffsetYears", "signature"],
       "properties": {
         "heightM": { "type": "integer", "minimum": 1 },
         "name": { "type": "string" },
-        "completionYear": { "type": "integer", "minimum": 2026 },
+        "completionOffsetYears": { "type": "integer", "minimum": 0, "maximum": 60 },
         "signature": { "type": "string" }
       }
     },
@@ -125,14 +125,14 @@
           "properties": {
             "milestones": {
               "type": "array",
-              "description": "Exactly four milestones per city, in canonical order: Charter, Break Ground, Operational, Generation. Each at city-specific years (rolling-wave schedule, not synchronized across the network).",
+              "description": "Exactly four milestones per city, in canonical order: Charter, Break Ground, Operational, Generation. Each at a city-specific offset in years since initialization (relative offset, not a calendar year; rolling-wave sequence, not synchronized across the network).",
               "minItems": 4,
               "maxItems": 4,
               "items": {
                 "type": "object",
                 "required": ["year", "stage", "commitment", "networkContribution", "status", "lastVerified"],
                 "properties": {
-                  "year": { "type": "integer", "minimum": 2026, "maximum": 2080 },
+                  "year": { "type": "integer", "minimum": 0, "maximum": 60 },
                   "stage": { "enum": ["Charter", "Break Ground", "Operational", "Generation"] },
                   "commitment": { "type": "string" },
                   "metrics": { "type": "object" },

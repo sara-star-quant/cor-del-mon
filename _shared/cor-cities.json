@@ -195,27 +195,27 @@
   ],
   "biennaleHosts": [
     {
-      "year": 2027,
+      "round": 1,
       "city": "andorra"
     },
     {
-      "year": 2029,
+      "round": 2,
       "city": "yokohama"
     },
     {
-      "year": 2031,
+      "round": 3,
       "city": "valparaiso"
     },
     {
-      "year": 2033,
+      "round": 4,
       "city": "capetown"
     },
     {
-      "year": 2034,
+      "round": 5,
       "city": "adelaide"
     },
     {
-      "year": 2037,
+      "round": 6,
       "city": "jaipur"
     }
   ]

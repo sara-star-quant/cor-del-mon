@@ -48,7 +48,7 @@ const vocab = {
   monument: {
     heightM: 12,
     name: "Minatokokoro",
-    completionYear: 2036,
+    completionOffsetYears: 9,
     signature: "A 12 metre Port Heart on Pier 8 of Minato Mirai 21, the same 12 metre heart every Cor city builds. Stacked cross-laminated timber under a titanium shingle skin that shrugs off the salt air where ordinary steel would rust, on a small braced frame. Magenta-rose tinted glass, patinated copper, an andesite plinth from the Hakone volcanic field. By night, during accepted hours, the little timber heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the bay on every pulse of the shared 60 BPM heartbeat, doubling in the water at evening, weightless and fully reversible, dimmed where it would touch homes or protected views. Not the tallest thing in MM21 by a wide margin. The most lived-in, and identical at its core to its five sisters around one flame."
   },
   nationalStyle: {
@@ -90,9 +90,9 @@ const vocab = {
       stats: [
         { n: "12m",      l: "Minatokokoro (the shared heart, +heart of light)" },
         { n: "10",       l: "Heart-shaped Cor landmarks" },
-        { n: "600",      l: "Kokoro no Ie by 2035" },
+        { n: "600",      l: "Kokoro no Ie by Year 8" },
         { n: "1 hr/wk",  l: "Yokohama Hour on Cor FM" },
-        { n: "Q1 2028",  l: "First Families Move In" }
+        { n: "Year 1",  l: "First Families Move In" }
       ]
     },
     monumentSection: {
@@ -105,7 +105,7 @@ const vocab = {
       label: "心の家",
       title: "Kokoro no Ie",
       subtitle: "Bay-courtyard family homes for the Kanto seaboard",
-      lead: "Yokohama's binding constraint is not housing but aging (TFR around 1.20). The Yokohama Municipal Housing Corporation already builds 5,000 to 7,000 public units a year. The Cor del Món contribution is small and specific: 600 Kokoro no Ie family homes by 2035 as a CLT-bay-courtyard typology demonstrator, sited 250 in Kanagawa-ku (modular CLT prefab on city-owned brownfield), 200 in Tsurumi-ku (former industrial waterfront conversion), and 150 in Konan-ku southern hills. The contribution is the typology and the family-priority allocation, not the count.",
+      lead: "Yokohama's binding constraint is not housing but aging (TFR around 1.20). The Yokohama Municipal Housing Corporation already builds 5,000 to 7,000 public units a year. The Cor del Món contribution is small and specific: 600 Kokoro no Ie family homes by Year 8 as a CLT-bay-courtyard typology demonstrator, sited 250 in Kanagawa-ku (modular CLT prefab on city-owned brownfield), 200 in Tsurumi-ku (former industrial waterfront conversion), and 150 in Konan-ku southern hills. The contribution is the typology and the family-priority allocation, not the count.",
       viral: "A house that breathes with the bay wind off Yokohama Port",
       cards: [
         { icon: "leaf",   title: "Passive cooling, bay-cross ventilation", desc: "Deep timber eaves shade the south facade through the long Kanto summer. Cross-ventilation through a heart-shaped courtyard catches the bay wind. Building-scale energy use roughly 65% below a conventional Yokohama mid-rise." },
@@ -113,10 +113,10 @@ const vocab = {
         { icon: "hearth", title: "Family-first, three-generation",         desc: "Every unit: 3+ bedrooms, soundproofed nurseries, an alcove for an elder family member, sliding fusuma panels reconfiguring the floor plan as the family grows." },
         { icon: "key",    title: "Kanagawa family-priority overlay",       desc: "Allocation overlay through Yokohama Municipal Housing Corporation (Yokohama Shi Jutaku Kyokyu Kosha) family-housing scheme. Up to 25% purchase subsidy for under-35 Yokohama residents with two-plus years of local residency, scaled by number of children. Sits inside Kanagawa Prefecture's existing income-banded family-housing framework rather than parallel to it." },
         { icon: "sun",    title: "Net-zero, sea-breeze cooled",            desc: "Solar shingles, geothermal heat exchanger from the Hakone fault aquifer, rainwater harvesting into the courtyard reedbed, evaporative comfort through the eight humid weeks. Bills minimal year round." },
-        { icon: "arc",    title: "Timeline: Q1 2028 start",                desc: "Phase 1 (2028-2030): 250 units in Kanagawa-ku (modular CLT prefab on city-owned brownfield). Phase 2 (2030-2033): 200 in Tsurumi-ku (former industrial waterfront conversion). Phase 3 (2033-2035): 150 in Konan-ku southern hills. Total 600. All builds reviewed by AIJ for the Sagami Trough seismic zone." }
+        { icon: "arc",    title: "Timeline: around Year 1 start",                desc: "Phase 1 (Years 1-3): 250 units in Kanagawa-ku (modular CLT prefab on city-owned brownfield). Phase 2 (Years 3-6): 200 in Tsurumi-ku (former industrial waterfront conversion). Phase 3 (Years 6-8): 150 in Konan-ku southern hills. Total 600. All builds reviewed by AIJ for the Sagami Trough seismic zone." }
       ],
       stats: [
-        { n: "600",   l: "Homes by 2035" },
+        { n: "600",   l: "Homes by Year 8" },
         { n: "65%",   l: "Energy below baseline" },
         { n: "Up to 25%", l: "Family Subsidy" },
         { n: "3+",    l: "Bedrooms Min" }
@@ -136,7 +136,7 @@ const vocab = {
     media: {
       label: "横浜の声",
       title: "Yokohama Hour on the network broadcast",
-      lead: "Yokohama does not build a station to compete with the ones it loves. The network broadcast is anchored in Andorra (Cor FM, Cor Play); Yokohama contributes the Yokohama Hour, a weekly Japanese-language strand recorded inside Minatokokoro and carried worldwide via Cor Play from 2036. Locally it works through the broadcasters that already speak for Kanagawa: a kindness segment for children co-produced with tvk and FM Yokohama under prefectural sponsorship, with NHK Yokohama's regional desk, the way community programming here is already made. FM Yokohama, NHK Yokohama, and tvk keep their place; Yokohama Hour is a gift into the network, never a station over them.",
+      lead: "Yokohama does not build a station to compete with the ones it loves. The network broadcast is anchored in Andorra (Cor FM, Cor Play); Yokohama contributes the Yokohama Hour, a weekly Japanese-language strand recorded inside Minatokokoro and carried worldwide via Cor Play from Year 9. Locally it works through the broadcasters that already speak for Kanagawa: a kindness segment for children co-produced with tvk and FM Yokohama under prefectural sponsorship, with NHK Yokohama's regional desk, the way community programming here is already made. FM Yokohama, NHK Yokohama, and tvk keep their place; Yokohama Hour is a gift into the network, never a station over them.",
       viral: "We did not need another radio station. We needed an hour the city would lend us.",
       outlets: [
         { icon: "mic", title: "Yokohama Hour · with FM Yokohama", desc: "A weekly Japanese-language hour recorded inside Minatokokoro and carried worldwide on Cor Play, produced with FM Yokohama, the bay's own station. City pop, harbour jazz, listener letters. A gift into the network, never a station over the city.", tags: ["Weekly", "Japanese first", "With FM Yokohama"] },
@@ -172,7 +172,7 @@ const vocab = {
         { monogram: "祭", title: "Festivals (祭の心)", items: [
           ["Minato Mirai Hanabi paired tickets", "The existing Minato Mirai Hanabi (August fireworks night) keeps its public seating. A small paired-ticket allocation is reserved for local couples and Cor Residents."],
           ["Yokohama Festival Cor strand", "A two-week strand inside the existing Yokohama Festival each June, with parades that connect Chukagai, Yamate, and Sakuragicho via the bayfront promenade."],
-          ["Pier 8 ceremony pier",    "Sister piers at the new Pier 8 (planned 2028) become the network's bayside ceremony venue. Couples can renew vows under the lantern lights with the bay reflecting the rose."]
+          ["Pier 8 ceremony pier",    "Sister piers at the new Pier 8 (planned Year 1) become the network's bayside ceremony venue. Couples can renew vows under the lantern lights with the bay reflecting the rose."]
         ]},
         { monogram: "儀", title: "Rituals (儀の心)", items: [
           ["Ceremonies at Minatokokoro", "Wedding and renewal ceremonies in the topmost Pier 8 pavilion, looking out at the bay and the night skyline of MM21. Subsidised for Yokohama residents, premium for international couples."],
@@ -186,9 +186,9 @@ const vocab = {
       label: "若者戦略",
       title: "A port that already welcomes. Now make it easier to stay.",
       lead: "Yokohama is Japan's most porous city by design: open since 1859, the first place foreign banks, schools, and churches were allowed in the country. Modern Japan already has a Highly Skilled Professional visa, the J-Find/J-Skip pathways, and a generous Specified Skilled Worker programme. Yokohama does not need a new visa category; what young residents lack is housing they can afford and childcare they can find. The Cor del Món contribution is concrete and small: bay-courtyard family housing, a partnership with Yokohama City University, and a Cor Residency exchange that puts ten incoming residents per year into restored Yamate Heights cottages.",
-      viral: "Yokohama opened the gates in 1859. The work in 2030 is not opening more gates. It is keeping the lights on for the people already inside.",
+      viral: "Yokohama opened the gates in 1859. The work in Year 3 is not opening more gates. It is keeping the lights on for the people already inside.",
       cards: [
-        { icon: "hearth",    tag: "Housing",      title: "Kokoro no Ie family priority",            desc: "600 bay-courtyard family homes by 2035 (see the Hearth section), sized as a typology demonstrator against the Yokohama Municipal Housing Corporation's existing 5,000-7,000/year output. Allocated with priority to families under 35 already resident in Yokohama for two-plus years. Income-tested through Kanagawa Prefectural housing programmes that already exist." },
+        { icon: "hearth",    tag: "Housing",      title: "Kokoro no Ie family priority",            desc: "600 bay-courtyard family homes by Year 8 (see the Hearth section), sized as a typology demonstrator against the Yokohama Municipal Housing Corporation's existing 5,000-7,000/year output. Allocated with priority to families under 35 already resident in Yokohama for two-plus years. Income-tested through Kanagawa Prefectural housing programmes that already exist." },
         { icon: "residency", tag: "Cor Residency", title: "Kokoro Yado, Yamate Heights",            desc: "Yokohama's contribution to the network Cor Residency. Ten incoming residents per year housed in restored Yamate Heights Western-style cottages (the 1860s foreign-settlement quarter). Two from each of the other five Wave-1 cities. Twelve-month stay, MM21 studio access, language exchange with the local YOKE programme." },
         { icon: "book",      tag: "Education",    title: "YCU Bay Studio (architecture exchange)",  desc: "Yokohama City University and Keio Yokohama partner with Cor del Món on a single, focused MArch studio: mass-timber-on-isolated-base, bay-courtyard housing, brownfield-to-family-housing conversion. Twenty students per year, including five fully funded seats for the other five cities. Not a new faculty; one studio that runs every spring." },
         { icon: "doublehearts", tag: "Childcare", title: "Bay-courtyard nurseries (12 months+)",   desc: "Free public childcare at the ground floor of every Kokoro no Ie block from 12 months. Built into the family housing, not as a separate facility, so the walk from kitchen to nursery is one staircase. Coordinated with the Yokohama Childcare Bureau's existing capacity expansion plan." },
@@ -198,7 +198,7 @@ const vocab = {
       ],
       stats: [
         { n: "10",     l: "Kokoro Yado residents/yr (incoming)" },
-        { n: "600",    l: "Family homes by 2035 (Kokoro no Ie)" },
+        { n: "600",    l: "Family homes by Year 8 (Kokoro no Ie)" },
         { n: "20",     l: "YCU Bay Studio Master of Architecture seats/yr" },
         { n: "3.77M",  l: "Resident population (2024)" }
       ]
@@ -206,26 +206,26 @@ const vocab = {
     network: {
       label: "心の網",
       title: "Six cities. One heartbeat.",
-      lead: "Yokohama joins Cor del Món as the second wave-1 city after Andorra. Below are the five other cities the network is being built with through 2030.",
+      lead: "Yokohama joins Cor del Món as the second wave-1 city after Andorra. Below are the five other cities the network is being built with through Year 3.",
       viral: "Andorra writes love in stone. Yokohama writes love in arrivals. Together, the world has both."
     },
     roadmap: {
       label: "長い弧",
       title: "Four stages, on Yokohama's pace",
-      lead: "Minatokokoro is Yokohama's contribution to Cor del Món. Yokohama joins Andorra and Adelaide in the wave-1 trio, opening its monument in 2035-2036 and reaching the Generation milestone in 2060-2061.",
+      lead: "Minatokokoro is Yokohama's contribution to Cor del Món. Yokohama joins Andorra and Adelaide in the wave-1 trio, opening its monument in Years 8-9 and reaching the Generation milestone in Years 33-34.",
       viral: "Yokohama alone is a port that taught Japan how to greet the world. Yokohama inside Cor del Món is the eastern face of a network of six cities greeting each other every UTC tick.",
       milestones: [
         {
-          year:     2028,
+          year:     1,
           stage: "Charter",
           commitment: "Cor Charter signed with Yokohama City and Kanagawa Prefecture (which already runs sister-city partnerships with Vancouver, Lyon, Mumbai, Manila, Shanghai, Odessa, and Constanta). International architecture competition for Minatokokoro awarded. Site secured at Minato Mirai 21 Pier 8. Adelaide signs its own Cor Charter the same year, anchoring the wave-1 parallel build.",
           metrics: { charterSigned: true, competitionAwarded: true, siteSecured: "MM21 Pier 8" },
-          networkContribution: "Yokohama becomes Cor del Món's gateway to East Asia, joining Andorra (live since 2027) as the second city to sign. Hosts the second Cor Biennale of the network in 2029, staged at the Red Brick Warehouse and the MM21 promenade.",
+          networkContribution: "Yokohama becomes Cor del Món's gateway to East Asia, joining Andorra (live since Year 0) as the second city to sign. Hosts the second Cor Biennale of the network in Year 2, staged at the Red Brick Warehouse and the MM21 promenade.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2030,
+          year:     3,
           stage: "Break Ground",
           commitment: "Construction begins on Minatokokoro and on the first 400 Kokoro no Ie units in Kanagawa-ku. The YCU Bay Studio MArch programme opens its first cohort (twenty seats including five from network cities). Yokohama's Charter+Design phase complete; the building enters its base-isolation foundation pour.",
           metrics: { homesUnderConstruction: 400, baseStudioCohort: 20, footingsPoured: true },
@@ -234,20 +234,20 @@ const vocab = {
           lastVerified: "2026-Q3"
         },
         {
-          year:     2036,
+          year:     9,
           stage: "Operational",
           commitment: "Minatokokoro opens. The Daily Ceremony begins broadcasting at the city's declared Cor hour (18:00 JST) from the topmost Pier 8 pavilion. All 600 Kokoro no Ie units delivered across Kanagawa-ku (250), Tsurumi-ku brownfield conversions (200), and Konan-ku southern hills (150). The first Cor Generation residents move into the network units, including a returning-expat cohort from Yokohama's diaspora cities. Resident population sustained at around 3.8M.",
           metrics: { homes: 1000, monumentHeightM: 12, fertilityRate: 1.5, residentsIncoming: 10, dailyCeremonyActive: true },
-          networkContribution: "Yokohama joins Andorra in the Daily Ceremony rotation (Adelaide also operational from 2035). The network's three operational cities now host 30 Cor Residents per year between them. Yokohama-authored patterns reach 30 contributions to the Cor Pattern Library.",
+          networkContribution: "Yokohama joins Andorra in the Daily Ceremony rotation (Adelaide also operational from Year 8). The network's three operational cities now host 30 Cor Residents per year between them. Yokohama-authored patterns reach 30 contributions to the Cor Pattern Library.",
           status: "concept",
           lastVerified: "2026-Q3"
         },
         {
-          year:     2061,
+          year:     34,
           stage: "Generation",
-          commitment: "Minatokokoro celebrates twenty-five years operational. The first Cor Generation residents who arrived in 2036 (then in their 20s, now in their 50s) have raised families inside the Kokoro no Ie stock. A second-wave expansion adds 400 units across Tsurumi-ku and Konan-ku, bringing the Cor total to 1,000 (still a typology demonstrator, not a public-housing programme). The Minatokokoro Pattern-Library archive opens in a small ceremony-pavilion annex on Pier 8.",
+          commitment: "Minatokokoro celebrates twenty-five years operational. The first Cor Generation residents who arrived in Year 9 (then in their 20s, now in their 50s) have raised families inside the Kokoro no Ie stock. A second-wave expansion adds 400 units across Tsurumi-ku and Konan-ku, bringing the Cor total to 1,000 (still a typology demonstrator, not a public-housing programme). The Minatokokoro Pattern-Library archive opens in a small ceremony-pavilion annex on Pier 8.",
           metrics: { networkAgeYears: 25, totalHomes: 1000, generationAdults: 700 },
-          networkContribution: "Yokohama graduates into network elder status alongside Andorra (2057) and Adelaide (2060). Yokohama mentors Wave-2 East Asian candidate cities (likely Kobe, Fukuoka, Busan, Singapore). The Minatokokoro Anthology (Letters to Minatokokoro bound annually) becomes a recognised volume of contemporary Japanese love poetry, exhibited globally through Yokohama Museum of Art.",
+          networkContribution: "Yokohama graduates into network elder status alongside Andorra (Year 30) and Adelaide (Year 33). Yokohama mentors Wave-2 East Asian candidate cities (likely Kobe, Fukuoka, Busan, Singapore). The Minatokokoro Anthology (Letters to Minatokokoro bound annually) becomes a recognised volume of contemporary Japanese love poetry, exhibited globally through Yokohama Museum of Art.",
           status: "concept",
           lastVerified: "2026-Q3"
         }
@@ -289,17 +289,17 @@ const vocab = {
     monumentTotal: "USD 6 to 13 million",
     intro: "Order-of-magnitude estimates anchored against comparable Japanese cultural buildings (Mode Gakuen Cocoon Tower at 204m cost roughly USD 300M in 2008 yen). At 75m the Minatokokoro is a fraction of that, and the lighter mass-timber structure on isolators costs far less than a concrete tower. Real budgets after the international design competition and AIJ review.",
     stages: [
-      { phase: "Charter (2028)",        range: "USD 0.5 to 1M",   scope: "International design competition + Japanese architect-of-record agreement + MM21 lease negotiation + Pier 8 site studies" },
-      { phase: "Break Ground (2030-31)", range: "USD 1 to 2.5M",  scope: "Piled footings, braced steel frame, andesite plinth, small sister-pier marine works" },
-      { phase: "Construction (2031-35)", range: "USD 3 to 6.5M", scope: "CLT timber pavilion stack, titanium rainscreen skin, magenta-rose tinted glass, patinated copper roof shells, interior fitout" },
-      { phase: "Operational (2036)",     range: "USD 1.5 to 3M",   scope: "Yokohama Hour broadcast studio, ceremony fitout, opening programme, Yokohama Triennale partnership integration" }
+      { phase: "Charter (Year 1)",        range: "USD 0.5 to 1M",   scope: "International design competition + Japanese architect-of-record agreement + MM21 lease negotiation + Pier 8 site studies" },
+      { phase: "Break Ground (Years 3-4)", range: "USD 1 to 2.5M",  scope: "Piled footings, braced steel frame, andesite plinth, small sister-pier marine works" },
+      { phase: "Construction (Years 4-8)", range: "USD 3 to 6.5M", scope: "CLT timber pavilion stack, titanium rainscreen skin, magenta-rose tinted glass, patinated copper roof shells, interior fitout" },
+      { phase: "Operational (Year 9)",     range: "USD 1.5 to 3M",   scope: "Yokohama Hour broadcast studio, ceremony fitout, opening programme, Yokohama Triennale partnership integration" }
     ],
     fundingNote: "Project-finance structure: a Japanese cultural-foundation framework as the receiving entity. Funding for the monument leans private: Cor del Món network partner share (35-50%), Japanese corporate and family-foundation cultural arms (30-45%), Mitsubishi Estate land in-kind (10-20%), with Yokohama City and Kanagawa Prefecture only a modest enabling share (5-15%). The real public investment is the Kokoro no Ie family homes through the Yokohama Municipal Housing Corporation, not the landmark. Single-sovereign foreign funding excluded."
   },
   impact: {
     title: "Impact and benefit",
     items: [
-      { metric: "600 CLT bay-courtyard family homes by 2035", note: "Sized as a typology demonstrator (about 1-2% of Yokohama Municipal Housing Corporation's annual 5,000-7,000 unit output). The novelty is the typology and the family-priority allocation. Demonstration value for other dense Japanese cities." },
+      { metric: "600 CLT bay-courtyard family homes by Year 8", note: "Sized as a typology demonstrator (about 1-2% of Yokohama Municipal Housing Corporation's annual 5,000-7,000 unit output). The novelty is the typology and the family-priority allocation. Demonstration value for other dense Japanese cities." },
       { metric: "15 Cor Residency intake per year",          note: "International port heritage: Yokohama opened in 1859. Yamate Heights Western-quarter cottages have higher capacity than other network cities. 15 per year is the highest intake in the network." },
       { metric: "Yokohama Hour on the network broadcast",     note: "Weekly Japanese-language slot from Minatokokoro studio inside the Andorra-anchored Cor FM. Adds Japanese voice to the network without displacing FM Yokohama or NHK Yokohama." },
       { metric: "12m heart + night heart of light",            note: "The same 12m heart every Cor city builds; the bay presence is a reversible heart of light at night, beating with the network, not structure. Tiny, cheap, salt-durable in titanium, doubled in the water at evening." },
