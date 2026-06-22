@@ -62,13 +62,13 @@ These are the active threads that connect the cities once they are built.
 
 6. **Wave-2 Admission.** **Opens 2042**, after the Network phase begins and the wave-1 six are all operational. The network needs operating mass before it can mentor Wave-2 cities. Admission requires a Cor Charter signing, a funded monument site, and a Year-1 Residency hosting commitment. Target: thirty-plus member cities by 2050. Marrakech enters as a **Wave-2 transitional city around 2034** with operational by ~2041 (effectively a Wave-2 first-mover sponsored by the Cape Town African cluster).
 
-7. **Shared Heart-Core.** Every monument is the same **12-metre living heart**, the shared heart-core made the whole building, differing only in each city's materials and skin. By night it blooms into a far larger **heart of light** that beats in sync across all six cities at 60 BPM, dimmed from homes and protected views, weightless and fully reversible. The literal expression of unity, and almost free.
+7. **Shared Heart-Core.** Every monument is the same **12-metre living heart**, the shared heart-core made the whole building, differing only in each city's materials and skin. By night it becomes a **heart of light** that beats, sending out waves of light-hearts that ripple on every pulse of the shared 60 BPM heartbeat, dimmed from homes and protected views, weightless and fully reversible. The literal expression of unity, and almost free.
 
 8. **The Cor Year.** A year-round calendar relay on top of the daily and biennale rhythms. Each city anchors one window of the year with a love-and-life theme rooted in its own real festival, and the baton passes city to city: **Valparaíso (January, Año Nuevo en el Mar), Adelaide (March, festival season), Andorra (April, Sant Jordi roses), Jaipur (August, Teej), Cape Town (September, Heritage), Yokohama (October, jazz and the harbour)**, then loops.
 
 ## The Rolling Wave Schedule
 
-Each city's Roadmap section contains exactly four milestone entries (Charter, Break Ground, Operational, Generation) at **city-specific years**. Cor del Món is a rolling wave, not a synchronized handover. Every city builds the same 12m heart, the shared heart-core made the whole monument, in its own materials and crowned at night by a heart of light that beats with all six; each takes four to seven years from charter signature to ribbon-cutting, and six in parallel by 2035 is not feasible. The schedule below honours the regulatory and construction reality of each city.
+Each city's Roadmap section contains exactly four milestone entries (Charter, Break Ground, Operational, Generation) at **city-specific years**. Cor del Món is a rolling wave, not a synchronized handover. Every city builds the same 12m heart, the shared heart-core made the whole monument, in its own materials and crowned at night by a heart of light that beats in waves of light-hearts with all six; each takes four to seven years from charter signature to ribbon-cutting, and six in parallel by 2035 is not feasible. The schedule below honours the regulatory and construction reality of each city.
 
 The four stages, identical across every city:
 

@@ -59,7 +59,7 @@ const vocab = {
     heightM: 12,
     name: "Hriday Mahal",
     completionYear: 2040,
-    signature: "A 12 metre Heart Palace in Mansarovar, southwest of the Walled City and outside the UNESCO heritage buffer, the same 12 metre heart every Cor city builds. Kept low and pink, in the scale of the old city, roughly the height of the Hawa Mahal itself. Pink-limewashed sandstone facade in the same Jaipur Pink that defined the historic core in 1876, when Maharaja Sawai Ram Singh painted the city for the Prince of Wales's visit. Jali screens in the Hawa Mahal tradition, 953 of them as a homage to the Palace of Winds, set in lime plaster and re-limewashed each monsoon the way the city has always kept its colour, the sacrificial coat that lets the sandstone last a century. Marble plinth from Makrana. By night, during accepted hours, the little pink heart blooms into a far larger heart of light that beats in time with all six cities, weightless and fully reversible, dimmed toward the Walled City and protected views. A second heart, beating outside the Walled City so the Walled City can keep beating its own, identical at its core to its five sisters around one flame."
+    signature: "A 12 metre Heart Palace in Mansarovar, southwest of the Walled City and outside the UNESCO heritage buffer, the same 12 metre heart every Cor city builds. Kept low and pink, in the scale of the old city, roughly the height of the Hawa Mahal itself. Pink-limewashed sandstone facade in the same Jaipur Pink that defined the historic core in 1876, when Maharaja Sawai Ram Singh painted the city for the Prince of Wales's visit. Jali screens in the Hawa Mahal tradition, 953 of them as a homage to the Palace of Winds, set in lime plaster and re-limewashed each monsoon the way the city has always kept its colour, the sacrificial coat that lets the sandstone last a century. Marble plinth from Makrana. By night, during accepted hours, the little pink heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the Pink City on every pulse of the shared 60 BPM heartbeat, weightless and fully reversible, dimmed toward the Walled City and protected views. A second heart, beating outside the Walled City so the Walled City can keep beating its own, identical at its core to its five sisters around one flame."
   },
   nationalStyle: {
     materials: [
@@ -67,7 +67,8 @@ const vocab = {
       { name: "Bharatpur red sandstone",  sourceRegion: "Bharatpur quarries, Rajasthan",                              role: "Plinth, jharokha balcony brackets, jali screen frames" },
       { name: "Makrana white marble",     sourceRegion: "Makrana quarries (the Taj Mahal source), Rajasthan",         role: "Floor inlay, ceremony pavilion bench, eternal flame surround" },
       { name: "Brass and copper inlay",   sourceRegion: "Jaipur metalwork tradition (Sanganer and Bagru workshops)",  role: "Door pulls, jali centre medallions, ceremony bowl rims" },
-      { name: "Lac and gemstone inlay",   sourceRegion: "Jaipur gem-cutting and lac-craft tradition",                  role: "Decorative inlay around the eternal flame, mirroring traditional Rajasthani jharokha" }
+      { name: "Lac and gemstone inlay",   sourceRegion: "Jaipur gem-cutting and lac-craft tradition",                  role: "Decorative inlay around the eternal flame, mirroring traditional Rajasthani jharokha" },
+      { name: "Rose-bronze accent (illustrative)", sourceRegion: "Adapts to the final site and local sourcing", role: "A thin rose-bronze rim that catches the daytime sun over the primary stone or skin. The named materials are worked examples chosen for durability and local character; the final material and accent would be set with local quarries and craftspeople for the specific site." }
     ],
     motifs: [
       { name: "Jali lattice (953)",       origin: "Hawa Mahal's 953 jali windows (1799, Maharaja Sawai Pratap Singh)", application: "Hriday Mahal carries the same number, 953 jali openings across the eight floors and the entry pavilion. A direct architectural homage." },
@@ -106,7 +107,7 @@ const vocab = {
     monumentSection: {
       label: "हृदय महल",
       title: "Hriday Mahal",
-      lead: "The Heart Palace. 12 metres of pink-limewashed sandstone with 953 jali openings (one for every Hawa Mahal window, the Palace of Winds itself about this height), a Vastu Shastra Prastara nine-chowk floor plan with the eternal flame at the central chowk. Kept low and pink in Mansarovar, outside the Walled City UNESCO buffer. By night it blooms into a far larger heart of light beating with all six cities, dimmed toward the Walled City.",
+      lead: "The Heart Palace. 12 metres of pink-limewashed sandstone with 953 jali openings (one for every Hawa Mahal window, the Palace of Winds itself about this height), a Vastu Shastra Prastara nine-chowk floor plan with the eternal flame at the central chowk. Kept low and pink in Mansarovar, outside the Walled City UNESCO buffer. By night it becomes a heart of light that beats, rippling out in waves of light-hearts across the Pink City on every pulse of the shared heartbeat, dimmed toward the Walled City.",
       viral: "Not a tower in the Pink City skyline. A second heart, beating outside the Walled City so the Walled City can keep beating its own."
     },
     passivhaus: {

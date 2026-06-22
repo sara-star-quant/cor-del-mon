@@ -43,14 +43,15 @@ const vocab = {
     heightM: 12,
     name: "Living Heart Adelaide",
     completionYear: 2030,
-    signature: "A 12 metre Living Heart at the northern edge of Tarndanyangga (Victoria Square), where the planned grid meets the Park Lands, the same 12 metre heart every Cor city builds. Rammed earth core in deep ochre, corrugated steel verandahs reading as horizontal shadow bands, a Macclesfield bluestone plinth tied into the Adelaide Hills bedrock, the materials Adelaide's heritage civic buildings are already made of and chosen to stand a hundred years in a hot dry climate. By night, during accepted hours, the little earth heart blooms into a far larger heart of light over the Park Lands that beats in time with all six cities, weightless and fully reversible, dimmed toward homes and Kaurna places. Small, identical to its five sisters, unmistakably Adelaide in its skin, around a single flame."
+    signature: "A 12 metre Living Heart at the northern edge of Tarndanyangga (Victoria Square), where the planned grid meets the Park Lands, the same 12 metre heart every Cor city builds. Rammed earth core in deep ochre, corrugated steel verandahs reading as horizontal shadow bands, a Macclesfield bluestone plinth tied into the Adelaide Hills bedrock, the materials Adelaide's heritage civic buildings are already made of and chosen to stand a hundred years in a hot dry climate. By night, during accepted hours, the little earth heart becomes a heart of light that beats, sending out waves of light-hearts that ripple across the Park Lands on every pulse of the shared 60 BPM heartbeat, weightless and fully reversible, dimmed toward homes and Kaurna places. Small, identical to its five sisters, unmistakably Adelaide in its skin, around a single flame."
   },
   nationalStyle: {
     materials: [
       { name: "Rammed earth",            sourceRegion: "Adelaide Hills and Mid-North clay deposits",          role: "Massive thermal core walls, deep ochre and red-brown banded tones" },
       { name: "Corrugated steel (wrap)", sourceRegion: "Whyalla steelworks and rolled in SA",                  role: "Verandah roof shells and shading bands across the facade" },
       { name: "Macclesfield bluestone",  sourceRegion: "Adelaide Hills bluestone quarries",                    role: "Plinth and entry stair, weathered to grey-blue patina" },
-      { name: "Mt Gambier limestone",    sourceRegion: "South-East SA limestone karst",                        role: "Internal cladding and cool entry court" }
+      { name: "Mt Gambier limestone",    sourceRegion: "South-East SA limestone karst",                        role: "Internal cladding and cool entry court" },
+      { name: "Rose-bronze accent (illustrative)", sourceRegion: "Adapts to the final site and local sourcing", role: "A thin rose-bronze rim that catches the daytime sun over the primary stone or skin. The named materials are worked examples chosen for durability and local character; the final material and accent would be set with local quarries and craftspeople for the specific site." }
     ],
     motifs: [
       { name: "Verandah deep eaves",     origin: "South Australian colonial vernacular and Murcutt-school tradition", application: "Two-metre overhangs on every floor, shading the facade through the long Adelaide summer" },
@@ -88,7 +89,7 @@ const vocab = {
     monumentSection: {
       label: "Living Heart Adelaide",
       title: "The Heart at Tarndanyangga",
-      lead: "A 12 metre Living Heart at Victoria Square, where Light's grid meets the Park Lands, the same heart every Cor city builds. Rammed earth core in deep ochre, corrugated steel verandahs reading as horizontal shadow bands, bluestone plinth tying the building to the Adelaide Hills bedrock. By night it blooms into a far larger heart of light over the Park Lands, beating in time with all six cities and weighing nothing.",
+      lead: "A 12 metre Living Heart at Victoria Square, where Light's grid meets the Park Lands, the same heart every Cor city builds. Rammed earth core in deep ochre, corrugated steel verandahs reading as horizontal shadow bands, bluestone plinth tying the building to the Adelaide Hills bedrock. By night it becomes a heart of light that beats, rippling out in waves of light-hearts across the Park Lands on every pulse of the shared heartbeat and weighing nothing.",
       viral: "Adelaide already had a Festival Centre. Now it has a Festival Heart."
     },
     passivhaus: {

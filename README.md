@@ -20,7 +20,7 @@ metre heart.
 
 ## The current state
 
-All six wave-1 city pages are concept-ready. Every city builds the same **12 metre heart**, the shared heart-core made the whole monument, in its own materials and culture, lit at night by a far larger **heart of light** that beats in sync across all six. The rolling-wave schedule has Andorra opening 2032, Adelaide and Yokohama 2035-2036, and Valparaíso, Cape Town, and Jaipur reaching Operational by 2038-2040.
+All six wave-1 city pages are concept-ready. Every city builds the same **12 metre heart**, the shared heart-core made the whole monument, in its own materials and culture, lit at night by a **heart of light** that beats, sending out waves of light-hearts on every pulse of the shared heartbeat. The rolling-wave schedule has Andorra opening 2032, Adelaide and Yokohama 2035-2036, and Valparaíso, Cape Town, and Jaipur reaching Operational by 2038-2040.
 
 The network broadcast is anchored in Andorra (Cor FM, on the Cor Play app), and in
 each city it works with the country's own public broadcaster rather than around it:
