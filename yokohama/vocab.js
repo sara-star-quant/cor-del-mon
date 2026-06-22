@@ -67,17 +67,17 @@ const vocab = {
       { name: "Chinatown red lacquer",         origin: "Yokohama Chukagai, Asia's largest Chinatown",     application: "Interior accent: ceremony-bench lacquer, ema board mounts" },
       { name: "Minato Mirai grid",             origin: "MM21 redevelopment masterplan, 1988 onward",      application: "Floor-plate logic of the building, with green-finger atria mirroring MM21's pedestrian routes" }
     ],
-    buildingTypology: "Stacked CLT timber pavilions on a base-isolated steel frame, with tinted-glass magenta-rose curtain wall, copper roof shells, and an andesite plinth that ties the building to Hakone volcanic geology",
+    buildingTypology: "Cross-laminated timber under a titanium skin on a small braced steel frame, with tinted magenta-rose glass, copper roof shells, and an andesite plinth that ties the building to Hakone volcanic geology",
     referenceArchitects: ["SANAA (Kazuyo Sejima and Ryue Nishizawa)", "Sou Fujimoto", "Tadao Ando", "Foreign Office Architects (Yokohama Port Terminal lineage)"],
     silhouette: "A heart of stacked timber pavilions, anchored on a copper-roofed entry pavilion at the bay, doubling in the water at evening"
   },
   seismic: {
-    code: "Building Standard Law of Japan (建築基準法), MLIT 2025 amendment, plus AIJ recommendations for seismic isolation in coastal Kanto",
-    designSpec: "Yokohama is closer to the Sagami Trough than Tokyo. Subduction-zone risk is high; M7+ event probability is around 70% in 30 years for the wider Kanto region. MM21 sits on reclaimed land with non-trivial soil amplification. Hazard factor (Z) elevated relative to the city centre.",
-    peakAccel: "0.6g design / 0.9g MCE",
-    isolation: "Lead-rubber bearings at the steel base frame, 60 cm displacement capacity. Fluid-viscous dampers at four corners. The visible isolation gap at the plinth is dramatised as a horizontal copper shadow line.",
-    notes: "Yokohama and the Kanto plain share Tokyo's seismic context but with elevated soil amplification on the MM21 reclaimed land. The CLT timber stack above the isolated base reduces mass, lowering the seismic forces compared to a concrete tower of the same height. The Sagami Trough subduction interface drives the design.",
-    designConsequences: "Base isolation is non-negotiable in this seismic zone. The copper shadow line at the plinth is the visible engineering. Above the isolators, the timber pavilions can carry the ceremony spaces with much lower seismic forces, freeing the architecture from concrete-tower mass."
+    code: "Building Standard Law of Japan (建築基準法), MLIT 2025 amendment, plus AIJ recommendations for coastal Kanto",
+    designSpec: "Yokohama is closer to the Sagami Trough than Tokyo, and MM21 sits on reclaimed land with non-trivial soil amplification. But a 12 metre mass-timber building is light and stiff: the subduction hazard that drives MM21's towers barely registers for a structure this small.",
+    peakAccel: "0.6g design / 0.9g MCE (ground motion; a light 12m timber heart meets it on standard footings)",
+    isolation: "No base isolation: at 12 metres the cross-laminated timber heart is light enough to sit on standard reinforced footings even on reclaimed Kanto ground. The pile foundation handles the soil amplification; nothing needs to be isolated.",
+    notes: "Mass timber keeps the heart light, so the Sagami Trough subduction hazard that governs the MM21 towers is a minor design input here, not a driver. Piled footings address the reclaimed-land soil amplification.",
+    designConsequences: "Because the building is small and light, the budget goes to the titanium skin and timber craft rather than to bearings and dampers. The night-time heart of light adds no structural load at all."
   },
   sections: {
     hero: {
@@ -227,7 +227,7 @@ const vocab = {
           year:     2030,
           stage: "Break Ground",
           commitment: "Construction begins on Minatokokoro and on the first 400 Kokoro no Ie units in Kanagawa-ku. The YCU Bay Studio MArch programme opens its first cohort (twenty seats including five from network cities). Yokohama's Charter+Design phase complete; the building enters its base-isolation foundation pour.",
-          metrics: { homesUnderConstruction: 400, baseStudioCohort: 20, baseIsolationPour: true },
+          metrics: { homesUnderConstruction: 400, baseStudioCohort: 20, footingsPoured: true },
           networkContribution: "Yokohama publishes the first ten Yokohama-authored Cor Patterns (mass-timber-on-isolated-base, bay-courtyard housing block, brownfield-to-family-housing). Andorra Daily Ceremony broadcasts have been running for two years; Yokohama hosts the second annual network Pattern-Library exchange.",
           status: "concept",
           lastVerified: "2026-Q3"
@@ -262,7 +262,7 @@ const vocab = {
       "Minatomirai 21 Suishin Kyogi-kai (MM21 Promotion Council; the multi-stakeholder body of Yokohama City, Yokohama Minatomirai 21 Co., and major MM21 land-holders) reviews siting and integration with the master plan.",
       "Yokohama City Port and Harbor Bureau (港湾局, Kowan-kyoku), as the Pier 8 / Shinko-futo land-holder, signs the Pier 8 long-term cultural-anchor leasehold. Mitsubishi Estate is a major MM21 land-holder elsewhere (Landmark Tower district) but not the Pier 8 lessor.",
       "Kanagawa Prefecture, Land and Infrastructure Bureau (県土整備局), Housing Division approves the family-priority overlay on the Yokohama Municipal Housing Corporation scheme.",
-      "Building Performance Evaluation Organization (Sei-no Hyoka Kikan, certified under the Building Standard Law) conducts the statutory seismic-isolation peer review for the LRB-bearing system. The Architectural Institute of Japan (AIJ) provides expert input but is a learned society, not a regulatory body.",
+      "Standard structural review under the Building Standard Law; at 12m no seismic-isolation peer review is triggered. The Architectural Institute of Japan (AIJ) may provide expert input but is a learned society, not a regulatory body.",
       "The architect-of-record (jugyo-shi-jimusho) registered with Kanagawa Prefecture handles the foreign-led design submission.",
       "Foreign Exchange and Foreign Trade Act (FEFTA) prior-notification or post-notification, administered by the Ministry of Finance plus the Agency for Cultural Affairs as the relevant ministry of jurisdiction, for foreign-source funding above the threshold."
     ],
@@ -276,7 +276,7 @@ const vocab = {
     ],
     items: [
       { area: "Land",                  detail: "MM21 Pier 8 is a leasehold negotiation with Yokohama City and Mitsubishi Estate (the major MM21 leaseholder). Not a freehold purchase. The MM21 supertall-ready zoning permits far more than 12m without special legislation, so height is a non-issue; the lease term and commercial structure take 24 to 36 months to settle from Charter year. The night-time heart of light is an evening projection under standard event-lighting permits." },
-      { area: "Building permits",      detail: "Standard Japanese architecture-approval cycle is 24 to 36 months. Foreign-led design works through a Japanese architect-of-record (jugyo-shi). AIJ (Architectural Institute of Japan) review of base-isolation design (LRB bearings, fluid-viscous dampers) is rigorous; Sagami Trough subduction context is unforgiving on shortcuts." },
+      { area: "Building permits",      detail: "Standard Japanese architecture-approval cycle is 24 to 36 months. Foreign-led design works through a Japanese architect-of-record (jugyo-shi). At 12m the approval is routine, well below the thresholds that trigger AIJ structural peer review; the Sagami Trough context is satisfied by piled footings rather than isolation." },
       { area: "Residency",             detail: "Kokoro Yado (Cor Residency intake at 15 per year) uses Japan's existing Highly Skilled Professional and Cultural Activities visa categories. No new visa proposed. Yamate Heights cottage stock supports the higher capacity than other network cities." },
       { area: "Funding compliance",    detail: "Project finance through a Japanese cultural-foundation framework (Public Interest Incorporated Foundation, koueki zaidan houjin). Yokohama City participation through existing sister-city budget allocations. No foreign-state funding; all sources disclosed under Japanese anti-money-laundering rules." },
       { area: "Cultural sensitivity",  detail: "Cor del Món branding overlaying Japanese venues is a real sensitivity. The project commits to Japanese language primacy on the Yokohama site, Japanese cultural-advisor leadership, and explicit non-imposition: Yokohama Hour (broadcast contribution) is into the network, not over Japanese broadcasters." },
@@ -289,7 +289,7 @@ const vocab = {
     intro: "Order-of-magnitude estimates anchored against comparable Japanese cultural buildings (Mode Gakuen Cocoon Tower at 204m cost roughly USD 300M in 2008 yen). At 75m the Minatokokoro is a fraction of that, and the lighter mass-timber structure on isolators costs far less than a concrete tower. Real budgets after the international design competition and AIJ review.",
     stages: [
       { phase: "Charter (2028)",        range: "USD 0.5 to 1M",   scope: "International design competition + Japanese architect-of-record agreement + MM21 lease negotiation + Pier 8 site studies" },
-      { phase: "Break Ground (2030-31)", range: "USD 1 to 2.5M",  scope: "Base-isolated steel frame foundation, LRB bearing installation, andesite plinth, sister-pier marine works" },
+      { phase: "Break Ground (2030-31)", range: "USD 1 to 2.5M",  scope: "Piled footings, braced steel frame, andesite plinth, small sister-pier marine works" },
       { phase: "Construction (2031-35)", range: "USD 3 to 6.5M", scope: "CLT timber pavilion stack, titanium rainscreen skin, magenta-rose tinted glass, patinated copper roof shells, interior fitout" },
       { phase: "Operational (2036)",     range: "USD 1.5 to 3M",   scope: "Yokohama Hour broadcast studio, ceremony fitout, opening programme, Yokohama Triennale partnership integration" }
     ],
